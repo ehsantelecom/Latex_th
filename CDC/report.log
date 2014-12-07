@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.6)  7 DEC 2014 13:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.6)  7 DEC 2014 15:19
 entering extended mode
 **report.tex
 (C:\Users\mbaratva\Desktop\thesis\CDC\report.tex
@@ -242,6 +242,9 @@ LaTeX Warning: Label `sec_simstruct' multiply defined.
 
 
 LaTeX Warning: Label `sec_anasim' multiply defined.
+
+
+LaTeX Warning: Label `autocorrblock' multiply defined.
 
 
 LaTeX Warning: Label `sec_simstruct' multiply defined.
@@ -632,16 +635,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-) [25] (C:\Users\mbaratva\Desktop\thesis\CDC\content/part4.tex
+<content/fig/system.JPG, id=103, 792.71156pt x 417.05812pt>
+File: content/fig/system.JPG Graphic file (type jpg)
 
-LaTeX Warning: Reference `sec_conclusion' on page 26 undefined on input line 10
+<use content/fig/system.JPG>
+Package pdftex.def Info: content/fig/system.JPG used on input line 52.
+(pdftex.def)             Requested size: 448.13095pt x 235.77191pt.
+ [25]
+<content/fig/txblock.JPG, id=109, 1024.57782pt x 560.0925pt>
+File: content/fig/txblock.JPG Graphic file (type jpg)
+
+<use content/fig/txblock.JPG>
+Package pdftex.def Info: content/fig/txblock.JPG used on input line 59.
+(pdftex.def)             Requested size: 448.13095pt x 244.9715pt.
+
+<content/fig/rxblock.JPG, id=110, 959.08313pt x 625.58719pt>
+File: content/fig/rxblock.JPG Graphic file (type jpg)
+
+<use content/fig/rxblock.JPG>
+Package pdftex.def Info: content/fig/rxblock.JPG used on input line 65.
+(pdftex.def)             Requested size: 448.13095pt x 292.3078pt.
+ [26 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/system.JPG> <C:/Users/mb
+aratva/Desktop/thesis/CDC/content/fig/txblock.JPG>] <content/fig/autocorrblock.
+JPG, id=114, 1011.78pt x 415.5525pt>
+File: content/fig/autocorrblock.JPG Graphic file (type jpg)
+
+<use content/fig/autocorrblock.JPG>
+Package pdftex.def Info: content/fig/autocorrblock.JPG used on input line 71.
+(pdftex.def)             Requested size: 448.13095pt x 184.05475pt.
+
+<content/fig/fine_packetDetect.JPG, id=115, 922.19531pt x 269.50688pt>
+File: content/fig/fine_packetDetect.JPG Graphic file (type jpg)
+
+<use content/fig/fine_packetDetect.JPG>
+Package pdftex.def Info: content/fig/fine_packetDetect.JPG used on input line 7
+7.
+(pdftex.def)             Requested size: 448.13095pt x 130.96152pt.
+ [27 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/rxblock.JPG> <C:/Users/m
+baratva/Desktop/thesis/CDC/content/fig/autocorrblock.JPG>]) [28 <C:/Users/mbara
+tva/Desktop/thesis/CDC/content/fig/fine_packetDetect.JPG>] (C:\Users\mbaratva\D
+esktop\thesis\CDC\content/part4.tex
+
+LaTeX Warning: Reference `sec_conclusion' on page 29 undefined on input line 10
 .
 
 
-LaTeX Warning: Reference `sec_optimization' on page 26 undefined on input line 
+LaTeX Warning: Reference `sec_optimization' on page 29 undefined on input line 
 10.
 
-[26]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 15--18
 
  []
@@ -656,7 +698,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-) [27] [28] (C:\Users\mbaratva\Desktop\thesis\CDC\report.aux)
+) [30] [31] (C:\Users\mbaratva\Desktop\thesis\CDC\report.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -665,10 +707,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3528 strings out of 493921
- 52402 string characters out of 3144867
- 155214 words of memory out of 3000000
- 6756 multiletter control sequences out of 15000+200000
+ 3557 strings out of 493921
+ 53135 string characters out of 3144867
+ 155254 words of memory out of 3000000
+ 6780 multiletter control sequences out of 15000+200000
  21395 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  41i,23n,55p,1027b,273s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -687,9 +729,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
 ype1/urw/bookman/ubkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 bookman/ubkl8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/u
 bkli8a.pfb>
-Output written on report.pdf (28 pages, 790538 bytes).
+Output written on report.pdf (31 pages, 1353123 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
+ 177 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

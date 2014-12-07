@@ -23,8 +23,8 @@
 \contentsline {section}{\numberline {12}Introduction}{22}
 \contentsline {section}{\numberline {13}System Model}{23}
 \contentsline {section}{\numberline {14}Simulation Structure}{25}
-\contentsline {section}{\numberline {15}System Analysis by Simulation}{25}
-\contentsline {part}{\numberline {IV}Conclusion and Future Works}{26}
-\contentsline {section}{\numberline {16}Introduction}{26}
-\contentsline {section}{\numberline {17}Simulation Structure}{27}
-\contentsline {section}{\numberline {18}System Analysis by Simulation}{28}
+\contentsline {section}{\numberline {15}System Design in System Generator}{26}
+\contentsline {part}{\numberline {IV}Conclusion and Future Works}{29}
+\contentsline {section}{\numberline {16}Introduction}{29}
+\contentsline {section}{\numberline {17}Simulation Structure}{30}
+\contentsline {section}{\numberline {18}System Analysis by Simulation}{31}

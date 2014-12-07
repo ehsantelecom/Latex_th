@@ -45,5 +45,40 @@ and the BER to
  $P_{b}(e)= \frac{1}{2}erfc(\frac{\lambda_{i}}{\sqrt{2 \sigma^{2}}})$\\
 \end{center}
 and NOT: $P_{b}(e)= \frac{1}{2}erfc(\frac{\lambda_{i}}{\sqrt{\frac{2 \sigma^{2}}{H_{i}}}})$, as it may be guessed wrongly. The power spectral density of the noise is not decreased.
-\section{System Analysis by Simulation}
+\section{System Design in System Generator}
 \label{sec_anasim}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/system.JPG}
+\captionof{figure}{OFDM System.}
+\label{ofdm_system}
+\end{center}
+
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/txblock.JPG}
+\captionof{figure}{OFDM Transmitter Block.}
+\label{tx_block}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/rxblock.JPG}
+\captionof{figure}{OFDM Receiver Block.}
+\label{rx_block}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/autocorrblock.JPG}
+\captionof{figure}{Auto-Correlation Block.}
+\label{autocorrblock}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/fine_packetDetect.JPG}
+\captionof{figure}{Fine Packet Detection Block.}
+\label{autocorrblock}
+\end{center}
+
+\section{Hardware Samples and Analysis}
+\label{hw_samples}
+
