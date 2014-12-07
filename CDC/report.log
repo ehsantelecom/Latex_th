@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.6)  7 DEC 2014 15:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.22)  7 DEC 2014 15:48
 entering extended mode
 **report.tex
-(C:\Users\mbaratva\Desktop\thesis\CDC\report.tex
+
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\report.te
+x"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,27 +15,27 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls"
 Document Class: scrartcl 2013/12/19 v3.12 KOMA-Script document class (article)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
 Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
 Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
 Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
 
 Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
+))) ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
 Package: tocbasic 2013/12/19 v3.12 KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
@@ -67,11 +69,11 @@ Package scrbase Info: Unknown processing state.
 Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
 ine 1531.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrsize12pt.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrsize12pt.clo"
 File: scrsize12pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (12pt
 )
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
 Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
 
 Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
@@ -126,19 +128,19 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count86
 \c@table=\count87
 \bibindent=\dimen102
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
 Language: english 2005/03/30 v3.3o English support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
@@ -147,30 +149,30 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\bookman.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\bookman.sty"
 Package: bookman 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
@@ -178,24 +180,24 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip48
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen106
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen107
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count90
@@ -236,7 +238,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(C:\Users\mbaratva\Desktop\thesis\CDC\report.aux
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\report.au
+x"
 
 LaTeX Warning: Label `sec_simstruct' multiply defined.
 
@@ -266,13 +269,13 @@ LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Try loading font information for OT1+pbk on input line 12.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pbk.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pbk.fd"
 File: ot1pbk.fd 2001/06/04 font definitions for OT1/pbk.
 )
 LaTeX Font Info:    Font shape `OT1/pbk/m/n' in size <12> not available
 (Font)              Font shape `OT1/pbk/l/n' tried instead on input line 12.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count102
 \scratchdimen=\dimen115
@@ -295,7 +298,7 @@ LaTeX Font Info:    Font shape `OT1/pbk/bx/n' in size <17.28> not available
 LaTeX Font Info:    Font shape `OT1/pbk/b/n' in size <17.28> not available
 (Font)              Font shape `OT1/pbk/db/n' tried instead on input line 20.
 LaTeX Font Info:    Try loading font information for OT1+pag on input line 20.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pag.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pag.fd"
 File: ot1pag.fd 2001/06/04 font definitions for OT1/pag.
 )
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <12> not available
@@ -332,13 +335,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+{C:/Documents and Settings/All Users/Application Data/MiKTeX/2.9/pdftex/config/
+pdftex.map}] [2]
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/pag/b/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <17.28> not available
 (Font)              Font shape `OT1/pag/db/n' tried instead on input line 32.
 
-(C:\Users\mbaratva\Desktop\thesis\CDC\report.toc
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\report.to
+c"
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/pag/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <14.4> not available
@@ -346,7 +351,8 @@ LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <14.4> not available
  [3])
 \tf@toc=\write3
  [4]
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part1.tex
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\content/p
+art1.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -402,13 +408,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
  []
 
 LaTeX Font Info:    Try loading font information for OMS+pbk on input line 36.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspbk.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspbk.fd"
 File: omspbk.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pbk/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
  [7]) [8]
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part2.tex
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\content/p
+art2.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -440,7 +447,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-[10 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/basic_ofdm_design.JPG>]
+[10 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/basic_ofdm_design.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 77--80
 
  []
@@ -467,7 +475,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--104
 
  []
 
-[12 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ieee_system_design.JPG>]
+[12 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/ieee_system_design.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
@@ -488,7 +497,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-[13 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/oversample.JPG>]
+[13 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/oversample.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
@@ -522,9 +532,10 @@ File: content/fig/fmcomms1.jpg Graphic file (type jpg)
 <use content/fig/fmcomms1.jpg>
 Package pdftex.def Info: content/fig/fmcomms1.jpg used on input line 179.
 (pdftex.def)             Requested size: 284.52756pt x 196.67545pt.
- [15 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdm_frame.JPG> <C:/User
-s/mbaratva/Desktop/thesis/CDC/content/fig/ZC706.JPG>] <content/fig/fmcomms1Bloc
-kdiagram.jpg, id=68, 903.375pt x 433.62pt>
+ [15 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
+nt/fig/ofdm_frame.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-master/
+Latex_th/CDC/content/fig/ZC706.JPG>]
+<content/fig/fmcomms1Blockdiagram.jpg, id=68, 903.375pt x 433.62pt>
 File: content/fig/fmcomms1Blockdiagram.jpg Graphic file (type jpg)
 
 <use content/fig/fmcomms1Blockdiagram.jpg>
@@ -536,8 +547,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--191
 
  []
 
-[16 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fmcomms1.jpg> <C:/Users/m
-baratva/Desktop/thesis/CDC/content/fig/fmcomms1Blockdiagram.jpg>]
+[16 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/fmcomms1.jpg> <C:/Documents and Settings/User/Desktop/Latex_th-master/Lat
+ex_th/CDC/content/fig/fmcomms1Blockdiagram.jpg>]
 <content/fig/ad9548BlockDiagram.JPG, id=72, 698.61pt x 423.83344pt>
 File: content/fig/ad9548BlockDiagram.JPG Graphic file (type jpg)
 
@@ -550,14 +562,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--202
 
  []
 
-[17 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ad9548BlockDiagram.JPG>]
+[17 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/ad9548BlockDiagram.JPG>]
 <content/fig/cvhd.JPG, id=76, 423.08063pt x 386.19281pt>
 File: content/fig/cvhd.JPG Graphic file (type jpg)
 
 <use content/fig/cvhd.JPG>
 Package pdftex.def Info: content/fig/cvhd.JPG used on input line 204.
 (pdftex.def)             Requested size: 284.52756pt x 259.72603pt.
- [18 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cvhd.JPG>]
+ [18 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
+nt/fig/cvhd.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
@@ -574,7 +588,8 @@ File: content/fig/cfo_radio_model.JPG Graphic file (type jpg)
 Package pdftex.def Info: content/fig/cfo_radio_model.JPG used on input line 230
 .
 (pdftex.def)             Requested size: 448.13095pt x 151.30693pt.
- [19 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_radio_model.JPG>]
+ [19 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
+nt/fig/cfo_radio_model.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
@@ -595,8 +610,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--278
 
  []
 
-) [21 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_on_ici.JPG>]
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part3.tex
+) [21 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/cont
+ent/fig/cfo_on_ici.JPG>]
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\content/p
+art3.tex"
 
 LaTeX Warning: Reference `sec_conclusion' on page 22 undefined on input line 10
 .
@@ -605,7 +622,9 @@ LaTeX Warning: Reference `sec_conclusion' on page 22 undefined on input line 10
 LaTeX Warning: Reference `sec_optimization' on page 22 undefined on input line 
 10.
 
-[22] (C:\Users\mbaratva\Desktop\thesis\CDC\content/part2_systemmodel.tex
+[22]
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\content/p
+art2_systemmodel.tex"
 <content/fig6/ofdmmodel1.JPG, id=95, 763.35187pt x 444.15938pt>
 File: content/fig6/ofdmmodel1.JPG Graphic file (type jpg)
 
@@ -624,8 +643,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
-[23] [24 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig6/ofdmmodel1.JPG> <C:
-/Users/mbaratva/Desktop/thesis/CDC/content/fig6/ofdmmodel2.JPG>]
+[23] [24 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/c
+ontent/fig6/ofdmmodel1.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-ma
+ster/Latex_th/CDC/content/fig6/ofdmmodel2.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
@@ -655,9 +675,10 @@ File: content/fig/rxblock.JPG Graphic file (type jpg)
 <use content/fig/rxblock.JPG>
 Package pdftex.def Info: content/fig/rxblock.JPG used on input line 65.
 (pdftex.def)             Requested size: 448.13095pt x 292.3078pt.
- [26 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/system.JPG> <C:/Users/mb
-aratva/Desktop/thesis/CDC/content/fig/txblock.JPG>] <content/fig/autocorrblock.
-JPG, id=114, 1011.78pt x 415.5525pt>
+ [26 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
+nt/fig/system.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-master/Late
+x_th/CDC/content/fig/txblock.JPG>]
+<content/fig/autocorrblock.JPG, id=114, 1011.78pt x 415.5525pt>
 File: content/fig/autocorrblock.JPG Graphic file (type jpg)
 
 <use content/fig/autocorrblock.JPG>
@@ -671,10 +692,12 @@ File: content/fig/fine_packetDetect.JPG Graphic file (type jpg)
 Package pdftex.def Info: content/fig/fine_packetDetect.JPG used on input line 7
 7.
 (pdftex.def)             Requested size: 448.13095pt x 130.96152pt.
- [27 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/rxblock.JPG> <C:/Users/m
-baratva/Desktop/thesis/CDC/content/fig/autocorrblock.JPG>]) [28 <C:/Users/mbara
-tva/Desktop/thesis/CDC/content/fig/fine_packetDetect.JPG>] (C:\Users\mbaratva\D
-esktop\thesis\CDC\content/part4.tex
+ [27 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
+nt/fig/rxblock.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-master/Lat
+ex_th/CDC/content/fig/autocorrblock.JPG>]) [28 <C:/Documents and Settings/User/
+Desktop/Latex_th-master/Latex_th/CDC/content/fig/fine_packetDetect.JPG>]
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\content/p
+art4.tex"
 
 LaTeX Warning: Reference `sec_conclusion' on page 29 undefined on input line 10
 .
@@ -698,7 +721,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-) [30] [31] (C:\Users\mbaratva\Desktop\thesis\CDC\report.aux)
+) [30] [31]
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\report.au
+x")
 
 LaTeX Warning: There were undefined references.
 
@@ -707,29 +732,28 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3557 strings out of 493921
- 53135 string characters out of 3144867
+ 3558 strings out of 493921
+ 53377 string characters out of 3147231
  155254 words of memory out of 3000000
- 6780 multiletter control sequences out of 15000+200000
+ 6781 multiletter control sequences out of 15000+200000
  21395 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  41i,23n,55p,1027b,273s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/urw/bookman/ubkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
-bookman/ubkl8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/u
-bkli8a.pfb>
-Output written on report.pdf (31 pages, 1353123 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/urw/bookman/ubkd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookm
+an/ubkl8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkli8a.pfb>
+
+Output written on report.pdf (31 pages, 1353203 bytes).
 PDF statistics:
  177 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
