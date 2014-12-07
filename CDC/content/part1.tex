@@ -1,0 +1,47 @@
+\section{Background}
+
+
+High quality of services (QoS) and reaching to high data rate communication to overcome the necessities in multimedia services, telecommunications industry is working currently toward the forth generation (4G) wireless communication systems. The orthogonal frequency division multiplexing (OFDM), is the most promising technology to meet the requirement as a mechanism in rapid development of digital signal processing techniques.\\
+
+The first introduction of OFDM dated back 1960s as a parallel data transmitting scheme. There are many realization proposals although the foundations are fixed generally. The basic idea is to divide a single high rate data stream into a number of lower-rate data 
+streams. Each of these data streams is modulated on a specific carrier, which is called 
+subcarrier, and transmitted simultaneously. Robustness will be preserve against multipath fading effect. Moreover, spectrum efficiency is enhanced in comparison to conventional multi-carrier transmission. OFDM considered as a frequency division multiplexing (FDM) where the data stream carried by each sub-carrier separated.\\
+
+Traditional methods used in single-carrier modulation require a number of sinusoidal subcarrier oscillators in the modulator side and multipliers and correlators in the demodulator. Introduction of Discrete Fourier Transform (DFT) until 1971 made a revolution in the complexity development. The DFT block simplified the two side processes and helped to implement the baseband in the digital manner.\\
+Since 1990s, OFDM has been employed in wideband data transmission. Applications of OFDM technology include asymmetric digital subscriber line (ADSL), high-bit-rate digital subscriber line (HDSL), and very-high-speed digital subscriber line (VDSL) in wired systems, and digital audio broadcasting (DAB), digital video broadcasting (DVB) in wireless systems. Furthermore, it has also been recognized as the basis of the wireless local area network (WLAN) standards, among which the IEEE 802.11a standard is one of the most important ones.\\
+
+Two main topics in wireless and mobile communications are high data rate and high QoS, which cause communication systems be adaptive to fast varying channel conditions and providing a steady environment to various kinds of users at a high speed of data transmission.\\
+
+Due to its capabilities of providing high data rate and less sensitivity to fast channel fading, OFDM technology, in combination with other powerful techniques such as the multiple-input, multiple-output (MIMO) technique, has been the mainstream of wireless and mobile networks. It has been used in various applications, such as wireless fidelity (Wi-Fi), worldwide inter-operability for microwave access (WiMAX), and the third generation partnership project (3GPP) long term evolution (LTE).\\
+
+Recent development of digital integrated circuits, the high flexibility and low complexity of digital implementation of OFDM modem has accelerated its application. In competition of the technologies, field programmable gate array (FPGA) has attracted the most attention in recent years due to its superior performance and high flexibility. As a flexible general-purpose technology, FPGA is an array of gates that can be reconfigured by the designer as a versatile design platform. It is developed based on the programmable logic devices (PLDs) and the logic cell array (LCA) concept. By providing a two-dimensional array of configurable logic blocks (CLBs) and programming the interconnection that connects the configurable resources, FPGA can implement a wide range of arithmetic and logic functions. Compared to other popular IC technologies such as application specific integrated circuits (ASICs) and digital signal processors (DSPs), FPGA has the following advantages:\\
+
+\textbf{Performance:} Inherently parallel architecture, FPGA has the ability to overcome the speed limit of sequential execution technologies and is able to process data at a much higher speed than DSP processors and whose performance is estimated by the system clock rate. Therefore, it can achieve much higher performance in various applications that requires large arithmetic resources, such as OFDM. However, DSP processors are still developing as an alternative.\\
+
+\textbf{Reliability:} The high isolation and high parallelism mechanism not only minimize the reliability concerns, but also reduce the deterministic hardware dedicated to every task. Besides, there are mechanism in testing and verification of the system dynamically which are developing exponentially.\\
+
+\textbf{Cost:} Because of its re-programmable nature, FPGA is a cost-effective solution for system development although the purchase cost are normally more than DSP processors which the architecture is fixed. It can be easily customized and reconfigured so that effectively versatile functionality can be realized using FPGA and there is no need to kick off design for each application. Normally, the products are tested and design and implement on the FPGA initially and after successful output it worth to transfer design into ASIC for mass production.\\
+
+\textbf{Flexibility:} The most prominant functionality of FPGA is that the design can be changed rapidly in the prototype process. Recently, some other options like partial reconfiguration let the designer to look for more dynamic mechanisms. This let the manufacturers to have better performance in the time to market issues.\\
+There is also some trends like IP core programs which help the big short-cuts in the designs but it very depends on the initial cost which should be decided very carefully.
+
+
+\section{Motivation}
+
+Practically, the signal is attenuated and distorted by multipath effect in real channel transmission. Fading estimation and equalization of the channel in wireless technology is inevitable to have a reliable communication. Implementation an OFDM system on FPGA with capability of channel estimation and synchronization is the final goal of this thesis.\\
+There are many techniques and mechanism to implement OFDM wireless communication on FPGA. In ... the authors helped OFDM transceiver on certain topics in the receiver design, such as the synchronization, packet detection, channel estimation and equalization. Moreover, OFDM transceivers are designed for the AWGN channel have been presented in ..... However, there are not a comprehensive work presenting a complete development of OFDM system with channel estimation and synchronization using the FPGA technology.\\
+
+A top-down approach and demonstrative system performance in baseband OFDM is done in this thesis. System synchronization will also be discussed in this thesis. In addition, we focus on the design and implementation of channel estimation and equalization, while a verification at system level is performed. The detailed objectives include:\\
+\begin{itemize}
+\item To design, model and implement after proper simulation a baseband OFDM system including both the transmitter and the receiver, and to analyze the system performance.
+\item To prototype an OFDM system based on a specific wireless communication standard.
+\item To implement the synchronization and channel estimation system for the receiver and provide system evaluation under different channel conditions.
+\end{itemize}
+
+
+\section{Methodology}
+It is tried to explain the theoretical concepts firstly and then to show some facts in the simulation based on extracted models. Finally, the issues is examined on hardware.\\
+The hardware chosen is consisted a Zynq board which is an FPGA with two embedded ARM processors and the radio board which is FMCOMMS1.
+
+\section{Contribution}
+

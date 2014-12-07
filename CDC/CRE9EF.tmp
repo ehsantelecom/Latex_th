@@ -1,0 +1,50 @@
+\documentclass[12pt, oneside, a4paper]{scrartcl}
+
+\usepackage[english]{babel}
+
+\usepackage{bookman}
+
+\usepackage[pdftex]{graphicx}
+
+\usepackage{amsmath}
+
+\usepackage{setspace}
+
+\begin{document}
+
+\subject{Master's Thesis}
+\title{Design and Implementation of OFDM System on FPGA}
+\author{Seyed Ehsan Koohestani - S192712}
+\date{\today}
+\publishers{Politecnico di Torino}
+\maketitle
+\vspace{2cm}
+
+
+
+\doublespacing
+
+\begin{abstract}
+\linespread{1.5}
+
+\textit{The orthogonal frequency division multiplexing} (OFDM) technology provides a high transmission data rate in wireless and mobile communications where multipath fading is a severe issue in degradation of the quality. Managing feasible coherent bandwidth to overcome Inter-Symbol Interference, OFDM enhances communication performance at a relatively small bandwidth cost. The improvement can be reached by interactive proper channel estimation and compensation which needs synchronization of transmitter and receiver. A \textit{discrete Fourier transform} (DFT) algorithm- based configuration simplified the digital implementation of OFDM system on field programmable gate array (FPGA) as a highly flexible solution, which provide prominent performance.\\
+In this thesis, steps to design a base-band OFDM system with channel estimation and timing synchronization upto implemented on FPGA are studied. It is a prototype based on the \textit{IEEE 802.11a} standard and the signals is transmitted and received using a bandwidth of 20 MHz. Focusing on the quadrature phase shift keying (QPSK) modulation, the system can achieve a throughput of 24 Mbps. For the coarse estimation of timing, a modified maximum-normalized correlation (MNC) scheme is investigated and implemented. Starting from theoretical study, this thesis in detail describes the system design and verification on the basis of both MATLAB simulation and hardware implementation. Bit error rate (BER) verses bit energy to noise spectral density ($E_{b}/N_{0}$) is presented in the case of different channels. In the meanwhile, comparison is made between the simulation and implementation results, which verifies system performance from the system level to the register transfer level (RTL).\\
+First of all, the entire system is modeled in MATLAB and a floating-point model is established. Then, the fixed-point model is created with the help of Xilinx’s System Generator for DSP (XSG) and Simulink. Subsequently, the system is synthesized and implemented within Xilinx’s Integrated Software Environment (ISE) tools and targeted to Xilinx Zynq board. What is more, a hardware co-simulation is devised to reduce the processing time while calculating the BER for the fixed-point model.
+\end{abstract}
+
+\newpage
+\setcounter{tocdepth}{1}
+\tableofcontents
+\newpage
+\part[Introduction]{Introduction}
+\input{content/part1}
+\newpage
+\part[Theory, Design and Simulation]{Theory, Design and Simulation}
+\input{content/part2}
+\newpage
+\part[FPGA Implementation]{FPGA Implementation}
+\input{content/part3}
+\newpage
+\part[Conclusion and Future Works]{Conclusion and Future Works}
+\input{content/part4}
+\end{document}
