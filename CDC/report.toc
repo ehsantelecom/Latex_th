@@ -24,7 +24,9 @@
 \contentsline {section}{\numberline {13}System Model}{23}
 \contentsline {section}{\numberline {14}Simulation Structure}{25}
 \contentsline {section}{\numberline {15}System Design in System Generator}{26}
-\contentsline {section}{\numberline {16}Hardware Samples and Analysis}{28}
-\contentsline {part}{\numberline {IV}Conclusion and Future Works}{34}
-\contentsline {section}{\numberline {17}Introduction}{34}
-\contentsline {section}{\numberline {18}Simulation Structure}{34}
+\contentsline {section}{\numberline {16}Hardware Samples and Analysis}{29}
+\contentsline {section}{\numberline {17}FPGA Inside}{34}
+\contentsline {section}{\numberline {18}Step-by-step Design}{37}
+\contentsline {part}{\numberline {IV}Conclusion and Future Works}{39}
+\contentsline {section}{\numberline {19}Introduction}{39}
+\contentsline {section}{\numberline {20}Simulation Structure}{39}

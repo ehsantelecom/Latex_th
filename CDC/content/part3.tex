@@ -129,3 +129,38 @@ Figure \ref{tx_block} illustrates the transmitter which consists of many blocks.
 \captionof{figure}{Frequency Response of a semi-perfect channel detected in Chipscope}
 \label{h_mag_chipscope}
 \end{center}
+
+\section{FPGA Inside}
+Based on the Xilinx All programmable SoC architecture, the Zynq-7000 All Programmable SoCs enable extensive system level differentiation, integration, and flexibility through hardware, software, and I/O programmability. Using the Zynq-7000 platform, you can design smarter systems with tightly coupled software based control and analytic with real time hardware-based processing and optimized system interfaces.\\
+As you can see in Figure \ref{zynq_inside} the foundation of Zynq-7000 is divided into two main parts. Firstly, Processor System which are two ARM processors and the fixed implemented peripherals. The rest are just the raw Programmable Logic which the main OFDM physical layer is implemented inside. We should build the gates, DSP and RAM in this region by VHDL programming or System Generator software in Matlab environment.\\
+
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/zynq_inside.JPG}
+\captionof{figure}{Zynq-7000 Diagram}
+\label{zynq_inside}
+\end{center}
+
+The block diagram of the design is illustrated in Figure \ref{design_block_diagram}. We activate one of the ARM processors. In the TX chain, a PC sends a packet data via the Ethernet port to Zynq-7000. The EMAC block receives the packet and DMA it into the RX Block RAM which is divided into $32$ bank with size of $2K \times 64-bit$ which realize a Circular Buffer to relief the burst data stream enters from the asynchronous Ethernet port. As the OFDM block works in $40 MHz$ and each $2K$ block reading takes maximum $50\mu s$ for the EMAC and OFDM-PHY pessimistically, the tolerance of the Ethernet stream will be $\frac{32 \times \ 64b}{50\mu s} = 40Mbps$ which proves good number of banks. The offset pointer of reading and writing by DMA MAC which is govern under a scatter-gather scheme and the OFDM-PHY is controlled by the ARM.\\
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/zynq_inside.JPG}
+\captionof{figure}{Design Block Diagram}
+\label{design_block_diagram}
+\end{center}
+
+For easier programming issues in PC side, we used Linux Virtual Machine inside a Windows OS. It is very helpful because this configuration prevents unnecessary data exchange of the system and helps us to have a real estimation of the bit rate.\\
+
+\section{Step-by-step Design}
+The configuration set-up is consisted of two Zynq board each carrying a FMCOMMS1 radio board. They are connected to two individual PC via Ethernet cables as shown in Figure \ref{hardware_setup}.\\
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/hardware_setup.JPG}
+\captionof{figure}{Hardware set-up}
+\label{hardware_setup}
+\end{center}
+
+This configuration should be tested partially and have realistic estimation of the maximum possible bit-rate and then calculate SNR of channel. Having engineering steps to examine each hardware block, we check the loops illustrated in \ref{design_block_diagram}.\\
+The maximum bit rate we could reach to exchange via Ethernet peripheral of the Zynq board which is called EMAC is $600 Mbps$. This was a time consuming task to reach to this bit rate considering the complicated Direct Memory Access mechanism implemented in near contact of EMAC inside of ARM processor. Fortunately, there were many useful application examples dedicated by Xilinx but still it should study many document to understand the scheme in RX and TX of Ethernet.\\
+Next, the correct configuration of the two TX and RX BRAMs are checked by directly data replacement between the two banks specified by the ARM processor. This was an important step because the maximum data rate is very depends on the correct data reading and writing into these two blocks. There is an useful functionality of the RAM which is designed also in Zynq-7000 that called Error-Correction Code (ECC). This is a type of computer data storage that can detect and correct the most common kinds of internal data corruption. ECC memory is used in most computers where data corruption cannot be tolerated under any circumstances, such as for scientific or financial computing.\\
+The main part of the project is dedicated of the OFDM-PHY block with its sophisticated details.\\
