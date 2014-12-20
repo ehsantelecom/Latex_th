@@ -1,46 +1,9 @@
 \begin{abstract}
-An OFDM structure from modulator to demodulator is studied. The aim is to investigate the characteristics of the system in different conditions and comparing the behavior with the single carrier configuration. The simulation conditions change in the cyclic prefix size, a Non-Linear Amplifier (NLA), multipath and equalizer activation. \\ Optimization on the cost function for the system is done. Semi-Analysis calculation for noise for a target Bit Error Rate (BER) of $10^{-3}$ are done. OFDM simulation is based on the characteristic of Fast Fourier Transform.\\
-The analysis shows that using a multipath increases the needed \textit{energy per bit to noise power spectral density ratio} $(E_{b}/N_{0})$ by $13dB$ in order to reach the target BER when the NLA block is deactivated. An equalization block improves by $8dB$ the $(E_{b}/N_{0})$. In comparison, the multipath, more than the guard time of the signal, does not influence the BER so much.\\ With activated NLA with fixed $\beta=10$ the $E_{b}/N_{0}$ has to be amplified by almost $0.8dB$ in order to reach the target BER. \\ The optimized back-off of $\beta=8$ improves this value by $14dB$ when equalization block is activated.
- 
+An OFDM transmitter and receiver is implemented on FPGA.
 \end{abstract}
 
 \section{Introduction}
-An OFDM communication system is simulated. Different characteristics of the system are examined and parameters are adjusted to study.\\ A block based signaling configuration is chosen for the implementation. As a result, the realization of the modulator is done thanks to IFFT computation characteristics. Cyclic prefixes are added to the resulting OFDM symbols as well as guard time filling. On the demodulator an FFT block recreates the initial input of the system. \\
-An optimization is performed on the input back-off of a Non-Linear Amplifier (NLA). The back-off of the NLA is normally more than in a single carrier system because of better performance of the inter symbol interference (ISI) thanks to smaller coherent bandwidth which let us work on less power. \\
-A description of the the system is given in section \ref{sec_systemmodel}. Section \ref{sec_simstruct} describes the varied parameters and analysis values while in section \ref{sec_anasim} observations on the simulation are presented and characteristics of the system are shown. Before the conclusion in section \ref{sec_conclusion}, section \ref{sec_optimization} describes the optimization of the system.
 
 
 \section{Simulation Structure}
 \label{sec_simstruct}
-Fundamentally, we do block-by-block simulation thanks to IFFT for parallel processing. Simulation is done by (de)activation of the blocks on Figure \ref{fig_ofdmsystemmodel}.
-First, we study the noise semi-analysis by having only the basic blocks activated and also to examine the correctness of them. The basic blocks for our OFDM system are IFFT and FFT, Cyclic addition and removal and the semi-analyzer block. 
-The theoretical equation of the BER for a QPSK channel is:\\
-\begin{center} 
-$P_{b}(e)= \frac{1}{2}erfc(\sqrt{\frac{E_{b}}{N_{0}}})$\\
-\end{center}
-It is discussed that the BER can be computed by considering the non-ideality which the two parameters \textit{guard time} and \textit{pilots} will inject into the result. The formulation would be:\\
-\begin{center}
- $P_{b}(e)= \frac{1}{2}erfc(\sqrt{\frac{E_{b}}{N_{0}}\frac{T}{T+T_{g}}\frac{N_{u}}{N_{u}+N_{p}}})$\\
-\end{center}
-
-In the next step, the NLA block is activated and its effect is studied. We have chosen NLA number 3 and try to optimize its back-off.
-Later, the channel impulse response modeled by considering two multipaths with different delays is implemented by an FIR filter. This extended simulation will be compared with NLA in the scenario and also the equalizer. Finally, we optimize the system by adjusting the back-off parameter of NLA in an AWGN channel.\\
-When we study the equalization block we consider such equation for the received tones:
-\begin{center}
-$y_{i}= H_{i} \lambda_{i} + n_{i}$\\
-\end{center}
-Without equalization the BER would be:
-\begin{center}
-$P_{b}(e)= \frac{1}{2}erfc(\frac{H_{i} \lambda_{i}}{\sqrt{2 \sigma^{2}}})$\\
-\end{center}
-Then, after the equalization, the formula will be changed to this:\\
-\begin{center}
-$y^{\prime}_{i}= \lambda_{i} + \frac{n_{i}}{H_{i}}$\\
-\end{center}
-and the BER to
-\begin{center}
- $P_{b}(e)= \frac{1}{2}erfc(\frac{\lambda_{i}}{\sqrt{2 \sigma^{2}}})$\\
-\end{center}
-and NOT: $P_{b}(e)= \frac{1}{2}erfc(\frac{\lambda_{i}}{\sqrt{\frac{2 \sigma^{2}}{H_{i}}}})$, as it may be guessed wrongly. The power spectral density of the noise is not decreased.
-\section{System Analysis by Simulation}
-\label{sec_anasim}

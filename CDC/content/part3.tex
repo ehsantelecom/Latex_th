@@ -48,11 +48,16 @@ and NOT: $P_{b}(e)= \frac{1}{2}erfc(\frac{\lambda_{i}}{\sqrt{\frac{2 \sigma^{2}}
 \section{System Design in System Generator}
 \label{sec_anasim}
 
+Figure \ref{ofdm_system} shows the main scheme of an OFDM system in transmitter and receiver. Another block of Channel is a Additive White Gaussian Noise which is used in simulation only.\\
+As you can see there are some others blocks which are necessary for system implementations. The whole system is connected to a main hard processor which is located in the FPGA. It is a ARM Cortex-A9 with maximum frequency of $666.66 MHz$. EDK processor represents the main processor which connected to the OFDM block by AXI protocol. 
+
 \begin{center}
 \includegraphics[width=\textwidth]{content/fig/system.JPG}
 \captionof{figure}{OFDM System.}
 \label{ofdm_system}
 \end{center}
+
+Figure \ref{tx_block} illustrates the transmitter which consists of many blocks. The main clock is FFT which convert the time-based signals into frequency.\\
 
 
 \begin{center}
@@ -121,6 +126,6 @@ and NOT: $P_{b}(e)= \frac{1}{2}erfc(\frac{\lambda_{i}}{\sqrt{\frac{2 \sigma^{2}}
 
 \begin{center}
 \includegraphics[width=\textwidth]{content/fig/h_mag_chipscope.JPG}
-\captionof{figure}{Frequency Response of a semi-perfect channel}
+\captionof{figure}{Frequency Response of a semi-perfect channel detected in Chipscope}
 \label{h_mag_chipscope}
 \end{center}

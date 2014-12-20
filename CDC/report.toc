@@ -27,5 +27,4 @@
 \contentsline {section}{\numberline {16}Hardware Samples and Analysis}{28}
 \contentsline {part}{\numberline {IV}Conclusion and Future Works}{34}
 \contentsline {section}{\numberline {17}Introduction}{34}
-\contentsline {section}{\numberline {18}Simulation Structure}{35}
-\contentsline {section}{\numberline {19}System Analysis by Simulation}{36}
+\contentsline {section}{\numberline {18}Simulation Structure}{34}
