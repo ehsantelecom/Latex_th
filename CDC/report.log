@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.6)  20 DEC 2014 17:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.6)  24 DEC 2014 19:01
 entering extended mode
 **report.tex
 (C:\Users\mbaratva\Desktop\thesis\CDC\report.tex
@@ -236,6 +236,15 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\etex.sty"
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count102
+)
+\etb@tempcnta=\count103
+)
 (C:\Users\mbaratva\Desktop\thesis\CDC\report.aux
 
 LaTeX Warning: Label `sec_simstruct' multiply defined.
@@ -250,63 +259,63 @@ LaTeX Warning: Label `autocorrblock' multiply defined.
 LaTeX Warning: Label `sec_simstruct' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Try loading font information for OT1+pbk on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for OT1+pbk on input line 13.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pbk.fd"
 File: ot1pbk.fd 2001/06/04 font definitions for OT1/pbk.
 )
 LaTeX Font Info:    Font shape `OT1/pbk/m/n' in size <12> not available
-(Font)              Font shape `OT1/pbk/l/n' tried instead on input line 12.
+(Font)              Font shape `OT1/pbk/l/n' tried instead on input line 13.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count102
+\scratchcounter=\count104
 \scratchdimen=\dimen115
 \scratchbox=\box29
-\nofMPsegments=\count103
-\nofMParguments=\count104
+\nofMPsegments=\count105
+\nofMParguments=\count106
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count105
+\MPscratchCnt=\count107
 \MPscratchDim=\dimen116
-\MPnumerator=\count106
-\makeMPintoPDFobject=\count107
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks21
 )
 LaTeX Font Info:    Font shape `OT1/pbk/bx/n' in size <12> not available
-(Font)              Font shape `OT1/pbk/b/n' tried instead on input line 20.
+(Font)              Font shape `OT1/pbk/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/pbk/b/n' in size <12> not available
-(Font)              Font shape `OT1/pbk/db/n' tried instead on input line 20.
+(Font)              Font shape `OT1/pbk/db/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/pbk/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/pbk/b/n' tried instead on input line 20.
+(Font)              Font shape `OT1/pbk/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/pbk/b/n' in size <17.28> not available
-(Font)              Font shape `OT1/pbk/db/n' tried instead on input line 20.
-LaTeX Font Info:    Try loading font information for OT1+pag on input line 20.
+(Font)              Font shape `OT1/pbk/db/n' tried instead on input line 21.
+LaTeX Font Info:    Try loading font information for OT1+pag on input line 21.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pag.fd"
 File: ot1pag.fd 2001/06/04 font definitions for OT1/pag.
 )
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <12> not available
-(Font)              Font shape `OT1/pag/b/n' tried instead on input line 20.
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <12> not available
-(Font)              Font shape `OT1/pag/db/n' tried instead on input line 20.
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/pag/b/n' tried instead on input line 20.
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <24.88> not available
-(Font)              Font shape `OT1/pag/db/n' tried instead on input line 20.
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/pbk/m/n' in size <17.28> not available
-(Font)              Font shape `OT1/pbk/l/n' tried instead on input line 20.
+(Font)              Font shape `OT1/pbk/l/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/pbk/m/it' in size <12> not available
-(Font)              Font shape `OT1/pbk/l/it' tried instead on input line 24.
+(Font)              Font shape `OT1/pbk/l/it' tried instead on input line 25.
 Missing character: There is no â in font pbkl7t!
 Missing character: There is no € in font pbkl7t!
 Missing character: There is no ™ in font pbkl7t!
@@ -314,13 +323,13 @@ Missing character: There is no â in font pbkl7t!
 Missing character: There is no € in font pbkl7t!
 Missing character: There is no ™ in font pbkl7t!
 
-Overfull \hbox (7.61119pt too wide) in paragraph at lines 24--28
+Overfull \hbox (7.61119pt too wide) in paragraph at lines 25--29
 \OT1/pbk/l/n/12 op-ti-mum im-ple-men-ta-tion of on FPGA, for in-stance Cross-Co
 rrelation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--28
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
 
  []
 
@@ -331,9 +340,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/pag/b/n' tried instead on input line 32.
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 33.
 LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <17.28> not available
-(Font)              Font shape `OT1/pag/db/n' tried instead on input line 32.
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 33.
 
 (C:\Users\mbaratva\Desktop\thesis\CDC\report.toc
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <14.4> not available
@@ -632,152 +641,189 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-[25] <content/fig/system.JPG, id=108, 792.71156pt x 417.05812pt>
-File: content/fig/system.JPG Graphic file (type jpg)
 
-<use content/fig/system.JPG>
-Package pdftex.def Info: content/fig/system.JPG used on input line 55.
-(pdftex.def)             Requested size: 448.13095pt x 235.77191pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
 
  []
 
-<content/fig/txblock.JPG, id=109, 1024.57782pt x 560.0925pt>
+[25] <content/fig/ieee_preamble.JPG, id=108, 322.20375pt x 132.495pt>
+File: content/fig/ieee_preamble.JPG Graphic file (type jpg)
+
+<use content/fig/ieee_preamble.JPG>
+Package pdftex.def Info: content/fig/ieee_preamble.JPG used on input line 60.
+(pdftex.def)             Requested size: 448.13095pt x 184.28677pt.
+ [26 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ieee_preamble.JPG>]
+<content/fig/system.JPG, id=112, 792.71156pt x 417.05812pt>
+File: content/fig/system.JPG Graphic file (type jpg)
+
+<use content/fig/system.JPG>
+Package pdftex.def Info: content/fig/system.JPG used on input line 70.
+(pdftex.def)             Requested size: 448.13095pt x 235.77191pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
+
+ []
+
+<content/fig/txblock.JPG, id=113, 1024.57782pt x 560.0925pt>
 File: content/fig/txblock.JPG Graphic file (type jpg)
 
 <use content/fig/txblock.JPG>
-Package pdftex.def Info: content/fig/txblock.JPG used on input line 64.
+Package pdftex.def Info: content/fig/txblock.JPG used on input line 79.
 (pdftex.def)             Requested size: 448.13095pt x 244.9715pt.
- [26 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/system.JPG>] <content/fi
-g/rxblock.JPG, id=113, 959.08313pt x 625.58719pt>
+ [27 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/system.JPG>] <content/fi
+g/rxblock.JPG, id=117, 959.08313pt x 625.58719pt>
 File: content/fig/rxblock.JPG Graphic file (type jpg)
 
 <use content/fig/rxblock.JPG>
-Package pdftex.def Info: content/fig/rxblock.JPG used on input line 70.
+Package pdftex.def Info: content/fig/rxblock.JPG used on input line 86.
 (pdftex.def)             Requested size: 448.13095pt x 292.3078pt.
+ [28 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/txblock.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
-<content/fig/autocorrblock.JPG, id=114, 1011.78pt x 415.5525pt>
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+<content/fig/schimdl_cox.JPG, id=121, 255.95625pt x 82.80937pt>
+File: content/fig/schimdl_cox.JPG Graphic file (type jpg)
+
+<use content/fig/schimdl_cox.JPG>
+Package pdftex.def Info: content/fig/schimdl_cox.JPG used on input line 105.
+(pdftex.def)             Requested size: 448.13095pt x 144.9931pt.
+ [29 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/rxblock.JPG>]
+<content/fig/autocorrblock.JPG, id=125, 1011.78pt x 415.5525pt>
 File: content/fig/autocorrblock.JPG Graphic file (type jpg)
 
 <use content/fig/autocorrblock.JPG>
-Package pdftex.def Info: content/fig/autocorrblock.JPG used on input line 76.
+Package pdftex.def Info: content/fig/autocorrblock.JPG used on input line 113.
 (pdftex.def)             Requested size: 448.13095pt x 184.05475pt.
- [27 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/txblock.JPG> <C:/Users/m
-baratva/Desktop/thesis/CDC/content/fig/rxblock.JPG>]
-<content/fig/fine_packetDetect.JPG, id=118, 922.19531pt x 269.50688pt>
+
+<content/fig/fine_packetDetect.JPG, id=126, 922.19531pt x 269.50688pt>
 File: content/fig/fine_packetDetect.JPG Graphic file (type jpg)
 
 <use content/fig/fine_packetDetect.JPG>
-Package pdftex.def Info: content/fig/fine_packetDetect.JPG used on input line 8
-2.
+Package pdftex.def Info: content/fig/fine_packetDetect.JPG used on input line 1
+19.
 (pdftex.def)             Requested size: 448.13095pt x 130.96152pt.
-
-<content/fig/ofdmframe_chipscope.JPG, id=119, 810.02625pt x 462.22687pt>
+ [30 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/schimdl_cox.JPG> <C:/Use
+rs/mbaratva/Desktop/thesis/CDC/content/fig/autocorrblock.JPG>]
+<content/fig/ofdmframe_chipscope.JPG, id=130, 810.02625pt x 462.22687pt>
 File: content/fig/ofdmframe_chipscope.JPG Graphic file (type jpg)
 
 <use content/fig/ofdmframe_chipscope.JPG>
 Package pdftex.def Info: content/fig/ofdmframe_chipscope.JPG used on input line
- 91.
+ 128.
 (pdftex.def)             Requested size: 448.13095pt x 255.7208pt.
- [28 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/autocorrblock.JPG> <C:/U
-sers/mbaratva/Desktop/thesis/CDC/content/fig/fine_packetDetect.JPG>]
-<content/fig/sts_chipscope.JPG, id=123, 726.46407pt x 441.90094pt>
+
+<content/fig/sts_chipscope.JPG, id=131, 726.46407pt x 441.90094pt>
 File: content/fig/sts_chipscope.JPG Graphic file (type jpg)
 
 <use content/fig/sts_chipscope.JPG>
-Package pdftex.def Info: content/fig/sts_chipscope.JPG used on input line 97.
+Package pdftex.def Info: content/fig/sts_chipscope.JPG used on input line 134.
 (pdftex.def)             Requested size: 448.13095pt x 272.6002pt.
-
-<content/fig/crosscorr.JPG, id=124, 855.94781pt x 481.04718pt>
+ [31 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fine_packetDetect.JPG> <
+C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdmframe_chipscope.JPG>]
+<content/fig/crosscorr.JPG, id=136, 855.94781pt x 481.04718pt>
 File: content/fig/crosscorr.JPG Graphic file (type jpg)
 
 <use content/fig/crosscorr.JPG>
-Package pdftex.def Info: content/fig/crosscorr.JPG used on input line 103.
+Package pdftex.def Info: content/fig/crosscorr.JPG used on input line 140.
 (pdftex.def)             Requested size: 448.13095pt x 251.84889pt.
- [29 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdmframe_chipscope.JPG>
- <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/sts_chipscope.JPG>]
-<content/fig/baseIFAdcDac.JPG, id=128, 1604.99625pt x 1088.065pt>
+
+<content/fig/baseIFAdcDac.JPG, id=137, 1604.99625pt x 1088.065pt>
 File: content/fig/baseIFAdcDac.JPG Graphic file (type jpg)
 
 <use content/fig/baseIFAdcDac.JPG>
-Package pdftex.def Info: content/fig/baseIFAdcDac.JPG used on input line 110.
+Package pdftex.def Info: content/fig/baseIFAdcDac.JPG used on input line 147.
 (pdftex.def)             Requested size: 448.13095pt x 303.7928pt.
-
-<content/fig/RfIF.JPG, id=129, 1604.99625pt x 1088.065pt>
+ [32 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/sts_chipscope.JPG> <C:/U
+sers/mbaratva/Desktop/thesis/CDC/content/fig/crosscorr.JPG>] <content/fig/RfIF.
+JPG, id=141, 1604.99625pt x 1088.065pt>
 File: content/fig/RfIF.JPG Graphic file (type jpg)
 
 <use content/fig/RfIF.JPG>
-Package pdftex.def Info: content/fig/RfIF.JPG used on input line 116.
+Package pdftex.def Info: content/fig/RfIF.JPG used on input line 153.
 (pdftex.def)             Requested size: 448.13095pt x 303.7928pt.
- [30 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/crosscorr.JPG> <C:/Users
-/mbaratva/Desktop/thesis/CDC/content/fig/baseIFAdcDac.JPG>] <content/fig/Rfbase
-.JPG, id=133, 1604.99625pt x 1088.065pt>
+ [33 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/baseIFAdcDac.JPG>]
+<content/fig/Rfbase.JPG, id=145, 1604.99625pt x 1088.065pt>
 File: content/fig/Rfbase.JPG Graphic file (type jpg)
 
 <use content/fig/Rfbase.JPG>
-Package pdftex.def Info: content/fig/Rfbase.JPG used on input line 122.
+Package pdftex.def Info: content/fig/Rfbase.JPG used on input line 159.
 (pdftex.def)             Requested size: 448.13095pt x 303.7928pt.
- [31 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/RfIF.JPG>]
-<content/fig/h_mag_chipscope.JPG, id=138, 395.97937pt x 479.54156pt>
+ [34 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/RfIF.JPG>]
+<content/fig/h_mag_chipscope.JPG, id=149, 395.97937pt x 479.54156pt>
 File: content/fig/h_mag_chipscope.JPG Graphic file (type jpg)
 
 <use content/fig/h_mag_chipscope.JPG>
-Package pdftex.def Info: content/fig/h_mag_chipscope.JPG used on input line 128
+Package pdftex.def Info: content/fig/h_mag_chipscope.JPG used on input line 165
 .
 (pdftex.def)             Requested size: 448.13095pt x 542.70982pt.
 
-Underfull \hbox (badness 1917) in paragraph at lines 129--129
+Underfull \hbox (badness 1917) in paragraph at lines 166--166
 []\OT1/pbk/l/n/12 Frequency Re-sponse of a semi-perfect chan-nel de-tected in
  []
 
-[32 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/Rfbase.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
+[35 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/Rfbase.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
 
  []
 
-[33 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/h_mag_chipscope.JPG>]
-<content/fig/zynq_inside.JPG, id=145, 521.95pt x 576.1525pt>
+[36 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/h_mag_chipscope.JPG>]
+<content/fig/zynq_inside.JPG, id=156, 521.95pt x 576.1525pt>
 File: content/fig/zynq_inside.JPG Graphic file (type jpg)
 
 <use content/fig/zynq_inside.JPG>
-Package pdftex.def Info: content/fig/zynq_inside.JPG used on input line 139.
+Package pdftex.def Info: content/fig/zynq_inside.JPG used on input line 176.
 (pdftex.def)             Requested size: 448.13095pt x 494.67267pt.
- [34]
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+ [37]
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
-[35 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/zynq_inside.JPG>]
+[38 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/zynq_inside.JPG>]
 File: content/fig/zynq_inside.JPG Graphic file (type jpg)
 
 <use content/fig/zynq_inside.JPG>
-Package pdftex.def Info: content/fig/zynq_inside.JPG used on input line 147.
+Package pdftex.def Info: content/fig/zynq_inside.JPG used on input line 184.
 (pdftex.def)             Requested size: 448.13095pt x 494.67267pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
 
  []
 
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
-<content/fig/hardware_setup.JPG, id=155, 2055.68pt x 1541.76pt>
+<content/fig/hardware_setup.JPG, id=167, 2055.68pt x 1541.76pt>
 File: content/fig/hardware_setup.JPG Graphic file (type jpg)
 
 <use content/fig/hardware_setup.JPG>
-Package pdftex.def Info: content/fig/hardware_setup.JPG used on input line 158.
+Package pdftex.def Info: content/fig/hardware_setup.JPG used on input line 196.
 
 (pdftex.def)             Requested size: 448.13095pt x 336.0829pt.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 163--42
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--205
 
  []
 
-[37 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/hardware_setup.JPG>]
-[38] (C:\Users\mbaratva\Desktop\thesis\CDC\content/part4.tex) [39]
+[40 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/hardware_setup.JPG>])
+[41] (C:\Users\mbaratva\Desktop\thesis\CDC\content/part4.tex) [42]
 (C:\Users\mbaratva\Desktop\thesis\CDC\report.aux)
 
 LaTeX Warning: There were undefined references.
@@ -787,10 +833,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3613 strings out of 493921
- 54588 string characters out of 3144867
- 155364 words of memory out of 3000000
- 6827 multiletter control sequences out of 15000+200000
+ 3990 strings out of 493921
+ 59269 string characters out of 3144867
+ 162600 words of memory out of 3000000
+ 7194 multiletter control sequences out of 15000+200000
  21395 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  41i,23n,55p,1027b,273s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -809,9 +855,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
 ype1/urw/bookman/ubkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 bookman/ubkl8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/u
 bkli8a.pfb>
-Output written on report.pdf (39 pages, 3634529 bytes).
+Output written on report.pdf (42 pages, 3685300 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
+ 224 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

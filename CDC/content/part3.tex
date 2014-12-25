@@ -48,6 +48,20 @@ and NOT: $P_{b}(e)= \frac{1}{2}erfc(\frac{\lambda_{i}}{\sqrt{\frac{2 \sigma^{2}}
 \section{System Design in System Generator}
 \label{sec_anasim}
 
+Then main core of an an OFDM modulator and demodulator are the inverse FFT (IFFT) and FFT respectively. In 802.11a WLAN standard a 64-point transform with 52 of the subcarriers are carrying user data in a BPSK,
+QPSK, 16-QAM or 64-QAM alphabet. The symbol rate in this systems is $20 MSym/s$. The OFDM symbol period
+is $4 \mu s$, with $3.2 \mu s$ of this interval occupied by the 64-point FFT symbol and the additional $0.8 ps$ used for the cyclic prefix.\\
+
+The synchronization tasks is challenging in an OFDM-based communication system. Prior to performing channel estimation equalization and demodulation, OFDM symbol timing must be detected. The receiver has no information when a packet starts, and so the first synchronization task is packet detection. Once a packet has been detected the remaining synchronization functions include coarse and fine timing recovery and carrier recovery.\\
+Figure \ref{ieee_preamble} shows the structure of the IEEE 802.1 la standard preamble. The 10 short preambles ($A_{1}$-$A_{10}$) are identical 16- sample duration sequences. The cyclic prefix (CP) is a 32- sample sequence and the long preambles ($C_{1}$ and $C_{2}$) are identical 64-sample sequences. As indicated in the figure, the various fields are used for packet detection, automatic gain control (AGC), diversity selection, coarse and fine frequency offset estimation, fine symbol timing estimation and channel estimation. 
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/ieee_preamble.JPG}
+\captionof{figure}{IEEE 802.11a preamble.}
+\label{ieee_preamble}
+\end{center}
+
+
 Figure \ref{ofdm_system} shows the main scheme of an OFDM system in transmitter and receiver. Another block of Channel is a Additive White Gaussian Noise which is used in simulation only.\\
 As you can see there are some others blocks which are necessary for system implementations. The whole system is connected to a main hard processor which is located in the FPGA. It is a ARM Cortex-A9 with maximum frequency of $666.66 MHz$. EDK processor represents the main processor which connected to the OFDM block by AXI protocol. 
 
@@ -57,8 +71,8 @@ As you can see there are some others blocks which are necessary for system imple
 \label{ofdm_system}
 \end{center}
 
-Figure \ref{tx_block} illustrates the transmitter which consists of many blocks. The main clock is FFT which convert the time-based signals into frequency.\\
-
+Figure \ref{tx_block} illustrates the transmitter which consists of many blocks. Controlling of the time we have \textit{TxControl} block for synchronization of the blocks. It also generate the semi-fixed preamble (LTS and STS) and the relevant Training signals for the system. \textit{Training Data} generates the training pattern which is used to estimate the channel frequency response.
+The main clock is IFFT which convert the time-based signals into frequency. In the current picture we set a 64 point IFFT although the recent design it upgraded to 256 as a result of the strategy changes. The data captured by the IFFT blocks are integrated in the \textit{OutputBuffers}. \textit{OutputMuxes} block chooses between two possible antenna to transmit the stream. In \textit{PreSpin, Filters DACs}, some sub-blocks for soft gain and DAC preparation data are implemented. Besides, the are a generic block to rate change matter which can be activated by the processor.\\
 
 \begin{center}
 \includegraphics[width=\textwidth]{content/fig/txblock.JPG}
@@ -66,11 +80,33 @@ Figure \ref{tx_block} illustrates the transmitter which consists of many blocks.
 \label{tx_block}
 \end{center}
 
+Figure \ref{rx_block} demonstrates the receiver block with its main blocks. The input signals enter into the device in a I/Q form from the analogue board. The is \textit{ADC inputs Antenna Selection} which we can switch between the two antennas and also the internal TX block which is reside in to the FPGA for the testing purposes. This block also adjust the input gain for the rest of the design. The frequency correction is done in the \textit{Coarse Freq Correction} using the STS stream.  
 \begin{center}
 \includegraphics[width=\textwidth]{content/fig/rxblock.JPG}
 \captionof{figure}{OFDM Receiver Block.}
 \label{rx_block}
 \end{center}
+
+The packet detector is based on the Schimdl and Cox delay and correlate algorithm employed for acquiring symbol timing commonly. The algorithm, as illustrated in Figure \ref{schimdl_cox}, is basically a sliding window correlator combined with an energy detector used to normalize the decision statistic and hence guard against fluctuations of the input signal power level.\\
+
+The sliding window P computes a auto-correlation between the input signal and a D-sample delayed version on short preamble interval. We chose D=16. The second sliding window R is used to compute the received signal energy in the cross-correlation interval. The cross-correlation P(n) and auto-correlation R(n) are calculated according to Eq. (I) and Eq. (2) respectively.\\
+
+$ P(n) = \sum\limits_{m=0}^{L-1} r_{n+m} r^{*}_{n+m+D} $\\
+
+$ R(n) = \sum\limits_{m=0}^{L-1} r_{n+m+D} r^{*}_{n+m+D} $\\
+
+The decision statistic is computed as\\
+$ M(n)= \dfrac{|P(n)|^{2}}{R(n)^{2}}$
+
+
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/schimdl_cox.JPG}
+\captionof{figure}{Auto-Correlation Block.}
+\label{schimdl_cox}
+\end{center}
+
+In the \textit{Packet Detection} block an auto-correlation approach is done on the signal to detect the energy of the preamble in the beginning of STS shows in Figure \ref{autocorrblock}. This is implemented based on the magnitude square of the both I/Q signals and comparing with a threshold after a sliding window. In other branch a multiplication of of the imaginary and real part with their 16 clock delayed version is calculated and the square magnitude in a sliding windows is detected. In \textit{Detection Decision} we use some other threshold to be ensure if the two cross correlation peaks are detected in the right time to signal the packet detection.
 
 \begin{center}
 \includegraphics[width=\textwidth]{content/fig/autocorrblock.JPG}
@@ -149,6 +185,7 @@ The block diagram of the design is illustrated in Figure \ref{design_block_diagr
 \label{design_block_diagram}
 \end{center}
 
+As you can see in the block diagram the connection bridge between the Processor System and the Programmable Logic in the Zynq architecture can be AXI protocol. You can find the detail of AXI at ref..... There are some other communication protocols but in the Zynq design AXI works optimum.
 For easier programming issues in PC side, we used Linux Virtual Machine inside a Windows OS. It is very helpful because this configuration prevents unnecessary data exchange of the system and helps us to have a real estimation of the bit rate.\\
 
 \section{Step-by-step Design}
@@ -162,5 +199,6 @@ The configuration set-up is consisted of two Zynq board each carrying a FMCOMMS1
 
 This configuration should be tested partially and have realistic estimation of the maximum possible bit-rate and then calculate SNR of channel. Having engineering steps to examine each hardware block, we check the loops illustrated in \ref{design_block_diagram}.\\
 The maximum bit rate we could reach to exchange via Ethernet peripheral of the Zynq board which is called EMAC is $600 Mbps$. This was a time consuming task to reach to this bit rate considering the complicated Direct Memory Access mechanism implemented in near contact of EMAC inside of ARM processor. Fortunately, there were many useful application examples dedicated by Xilinx but still it should study many document to understand the scheme in RX and TX of Ethernet.\\
-Next, the correct configuration of the two TX and RX BRAMs are checked by directly data replacement between the two banks specified by the ARM processor. This was an important step because the maximum data rate is very depends on the correct data reading and writing into these two blocks. There is an useful functionality of the RAM which is designed also in Zynq-7000 that called Error-Correction Code (ECC). This is a type of computer data storage that can detect and correct the most common kinds of internal data corruption. ECC memory is used in most computers where data corruption cannot be tolerated under any circumstances, such as for scientific or financial computing.\\
+Next, the correct configuration of the two TX and RX BRAMs are checked by directly data replacement between the two banks specified by the ARM processor. This was an important step because the maximum data rate is very depends on the correct data reading and writing into these two blocks. There is an useful functionality of the RAM which is designed also in Zynq-7000 that called Error-Correction Code (ECC). This is a type of computer data storage that can detect and correct the most common kinds of internal data corruption. ECC memory is used in most computers where data corruption cannot be tolerated under any circumstances, such as for scientific or financial computing. The two BRAMs communicate with AXI Bus via an BRAM controllers. The configuration of the BRAMs and the controllers should be set accordingly.\\
 The main part of the project is dedicated of the OFDM-PHY block with its sophisticated details.\\
+
