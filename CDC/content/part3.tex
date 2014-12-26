@@ -1,50 +1,9 @@
 \begin{abstract}
-An OFDM structure from modulator to demodulator is studied. The aim is to investigate the characteristics of the system in different conditions and comparing the behavior with the single carrier configuration. The simulation conditions change in the cyclic prefix size, a Non-Linear Amplifier (NLA), multipath and equalizer activation. \\ Optimization on the cost function for the system is done. Semi-Analysis calculation for noise for a target Bit Error Rate (BER) of $10^{-3}$ are done. OFDM simulation is based on the characteristic of Fast Fourier Transform.\\
-The analysis shows that using a multipath increases the needed \textit{energy per bit to noise power spectral density ratio} $(E_{b}/N_{0})$ by $13dB$ in order to reach the target BER when the NLA block is deactivated. An equalization block improves by $8dB$ the $(E_{b}/N_{0})$. In comparison, the multipath, more than the guard time of the signal, does not influence the BER so much.\\ With activated NLA with fixed $\beta=10$ the $E_{b}/N_{0}$ has to be amplified by almost $0.8dB$ in order to reach the target BER. \\ The optimized back-off of $\beta=8$ improves this value by $14dB$ when equalization block is activated.
- 
+The hardware is introduced with some details of the implementations. The main FPGA side project is done in Xilinx System Generator which is a high level alternative with standard scripting languages like VHDL and Verilog. An overview to select the radio board and the clock chain inside will be described.\\
+Main blocks in transmitter and receiver is defined and the mechanism for packet detection is illustrated in details.
+
 \end{abstract}
 
-\section{Introduction}
-An OFDM communication system is simulated. Different characteristics of the system are examined and parameters are adjusted to study.\\ A block based signaling configuration is chosen for the implementation. As a result, the realization of the modulator is done thanks to IFFT computation characteristics. Cyclic prefixes are added to the resulting OFDM symbols as well as guard time filling. On the demodulator an FFT block recreates the initial input of the system. \\
-An optimization is performed on the input back-off of a Non-Linear Amplifier (NLA). The back-off of the NLA is normally more than in a single carrier system because of better performance of the inter symbol interference (ISI) thanks to smaller coherent bandwidth which let us work on less power. \\
-A description of the the system is given in section \ref{sec_systemmodel}. Section \ref{sec_simstruct} describes the varied parameters and analysis values while in section \ref{sec_anasim} observations on the simulation are presented and characteristics of the system are shown. Before the conclusion in section \ref{sec_conclusion}, section \ref{sec_optimization} describes the optimization of the system.
-
-\section{System Model}
-\label{sec_systemmodel}
-\input{content/part2_systemmodel}
-
-\section{Simulation Structure}
-\label{sec_simstruct}
-Fundamentally, we do block-by-block simulation thanks to IFFT for parallel processing. Simulation is done by (de)activation of the blocks on Figure \ref{fig_ofdmsystemmodel}.
-First, we study the noise semi-analysis by having only the basic blocks activated and also to examine the correctness of them. The basic blocks for our OFDM system are IFFT and FFT, Cyclic addition and removal and the semi-analyzer block. 
-The theoretical equation of the BER for a QPSK channel is:\\
-\begin{center} 
-$P_{b}(e)= \frac{1}{2}erfc(\sqrt{\frac{E_{b}}{N_{0}}})$\\
-\end{center}
-It is discussed that the BER can be computed by considering the non-ideality which the two parameters \textit{guard time} and \textit{pilots} will inject into the result. The formulation would be:\\
-\begin{center}
- $P_{b}(e)= \frac{1}{2}erfc(\sqrt{\frac{E_{b}}{N_{0}}\frac{T}{T+T_{g}}\frac{N_{u}}{N_{u}+N_{p}}})$\\
-\end{center}
-
-In the next step, the NLA block is activated and its effect is studied. We have chosen NLA number 3 and try to optimize its back-off.
-Later, the channel impulse response modeled by considering two multipaths with different delays is implemented by an FIR filter. This extended simulation will be compared with NLA in the scenario and also the equalizer. Finally, we optimize the system by adjusting the back-off parameter of NLA in an AWGN channel.\\
-When we study the equalization block we consider such equation for the received tones:
-\begin{center}
-$y_{i}= H_{i} \lambda_{i} + n_{i}$\\
-\end{center}
-Without equalization the BER would be:
-\begin{center}
-$P_{b}(e)= \frac{1}{2}erfc(\frac{H_{i} \lambda_{i}}{\sqrt{2 \sigma^{2}}})$\\
-\end{center}
-Then, after the equalization, the formula will be changed to this:\\
-\begin{center}
-$y^{\prime}_{i}= \lambda_{i} + \frac{n_{i}}{H_{i}}$\\
-\end{center}
-and the BER to
-\begin{center}
- $P_{b}(e)= \frac{1}{2}erfc(\frac{\lambda_{i}}{\sqrt{2 \sigma^{2}}})$\\
-\end{center}
-and NOT: $P_{b}(e)= \frac{1}{2}erfc(\frac{\lambda_{i}}{\sqrt{\frac{2 \sigma^{2}}{H_{i}}}})$, as it may be guessed wrongly. The power spectral density of the noise is not decreased.
 \section{System Design in System Generator}
 \label{sec_anasim}
 
@@ -89,15 +48,21 @@ Figure \ref{rx_block} demonstrates the receiver block with its main blocks. The 
 
 The packet detector is based on the Schimdl and Cox delay and correlate algorithm employed for acquiring symbol timing commonly. The algorithm, as illustrated in Figure \ref{schimdl_cox}, is basically a sliding window correlator combined with an energy detector used to normalize the decision statistic and hence guard against fluctuations of the input signal power level.\\
 
-The sliding window P computes a auto-correlation between the input signal and a D-sample delayed version on short preamble interval. We chose D=16. The second sliding window R is used to compute the received signal energy in the cross-correlation interval. The cross-correlation P(n) and auto-correlation R(n) are calculated according to Eq. (I) and Eq. (2) respectively.\\
+The sliding window P computes a auto-correlation between the input signal and a D-sample delayed version on short preamble interval. We chose D=16. The second sliding window R is used to compute the received signal energy in the cross-correlation interval.
 
-$ P(n) = \sum\limits_{m=0}^{L-1} r_{n+m} r^{*}_{n+m+D} $\\
+\begin{equation} \label{P_n}
+P(n) = \sum\limits_{m=0}^{L-1} r_{n+m} r^{*}_{n+m+D}
+\end{equation}
 
-$ R(n) = \sum\limits_{m=0}^{L-1} r_{n+m+D} r^{*}_{n+m+D} $\\
+\begin{equation} \label{R_n}
+ R(n) = \sum\limits_{m=0}^{L-1} r_{n+m+D} r^{*}_{n+m+D}
+\end{equation}
 
-The decision statistic is computed as\\
-$ M(n)= \dfrac{|P(n)|^{2}}{R(n)^{2}}$
+The cross-correlation P(n) and auto-correlation R(n) are calculated according to Equation \ref{P_n} and Equation \ref{R_n} respectively. The decision statistic is computed as\\
 
+\begin{equation} \label{M_n}
+M(n)= \dfrac{|P(n)|^{2}}{R(n)^{2}}
+\end{equation}
 
 
 \begin{center}
@@ -120,53 +85,74 @@ In the \textit{Packet Detection} block an auto-correlation approach is done on t
 \label{autocorrblock}
 \end{center}
 
-\section{Hardware Samples and Analysis}
-\label{hw_samples}
+\section{Hardware Introduction}
+\subsection{FPGA Board}
+
+The ZC706 evaluation board for the XC7Z045 All Programmable SoC (AP SoC) provides a hardware environment for developing and evaluating designs targeting the Zynq-7000 XC7Z045-2FFG900C AP SoC. The ZC706 evaluation board provides features common to
+many embedded processing systems, including DDR3 SODIMM and component memory, a four-lane PCI Express interface, an Ethernet PHY, general purpose I/O, and two UART interfaces. Other features can be supported using VITA-57 FPGA mezzanine cards (FMC) attached to the low pin count (LPC) FMC and high pin count (HPC) FMC connectors. For details of architecture see Section \ref{fpga_arch}.\\
 
 \begin{center}
-\includegraphics[width=\textwidth]{content/fig/ofdmframe_chipscope.JPG}
-\captionof{figure}{OFDM Frame (I/Q) detected in Chipscope.}
-\label{ofdmframe_chipscope}
+\includegraphics[width=12cm]{content/fig/ZC706.JPG}
+\captionof{figure}{ZC706 Evaluation Borad Block Diagram.}
 \end{center}
 
 \begin{center}
-\includegraphics[width=\textwidth]{content/fig/sts_chipscope.JPG}
-\captionof{figure}{STS (I/Q) detected in Chipscope.}
-\label{sts_chipscope}
+\includegraphics[width=12cm]{content/fig/zc706_block_diagram.JPG}
+\captionof{figure}{Xilinx Zynq-7000 SoC ZC706 Evaluation Kit}
+\end{center}
+
+\subsection{Radio Board}
+
+The AD-FMCOMMS1-EBZ high-speed analog module is designed to showcase one of the latest generation high-speed data converters. The AD-FMCOMMS1-EBZ provides the analog front-end for a wide range of compute-intensive FPGA-based radio applications.\\
+The AD-FMCOMMS1-EBZ enables RF applications from 400MHz to 4 GHz. The module is customizable to a wide range of frequencies by software without any hardware changes, providing options for GPS or IEEE 1588 Synchronization, and MIMO configurations. When combined with the Xilinx ZC706, AD-FMCOMMS1-EBZ enables a variety of wireless communications functions at the physical layer, from baseband to RF. With up to 4 GB of flash storage space, 512 MB of RAM, Gigabit Ethernet interface (depending on the base platform). The platform offers enough flexibility for many applications, and supports streaming data, and standard web interfaces to analyze transmitted RF data.\\
+
+\begin{center}
+\includegraphics[width=10cm]{content/fig/fmcomms1.jpg}
+\captionof{figure}{AD-FMCOMMS1-EBZ (Radio Board)}
 \end{center}
 
 \begin{center}
-\includegraphics[width=\textwidth]{content/fig/crosscorr.JPG}
-\captionof{figure}{Cross-Correlation detected in Chipscope.}
-\label{crosscorr}
+\includegraphics[width=15cm]{content/fig/fmcomms1Blockdiagram.jpg}
+\captionof{figure}{AD-FMCOMMS1-EBZ Block Diagram}
 \end{center}
 
+\subsection{Clock Chain on FMCOMMS1}
+Now, we discuss more about the clock chain and distribution mechanism on the board to find some meaningful number. As you can see in the figure, we configure the board and internal FPGA architecture to generate a 30MHz clock to the RF board. This 30MHz is just chosen because a relevant crystal mounted on the Zynq board and the all generated clock is supposed to be in-phased with it. This 30MHz is an input for AD9548 as a clock generator/synchronizer which has a very precise PLL inside to generate a 20MHz.\\
+The AD9548 generates an output clock synchronized to one of up to four differential or eight single-ended external input references. The digital PLL allows for reduction of input time jitter or phase noise associated with the external references. The AD9548 continuously generates a clean (low jitter), valid output clock even when all references have failed by means of a digitally controlled loop and holdover circuitry. AD9548 is a very complicated device to generate 20MHz with maximum precision.\\
 
 \begin{center}
-\includegraphics[width=\textwidth]{content/fig/baseIFAdcDac.JPG}
-\captionof{figure}{LTS Spectrum in Baseband chain (IF filter is enable)}
-\label{baseIFAdcDac}
+\includegraphics[width=15cm]{content/fig/ad9548BlockDiagram.JPG}
+\captionof{figure}{AD9548 Block Diagram}
 \end{center}
+
+The next IC in the clock chain is AD9523-1 which is Low Jitter Clock Generator. The AD9523-1 provides a low power, multi-output, clock distribution function with low jitter performance, along with an on-chip PLL and VCO with two VCO dividers. The on-chip VCO tunes from 2.94 GHz to 3.1 GHz. The AD9523-1 is defined to support the clock requirements for
+long term evolution (LTE) and multicarrier GSM base station designs. It relies on an external VCXO to provide the reference
+jitter cleanup to achieve the restrictive low phase noise requirements necessary for acceptable data converter SNR performance.\\
+The input receivers, oscillator, and zero delay receiver provide both single-ended and differential operation. When connected to a recovered system reference clock and a VCXO, the device generates 14 low noise outputs with a range of 1 MHz to 1 GHz, and one dedicated buffered output from the input PLL (PLL1). The frequency and phase of one clock output relative to another clock output can be varied by means of a divider phase select function that serves as a jitter-free, coarse timing adjustment in increments that are equal to half the period of the signal coming out of the VCO.\\
+In  our chain we have a 80MHz VCXO connected to AD9523-1. It is supposed to generated 40MHz for ADC, DAC and also the main OFDM architecture FPGA program. You can see the specification of the crystal oscillator in ....\\
 
 \begin{center}
-\includegraphics[width=\textwidth]{content/fig/RfIF.JPG}
-\captionof{figure}{LTS Spectrum- passed RF chain (IF filter is enable)}
-\label{RfIF}
+\includegraphics[width=10cm]{content/fig/cvhd.JPG}
+\captionof{figure}{CVHD-950 Ultra Low Phase Noise Oscillator}
 \end{center}
 
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/Rfbase.JPG}
-\captionof{figure}{LTS Spectrum- passed RF chain (IF filter is disable)}
-\label{Rfbase}
-\end{center}
 
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/h_mag_chipscope.JPG}
-\captionof{figure}{Frequency Response of a semi-perfect channel detected in Chipscope}
-\label{h_mag_chipscope}
-\end{center}
+\section{Expectations for CFO on FMCOMM1}
 
-\section{FPGA Inside}
+In implementation of an OFDM chain, we should have good understanding the range of carrier frequency offsets which can be expected on our hardware platform. Our RF board foundation is based on FMCOMMS1. As a result, the elements in term of phase -noise and CFO should be studied. The main RF frequency refrence is a Crystek CVHD-950 (VCXO). This VCXO provides a clock signal at a nominal frequency of 80 MHz. Actual output frequency varies as a function of multiple factors, and is only specified by the manufacturer with some tolerance. The CVHD-950 is specified with a frequency tolerance of $\pm$4 ppm. Thus, we must design for a reference frequency of 80$\pm$0.000320 MHz. Imagine our target RF carrier frequency is 2452 MHz which implies 2400 MHz$\pm$4 ppm (or 2400$\pm$0.009600 MHz).\\
+The worst case CFO will occur when the transmit and receive nodes operate at opposite ends of this range. Thus, for operation in the 2.4 GHz band our OFDM transceiver design must be ready to handle any carrier frequency offset up to $\approx$20 kHz.
+
+
+\section{Time Domain CFO Correction}
+Prevention of the degradation of CFO, the receiver should estimate and correct the offset in the time domain before the FFT block. The FFT block translates the received signal into the frequency. Regarding to the variety issue of OFDM, many estimation algorithms have been proposed.\\
+
+\section{Carrier Frequency Offsets}
+\label{sec_simstruct}
+As a result of the frequency variation between local oscillators of the transmitter and the receiver nodes that generate the carrier signals, carrier frequency offsets (CFO) is happened. It causes when the baseband signal is going to be translated to RF. The issue is understood well but the impact to overcome CFO and suppression this phenomena is always depend on the specific parameters of the given transceiver and the hardware.\\
+The origin of the CFO effect is studied in this section. We explore in a specific scenario of OFDM and the impact on the hardware design. Both simulation and experiments will be demonstrated and the CFO estimation and compensation is described.\\
+
+\section{FPGA Architecture}
+\label{fpga_arch}
 Based on the Xilinx All programmable SoC architecture, the Zynq-7000 All Programmable SoCs enable extensive system level differentiation, integration, and flexibility through hardware, software, and I/O programmability. Using the Zynq-7000 platform, you can design smarter systems with tightly coupled software based control and analytic with real time hardware-based processing and optimized system interfaces.\\
 As you can see in Figure \ref{zynq_inside} the foundation of Zynq-7000 is divided into two main parts. Firstly, Processor System which are two ARM processors and the fixed implemented peripherals. The rest are just the raw Programmable Logic which the main OFDM physical layer is implemented inside. We should build the gates, DSP and RAM in this region by VHDL programming or System Generator software in Matlab environment.\\
 
@@ -177,7 +163,7 @@ As you can see in Figure \ref{zynq_inside} the foundation of Zynq-7000 is divide
 \label{zynq_inside}
 \end{center}
 
-The block diagram of the design is illustrated in Figure \ref{design_block_diagram}. We activate one of the ARM processors. In the TX chain, a PC sends a packet data via the Ethernet port to Zynq-7000. The EMAC block receives the packet and DMA it into the RX Block RAM which is divided into $32$ bank with size of $2K \times 64-bit$ which realize a Circular Buffer to relief the burst data stream enters from the asynchronous Ethernet port. As the OFDM block works in $40 MHz$ and each $2K$ block reading takes maximum $50\mu s$ for the EMAC and OFDM-PHY pessimistically, the tolerance of the Ethernet stream will be $\frac{32 \times \ 64b}{50\mu s} = 40Mbps$ which proves good number of banks. The offset pointer of reading and writing by DMA MAC which is govern under a scatter-gather scheme and the OFDM-PHY is controlled by the ARM.\\
+The block diagram of the design is illustrated in Figure \ref{design_block_diagram}. We activate one of the ARM processors. In the TX chain, a PC sends a packet data via the Ethernet port to Zynq-7000. The EMAC block receives the packet and DMA it into the RX Block RAM which is divided into $32$ bank with size of $2K \times 64-bit$ which realize a Circular Buffer to relief the burst data stream enters from the asynchronous Ethernet port. As the OFDM block works in $40 MHz$ and each $2K$ block reading takes maximum $50\mu s$ for the EMAC and OFDM-PHY pessimistically, the tolerance of the Ethernet stream will be $\dfrac{32 \times \ 64b}{50\mu s} = 40Mbps$ which proves good number of banks. The offset pointer of reading and writing by DMA MAC which is govern under a scatter-gather scheme and the OFDM-PHY is controlled by the ARM.\\
 
 \begin{center}
 \includegraphics[width=\textwidth]{content/fig/zynq_inside.JPG}
@@ -201,4 +187,75 @@ This configuration should be tested partially and have realistic estimation of t
 The maximum bit rate we could reach to exchange via Ethernet peripheral of the Zynq board which is called EMAC is $600 Mbps$. This was a time consuming task to reach to this bit rate considering the complicated Direct Memory Access mechanism implemented in near contact of EMAC inside of ARM processor. Fortunately, there were many useful application examples dedicated by Xilinx but still it should study many document to understand the scheme in RX and TX of Ethernet.\\
 Next, the correct configuration of the two TX and RX BRAMs are checked by directly data replacement between the two banks specified by the ARM processor. This was an important step because the maximum data rate is very depends on the correct data reading and writing into these two blocks. There is an useful functionality of the RAM which is designed also in Zynq-7000 that called Error-Correction Code (ECC). This is a type of computer data storage that can detect and correct the most common kinds of internal data corruption. ECC memory is used in most computers where data corruption cannot be tolerated under any circumstances, such as for scientific or financial computing. The two BRAMs communicate with AXI Bus via an BRAM controllers. The configuration of the BRAMs and the controllers should be set accordingly.\\
 The main part of the project is dedicated of the OFDM-PHY block with its sophisticated details.\\
+
+\section{Hardware Samples and Analysis}
+\label{hw_samples}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/ofdmframe_chipscope.JPG}
+\captionof{figure}{OFDM Frame (I/Q) detected in Chipscope.}
+\label{ofdmframe_chipscope}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/sts_chipscope.JPG}
+\captionof{figure}{STS (I/Q) detected in Chipscope.}
+\label{sts_chipscope}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/crosscorr.JPG}
+\captionof{figure}{Cross-Correlation detected in Chipscope.}
+\label{crosscorr}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/autocorr.JPG}
+\captionof{figure}{Auto-Correlation detected in Chipscope.}
+\label{autocorr}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/baseIFAdcDac.JPG}
+\captionof{figure}{LTS Spectrum in Baseband chain (IF filter is enable)}
+\label{baseIFAdcDac}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/RfIF.JPG}
+\captionof{figure}{LTS Spectrum- passed RF chain (IF filter is enable)}
+\label{RfIF}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/Rfbase.JPG}
+\captionof{figure}{LTS Spectrum- passed RF chain (IF filter is disable)}
+\label{Rfbase}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/h_mag_chipscope_noChannel.JPG}
+\captionof{figure}{Frequency Response of a perfect channel detected in Chipscope}
+\label{h_mag_chipscope_noChannel}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/h_mag_chipscope_rf_detect.JPG}
+\captionof{figure}{Frequency Response of on air channel detected in Chipscope}
+\label{h_mag_chipscope_rf_detect}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/OfdmSym_16qam_1_2_code_64byte.JPG}
+\captionof{figure}{OFDM Symbols of a 16QAM 64-byte message Coded 1/2 rate}
+\label{OfdmSym_16qam_1_2_code_64byte}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/OfdmSym_16qam_no_code_64byte.JPG}
+\captionof{figure}{OFDM Symbols of a 16QAM 64-byte message no-Coded}
+\label{OfdmSym_16qam_no_code_64byte}
+\end{center}
+
+
 

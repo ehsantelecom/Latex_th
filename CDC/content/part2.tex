@@ -45,7 +45,7 @@ The real and imaginary parts of \ref{ofdm_complex_env} are the in-phase ($I$) an
 \end{equation}
 
 \ref{m_th_carrier} shows all the subcarriers over the integral region are zero except the desired one. The desired output for the signal demodulation, $d_{m+ \frac{N}{2}}$ multiplied to a constant factor $T$, is exactly the integration for the $m$-th subcarrier. Since each subcarrier has an exact integer number of cycles within OFDM symbol duration, the orthogonality between subcarriers is guaranteed.\\
-the mathematical model for discrete time signal is as below if the OFDM symbol is sampled with a sampling period $\frac{T}{N}$:
+the mathematical model for discrete time signal is as below if the OFDM symbol is sampled with a sampling period $\dfrac{T}{N}$:
 \begin{equation} \label{math_model}
 \begin{split}
 s(n)= s_{k}(\frac{nT}{N})= \sum\limits_{i=0}^{N-1} d_{i} \exp(j2\pi\frac{in}{N}), n= 0, 1, ... , N-1
@@ -53,6 +53,21 @@ s(n)= s_{k}(\frac{nT}{N})= \sum\limits_{i=0}^{N-1} d_{i} \exp(j2\pi\frac{in}{N})
 \end{equation}
 
 This represents an inverse DFT (IDFT) for PSK or QAM symbols.\\
+
+Figure~\ref{fig:ofdmsystemmodel} presents the OFDM system block diagram. The first block represents the data source. They are the bits which an application may send. In the simulation it is realized by a random and fixed bit generator. The following QPSK modulation block converts this bits into symbols, which are complex numbers. Each symbol carries several bits. The third block is the first one actually relevant for OFDM. The serial symbol stream is converted into a channel and OFDM symbol structure. In the simulation it is represented in a matrix shape where the rows are different channels and each column is an OFDM symbol. This means that each OFDM symbol, formed by $c$ (\#channels) serial symbols (complex numbers), is distributed over the $c$ channels.\\
+
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=\textwidth]{content/fig/ofdmmodel1.JPG}
+\includegraphics[width=\textwidth]{content/fig/ofdmmodel2.JPG}
+\caption{OFDM System Model}
+\label{fig:ofdmsystemmodel}
+\end{figure}
+
+In the next step zero channels are added in order to separate well subsequent OFDM symbols. For the simulation structure zero rows are added in the middle of the matrix. The following block interprets each symbol (complex number) of an OFDM symbol as a orthogonal frequency and converts each OFDM symbol per IFFT into a vector of time discrete values of the same length. As sixth step the cyclic prefix insertion is done. In order to maintain orthogonality of the frequencies but prevent ISI, an amount of \textit{guard values} are copied from the end of each OFDM symbol to its beginning. The number of rows in the simulation matrix grows by that by the number of \textit{guard values}.\\
+The following block is the NLA which depends on the optimization parameter $\beta$ (back-off). At this point the transmitter side ends. In order to simulate the multipath a convolution is made on each OFDM symbol with the delay filter. Since the simulation is made on each OFDM symbol separated, this operation works with a memory in order simulate a serial transmission.\\
+The receiver side is just the opposite of the transmitter. In the cyclic prefix remover the copied values are deleted and the simulation matrix size decreases. The next block performs the FFT on each OFDM symbol which reconstructs the as frequencies interpreted complex numbers.\\ The following equalization block tries to remove the effect of the multipath. For the simulation a multiplication with the inverted transfer function of the multipath is operated. By this, only the phase of the complex symbols changes.\\ 
+Finally, the zero channels are removed and the matrix structure is reconverted to a series of symbols. The following analysis is done on the received symbols and consequently they are not demodulated into a bit-stream.\\
 According to the above analysis, the basic architecture for a baseband OFDM system that contains the essential parts is shown in Figure~\ref{fig:basic_ofdm}.\\
 
 \begin{center}
@@ -101,28 +116,40 @@ For indoor environment a delay spread less than 300 ns expected. We consider the
 Keep in mind, the useful OFDM symbol duration without the guard interval is 3.2 $\mu$s. So, the subcarrier spacing, which is the reciprocal of the useful symbol duration, can be determined as 312.5 kHz. Assuming that there is a bandwidth of 20 MHz available, the number of subcarriers is calculated to be 64. This is exactly the same as the specification defined in IEEE 802.11a standard.\\
 As mentioned, some tones are reseved for pilot subcarries (channel estimation), null subcarriers (realizing oversampling to avoid aliasing) and windowing (reduce the out-of-band spectral energy).\\
 In our design we chose 48 data tones and 4 pilot subcarriers. So, 52 subcarries are occupied. Applying a raised-cosine window with roll-off factor $\beta$= 0.02 the total occupied bandwidth is\\
-\begin{center}
-$(1+ 0.02)\times(52 \times 312.5kHz) \approx 16.6MHz$
-\end{center}
+
+\begin{equation} \label{occupied_bw}
+(1+ 0.02)\times(52 \times 312.5kHz) \approx 16.6MHz
+\end{equation}
 
 To accomplish Oversampling, some zeros before and after the data vector are appended in the frequency domain as shown below.\\
 
+\begin{equation} \label{over_sample}
+\overbrace{0, 0, ... , 0,}^{1/2\;appended\;zeros}
+\underbrace{d_{-\frac{N_d}{2}}, d_{-\frac{N_d}{2}+1}, ... , d_{-1},}_{Negative\;subcarriers}
+\underbrace{d_{1}, d_{2}, ... , d_{\frac{N_d}{2}},}_{Positive\;subcarriers}
+\overbrace{0, 0, ... , 0}^{1/2\;appended\;zeros}
+\end{equation}
+
+In the IEEE 802.11a transmitter, a 64 point IFFT multiplexes the orthogonal sub-carriers and the sub-carriers are renumbered as in Figure \ref{freq_alloc} before performing the Fourier transformation. Only 48 of them are used for data transmission and they are modulated by using BPSK, QPSK, 16-QAM or 64-QAM according to the Rate parameter. The sub-carriers $P_{-21}$, $P_{-7}$, $P_{7}$ and $P_{21}$ are dedicated to comb-type pilot signals which are used to track the phase variations due to the time varying channel or a frequency o set error. The pilot sub-carriers are modulated by using BPSK and to prevent the generation of spectral lines, they transmit a pseudo random binary sequence generated by the same polynomial used in the scrambler.\\
+
 \begin{center}
-\includegraphics[width=12cm]{content/fig/oversample.JPG}
+\includegraphics[width=\textwidth]{content/fig/freq_alloc.JPG}
+\captionof{figure}{The frequency allocation of IEEE 802.11a sub-carriers}
+\label{freq_alloc}
 \end{center}
 
 The nonzero data values are mapped onto the subcarriers around 0 Hz, and the zeros are mapped onto frequencies around sampling rate.
+Basically, in the BPSK modulation is applied on each subcarrier, each symbol for an individual subcarrier has one bits. The bit rate achieves without channel coding:\\
 
-Basically, in the BPSK modulation is applied on each subcarrier, each symbol for an
-individual subcarrier has one bits. The bit rate achieves without channel coding:\\
-\begin{center}
-$\frac{1}{4.0\mu s} \times 48 \times 1= 12Mbps$
-\end{center}
+\begin{equation} \label{bitrate_achiv}
+\frac{1}{4.0\mu s} \times 48 \times 1= 12Mbps
+\end{equation}
 
 The same calculation can be perform for QPSK to reach 24Mbps. But, channel coding will reduce this values. Variation of coding rates and modulation methods, In the 802.11a standard, the data rate ranges from 6 Mbps to 54 Mbps.\\
 
 \begin{center}
 \captionof{table}{System parameters defined for the proposed OFDM system}
+\label{table:sys_param}
 \vspace{0.5cm}
 \begin{tabular}{c|c|c}
 Parameter&Description&Value\\ \hline
@@ -143,15 +170,51 @@ $R_{b}$&Data rate without coding&$12Mbps, 24Mbps$\\
 \end{tabular}
 \end{center}
 
+Table \ref{table:code_vs_rate} shows the length parameter indicates the number of information bytes with different code rates:
+
+\begin{center}
+\captionof{table}{Rate dependant parameters in IEEE 802.11a Standard}
+\label{table:code_vs_rate}
+\vspace{0.5cm}
+\begin{tabular}{c|c|c|c|c}
+Data rate&Modulation&Code Rate&Coded bits per symbol&Data bits per symbol\\ \hline
+6 Mbps&BPSK&1/2&48&24\\
+9 Mbps&BPSK&3/4&48&36\\
+12 Mbps&QPSK&1/2&96&48\\
+18 Mbps&QPSK&3/4&96&72\\
+24 Mbps&16QAM&1/2&192&96\\
+36 Mbps&16QAM&3/4&192&144\\
+\end{tabular}
+\end{center}
+
+The theoretical equation of the Bit-Error Rate for a QPSK channel is:\\
+
+\begin{equation} \label{theo_ber}
+P_{b}(e)= \dfrac{1}{2}erfc(\sqrt{\dfrac{E_{b}}{N_{0}}})
+\end{equation}
+
+It is discussed that the BER can be computed by considering the non-ideality which the two parameters \textit{guard time} and \textit{pilots} will inject into the result. The formulation would be:\\
+
+\begin{equation} \label{theo_ber_guard_pilot}
+P_{b}(e)= \dfrac{1}{2}erfc(\sqrt{\dfrac{E_{b}}{N_{0}}\dfrac{T}{T+T_{g}}\dfrac{N_{u}}{N_{u}+N_{p}}})
+\end{equation}
+
+Replacing the standard value from Table \ref{table:sys_param} in the equation we have:\\
+
+\begin{equation} \label{theo_ber_ieee}
+P_{b}(e)= \dfrac{1}{2}erfc(\sqrt{\dfrac{E_{b}}{N_{0}}0.65})
+\end{equation}
+
 \subsection{IEEE 802.11a Standard in Time and Frequency}
 A packet of OFDM will be described here. In an OFDM frame, a preamble which carries no data is transmitted first, followed by the signal field which give some information about data and transmitted data. As indicated in Figure 00, an OFDM frame has the general form as below:
-\begin{center}
-$s_{OFDM}(t)= s_{preamble}(t)+ s_{signal}(t- T_{preamble})+ s_{data}(t- T_{preamble}- T_{signal})$\\
-\end{center}
+\begin{equation} \label{sym_ofdm}
+s_{OFDM}(t)= s_{preamble}(t)+ s_{signal}(t- T_{preamble})+ s_{data}(t- T_{preamble}- T_{signal})
+\end{equation}
+
 where\\
-\begin{center}
-$s_{preamble}(t)= s_{short}(t)+ s_{long}(t- T_{short})$\\
-\end{center}
+\begin{equation} \label{preamble_ofdm}
+s_{preamble}(t)= s_{short}(t)+ s_{long}(t- T_{short})
+\end{equation}
 
 The preamble starts with 10 short training symbols (STSs) from T1 to T10, followed by a guard interval (GI2) and two long training symbols (LTSs) L1 and L2. Both the short and long training sequences have an 8 $\mu$s duration and the entire preamble lasts for 16 $\mu$s. Then, a 3.2 $\mu$s signal symbol, as well as 800 ns guard interval is transmitted. This field bears some information necessary for the data symbols, such as the coding rate and length. Finally the various data symbols that carry user information are transmitted. Each data symbol has a duration of 4.0 $\mu$s, within which there is a 800 ns CP, as already described.\\
 The application of STS and LTS for training are different. STS used for AGC, frame detection, coarse timing and frequency synchronization. Each symbol in this sequence has a duration of 800 ns and contains 16 samples, and is identical to one another.
@@ -165,62 +228,6 @@ The application of STS and LTS for training are different. STS used for AGC, fra
 
 As we already analyzed, 52 subcarriers are used for an OFDM data symbol and pilot. Oversampling is achieved by adding 12 null subcarriers in order to eliminate aliasing which might occur during digital to analog conversion. Because FFT shift is performed, the null subcarriers with a value of zero are located in the middle of the input vector for the IFFT block. Note that dc carrier is not used to transmit data. The short and long training sequences can also be applied to this mapping rule, since they both have a length of 52 samples with frequency index from -26 to +26.\\
 
-
-\section{Hardware Introduction}
-\subsection{Processor}
-\begin{center}
-\includegraphics[width=12cm]{content/fig/ZC706.JPG}
-\captionof{figure}{Xilinx Zynq-7000 SoC ZC706 Evaluation Kit}
-\end{center}
-
-\subsection{Radio Board}
-\begin{center}
-\includegraphics[width=10cm]{content/fig/fmcomms1.jpg}
-\captionof{figure}{AD-FMCOMMS1-EBZ (Radio Board)}
-\end{center}
-
-\begin{center}
-\includegraphics[width=15cm]{content/fig/fmcomms1Blockdiagram.jpg}
-\captionof{figure}{AD-FMCOMMS1-EBZ Block Diagram}
-\end{center}
-
-\subsection{Clock Chain on FMCOMMS1}
-Now, we discuss more about the clock chain and distribution mechanism on the board to find some meaningful number. As you can see in the figure, we configure the board and internal FPGA architecture to generate a 30MHz clock to the RF board. This 30MHz is just chosen because a relevant crystal mounted on the Zynq board and the all generated clock is supposed to be in-phased with it. This 30MHz is an input for AD9548 as a clock generator/synchronizer which has a very precise PLL inside to generate a 20MHz.\\
-The AD9548 generates an output clock synchronized to one of up to four differential or eight single-ended external input references. The digital PLL allows for reduction of input time jitter or phase noise associated with the external references. The AD9548 continuously generates a clean (low jitter), valid output clock even when all references have failed by means of a digitally controlled loop and holdover circuitry. AD9548 is a very complicated device to generate 20MHz with maximum precision.\\
-
-\begin{center}
-\includegraphics[width=15cm]{content/fig/ad9548BlockDiagram.JPG}
-\captionof{figure}{AD9548 Block Diagram}
-\end{center}
-
-The next IC in the clock chain is AD9523-1 which is Low Jitter Clock Generator. The AD9523-1 provides a low power, multi-output, clock distribution function with low jitter performance, along with an on-chip PLL and VCO with two VCO dividers. The on-chip VCO tunes from 2.94 GHz to 3.1 GHz. The AD9523-1 is defined to support the clock requirements for
-long term evolution (LTE) and multicarrier GSM base station designs. It relies on an external VCXO to provide the reference
-jitter cleanup to achieve the restrictive low phase noise requirements necessary for acceptable data converter SNR performance.\\
-The input receivers, oscillator, and zero delay receiver provide both single-ended and differential operation. When connected to a recovered system reference clock and a VCXO, the device generates 14 low noise outputs with a range of 1 MHz to 1 GHz, and one dedicated buffered output from the input PLL (PLL1). The frequency and phase of one clock output relative to another clock output can be varied by means of a divider phase select function that serves as a jitter-free, coarse timing adjustment in increments that are equal to half the period of the signal coming out of the VCO.\\
-In  our chain we have a 80MHz VCXO connected to AD9523-1. It is supposed to generated 40MHz for ADC, DAC and also the main OFDM architecture FPGA program. You can see the specification of the crystal oscillator in ....\\
-
-\begin{center}
-\includegraphics[width=10cm]{content/fig/cvhd.JPG}
-\captionof{figure}{CVHD-950 Ultra Low Phase Noise Oscillator}
-\end{center}
-
-
-\section{Expectations for CFO on FMCOMM1}
-
-In implementation of an OFDM chain, we should have good understanding the range of carrier frequency offsets which can be expected on our hardware platform. Our RF board foundation is based on FMCOMMS1. As a result, the elements in term of phase -noise and CFO should be studied. The main RF frequency refrence is a Crystek CVHD-950 (VCXO). This VCXO provides a clock signal at a nominal frequency of 80 MHz. Actual output frequency varies as a function of multiple factors, and is only specified by the manufacturer with some tolerance. The CVHD-950 is specified with a frequency tolerance of $\pm$4 ppm. Thus, we must design for a reference frequency of 80$\pm$0.000320 MHz. Imagine our target RF carrier frequency is 2452 MHz which implies 2400 MHz$\pm$4 ppm (or 2400$\pm$0.009600 MHz).\\
-The worst case CFO will occur when the transmit and receive nodes operate at opposite ends of this range. Thus, for operation in the 2.4 GHz band our OFDM transceiver design must be ready to handle any carrier frequency offset up to $\approx$20 kHz.
-
-
-\section{Time Domain CFO Correction}
-Prevention of the degradation of CFO, the receiver should estimate and correct the offset in the time domain before the FFT block. The FFT block translates the received signal into the frequency. Regarding to the variety issue of OFDM, many estimation algorithms have been proposed.\\
-
-\section{System Analysis by Simulation}
-\label{sec_anasim}
-
-\section{Carrier Frequency Offsets}
-\label{sec_simstruct}
-As a result of the frequency variation between local oscillators of the transmitter and the receiver nodes that generate the carrier signals, carrier frequency offsets (CFO) is happened. It causes when the baseband signal is going to be translated to RF. The issue is understood well but the impact to overcome CFO and suppression this phenomena is always depend on the specific parameters of the given transceiver and the hardware.\\
-The origin of the CFO effect is studied in this section. We explore in a specific scenario of OFDM and the impact on the hardware design. Both simulation and experiments will be demonstrated and the CFO estimation and compensation is described.\\
 
 \subsection{Origin of CFO}
 A simple model of a radio transmitter and receiver can depict the basis of the CFO source.

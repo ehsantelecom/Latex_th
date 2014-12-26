@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.6)  24 DEC 2014 19:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.6)  25 DEC 2014 18:57
 entering extended mode
 **report.tex
 (C:\Users\mbaratva\Desktop\thesis\CDC\report.tex
@@ -247,12 +247,6 @@ Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 )
 (C:\Users\mbaratva\Desktop\thesis\CDC\report.aux
 
-LaTeX Warning: Label `sec_simstruct' multiply defined.
-
-
-LaTeX Warning: Label `sec_anasim' multiply defined.
-
-
 LaTeX Warning: Label `autocorrblock' multiply defined.
 
 
@@ -315,7 +309,7 @@ LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <24.88> not available
 LaTeX Font Info:    Font shape `OT1/pbk/m/n' in size <17.28> not available
 (Font)              Font shape `OT1/pbk/l/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/pbk/m/it' in size <12> not available
-(Font)              Font shape `OT1/pbk/l/it' tried instead on input line 25.
+(Font)              Font shape `OT1/pbk/l/it' tried instead on input line 24.
 Missing character: There is no â in font pbkl7t!
 Missing character: There is no € in font pbkl7t!
 Missing character: There is no ™ in font pbkl7t!
@@ -323,13 +317,13 @@ Missing character: There is no â in font pbkl7t!
 Missing character: There is no € in font pbkl7t!
 Missing character: There is no ™ in font pbkl7t!
 
-Overfull \hbox (7.61119pt too wide) in paragraph at lines 25--29
+Overfull \hbox (7.61119pt too wide) in paragraph at lines 24--28
 \OT1/pbk/l/n/12 op-ti-mum im-ple-men-ta-tion of on FPGA, for in-stance Cross-Co
 rrelation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--29
+Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
  []
 
@@ -340,18 +334,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--29
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/pag/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <17.28> not available
-(Font)              Font shape `OT1/pag/db/n' tried instead on input line 33.
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 32.
 
 (C:\Users\mbaratva\Desktop\thesis\CDC\report.toc
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/pag/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <14.4> not available
 (Font)              Font shape `OT1/pag/db/n' tried instead on input line 2.
- [3])
+)
 \tf@toc=\write3
- [4]
+ [3]
 (C:\Users\mbaratva\Desktop\thesis\CDC\content/part1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
@@ -372,7 +366,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-[5]
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
@@ -397,7 +391,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[6]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
@@ -413,7 +407,7 @@ File: omspbk.fd
 )
 LaTeX Font Info:    Font shape `OMS/pbk/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
- [7]) [8]
+ [6]) [7]
 (C:\Users\mbaratva\Desktop\thesis\CDC\content/part2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
@@ -429,435 +423,493 @@ Overfull \hbox (31.25987pt too wide) in paragraph at lines 45--45
 [] 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-<content/fig/basic_ofdm_design.JPG, id=43, 506.6428pt x 284.56313pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+<content/fig/ofdmmodel1.JPG, id=40, 763.35187pt x 444.15938pt>
+File: content/fig/ofdmmodel1.JPG Graphic file (type jpg)
+
+<use content/fig/ofdmmodel1.JPG>
+Package pdftex.def Info: content/fig/ofdmmodel1.JPG used on input line 61.
+(pdftex.def)             Requested size: 448.13095pt x 260.74373pt.
+
+<content/fig/ofdmmodel2.JPG, id=41, 724.20563pt x 429.10312pt>
+File: content/fig/ofdmmodel2.JPG Graphic file (type jpg)
+
+<use content/fig/ofdmmodel2.JPG>
+Package pdftex.def Info: content/fig/ofdmmodel2.JPG used on input line 62.
+(pdftex.def)             Requested size: 448.13095pt x 265.53047pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--72
+
+ []
+
+[9] [10 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdmmodel1.JPG> <C:/U
+sers/mbaratva/Desktop/thesis/CDC/content/fig/ofdmmodel2.JPG>]
+<content/fig/basic_ofdm_design.JPG, id=48, 506.6428pt x 284.56313pt>
 File: content/fig/basic_ofdm_design.JPG Graphic file (type jpg)
 
 <use content/fig/basic_ofdm_design.JPG>
-Package pdftex.def Info: content/fig/basic_ofdm_design.JPG used on input line 5
-9.
+Package pdftex.def Info: content/fig/basic_ofdm_design.JPG used on input line 7
+4.
 (pdftex.def)             Requested size: 341.43306pt x 191.77655pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-[10 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/basic_ofdm_design.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 77--80
+[11 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/basic_ofdm_design.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
 
  []
 
-<content/fig/ieee_system_design.JPG, id=47, 516.42938pt x 292.09125pt>
+<content/fig/ieee_system_design.JPG, id=52, 516.42938pt x 292.09125pt>
 File: content/fig/ieee_system_design.JPG Graphic file (type jpg)
 
 <use content/fig/ieee_system_design.JPG>
 Package pdftex.def Info: content/fig/ieee_system_design.JPG used on input line 
-89.
+104.
 (pdftex.def)             Requested size: 341.43306pt x 193.11954pt.
- [11]
-Underfull \hbox (badness 10000) in paragraph at lines 93--99
+ [12 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ieee_system_design.JPG>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--104
-
- []
-
-[12 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ieee_system_design.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-<content/fig/oversample.JPG, id=54, 508.90125pt x 102.3825pt>
-File: content/fig/oversample.JPG Graphic file (type jpg)
-
-<use content/fig/oversample.JPG>
-Package pdftex.def Info: content/fig/oversample.JPG used on input line 111.
-(pdftex.def)             Requested size: 341.43306pt x 68.69276pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--118
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-[13 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/oversample.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--160
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
-[14] <content/fig/ofdm_frame.JPG, id=62, 508.90125pt x 110.66344pt>
+[13] <content/fig/freq_alloc.JPG, id=60, 566.115pt x 105.39375pt>
+File: content/fig/freq_alloc.JPG Graphic file (type jpg)
+
+<use content/fig/freq_alloc.JPG>
+Package pdftex.def Info: content/fig/freq_alloc.JPG used on input line 136.
+(pdftex.def)             Requested size: 448.13095pt x 83.4306pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+[14 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/freq_alloc.JPG>]
+Overfull \hbox (46.02449pt too wide) in paragraph at lines 179--188
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--222
+
+ []
+
+<content/fig/ofdm_frame.JPG, id=67, 508.90125pt x 110.66344pt>
 File: content/fig/ofdm_frame.JPG Graphic file (type jpg)
 
 <use content/fig/ofdm_frame.JPG>
-Package pdftex.def Info: content/fig/ofdm_frame.JPG used on input line 164.
+Package pdftex.def Info: content/fig/ofdm_frame.JPG used on input line 226.
 (pdftex.def)             Requested size: 341.43306pt x 74.2488pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
 
-<content/fig/ZC706.JPG, id=63, 288.3272pt x 164.11313pt>
+[16 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdm_frame.JPG>]
+<content/fig/cfo_radio_model.JPG, id=71, 468.24937pt x 158.09062pt>
+File: content/fig/cfo_radio_model.JPG Graphic file (type jpg)
+
+<use content/fig/cfo_radio_model.JPG>
+Package pdftex.def Info: content/fig/cfo_radio_model.JPG used on input line 236
+.
+(pdftex.def)             Requested size: 448.13095pt x 151.30693pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+
+ []
+
+[17 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_radio_model.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 271--274
+
+ []
+
+<content/fig/cfo_on_ici.JPG, id=75, 313.17pt x 213.79875pt>
+File: content/fig/cfo_on_ici.JPG Graphic file (type jpg)
+
+<use content/fig/cfo_on_ici.JPG>
+Package pdftex.def Info: content/fig/cfo_on_ici.JPG used on input line 276.
+(pdftex.def)             Requested size: 448.13095pt x 305.94519pt.
+ [18]
+Underfull \hbox (badness 10000) in paragraph at lines 281--284
+
+ []
+
+) [19 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_on_ici.JPG>]
+(C:\Users\mbaratva\Desktop\thesis\CDC\content/part3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
+
+ []
+
+<content/fig/ieee_preamble.JPG, id=83, 322.20375pt x 132.495pt>
+File: content/fig/ieee_preamble.JPG Graphic file (type jpg)
+
+<use content/fig/ieee_preamble.JPG>
+Package pdftex.def Info: content/fig/ieee_preamble.JPG used on input line 18.
+(pdftex.def)             Requested size: 448.13095pt x 184.28677pt.
+ [20]
+<content/fig/system.JPG, id=87, 792.71156pt x 417.05812pt>
+File: content/fig/system.JPG Graphic file (type jpg)
+
+<use content/fig/system.JPG>
+Package pdftex.def Info: content/fig/system.JPG used on input line 28.
+(pdftex.def)             Requested size: 448.13095pt x 235.77191pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+[21 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ieee_preamble.JPG> <C:/Us
+ers/mbaratva/Desktop/thesis/CDC/content/fig/system.JPG>]
+<content/fig/txblock.JPG, id=91, 1024.57782pt x 560.0925pt>
+File: content/fig/txblock.JPG Graphic file (type jpg)
+
+<use content/fig/txblock.JPG>
+Package pdftex.def Info: content/fig/txblock.JPG used on input line 37.
+(pdftex.def)             Requested size: 448.13095pt x 244.9715pt.
+
+<content/fig/rxblock.JPG, id=92, 959.08313pt x 625.58719pt>
+File: content/fig/rxblock.JPG Graphic file (type jpg)
+
+<use content/fig/rxblock.JPG>
+Package pdftex.def Info: content/fig/rxblock.JPG used on input line 44.
+(pdftex.def)             Requested size: 448.13095pt x 292.3078pt.
+ [22 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/txblock.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+[23 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/rxblock.JPG>]
+<content/fig/schimdl_cox.JPG, id=99, 255.95625pt x 82.80937pt>
+File: content/fig/schimdl_cox.JPG Graphic file (type jpg)
+
+<use content/fig/schimdl_cox.JPG>
+Package pdftex.def Info: content/fig/schimdl_cox.JPG used on input line 69.
+(pdftex.def)             Requested size: 448.13095pt x 144.9931pt.
+
+<content/fig/autocorrblock.JPG, id=100, 1011.78pt x 415.5525pt>
+File: content/fig/autocorrblock.JPG Graphic file (type jpg)
+
+<use content/fig/autocorrblock.JPG>
+Package pdftex.def Info: content/fig/autocorrblock.JPG used on input line 77.
+(pdftex.def)             Requested size: 448.13095pt x 184.05475pt.
+
+<content/fig/fine_packetDetect.JPG, id=101, 922.19531pt x 269.50688pt>
+File: content/fig/fine_packetDetect.JPG Graphic file (type jpg)
+
+<use content/fig/fine_packetDetect.JPG>
+Package pdftex.def Info: content/fig/fine_packetDetect.JPG used on input line 8
+3.
+(pdftex.def)             Requested size: 448.13095pt x 130.96152pt.
+ [24 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/schimdl_cox.JPG> <C:/Use
+rs/mbaratva/Desktop/thesis/CDC/content/fig/autocorrblock.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
+
+ []
+
+<content/fig/ZC706.JPG, id=105, 288.3272pt x 164.11313pt>
 File: content/fig/ZC706.JPG Graphic file (type jpg)
 
 <use content/fig/ZC706.JPG>
-Package pdftex.def Info: content/fig/ZC706.JPG used on input line 173.
+Package pdftex.def Info: content/fig/ZC706.JPG used on input line 95.
 (pdftex.def)             Requested size: 341.43306pt x 194.34795pt.
 
-<content/fig/fmcomms1.jpg, id=64, 326.72063pt x 225.84375pt>
+<content/fig/zc706_block_diagram.JPG, id=106, 539.01375pt x 439.6425pt>
+File: content/fig/zc706_block_diagram.JPG Graphic file (type jpg)
+
+<use content/fig/zc706_block_diagram.JPG>
+Package pdftex.def Info: content/fig/zc706_block_diagram.JPG used on input line
+ 100.
+(pdftex.def)             Requested size: 341.43306pt x 278.49232pt.
+ [25 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fine_packetDetect.JPG> <
+C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ZC706.JPG>]
+Overfull \hbox (2.61751pt too wide) in paragraph at lines 106--108
+\OT1/pbk/l/n/12 one of the lat-est gen-er-a-tion high-speed data con-vert-ers. 
+The AD-FMCOMMS1-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
+
+ []
+
+<content/fig/fmcomms1.jpg, id=111, 326.72063pt x 225.84375pt>
 File: content/fig/fmcomms1.jpg Graphic file (type jpg)
 
 <use content/fig/fmcomms1.jpg>
-Package pdftex.def Info: content/fig/fmcomms1.jpg used on input line 179.
+Package pdftex.def Info: content/fig/fmcomms1.jpg used on input line 110.
 (pdftex.def)             Requested size: 284.52756pt x 196.67545pt.
- [15 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdm_frame.JPG> <C:/User
-s/mbaratva/Desktop/thesis/CDC/content/fig/ZC706.JPG>] <content/fig/fmcomms1Bloc
-kdiagram.jpg, id=68, 903.375pt x 433.62pt>
+ [26 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/zc706_block_diagram.JPG>
+]
+<content/fig/fmcomms1Blockdiagram.jpg, id=115, 903.375pt x 433.62pt>
 File: content/fig/fmcomms1Blockdiagram.jpg Graphic file (type jpg)
 
 <use content/fig/fmcomms1Blockdiagram.jpg>
 Package pdftex.def Info: content/fig/fmcomms1Blockdiagram.jpg used on input lin
-e 184.
+e 115.
 (pdftex.def)             Requested size: 426.79134pt x 204.86006pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--191
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
-[16 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fmcomms1.jpg> <C:/Users/m
+[27 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fmcomms1.jpg> <C:/Users/m
 baratva/Desktop/thesis/CDC/content/fig/fmcomms1Blockdiagram.jpg>]
-<content/fig/ad9548BlockDiagram.JPG, id=72, 698.61pt x 423.83344pt>
+<content/fig/ad9548BlockDiagram.JPG, id=119, 698.61pt x 423.83344pt>
 File: content/fig/ad9548BlockDiagram.JPG Graphic file (type jpg)
 
 <use content/fig/ad9548BlockDiagram.JPG>
 Package pdftex.def Info: content/fig/ad9548BlockDiagram.JPG used on input line 
-193.
+124.
 (pdftex.def)             Requested size: 426.79134pt x 258.92604pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--202
+Underfull \hbox (badness 10000) in paragraph at lines 128--133
 
  []
 
-[17 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ad9548BlockDiagram.JPG>]
-<content/fig/cvhd.JPG, id=76, 423.08063pt x 386.19281pt>
+[28 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ad9548BlockDiagram.JPG>]
+<content/fig/cvhd.JPG, id=123, 423.08063pt x 386.19281pt>
 File: content/fig/cvhd.JPG Graphic file (type jpg)
 
 <use content/fig/cvhd.JPG>
-Package pdftex.def Info: content/fig/cvhd.JPG used on input line 204.
+Package pdftex.def Info: content/fig/cvhd.JPG used on input line 135.
 (pdftex.def)             Requested size: 284.52756pt x 259.72603pt.
- [18 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cvhd.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+[29 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cvhd.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 151--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
-<content/fig/cfo_radio_model.JPG, id=80, 468.24937pt x 158.09062pt>
-File: content/fig/cfo_radio_model.JPG Graphic file (type jpg)
+<content/fig/zynq_inside.JPG, id=127, 521.95pt x 576.1525pt>
+File: content/fig/zynq_inside.JPG Graphic file (type jpg)
 
-<use content/fig/cfo_radio_model.JPG>
-Package pdftex.def Info: content/fig/cfo_radio_model.JPG used on input line 230
-.
-(pdftex.def)             Requested size: 448.13095pt x 151.30693pt.
- [19 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_radio_model.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--268
+<use content/fig/zynq_inside.JPG>
+Package pdftex.def Info: content/fig/zynq_inside.JPG used on input line 161.
+(pdftex.def)             Requested size: 448.13095pt x 494.67267pt.
+ [30]
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
-[20] <content/fig/cfo_on_ici.JPG, id=88, 313.17pt x 213.79875pt>
-File: content/fig/cfo_on_ici.JPG Graphic file (type jpg)
+[31 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/zynq_inside.JPG>]
+File: content/fig/zynq_inside.JPG Graphic file (type jpg)
 
-<use content/fig/cfo_on_ici.JPG>
-Package pdftex.def Info: content/fig/cfo_on_ici.JPG used on input line 270.
-(pdftex.def)             Requested size: 448.13095pt x 305.94519pt.
+<use content/fig/zynq_inside.JPG>
+Package pdftex.def Info: content/fig/zynq_inside.JPG used on input line 169.
+(pdftex.def)             Requested size: 448.13095pt x 494.67267pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--278
-
- []
-
-) [21 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_on_ici.JPG>]
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part3.tex
-
-LaTeX Warning: Reference `sec_conclusion' on page 22 undefined on input line 10
-.
-
-
-LaTeX Warning: Reference `sec_optimization' on page 22 undefined on input line 
-10.
-
-[22] (C:\Users\mbaratva\Desktop\thesis\CDC\content/part2_systemmodel.tex
-<content/fig6/ofdmmodel1.JPG, id=95, 763.35187pt x 444.15938pt>
-File: content/fig6/ofdmmodel1.JPG Graphic file (type jpg)
-
-<use content/fig6/ofdmmodel1.JPG>
-Package pdftex.def Info: content/fig6/ofdmmodel1.JPG used on input line 3.
-(pdftex.def)             Requested size: 448.13095pt x 260.74373pt.
-
-<content/fig6/ofdmmodel2.JPG, id=96, 724.20563pt x 429.10312pt>
-File: content/fig6/ofdmmodel2.JPG Graphic file (type jpg)
-
-<use content/fig6/ofdmmodel2.JPG>
-Package pdftex.def Info: content/fig6/ofdmmodel2.JPG used on input line 4.
-(pdftex.def)             Requested size: 448.13095pt x 265.53047pt.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 18--21
+Underfull \hbox (badness 10000) in paragraph at lines 174--176
 
  []
 
-[23] [24 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig6/ofdmmodel1.JPG> <C:
-/Users/mbaratva/Desktop/thesis/CDC/content/fig6/ofdmmodel2.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
+<content/fig/hardware_setup.JPG, id=138, 2055.68pt x 1541.76pt>
+File: content/fig/hardware_setup.JPG Graphic file (type jpg)
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+<use content/fig/hardware_setup.JPG>
+Package pdftex.def Info: content/fig/hardware_setup.JPG used on input line 181.
 
- []
+(pdftex.def)             Requested size: 448.13095pt x 336.0829pt.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--54
-
- []
-
-[25] <content/fig/ieee_preamble.JPG, id=108, 322.20375pt x 132.495pt>
-File: content/fig/ieee_preamble.JPG Graphic file (type jpg)
-
-<use content/fig/ieee_preamble.JPG>
-Package pdftex.def Info: content/fig/ieee_preamble.JPG used on input line 60.
-(pdftex.def)             Requested size: 448.13095pt x 184.28677pt.
- [26 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ieee_preamble.JPG>]
-<content/fig/system.JPG, id=112, 792.71156pt x 417.05812pt>
-File: content/fig/system.JPG Graphic file (type jpg)
-
-<use content/fig/system.JPG>
-Package pdftex.def Info: content/fig/system.JPG used on input line 70.
-(pdftex.def)             Requested size: 448.13095pt x 235.77191pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Underfull \hbox (badness 10000) in paragraph at lines 186--190
 
  []
 
-<content/fig/txblock.JPG, id=113, 1024.57782pt x 560.0925pt>
-File: content/fig/txblock.JPG Graphic file (type jpg)
-
-<use content/fig/txblock.JPG>
-Package pdftex.def Info: content/fig/txblock.JPG used on input line 79.
-(pdftex.def)             Requested size: 448.13095pt x 244.9715pt.
- [27 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/system.JPG>] <content/fi
-g/rxblock.JPG, id=117, 959.08313pt x 625.58719pt>
-File: content/fig/rxblock.JPG Graphic file (type jpg)
-
-<use content/fig/rxblock.JPG>
-Package pdftex.def Info: content/fig/rxblock.JPG used on input line 86.
-(pdftex.def)             Requested size: 448.13095pt x 292.3078pt.
- [28 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/txblock.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
-<content/fig/schimdl_cox.JPG, id=121, 255.95625pt x 82.80937pt>
-File: content/fig/schimdl_cox.JPG Graphic file (type jpg)
-
-<use content/fig/schimdl_cox.JPG>
-Package pdftex.def Info: content/fig/schimdl_cox.JPG used on input line 105.
-(pdftex.def)             Requested size: 448.13095pt x 144.9931pt.
- [29 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/rxblock.JPG>]
-<content/fig/autocorrblock.JPG, id=125, 1011.78pt x 415.5525pt>
-File: content/fig/autocorrblock.JPG Graphic file (type jpg)
-
-<use content/fig/autocorrblock.JPG>
-Package pdftex.def Info: content/fig/autocorrblock.JPG used on input line 113.
-(pdftex.def)             Requested size: 448.13095pt x 184.05475pt.
-
-<content/fig/fine_packetDetect.JPG, id=126, 922.19531pt x 269.50688pt>
-File: content/fig/fine_packetDetect.JPG Graphic file (type jpg)
-
-<use content/fig/fine_packetDetect.JPG>
-Package pdftex.def Info: content/fig/fine_packetDetect.JPG used on input line 1
-19.
-(pdftex.def)             Requested size: 448.13095pt x 130.96152pt.
- [30 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/schimdl_cox.JPG> <C:/Use
-rs/mbaratva/Desktop/thesis/CDC/content/fig/autocorrblock.JPG>]
-<content/fig/ofdmframe_chipscope.JPG, id=130, 810.02625pt x 462.22687pt>
+[33 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/hardware_setup.JPG>]
+<content/fig/ofdmframe_chipscope.JPG, id=142, 810.02625pt x 462.22687pt>
 File: content/fig/ofdmframe_chipscope.JPG Graphic file (type jpg)
 
 <use content/fig/ofdmframe_chipscope.JPG>
 Package pdftex.def Info: content/fig/ofdmframe_chipscope.JPG used on input line
- 128.
+ 195.
 (pdftex.def)             Requested size: 448.13095pt x 255.7208pt.
-
-<content/fig/sts_chipscope.JPG, id=131, 726.46407pt x 441.90094pt>
+ [34]
+<content/fig/sts_chipscope.JPG, id=146, 726.46407pt x 441.90094pt>
 File: content/fig/sts_chipscope.JPG Graphic file (type jpg)
 
 <use content/fig/sts_chipscope.JPG>
-Package pdftex.def Info: content/fig/sts_chipscope.JPG used on input line 134.
+Package pdftex.def Info: content/fig/sts_chipscope.JPG used on input line 201.
 (pdftex.def)             Requested size: 448.13095pt x 272.6002pt.
- [31 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fine_packetDetect.JPG> <
-C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdmframe_chipscope.JPG>]
-<content/fig/crosscorr.JPG, id=136, 855.94781pt x 481.04718pt>
+
+<content/fig/crosscorr.JPG, id=147, 855.94781pt x 481.04718pt>
 File: content/fig/crosscorr.JPG Graphic file (type jpg)
 
 <use content/fig/crosscorr.JPG>
-Package pdftex.def Info: content/fig/crosscorr.JPG used on input line 140.
+Package pdftex.def Info: content/fig/crosscorr.JPG used on input line 207.
 (pdftex.def)             Requested size: 448.13095pt x 251.84889pt.
+ [35 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdmframe_chipscope.JPG>
+ <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/sts_chipscope.JPG>]
+<content/fig/autocorr.JPG, id=151, 752.8125pt x 347.04657pt>
+File: content/fig/autocorr.JPG Graphic file (type jpg)
 
-<content/fig/baseIFAdcDac.JPG, id=137, 1604.99625pt x 1088.065pt>
+<use content/fig/autocorr.JPG>
+Package pdftex.def Info: content/fig/autocorr.JPG used on input line 213.
+(pdftex.def)             Requested size: 448.13095pt x 206.59323pt.
+
+<content/fig/baseIFAdcDac.JPG, id=152, 1604.99625pt x 1088.065pt>
 File: content/fig/baseIFAdcDac.JPG Graphic file (type jpg)
 
 <use content/fig/baseIFAdcDac.JPG>
-Package pdftex.def Info: content/fig/baseIFAdcDac.JPG used on input line 147.
+Package pdftex.def Info: content/fig/baseIFAdcDac.JPG used on input line 219.
 (pdftex.def)             Requested size: 448.13095pt x 303.7928pt.
- [32 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/sts_chipscope.JPG> <C:/U
-sers/mbaratva/Desktop/thesis/CDC/content/fig/crosscorr.JPG>] <content/fig/RfIF.
-JPG, id=141, 1604.99625pt x 1088.065pt>
+ [36 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/crosscorr.JPG> <C:/Users
+/mbaratva/Desktop/thesis/CDC/content/fig/autocorr.JPG>] <content/fig/RfIF.JPG, 
+id=156, 1604.99625pt x 1088.065pt>
 File: content/fig/RfIF.JPG Graphic file (type jpg)
 
 <use content/fig/RfIF.JPG>
-Package pdftex.def Info: content/fig/RfIF.JPG used on input line 153.
+Package pdftex.def Info: content/fig/RfIF.JPG used on input line 225.
 (pdftex.def)             Requested size: 448.13095pt x 303.7928pt.
- [33 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/baseIFAdcDac.JPG>]
-<content/fig/Rfbase.JPG, id=145, 1604.99625pt x 1088.065pt>
+ [37 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/baseIFAdcDac.JPG>]
+<content/fig/Rfbase.JPG, id=161, 1604.99625pt x 1088.065pt>
 File: content/fig/Rfbase.JPG Graphic file (type jpg)
 
 <use content/fig/Rfbase.JPG>
-Package pdftex.def Info: content/fig/Rfbase.JPG used on input line 159.
+Package pdftex.def Info: content/fig/Rfbase.JPG used on input line 231.
 (pdftex.def)             Requested size: 448.13095pt x 303.7928pt.
- [34 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/RfIF.JPG>]
-<content/fig/h_mag_chipscope.JPG, id=149, 395.97937pt x 479.54156pt>
-File: content/fig/h_mag_chipscope.JPG Graphic file (type jpg)
+ [38 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/RfIF.JPG>]
+<content/fig/h_mag_chipscope_noChannel.JPG, id=165, 646.66594pt x 446.41782pt>
+File: content/fig/h_mag_chipscope_noChannel.JPG Graphic file (type jpg)
 
-<use content/fig/h_mag_chipscope.JPG>
-Package pdftex.def Info: content/fig/h_mag_chipscope.JPG used on input line 165
-.
-(pdftex.def)             Requested size: 448.13095pt x 542.70982pt.
+<use content/fig/h_mag_chipscope_noChannel.JPG>
+Package pdftex.def Info: content/fig/h_mag_chipscope_noChannel.JPG used on inpu
+t line 237.
+(pdftex.def)             Requested size: 448.13095pt x 309.36372pt.
+ [39 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/Rfbase.JPG>]
+<content/fig/h_mag_chipscope_rf_detect.JPG, id=169, 643.6547pt x 441.90094pt>
+File: content/fig/h_mag_chipscope_rf_detect.JPG Graphic file (type jpg)
 
-Underfull \hbox (badness 1917) in paragraph at lines 166--166
-[]\OT1/pbk/l/n/12 Frequency Re-sponse of a semi-perfect chan-nel de-tected in
- []
+<use content/fig/h_mag_chipscope_rf_detect.JPG>
+Package pdftex.def Info: content/fig/h_mag_chipscope_rf_detect.JPG used on inpu
+t line 243.
+(pdftex.def)             Requested size: 448.13095pt x 307.67654pt.
+ [40 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/h_mag_chipscope_noChanne
+l.JPG>]
+<content/fig/OfdmSym_16qam_1_2_code_64byte.JPG, id=173, 746.79pt x 335.00156pt>
+File: content/fig/OfdmSym_16qam_1_2_code_64byte.JPG Graphic file (type jpg)
+<use content/fig/OfdmSym_16qam_1_2_code_64byte.JPG>
+Package pdftex.def Info: content/fig/OfdmSym_16qam_1_2_code_64byte.JPG used on 
+input line 249.
+(pdftex.def)             Requested size: 448.13095pt x 201.02803pt.
 
-[35 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/Rfbase.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
+<content/fig/OfdmSym_16qam_no_code_64byte.JPG, id=174, 746.79pt x 336.50719pt>
+File: content/fig/OfdmSym_16qam_no_code_64byte.JPG Graphic file (type jpg)
 
- []
-
-[36 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/h_mag_chipscope.JPG>]
-<content/fig/zynq_inside.JPG, id=156, 521.95pt x 576.1525pt>
-File: content/fig/zynq_inside.JPG Graphic file (type jpg)
-
-<use content/fig/zynq_inside.JPG>
-Package pdftex.def Info: content/fig/zynq_inside.JPG used on input line 176.
-(pdftex.def)             Requested size: 448.13095pt x 494.67267pt.
- [37]
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
-
- []
-
-[38 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/zynq_inside.JPG>]
-File: content/fig/zynq_inside.JPG Graphic file (type jpg)
-
-<use content/fig/zynq_inside.JPG>
-Package pdftex.def Info: content/fig/zynq_inside.JPG used on input line 184.
-(pdftex.def)             Requested size: 448.13095pt x 494.67267pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--191
-
- []
-
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+<use content/fig/OfdmSym_16qam_no_code_64byte.JPG>
+Package pdftex.def Info: content/fig/OfdmSym_16qam_no_code_64byte.JPG used on i
+nput line 255.
+(pdftex.def)             Requested size: 448.13095pt x 201.93153pt.
+ [41 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/h_mag_chipscope_rf_detec
+t.JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/OfdmSym_16qam_1_2_code
+_64byte.JPG>]) [42 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/OfdmSym_16
+qam_no_code_64byte.JPG>]
+(C:\Users\mbaratva\Desktop\thesis\CDC\content/part4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<content/fig/hardware_setup.JPG, id=167, 2055.68pt x 1541.76pt>
-File: content/fig/hardware_setup.JPG Graphic file (type jpg)
-
-<use content/fig/hardware_setup.JPG>
-Package pdftex.def Info: content/fig/hardware_setup.JPG used on input line 196.
-
-(pdftex.def)             Requested size: 448.13095pt x 336.0829pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--205
-
- []
-
-[40 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/hardware_setup.JPG>])
-[41] (C:\Users\mbaratva\Desktop\thesis\CDC\content/part4.tex) [42]
-(C:\Users\mbaratva\Desktop\thesis\CDC\report.aux)
-
-LaTeX Warning: There were undefined references.
-
+) [43] (C:\Users\mbaratva\Desktop\thesis\CDC\report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3990 strings out of 493921
- 59269 string characters out of 3144867
- 162600 words of memory out of 3000000
- 7194 multiletter control sequences out of 15000+200000
+ 4024 strings out of 493921
+ 60277 string characters out of 3144867
+ 162758 words of memory out of 3000000
+ 7227 multiletter control sequences out of 15000+200000
  21395 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,23n,55p,1027b,273s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,23n,55p,1027b,271s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/urw/bookman/ubkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
-bookman/ubkl8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/u
-bkli8a.pfb>
-Output written on report.pdf (42 pages, 3685300 bytes).
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/urw/bookman/ubkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bo
+okman/ubkl8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubk
+li8a.pfb>
+Output written on report.pdf (43 pages, 4090902 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
+ 229 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
