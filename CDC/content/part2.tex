@@ -92,6 +92,7 @@ s_{k}(t)=
 where $T_{g}$ is the guard interval duration, $T_{sym}= T+ T_{g}$ is the OFDM symbol period,
 symbol starting time $t_{s}= kT_{sym}$, and $w(t-t_{s})$ is the pulse shaping window, which is
 usually a raised cosine filter, and $\beta$ is the roll-off factor.\\
+The OFDM mechanism is used in 802.11 and Wimax standards. It has good tolerance against multipath and the receiver is easier to implement. We will see the details of implementations in practical systems.\\
 
 
 \section{OFDM Specifications in IEEE 802.11a Standard}
@@ -281,5 +282,19 @@ The impact is displayed in Figure \ref{cfo_impact_on_ici} which is shown simulat
 The results shows that for large CFOs errors caused by ICI dominate performance, even at high SNR. It is also
 clear that for small CFOs performance is dominated by SNR. Specifically, for frequency offsets smaller than 1 kHz, the
 performance degradation due to ICI is negligible.\\
+Let's focus on LTS part in a OFDM symbol, Figure \ref{sym_ofdm}, for a while. In time domain, we have 160 samples in this section which creates to complete LTS symbols and a half. Each LTS symbol has 64 samples shown in Figure \ref{lts_time_domain}.\\
 
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/LTS_time_domain.JPG}
+\captionof{figure}{LTS in Time Domain.}
+\label{lts_time_domain}
+\end{center}
 
+We can say:
+\begin{equation} \label{cfo_cal}
+\begin{split}
+CFO \approx (\phi_{64}- \phi_{0})\\
+CFO_{EST}= \frac{f_{s}}{2\pi 64^{2}} 
+
+\end{split}
+\end{equation}

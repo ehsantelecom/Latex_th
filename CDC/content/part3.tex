@@ -166,7 +166,7 @@ As you can see in Figure \ref{zynq_inside} the foundation of Zynq-7000 is divide
 The block diagram of the design is illustrated in Figure \ref{design_block_diagram}. We activate one of the ARM processors. In the TX chain, a PC sends a packet data via the Ethernet port to Zynq-7000. The EMAC block receives the packet and DMA it into the RX Block RAM which is divided into $32$ bank with size of $2K \times 64-bit$ which realize a Circular Buffer to relief the burst data stream enters from the asynchronous Ethernet port. As the OFDM block works in $40 MHz$ and each $2K$ block reading takes maximum $50\mu s$ for the EMAC and OFDM-PHY pessimistically, the tolerance of the Ethernet stream will be $\dfrac{32 \times \ 64b}{50\mu s} = 40Mbps$ which proves good number of banks. The offset pointer of reading and writing by DMA MAC which is govern under a scatter-gather scheme and the OFDM-PHY is controlled by the ARM.\\
 
 \begin{center}
-\includegraphics[width=\textwidth]{content/fig/zynq_inside.JPG}
+\includegraphics[width=\textwidth]{content/fig/fpga_internal.JPG}
 \captionof{figure}{Design Block Diagram}
 \label{design_block_diagram}
 \end{center}
