@@ -294,7 +294,15 @@ We can say:
 \begin{equation} \label{cfo_cal}
 \begin{split}
 CFO \approx (\phi_{64}- \phi_{0})\\
-CFO_{EST}= \frac{f_{s}}{2\pi 64^{2}} 
-
+CFO_{EST} = \frac{f_{s}}{2\pi . 64^{2}} \sum\limits_{n=64}^{127} \phi_{n}- \phi_{(n-64)}\\
 \end{split}
 \end{equation}
+
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/cfo_est.JPG}
+\captionof{figure}{Time Domain CFO Estimation.}
+\label{cfo_est}
+\end{center}
+
+Which $CFO_{EST}$ is the estimated CFO. To have such the structure in the Simulink we can arrange as Figure \ref{cfo_est}.

@@ -1,9 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.22)  27 DEC 2014 13:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.6)  1 JAN 2015 16:35
 entering extended mode
 **report.tex
-
-("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\report.te
-x"
+(C:\Users\mbaratva\Desktop\thesis\CDC\report.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,27 +13,27 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls"
 Document Class: scrartcl 2013/12/19 v3.12 KOMA-Script document class (article)
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
 Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
 Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
 Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
 
 Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
+))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
 Package: tocbasic 2013/12/19 v3.12 KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
@@ -69,11 +67,11 @@ Package scrbase Info: Unknown processing state.
 Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
 ine 1531.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrsize12pt.clo"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrsize12pt.clo"
 File: scrsize12pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (12pt
 )
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
 Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
 
 Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
@@ -128,19 +126,19 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count86
 \c@table=\count87
 \bibindent=\dimen102
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
 Language: english 2005/03/30 v3.3o English support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
@@ -149,30 +147,30 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\bookman.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\bookman.sty"
 Package: bookman 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
@@ -180,24 +178,24 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip48
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen106
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen107
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count90
@@ -238,8 +236,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\report.au
-x"
+(C:\Users\mbaratva\Desktop\thesis\CDC\report.aux
 
 LaTeX Warning: Label `autocorrblock' multiply defined.
 
@@ -260,13 +257,13 @@ LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Try loading font information for OT1+pbk on input line 11.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pbk.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pbk.fd"
 File: ot1pbk.fd 2001/06/04 font definitions for OT1/pbk.
 )
 LaTeX Font Info:    Font shape `OT1/pbk/m/n' in size <12> not available
 (Font)              Font shape `OT1/pbk/l/n' tried instead on input line 11.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count102
 \scratchdimen=\dimen115
@@ -289,7 +286,7 @@ LaTeX Font Info:    Font shape `OT1/pbk/bx/n' in size <17.28> not available
 LaTeX Font Info:    Font shape `OT1/pbk/b/n' in size <17.28> not available
 (Font)              Font shape `OT1/pbk/db/n' tried instead on input line 19.
 LaTeX Font Info:    Try loading font information for OT1+pag on input line 19.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pag.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pag.fd"
 File: ot1pag.fd 2001/06/04 font definitions for OT1/pag.
 )
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <12> not available
@@ -326,15 +323,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--26
 
 
 
-{C:/Documents and Settings/All Users/Application Data/MiKTeX/2.9/pdftex/config/
-pdftex.map}] [2]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/pag/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <17.28> not available
 (Font)              Font shape `OT1/pag/db/n' tried instead on input line 30.
 
-("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\report.to
-c"
+(C:\Users\mbaratva\Desktop\thesis\CDC\report.toc
 LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/pag/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <14.4> not available
@@ -342,8 +337,7 @@ LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <14.4> not available
 )
 \tf@toc=\write3
  [3]
-("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\content/p
-art1.tex"
+(C:\Users\mbaratva\Desktop\thesis\CDC\content/part1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -399,14 +393,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
  []
 
 LaTeX Font Info:    Try loading font information for OMS+pbk on input line 37.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspbk.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspbk.fd"
 File: omspbk.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pbk/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
  [6]) [7]
-("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\content/p
-art2.tex"
+(C:\Users\mbaratva\Desktop\thesis\CDC\content/part2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -449,9 +442,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--72
 
  []
 
-[9] [10 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/co
-ntent/fig/ofdmmodel1.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-mast
-er/Latex_th/CDC/content/fig/ofdmmodel2.JPG>]
+[9] [10 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdmmodel1.JPG> <C:/U
+sers/mbaratva/Desktop/thesis/CDC/content/fig/ofdmmodel2.JPG>]
 <content/fig/basic_ofdm_design.JPG, id=48, 506.6428pt x 284.56313pt>
 File: content/fig/basic_ofdm_design.JPG Graphic file (type jpg)
 
@@ -464,14 +456,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-[11 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
-t/fig/basic_ofdm_design.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 92--95
+[11 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/basic_ofdm_design.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 92--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
 
@@ -480,134 +471,143 @@ File: content/fig/ieee_system_design.JPG Graphic file (type jpg)
 
 <use content/fig/ieee_system_design.JPG>
 Package pdftex.def Info: content/fig/ieee_system_design.JPG used on input line 
-104.
+105.
 (pdftex.def)             Requested size: 341.43306pt x 193.11954pt.
- [12 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
-nt/fig/ieee_system_design.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--114
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 109--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--119
+Underfull \hbox (badness 10000) in paragraph at lines 116--120
+
+ []
+
+[13 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ieee_system_design.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-
- []
-
-[13] <content/fig/freq_alloc.JPG, id=60, 566.115pt x 105.39375pt>
+<content/fig/freq_alloc.JPG, id=60, 525.46312pt x 158.09062pt>
 File: content/fig/freq_alloc.JPG Graphic file (type jpg)
 
 <use content/fig/freq_alloc.JPG>
-Package pdftex.def Info: content/fig/freq_alloc.JPG used on input line 136.
-(pdftex.def)             Requested size: 448.13095pt x 83.4306pt.
+Package pdftex.def Info: content/fig/freq_alloc.JPG used on input line 137.
+(pdftex.def)             Requested size: 448.13095pt x 134.82874pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
+
+ []
+
+[14 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/freq_alloc.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-
- []
-
-[14 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
-t/fig/freq_alloc.JPG>]
-Overfull \hbox (46.02449pt too wide) in paragraph at lines 179--188
+Overfull \hbox (46.02449pt too wide) in paragraph at lines 180--189
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--222
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
-<content/fig/ofdm_frame.JPG, id=67, 508.90125pt x 110.66344pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--223
+
+ []
+
+[16] <content/fig/ofdm_frame.JPG, id=70, 508.90125pt x 110.66344pt>
 File: content/fig/ofdm_frame.JPG Graphic file (type jpg)
 
 <use content/fig/ofdm_frame.JPG>
-Package pdftex.def Info: content/fig/ofdm_frame.JPG used on input line 226.
+Package pdftex.def Info: content/fig/ofdm_frame.JPG used on input line 227.
 (pdftex.def)             Requested size: 341.43306pt x 74.2488pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
-[16 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
-t/fig/ofdm_frame.JPG>]
 <content/fig/cfo_radio_model.JPG, id=71, 468.24937pt x 158.09062pt>
 File: content/fig/cfo_radio_model.JPG Graphic file (type jpg)
 
 <use content/fig/cfo_radio_model.JPG>
-Package pdftex.def Info: content/fig/cfo_radio_model.JPG used on input line 236
+Package pdftex.def Info: content/fig/cfo_radio_model.JPG used on input line 237
 .
 (pdftex.def)             Requested size: 448.13095pt x 151.30693pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
-
- []
-
-[17 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
-t/fig/cfo_radio_model.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 271--274
+ [17 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdm_frame.JPG> <C:/User
+s/mbaratva/Desktop/thesis/CDC/content/fig/cfo_radio_model.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
-<content/fig/cfo_on_ici.JPG, id=75, 313.17pt x 213.79875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--275
+
+ []
+
+[18] <content/fig/cfo_on_ici.JPG, id=78, 313.17pt x 213.79875pt>
 File: content/fig/cfo_on_ici.JPG Graphic file (type jpg)
 
 <use content/fig/cfo_on_ici.JPG>
-Package pdftex.def Info: content/fig/cfo_on_ici.JPG used on input line 276.
+Package pdftex.def Info: content/fig/cfo_on_ici.JPG used on input line 277.
 (pdftex.def)             Requested size: 448.13095pt x 305.94519pt.
- [18]
-Underfull \hbox (badness 10000) in paragraph at lines 281--284
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--286
 
  []
 
-) [19 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/cont
-ent/fig/cfo_on_ici.JPG>]
-("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\content/p
-art3.tex"
+<content/fig/LTS_time_domain.JPG, id=79, 355.3275pt x 109.1578pt>
+File: content/fig/LTS_time_domain.JPG Graphic file (type jpg)
+
+<use content/fig/LTS_time_domain.JPG>
+Package pdftex.def Info: content/fig/LTS_time_domain.JPG used on input line 288
+.
+(pdftex.def)             Requested size: 448.13095pt x 137.67279pt.
+ [19 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_on_ici.JPG>]
+<content/fig/cfo_est.JPG, id=84, 670.75594pt x 118.19156pt>
+File: content/fig/cfo_est.JPG Graphic file (type jpg)
+
+<use content/fig/cfo_est.JPG>
+Package pdftex.def Info: content/fig/cfo_est.JPG used on input line 303.
+(pdftex.def)             Requested size: 448.13095pt x 78.9625pt.
+) [20 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/LTS_time_domain.JPG> <C
+:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_est.JPG>] (C:\Users\mbaratv
+a\Desktop\thesis\CDC\content/part3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--13
 
  []
 
-<content/fig/ieee_preamble.JPG, id=83, 322.20375pt x 132.495pt>
+<content/fig/ieee_preamble.JPG, id=88, 322.20375pt x 132.495pt>
 File: content/fig/ieee_preamble.JPG Graphic file (type jpg)
 
 <use content/fig/ieee_preamble.JPG>
 Package pdftex.def Info: content/fig/ieee_preamble.JPG used on input line 18.
 (pdftex.def)             Requested size: 448.13095pt x 184.28677pt.
- [20]
-<content/fig/system.JPG, id=87, 792.71156pt x 417.05812pt>
+ [21]
+<content/fig/system.JPG, id=92, 792.71156pt x 417.05812pt>
 File: content/fig/system.JPG Graphic file (type jpg)
 
 <use content/fig/system.JPG>
@@ -618,24 +618,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
-[21 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
-t/fig/ieee_preamble.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-maste
-r/Latex_th/CDC/content/fig/system.JPG>]
-<content/fig/txblock.JPG, id=91, 1024.57782pt x 560.0925pt>
+[22 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ieee_preamble.JPG> <C:/Us
+ers/mbaratva/Desktop/thesis/CDC/content/fig/system.JPG>]
+<content/fig/txblock.JPG, id=96, 1024.57782pt x 560.0925pt>
 File: content/fig/txblock.JPG Graphic file (type jpg)
 
 <use content/fig/txblock.JPG>
 Package pdftex.def Info: content/fig/txblock.JPG used on input line 37.
 (pdftex.def)             Requested size: 448.13095pt x 244.9715pt.
 
-<content/fig/rxblock.JPG, id=92, 959.08313pt x 625.58719pt>
+<content/fig/rxblock.JPG, id=97, 959.08313pt x 625.58719pt>
 File: content/fig/rxblock.JPG Graphic file (type jpg)
 
 <use content/fig/rxblock.JPG>
 Package pdftex.def Info: content/fig/rxblock.JPG used on input line 44.
 (pdftex.def)             Requested size: 448.13095pt x 292.3078pt.
- [22 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
-nt/fig/txblock.JPG>]
+ [23 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/txblock.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
@@ -645,53 +643,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-[23 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
-t/fig/rxblock.JPG>]
-<content/fig/schimdl_cox.JPG, id=99, 255.95625pt x 82.80937pt>
+[24 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/rxblock.JPG>]
+<content/fig/schimdl_cox.JPG, id=104, 255.95625pt x 82.80937pt>
 File: content/fig/schimdl_cox.JPG Graphic file (type jpg)
 
 <use content/fig/schimdl_cox.JPG>
 Package pdftex.def Info: content/fig/schimdl_cox.JPG used on input line 69.
 (pdftex.def)             Requested size: 448.13095pt x 144.9931pt.
 
-<content/fig/autocorrblock.JPG, id=100, 1011.78pt x 415.5525pt>
+<content/fig/autocorrblock.JPG, id=105, 1011.78pt x 415.5525pt>
 File: content/fig/autocorrblock.JPG Graphic file (type jpg)
 
 <use content/fig/autocorrblock.JPG>
 Package pdftex.def Info: content/fig/autocorrblock.JPG used on input line 77.
 (pdftex.def)             Requested size: 448.13095pt x 184.05475pt.
 
-<content/fig/fine_packetDetect.JPG, id=101, 922.19531pt x 269.50688pt>
+<content/fig/fine_packetDetect.JPG, id=106, 922.19531pt x 269.50688pt>
 File: content/fig/fine_packetDetect.JPG Graphic file (type jpg)
 
 <use content/fig/fine_packetDetect.JPG>
 Package pdftex.def Info: content/fig/fine_packetDetect.JPG used on input line 8
 3.
 (pdftex.def)             Requested size: 448.13095pt x 130.96152pt.
- [24 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
-nt/fig/schimdl_cox.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-master
-/Latex_th/CDC/content/fig/autocorrblock.JPG>]
+ [25 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/schimdl_cox.JPG> <C:/Use
+rs/mbaratva/Desktop/thesis/CDC/content/fig/autocorrblock.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
  []
 
-<content/fig/ZC706.JPG, id=105, 288.3272pt x 164.11313pt>
+<content/fig/ZC706.JPG, id=111, 288.3272pt x 164.11313pt>
 File: content/fig/ZC706.JPG Graphic file (type jpg)
 
 <use content/fig/ZC706.JPG>
 Package pdftex.def Info: content/fig/ZC706.JPG used on input line 95.
 (pdftex.def)             Requested size: 341.43306pt x 194.34795pt.
 
-<content/fig/zc706_block_diagram.JPG, id=106, 539.01375pt x 439.6425pt>
+<content/fig/zc706_block_diagram.JPG, id=112, 539.01375pt x 439.6425pt>
 File: content/fig/zc706_block_diagram.JPG Graphic file (type jpg)
 
 <use content/fig/zc706_block_diagram.JPG>
 Package pdftex.def Info: content/fig/zc706_block_diagram.JPG used on input line
  100.
 (pdftex.def)             Requested size: 341.43306pt x 278.49232pt.
- [25 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
-nt/fig/fine_packetDetect.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-
-master/Latex_th/CDC/content/fig/ZC706.JPG>]
+ [26 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fine_packetDetect.JPG> <
+C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ZC706.JPG>]
 Overfull \hbox (2.61751pt too wide) in paragraph at lines 106--108
 \OT1/pbk/l/n/12 one of the lat-est gen-er-a-tion high-speed data con-vert-ers. 
 The AD-FMCOMMS1-
@@ -702,15 +697,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-<content/fig/fmcomms1.jpg, id=111, 326.72063pt x 225.84375pt>
+<content/fig/fmcomms1.jpg, id=116, 326.72063pt x 225.84375pt>
 File: content/fig/fmcomms1.jpg Graphic file (type jpg)
 
 <use content/fig/fmcomms1.jpg>
 Package pdftex.def Info: content/fig/fmcomms1.jpg used on input line 110.
 (pdftex.def)             Requested size: 284.52756pt x 196.67545pt.
- [26 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
-nt/fig/zc706_block_diagram.JPG>]
-<content/fig/fmcomms1Blockdiagram.jpg, id=115, 903.375pt x 433.62pt>
+ [27 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/zc706_block_diagram.JPG>
+]
+<content/fig/fmcomms1Blockdiagram.jpg, id=120, 903.375pt x 433.62pt>
 File: content/fig/fmcomms1Blockdiagram.jpg Graphic file (type jpg)
 
 <use content/fig/fmcomms1Blockdiagram.jpg>
@@ -722,10 +717,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
-[27 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
-t/fig/fmcomms1.jpg> <C:/Documents and Settings/User/Desktop/Latex_th-master/Lat
-ex_th/CDC/content/fig/fmcomms1Blockdiagram.jpg>]
-<content/fig/ad9548BlockDiagram.JPG, id=119, 698.61pt x 423.83344pt>
+[28 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fmcomms1.jpg> <C:/Users/m
+baratva/Desktop/thesis/CDC/content/fig/fmcomms1Blockdiagram.jpg>]
+<content/fig/ad9548BlockDiagram.JPG, id=124, 698.61pt x 423.83344pt>
 File: content/fig/ad9548BlockDiagram.JPG Graphic file (type jpg)
 
 <use content/fig/ad9548BlockDiagram.JPG>
@@ -737,9 +731,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--133
 
  []
 
-[28 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
-t/fig/ad9548BlockDiagram.JPG>]
-<content/fig/cvhd.JPG, id=123, 423.08063pt x 386.19281pt>
+[29 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ad9548BlockDiagram.JPG>]
+<content/fig/cvhd.JPG, id=128, 423.08063pt x 386.19281pt>
 File: content/fig/cvhd.JPG Graphic file (type jpg)
 
 <use content/fig/cvhd.JPG>
@@ -750,8 +743,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-[29 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
-t/fig/cvhd.JPG>]
+[30 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cvhd.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 151--153
 
  []
@@ -761,20 +753,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
-<content/fig/zynq_inside.JPG, id=127, 521.95pt x 576.1525pt>
+<content/fig/zynq_inside.JPG, id=132, 521.95pt x 576.1525pt>
 File: content/fig/zynq_inside.JPG Graphic file (type jpg)
 
 <use content/fig/zynq_inside.JPG>
 Package pdftex.def Info: content/fig/zynq_inside.JPG used on input line 161.
 (pdftex.def)             Requested size: 448.13095pt x 494.67267pt.
- [30]
+ [31]
 Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
-[31 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
-t/fig/zynq_inside.JPG>]
-<content/fig/fpga_internal.JPG, id=135, 540.51938pt x 238.64156pt>
+[32 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/zynq_inside.JPG>]
+<content/fig/fpga_internal.JPG, id=140, 540.51938pt x 238.64156pt>
 File: content/fig/fpga_internal.JPG Graphic file (type jpg)
 
 <use content/fig/fpga_internal.JPG>
@@ -790,22 +781,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
-<content/fig/hardware_setup.JPG, id=136, 2055.68pt x 1541.76pt>
+<content/fig/hardware_setup.JPG, id=141, 2055.68pt x 1541.76pt>
 File: content/fig/hardware_setup.JPG Graphic file (type jpg)
 
 <use content/fig/hardware_setup.JPG>
 Package pdftex.def Info: content/fig/hardware_setup.JPG used on input line 181.
 
 (pdftex.def)             Requested size: 448.13095pt x 336.0829pt.
- [32 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
-nt/fig/fpga_internal.JPG>]
+ [33 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fpga_internal.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 186--190
 
  []
 
-[33 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
-t/fig/hardware_setup.JPG>]
-<content/fig/ofdmframe_chipscope.JPG, id=143, 810.02625pt x 462.22687pt>
+[34 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/hardware_setup.JPG>]
+<content/fig/ofdmframe_chipscope.JPG, id=148, 810.02625pt x 462.22687pt>
 File: content/fig/ofdmframe_chipscope.JPG Graphic file (type jpg)
 
 <use content/fig/ofdmframe_chipscope.JPG>
@@ -813,128 +802,121 @@ Package pdftex.def Info: content/fig/ofdmframe_chipscope.JPG used on input line
  195.
 (pdftex.def)             Requested size: 448.13095pt x 255.7208pt.
 
-<content/fig/sts_chipscope.JPG, id=144, 726.46407pt x 441.90094pt>
+<content/fig/sts_chipscope.JPG, id=149, 726.46407pt x 441.90094pt>
 File: content/fig/sts_chipscope.JPG Graphic file (type jpg)
 
 <use content/fig/sts_chipscope.JPG>
 Package pdftex.def Info: content/fig/sts_chipscope.JPG used on input line 201.
 (pdftex.def)             Requested size: 448.13095pt x 272.6002pt.
- [34 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
-nt/fig/ofdmframe_chipscope.JPG>]
-<content/fig/crosscorr.JPG, id=148, 855.94781pt x 481.04718pt>
+ [35 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdmframe_chipscope.JPG>
+]
+<content/fig/crosscorr.JPG, id=153, 855.94781pt x 481.04718pt>
 File: content/fig/crosscorr.JPG Graphic file (type jpg)
 
 <use content/fig/crosscorr.JPG>
 Package pdftex.def Info: content/fig/crosscorr.JPG used on input line 207.
 (pdftex.def)             Requested size: 448.13095pt x 251.84889pt.
 
-<content/fig/autocorr.JPG, id=149, 752.8125pt x 347.04657pt>
+<content/fig/autocorr.JPG, id=154, 752.8125pt x 347.04657pt>
 File: content/fig/autocorr.JPG Graphic file (type jpg)
 
 <use content/fig/autocorr.JPG>
 Package pdftex.def Info: content/fig/autocorr.JPG used on input line 213.
 (pdftex.def)             Requested size: 448.13095pt x 206.59323pt.
- [35 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
-nt/fig/sts_chipscope.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-mast
-er/Latex_th/CDC/content/fig/crosscorr.JPG>]
-<content/fig/baseIFAdcDac.JPG, id=153, 1604.99625pt x 1088.065pt>
+ [36 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/sts_chipscope.JPG> <C:/U
+sers/mbaratva/Desktop/thesis/CDC/content/fig/crosscorr.JPG>] <content/fig/baseI
+FAdcDac.JPG, id=158, 1604.99625pt x 1088.065pt>
 File: content/fig/baseIFAdcDac.JPG Graphic file (type jpg)
 
 <use content/fig/baseIFAdcDac.JPG>
 Package pdftex.def Info: content/fig/baseIFAdcDac.JPG used on input line 219.
 (pdftex.def)             Requested size: 448.13095pt x 303.7928pt.
 
-<content/fig/RfIF.JPG, id=154, 1604.99625pt x 1088.065pt>
+<content/fig/RfIF.JPG, id=159, 1604.99625pt x 1088.065pt>
 File: content/fig/RfIF.JPG Graphic file (type jpg)
 
 <use content/fig/RfIF.JPG>
 Package pdftex.def Info: content/fig/RfIF.JPG used on input line 225.
 (pdftex.def)             Requested size: 448.13095pt x 303.7928pt.
- [36 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
-nt/fig/autocorr.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-master/La
-tex_th/CDC/content/fig/baseIFAdcDac.JPG>]
-<content/fig/Rfbase.JPG, id=158, 1604.99625pt x 1088.065pt>
+ [37 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/autocorr.JPG> <C:/Users/
+mbaratva/Desktop/thesis/CDC/content/fig/baseIFAdcDac.JPG>] <content/fig/Rfbase.
+JPG, id=164, 1604.99625pt x 1088.065pt>
 File: content/fig/Rfbase.JPG Graphic file (type jpg)
 
 <use content/fig/Rfbase.JPG>
 Package pdftex.def Info: content/fig/Rfbase.JPG used on input line 231.
 (pdftex.def)             Requested size: 448.13095pt x 303.7928pt.
- [37 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
-nt/fig/RfIF.JPG>]
-<content/fig/h_mag_chipscope_noChannel.JPG, id=163, 646.66594pt x 446.41782pt>
+ [38 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/RfIF.JPG>]
+<content/fig/h_mag_chipscope_noChannel.JPG, id=168, 646.66594pt x 446.41782pt>
 File: content/fig/h_mag_chipscope_noChannel.JPG Graphic file (type jpg)
 
 <use content/fig/h_mag_chipscope_noChannel.JPG>
 Package pdftex.def Info: content/fig/h_mag_chipscope_noChannel.JPG used on inpu
 t line 237.
 (pdftex.def)             Requested size: 448.13095pt x 309.36372pt.
- [38 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
-nt/fig/Rfbase.JPG>]
-<content/fig/h_mag_chipscope_rf_detect.JPG, id=167, 643.6547pt x 441.90094pt>
+ [39 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/Rfbase.JPG>]
+<content/fig/h_mag_chipscope_rf_detect.JPG, id=172, 643.6547pt x 441.90094pt>
 File: content/fig/h_mag_chipscope_rf_detect.JPG Graphic file (type jpg)
 
 <use content/fig/h_mag_chipscope_rf_detect.JPG>
 Package pdftex.def Info: content/fig/h_mag_chipscope_rf_detect.JPG used on inpu
 t line 243.
 (pdftex.def)             Requested size: 448.13095pt x 307.67654pt.
- [39 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
-nt/fig/h_mag_chipscope_noChannel.JPG>]
-<content/fig/OfdmSym_16qam_1_2_code_64byte.JPG, id=171, 746.79pt x 335.00156pt>
+ [40 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/h_mag_chipscope_noChanne
+l.JPG>]
+<content/fig/OfdmSym_16qam_1_2_code_64byte.JPG, id=176, 746.79pt x 335.00156pt>
 File: content/fig/OfdmSym_16qam_1_2_code_64byte.JPG Graphic file (type jpg)
 <use content/fig/OfdmSym_16qam_1_2_code_64byte.JPG>
 Package pdftex.def Info: content/fig/OfdmSym_16qam_1_2_code_64byte.JPG used on 
 input line 249.
 (pdftex.def)             Requested size: 448.13095pt x 201.02803pt.
 
-<content/fig/OfdmSym_16qam_no_code_64byte.JPG, id=172, 746.79pt x 336.50719pt>
+<content/fig/OfdmSym_16qam_no_code_64byte.JPG, id=177, 746.79pt x 336.50719pt>
 File: content/fig/OfdmSym_16qam_no_code_64byte.JPG Graphic file (type jpg)
 
 <use content/fig/OfdmSym_16qam_no_code_64byte.JPG>
 Package pdftex.def Info: content/fig/OfdmSym_16qam_no_code_64byte.JPG used on i
 nput line 255.
 (pdftex.def)             Requested size: 448.13095pt x 201.93153pt.
- [40 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
-nt/fig/h_mag_chipscope_rf_detect.JPG> <C:/Documents and Settings/User/Desktop/L
-atex_th-master/Latex_th/CDC/content/fig/OfdmSym_16qam_1_2_code_64byte.JPG>]) [4
-1 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/content/
-fig/OfdmSym_16qam_no_code_64byte.JPG>]
-("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\content/p
-art4.tex"
+ [41 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/h_mag_chipscope_rf_detec
+t.JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/OfdmSym_16qam_1_2_code
+_64byte.JPG>]) [42 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/OfdmSym_16
+qam_no_code_64byte.JPG>]
+(C:\Users\mbaratva\Desktop\thesis\CDC\content/part4.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-) [42]
-("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\report.au
-x")
+) [43] (C:\Users\mbaratva\Desktop\thesis\CDC\report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3664 strings out of 493921
- 56238 string characters out of 3147231
- 155552 words of memory out of 3000000
- 6874 multiletter control sequences out of 15000+200000
+ 3677 strings out of 493921
+ 56389 string characters out of 3144867
+ 155582 words of memory out of 3000000
+ 6885 multiletter control sequences out of 15000+200000
  21395 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  41i,23n,55p,1027b,271s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/urw/bookman/ubkd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/b
-ookman/ubkl8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkli8a.
-pfb>
-Output written on report.pdf (42 pages, 4117251 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/urw/bookman/ubkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bo
+okman/ubkl8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubk
+li8a.pfb>
+Output written on report.pdf (43 pages, 4161759 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
+ 232 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 

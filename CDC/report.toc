@@ -11,18 +11,18 @@
 \contentsline {subsection}{\numberline {6.2}IEEE 802.11a Standard in Time and Frequency}{16}
 \contentsline {subsection}{\numberline {6.3}Origin of CFO}{17}
 \contentsline {subsection}{\numberline {6.4}Impact of CFO}{18}
-\contentsline {part}{\numberline {III}FPGA Implementation}{20}
-\contentsline {section}{\numberline {7}System Design in System Generator}{20}
-\contentsline {section}{\numberline {8}Hardware Introduction}{25}
-\contentsline {subsection}{\numberline {8.1}FPGA Board}{25}
-\contentsline {subsection}{\numberline {8.2}Radio Board}{26}
-\contentsline {subsection}{\numberline {8.3}Clock Chain on FMCOMMS1}{27}
-\contentsline {section}{\numberline {9}Expectations for CFO on FMCOMM1}{29}
-\contentsline {section}{\numberline {10}Time Domain CFO Correction}{30}
-\contentsline {section}{\numberline {11}Carrier Frequency Offsets}{30}
-\contentsline {section}{\numberline {12}FPGA Architecture}{30}
-\contentsline {section}{\numberline {13}Step-by-step Design}{32}
-\contentsline {section}{\numberline {14}Hardware Samples and Analysis}{34}
-\contentsline {part}{\numberline {IV}Conclusion and Future Works}{42}
-\contentsline {section}{\numberline {15}Introduction}{42}
-\contentsline {section}{\numberline {16}Simulation Structure}{42}
+\contentsline {part}{\numberline {III}FPGA Implementation}{21}
+\contentsline {section}{\numberline {7}System Design in System Generator}{21}
+\contentsline {section}{\numberline {8}Hardware Introduction}{26}
+\contentsline {subsection}{\numberline {8.1}FPGA Board}{26}
+\contentsline {subsection}{\numberline {8.2}Radio Board}{27}
+\contentsline {subsection}{\numberline {8.3}Clock Chain on FMCOMMS1}{28}
+\contentsline {section}{\numberline {9}Expectations for CFO on FMCOMM1}{30}
+\contentsline {section}{\numberline {10}Time Domain CFO Correction}{31}
+\contentsline {section}{\numberline {11}Carrier Frequency Offsets}{31}
+\contentsline {section}{\numberline {12}FPGA Architecture}{31}
+\contentsline {section}{\numberline {13}Step-by-step Design}{33}
+\contentsline {section}{\numberline {14}Hardware Samples and Analysis}{35}
+\contentsline {part}{\numberline {IV}Conclusion and Future Works}{43}
+\contentsline {section}{\numberline {15}Introduction}{43}
+\contentsline {section}{\numberline {16}Simulation Structure}{43}
