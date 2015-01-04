@@ -1,3 +1,9 @@
+\begin{abstract}
+The fundamental concepts of an OFDM design is described. A detailed block diagram is shown. A theoretical basic based band OFDM system is compared with IEEE 802.11 standard scheme. Influential parameters to are explained with guided us to have other parameters in Table \ref{table:sys_param}. Arrangement of the IEEE 802.11a carriers demonstrated.\\
+A short discussion of Carrier Frequency Offset is initiated and its origin and the impacts on the whole system on receiver side and a possible solution to reduce the issue is discussed.\\
+
+\end{abstract}
+
 \section{OFDM System Architecture}
 Generally, an OFDM signal is defines as a summation of many OFDM standard symbols, which can considered continuous in the time domain.It can be defined as following:\\
 
@@ -96,6 +102,27 @@ The OFDM mechanism is used in 802.11 and Wimax standards. It has good tolerance 
 
 
 \section{OFDM Specifications in IEEE 802.11a Standard}
+
+\subsection{Introduction of IEEE 802.11}
+The Institute of Electronic and Electrical Engineers (IEEE) has released IEEE 802.11 in June 1997. The standard defined physical and MAC layers of wireless local area networks (WLANs).\\
+The physical layer of the original 802.11 standardized three wireless data exchange techniques:
+
+\begin{itemize}
+  \item Infrared (IR);
+  \item Frequency hopping spread spectrum (FHSS);
+  \item Direct sequence spread spectrum (DSSS).
+\end{itemize}
+
+
+The 802.11 radio WLANs operate in the $2.4 GHz$ ($2.4$ to $2.483 GHz$) unlicensed Radio Frequency (RF) band. The maximum isotropic transmission power in this band allowed by FCC in US is $1 Wt$, but 802.11 devices are usually limited to the $100 mWt$ value.
+
+The physical layer in 802.11 is split into Physical Layer Convergence Protocol (PLCP) and the Physical Medium Dependent (PMD) sub layers. The PLCP prepares/parses data units transmitted/received using various 802.11 media access techniques. The PMD performs the data transmission/reception and modulation/demodulation directly accessing air under the guidance of the PLCP. The 802.11 MAC layer to the great extend is affected by the nature of the media. For example, it implements a relatively complex for the second layer fragmentation of PDUs.\\
+
+\begin{center}
+\includegraphics{content/fig/osi.JPG}
+\captionof{figure}{OSI Reference Model.}
+\end{center}
+
 \subsection{System Design}
 
 In reality, having an anti-aliasing configuration, oversampling is performed before passing the digital signal to digital-to-analog converter. There are many other blocks in standards like channel coding, symbol interleaving and channel estimation.\\
@@ -107,11 +134,14 @@ In comparison to the fundamental architecture shown in Figure 000, some other bu
 \end{center}
 
 At the receiver side, the frame synchronization and detection for both timing and frequency is performed in the first stage. Channel estimation is performed after the FFT block outputs the preambles in the frequency domain. The result is fed back to the FFT block for the equalization, which eliminates the effects of fading channel, while the fine synchronization for both timing and frequency is also added to further improve the system performance.\\
-At least these basic parameters should be specified for a system design:\\
-1) Delay spread expected for the channel (300 ns)\\
-2) Guard duration (800 ns) which describes symbol duration (4.0 $\mu$s)\\
-3) Available bandwidth\\
-4) Data rate\\
+At least these basic parameters should be specified for a system design:
+
+\begin{enumerate}
+  \item Delay spread expected for the channel ($300 ns$)
+  \item Guard duration ($800 ns$) which describes symbol duration ($4.0 \mu s$)
+  \item Available bandwidth
+  \item Data rate
+\end{enumerate}
 
 For indoor environment a delay spread less than 300 ns expected. We consider the guard duration 800 ns, which effectively protects the signal from ISI in the indoor environment and some of the outdoor wireless communication environments. Five times the guard duration for limiting the power and bandwidth loss is regarded for the symbol duration, and is set to 4.0 $\mu$s in our case. Hence, the OFDM symbol rate is 0.25 mega symbol per second (Mbaud).\\
 Keep in mind, the useful OFDM symbol duration without the guard interval is 3.2 $\mu$s. So, the subcarrier spacing, which is the reciprocal of the useful symbol duration, can be determined as 312.5 kHz. Assuming that there is a bandwidth of 20 MHz available, the number of subcarriers is calculated to be 64. This is exactly the same as the specification defined in IEEE 802.11a standard.\\
@@ -217,14 +247,16 @@ where\\
 s_{preamble}(t)= s_{short}(t)+ s_{long}(t- T_{short})
 \end{equation}
 
-The preamble starts with 10 short training symbols (STSs) from T1 to T10, followed by a guard interval (GI2) and two long training symbols (LTSs) L1 and L2. Both the short and long training sequences have an 8 $\mu$s duration and the entire preamble lasts for 16 $\mu$s. Then, a 3.2 $\mu$s signal symbol, as well as 800 ns guard interval is transmitted. This field bears some information necessary for the data symbols, such as the coding rate and length. Finally the various data symbols that carry user information are transmitted. Each data symbol has a duration of 4.0 $\mu$s, within which there is a 800 ns CP, as already described.\\
+As shown in Figure \ref{preamble_ieee}, the preamble starts with 10 short training symbols (STSs) from $T_{1}$ to $T_{10}$, followed by a guard interval ($GI_{2}$) and two long training symbols (LTSs) $L_{1}$ and $L_{2}$. Both the short and long training sequences have an $8 \mu s$ duration and the entire preamble lasts for $16 \mu s$. Then, a $3.2 \mu s$ signal symbol, as well as 800 ns guard interval is transmitted. This field bears some information necessary for the data symbols, such as the coding rate and length. Finally the various data symbols that carry user information are transmitted. Each data symbol has a duration of $4.0 \mu s$, within which there is a 800 ns CP, as already described.\\
 The application of STS and LTS for training are different. STS used for AGC, frame detection, coarse timing and frequency synchronization. Each symbol in this sequence has a duration of 800 ns and contains 16 samples, and is identical to one another.
- It will be shown in a professional system, auto-correlation will apply to this portion to perform such the operations. After the short training sequence is transmitted, a 1.6 $\mu$s guard interval that contains 32 samples is introduced. The LTS is cyclically extended within this interval. Then two identical LTSs with the same duration of 4.0 $\mu$s are followed. The LTS is used for fine frequency offset and channel estimation. It will be described that a cross-correlation with a stored array is done for extraction of the offset.\\
-
-
+ It will be shown in a professional system, auto-correlation will apply to this portion to perform such the operations. After the short training sequence is transmitted, a $1.6 \mu s$ guard interval that contains 32 samples is introduced. The LTS is cyclically extended within this interval. Then two identical LTSs with the same duration of $4.0 \mu s$ are followed. The LTS is used for fine frequency offset and channel estimation. It will be described that a cross-correlation with a stored array is done for extraction of the offset.\\
+The data being transmitted should pass several stages and be prepared by PLCP (Physical Layer Convergence Procedure) before transmission. The preamble and the PLCP header are transmitted at 1Mbps regardless of the current data transmission speed. After the preamble the payload prepared by the MAC layer is sent to the receiver at the rate specified in the services field.\\
+The picture below shows the OFDM packet data layout. It starts with training sequence (PLCP preamble), followed by the SIGNAL field and data. The data is followed by 6 tail bits and padding (not shown on the picture). Both the training sequence and the 24 bit SIGNAL field are transmitted at $6 Mbps$ rate. The SIGNAL field tells the receiver at what rate the following data will be transmitted and indirectly defines the subcarriers' modulation technique employed. The BPSK, QPSK, 16-QAM and 64-QAM are the available choices. The SIGNAL field also delivers the length (12 bit) of the following data and includes a zero bit sequence for the data scrambler synchronization. The total training sequence and SIGNAL field transmission times add up to about $20 \mu s$, which is an overhead equivalent to approximately 140 bytes transmission at the maximum transmission rate of 54Mbps defined by the standard.\\
 
 \begin{center}
 \includegraphics[width=12cm]{content/fig/ofdm_frame.JPG}
+\captionof{figure}{Preamble of IEEE 802.11}
+\label{preamble_ieee}
 \end{center}
 
 As we already analyzed, 52 subcarriers are used for an OFDM data symbol and pilot. Oversampling is achieved by adding 12 null subcarriers in order to eliminate aliasing which might occur during digital to analog conversion. Because FFT shift is performed, the null subcarriers with a value of zero are located in the middle of the input vector for the IFFT block. Note that dc carrier is not used to transmit data. The short and long training sequences can also be applied to this mapping rule, since they both have a length of 52 samples with frequency index from -26 to +26.\\
@@ -274,7 +306,7 @@ The second effect of CFO is the degradation of orthogonality between subcarriers
 The impact is displayed in Figure \ref{cfo_impact_on_ici} which is shown simulated OFDM system uses 10 MHz bandwidth and 64 subcarriers, 48 of on a random 16-QAM data symbols. CFO and AWGN are applied between the transmitter and receiver. The receiver model uses perfect knowledge of the CFO to correct the phase offset in each OFDM symbol, but does not implement any correction for ICI.\\
 
 \begin{center}
-\includegraphics[width=\textwidth]{content/fig/cfo_on_ici.JPG}
+\includegraphics[width=10cm]{content/fig/cfo_on_ici.JPG}
 \captionof{figure}{OFDM performance loss due to CFO-induced ICI.}
 \label{cfo_impact_on_ici}
 \end{center}
@@ -285,7 +317,7 @@ performance degradation due to ICI is negligible.\\
 Let's focus on LTS part in a OFDM symbol, Figure \ref{sym_ofdm}, for a while. In time domain, we have 160 samples in this section which creates to complete LTS symbols and a half. Each LTS symbol has 64 samples shown in Figure \ref{lts_time_domain}.\\
 
 \begin{center}
-\includegraphics[width=\textwidth]{content/fig/LTS_time_domain.JPG}
+\includegraphics[width=10cm]{content/fig/LTS_time_domain.JPG}
 \captionof{figure}{LTS in Time Domain.}
 \label{lts_time_domain}
 \end{center}

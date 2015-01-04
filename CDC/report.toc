@@ -7,22 +7,24 @@
 \contentsline {part}{\numberline {II}Theory, Design and Simulation}{8}
 \contentsline {section}{\numberline {5}OFDM System Architecture}{8}
 \contentsline {section}{\numberline {6}OFDM Specifications in IEEE 802.11a Standard}{12}
-\contentsline {subsection}{\numberline {6.1}System Design}{12}
-\contentsline {subsection}{\numberline {6.2}IEEE 802.11a Standard in Time and Frequency}{16}
-\contentsline {subsection}{\numberline {6.3}Origin of CFO}{17}
-\contentsline {subsection}{\numberline {6.4}Impact of CFO}{18}
-\contentsline {part}{\numberline {III}FPGA Implementation}{21}
-\contentsline {section}{\numberline {7}System Design in System Generator}{21}
-\contentsline {section}{\numberline {8}Hardware Introduction}{26}
-\contentsline {subsection}{\numberline {8.1}FPGA Board}{26}
-\contentsline {subsection}{\numberline {8.2}Radio Board}{27}
-\contentsline {subsection}{\numberline {8.3}Clock Chain on FMCOMMS1}{28}
-\contentsline {section}{\numberline {9}Expectations for CFO on FMCOMM1}{30}
-\contentsline {section}{\numberline {10}Time Domain CFO Correction}{31}
-\contentsline {section}{\numberline {11}Carrier Frequency Offsets}{31}
-\contentsline {section}{\numberline {12}FPGA Architecture}{31}
-\contentsline {section}{\numberline {13}Step-by-step Design}{33}
-\contentsline {section}{\numberline {14}Hardware Samples and Analysis}{35}
-\contentsline {part}{\numberline {IV}Conclusion and Future Works}{43}
-\contentsline {section}{\numberline {15}Introduction}{43}
-\contentsline {section}{\numberline {16}Simulation Structure}{43}
+\contentsline {subsection}{\numberline {6.1}Introduction of IEEE 802.11}{12}
+\contentsline {subsection}{\numberline {6.2}System Design}{13}
+\contentsline {subsection}{\numberline {6.3}IEEE 802.11a Standard in Time and Frequency}{17}
+\contentsline {subsection}{\numberline {6.4}Origin of CFO}{19}
+\contentsline {subsection}{\numberline {6.5}Impact of CFO}{20}
+\contentsline {part}{\numberline {III}FPGA Implementation}{23}
+\contentsline {section}{\numberline {7}System Design in System Generator}{23}
+\contentsline {section}{\numberline {8}Hardware Introduction}{29}
+\contentsline {subsection}{\numberline {8.1}FPGA Board}{29}
+\contentsline {subsection}{\numberline {8.2}Radio Board}{31}
+\contentsline {subsection}{\numberline {8.3}Clock Chain on FMCOMMS1}{32}
+\contentsline {section}{\numberline {9}Expectations for CFO on FMCOMM1}{34}
+\contentsline {section}{\numberline {10}Time Domain CFO Correction}{35}
+\contentsline {section}{\numberline {11}Carrier Frequency Offsets}{35}
+\contentsline {section}{\numberline {12}FPGA Architecture}{35}
+\contentsline {section}{\numberline {13}Test Methodology}{37}
+\contentsline {part}{\numberline {IV}Sample Analysis and Conclusion}{40}
+\contentsline {section}{\numberline {14}Hardware Samples and Analysis}{40}
+\contentsline {section}{\numberline {15}FPGA Resource Consumption}{46}
+\contentsline {section}{\numberline {16}Conclusion}{47}
+\contentsline {subsection}{\numberline {16.1}Future Work}{47}

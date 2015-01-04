@@ -7,19 +7,18 @@ Main blocks in transmitter and receiver is defined and the mechanism for packet 
 \section{System Design in System Generator}
 \label{sec_anasim}
 
+Simulink® from The MathWorks® is a powerful graphical modeling system which allows complex systems to be designed using a block diagram methodology. Xilinx System Generator for DSP is a blockset for Simulink® which allows the modeling of fixed point systems which can be transformed into VHDL and targeted at an FPGA. Automatic generation of the bitstream is supported with the synthesis and implementation tools run from within the Simulink® environment.\\
+
+\begin{center}
+\includegraphics[width=10cm]{content/fig/systemGen.JPG}
+\captionof{figure}{System Generator Cycle.}
+\label{systemGen}
+\end{center}
+
+
 Then main core of an an OFDM modulator and demodulator are the inverse FFT (IFFT) and FFT respectively. In 802.11a WLAN standard a 64-point transform with 52 of the subcarriers are carrying user data in a BPSK,
 QPSK, 16-QAM or 64-QAM alphabet. The symbol rate in this systems is $20 MSym/s$. The OFDM symbol period
 is $4 \mu s$, with $3.2 \mu s$ of this interval occupied by the 64-point FFT symbol and the additional $0.8 ps$ used for the cyclic prefix.\\
-
-The synchronization tasks is challenging in an OFDM-based communication system. Prior to performing channel estimation equalization and demodulation, OFDM symbol timing must be detected. The receiver has no information when a packet starts, and so the first synchronization task is packet detection. Once a packet has been detected the remaining synchronization functions include coarse and fine timing recovery and carrier recovery.\\
-Figure \ref{ieee_preamble} shows the structure of the IEEE 802.1 la standard preamble. The 10 short preambles ($A_{1}$-$A_{10}$) are identical 16- sample duration sequences. The cyclic prefix (CP) is a 32- sample sequence and the long preambles ($C_{1}$ and $C_{2}$) are identical 64-sample sequences. As indicated in the figure, the various fields are used for packet detection, automatic gain control (AGC), diversity selection, coarse and fine frequency offset estimation, fine symbol timing estimation and channel estimation. 
-
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/ieee_preamble.JPG}
-\captionof{figure}{IEEE 802.11a preamble.}
-\label{ieee_preamble}
-\end{center}
-
 
 Figure \ref{ofdm_system} shows the main scheme of an OFDM system in transmitter and receiver. Another block of Channel is a Additive White Gaussian Noise which is used in simulation only.\\
 As you can see there are some others blocks which are necessary for system implementations. The whole system is connected to a main hard processor which is located in the FPGA. It is a ARM Cortex-A9 with maximum frequency of $666.66 MHz$. EDK processor represents the main processor which connected to the OFDM block by AXI protocol. 
@@ -46,6 +45,15 @@ Figure \ref{rx_block} demonstrates the receiver block with its main blocks. The 
 \label{rx_block}
 \end{center}
 
+The synchronization tasks is challenging in an OFDM-based communication system. Prior to performing channel estimation equalization and demodulation, OFDM symbol timing must be detected. The receiver has no information when a packet starts, and so the first synchronization task is packet detection. Once a packet has been detected the remaining synchronization functions include coarse and fine timing recovery and carrier recovery.\\
+Figure \ref{ieee_preamble} shows the structure of the IEEE 802.1la standard preamble. The 10 short preambles ($A_{1}$-$A_{10}$) are identical 16- sample duration sequences. The cyclic prefix (CP) is a 32- sample sequence and the long preambles ($C_{1}$ and $C_{2}$) are identical 64-sample sequences. As indicated in the figure, the various fields are used for packet detection, automatic gain control (AGC), diversity selection, coarse and fine frequency offset estimation, fine symbol timing estimation and channel estimation.\\
+
+\begin{center}
+\includegraphics[width=10cm]{content/fig/ieee_preamble.JPG}
+\captionof{figure}{IEEE 802.11a preamble.}
+\label{ieee_preamble}
+\end{center}
+
 The packet detector is based on the Schimdl and Cox delay and correlate algorithm employed for acquiring symbol timing commonly. The algorithm, as illustrated in Figure \ref{schimdl_cox}, is basically a sliding window correlator combined with an energy detector used to normalize the decision statistic and hence guard against fluctuations of the input signal power level.\\
 
 The sliding window P computes a auto-correlation between the input signal and a D-sample delayed version on short preamble interval. We chose D=16. The second sliding window R is used to compute the received signal energy in the cross-correlation interval.
@@ -66,8 +74,8 @@ M(n)= \dfrac{|P(n)|^{2}}{R(n)^{2}}
 
 
 \begin{center}
-\includegraphics[width=\textwidth]{content/fig/schimdl_cox.JPG}
-\captionof{figure}{Auto-Correlation Block.}
+\includegraphics[width=10cm]{content/fig/schimdl_cox.JPG}
+\captionof{figure}{Schimdl and Cox Delay and Correlate Algorithm.}
 \label{schimdl_cox}
 \end{center}
 
@@ -82,8 +90,30 @@ In the \textit{Packet Detection} block an auto-correlation approach is done on t
 \begin{center}
 \includegraphics[width=\textwidth]{content/fig/fine_packetDetect.JPG}
 \captionof{figure}{Fine Packet Detection Block.}
-\label{autocorrblock}
+\label{fine_packetDetect}
 \end{center}
+
+The main part of the receiver is estimation of the channel which can be acquire by the LTS and training signal at the preamble. It is one of the most complex issue of the whole but the main part is shown in Figure \ref{cmpx_div} and \ref{division}. Imagine the estimated channel is $\hat{H}$ (or $B$ in the block diagram) and the input information is $A$. So, we can expect to compensate the signal as below:\\
+
+\begin{equation} \label{channel_Comp}
+\begin{split}
+A_{compensate} & = \dfrac{A}{\hat{H}}\\
+&= \dfrac{A.{\hat{H}}^*}{|\hat{H}|}
+\end{split}
+\end{equation}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/cmpx_div.JPG}
+\captionof{figure}{Complex Division Block.}
+\label{cmpx_div}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\textwidth]{content/fig/division.JPG}
+\captionof{figure}{Division Block.}
+\label{division}
+\end{center}
+
 
 \section{Hardware Introduction}
 \subsection{FPGA Board}
@@ -174,7 +204,7 @@ The block diagram of the design is illustrated in Figure \ref{design_block_diagr
 As you can see in the block diagram the connection bridge between the Processor System and the Programmable Logic in the Zynq architecture can be AXI protocol. You can find the detail of AXI at ref..... There are some other communication protocols but in the Zynq design AXI works optimum.
 For easier programming issues in PC side, we used Linux Virtual Machine inside a Windows OS. It is very helpful because this configuration prevents unnecessary data exchange of the system and helps us to have a real estimation of the bit rate.\\
 
-\section{Step-by-step Design}
+\section{Test Methodology}
 The configuration set-up is consisted of two Zynq board each carrying a FMCOMMS1 radio board. They are connected to two individual PC via Ethernet cables as shown in Figure \ref{hardware_setup}.\\
 
 \begin{center}
@@ -187,75 +217,6 @@ This configuration should be tested partially and have realistic estimation of t
 The maximum bit rate we could reach to exchange via Ethernet peripheral of the Zynq board which is called EMAC is $600 Mbps$. This was a time consuming task to reach to this bit rate considering the complicated Direct Memory Access mechanism implemented in near contact of EMAC inside of ARM processor. Fortunately, there were many useful application examples dedicated by Xilinx but still it should study many document to understand the scheme in RX and TX of Ethernet.\\
 Next, the correct configuration of the two TX and RX BRAMs are checked by directly data replacement between the two banks specified by the ARM processor. This was an important step because the maximum data rate is very depends on the correct data reading and writing into these two blocks. There is an useful functionality of the RAM which is designed also in Zynq-7000 that called Error-Correction Code (ECC). This is a type of computer data storage that can detect and correct the most common kinds of internal data corruption. ECC memory is used in most computers where data corruption cannot be tolerated under any circumstances, such as for scientific or financial computing. The two BRAMs communicate with AXI Bus via an BRAM controllers. The configuration of the BRAMs and the controllers should be set accordingly.\\
 The main part of the project is dedicated of the OFDM-PHY block with its sophisticated details.\\
-
-\section{Hardware Samples and Analysis}
-\label{hw_samples}
-
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/ofdmframe_chipscope.JPG}
-\captionof{figure}{OFDM Frame (I/Q) detected in Chipscope.}
-\label{ofdmframe_chipscope}
-\end{center}
-
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/sts_chipscope.JPG}
-\captionof{figure}{STS (I/Q) detected in Chipscope.}
-\label{sts_chipscope}
-\end{center}
-
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/crosscorr.JPG}
-\captionof{figure}{Cross-Correlation detected in Chipscope.}
-\label{crosscorr}
-\end{center}
-
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/autocorr.JPG}
-\captionof{figure}{Auto-Correlation detected in Chipscope.}
-\label{autocorr}
-\end{center}
-
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/baseIFAdcDac.JPG}
-\captionof{figure}{LTS Spectrum in Baseband chain (IF filter is enable)}
-\label{baseIFAdcDac}
-\end{center}
-
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/RfIF.JPG}
-\captionof{figure}{LTS Spectrum- passed RF chain (IF filter is enable)}
-\label{RfIF}
-\end{center}
-
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/Rfbase.JPG}
-\captionof{figure}{LTS Spectrum- passed RF chain (IF filter is disable)}
-\label{Rfbase}
-\end{center}
-
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/h_mag_chipscope_noChannel.JPG}
-\captionof{figure}{Frequency Response of a perfect channel detected in Chipscope}
-\label{h_mag_chipscope_noChannel}
-\end{center}
-
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/h_mag_chipscope_rf_detect.JPG}
-\captionof{figure}{Frequency Response of on air channel detected in Chipscope}
-\label{h_mag_chipscope_rf_detect}
-\end{center}
-
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/OfdmSym_16qam_1_2_code_64byte.JPG}
-\captionof{figure}{OFDM Symbols of a 16QAM 64-byte message Coded 1/2 rate}
-\label{OfdmSym_16qam_1_2_code_64byte}
-\end{center}
-
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/OfdmSym_16qam_no_code_64byte.JPG}
-\captionof{figure}{OFDM Symbols of a 16QAM 64-byte message no-Coded}
-\label{OfdmSym_16qam_no_code_64byte}
-\end{center}
 
 
 
