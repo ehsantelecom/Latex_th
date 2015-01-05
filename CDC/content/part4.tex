@@ -1,3 +1,5 @@
+%\zexternaldocument{part2}
+
 \begin{abstract}
 After explanation of the system architecture and hardware design, the test methodology and the analysis of the results from the hardware is defined. The results are captured thanks to ChipScope software which help for internal acquisitions in various points of the Programmable Logic of FPGA. There are other tests we did to have an estimation of the system in total. For instance, we send a random data stream from a PC and send it via Ethernet in different packet size to a board and compare it in another PC where we generate the same random set.\\
 \end{abstract}
@@ -5,7 +7,7 @@ After explanation of the system architecture and hardware design, the test metho
 \section{Hardware Samples and Analysis}
 \label{hw_samples}
 
-A complete OFDM frame is illustrated in Figure \ref{ofdmframe_chipscope}. The position of preamble signal is completely distinguished in the figure which is comparable of the standard shown in previously except the \textit{Training}. This section is special for our design for conveying some further information about the node. The detail of each preamble word is zoom in the next figures. Specifically, the STS section is shown in Figure \ref{sts_chipscope}.\\
+A complete OFDM frame is illustrated in Figure \ref{ofdmframe_chipscope}. The position of preamble signal is completely distinguished in the figure which is comparable of the standard shown in previously except the \textit{Training}. This section is special for our design for conveying some further information about the node. The detail of each preamble word is zoom in the next figures as defined in Section \ref{section:ieee_standard}. Specifically, the STS section is shown in Figure \ref{sts_chipscope}.\\
 \begin{center}
 \includegraphics[width=\textwidth]{content/fig/ofdmframe_chipscope.JPG}
 \captionof{figure}{OFDM Frame (I/Q) detected in Chipscope.}
@@ -80,7 +82,7 @@ Figure \ref{h_mag_chipscope_rf_detect} in a real channel after all the conversio
 \label{OfdmSym_16qam_1_2_code_64byte}
 \end{center}
 
-Figures \ref{OfdmSym_16qam_1_2_code_64byte} and \ref{OfdmSym_16qam_no_code_64byte} compares two OFDM frames after the FFT block on the receiver side. Just do not consider the first 8 symbols because they are the training block which are not defined in the standard and are the customization on our specific application. The next 8 frames in the coded and 4 in the non-coded are the base rate frames to report to the receiver about the modulation, size of message, sequence number and some other detection information. the rest are the message and the valuable information for the higher levels of the system.\\
+Figures \ref{OfdmSym_16qam_1_2_code_64byte} and \ref{OfdmSym_16qam_no_code_64byte} compares two OFDM frames after the FFT block on the receiver side. The coding algorithm is a convolutional code which borrowed from another model and seen as a black-box for our system. Just do not consider the first 8 symbols because they are the training block which are not defined in the standard and are the customization on our specific application. The next 8 frames in the coded and 4 in the non-coded are the base rate frames to report to the receiver about the modulation, size of message, sequence number and some other detection information. the rest are the message and the valuable information for the higher levels of the system.\\
 
 \begin{center}
 \includegraphics[width=\textwidth]{content/fig/OfdmSym_16qam_no_code_64byte.JPG}
@@ -88,9 +90,12 @@ Figures \ref{OfdmSym_16qam_1_2_code_64byte} and \ref{OfdmSym_16qam_no_code_64byt
 \label{OfdmSym_16qam_no_code_64byte}
 \end{center}
 
+\section{Bit-Error Rate Calculation}
+Will be add later!!!
+
 
 \section{FPGA Resource Consumption}
-The device used in our implementation is  xc7z045,ffg900,C,-1 and in Table \ref{table:DevUtil} you can find the device utilization:\\
+The device used in our implementation is  XC7Z045-22FFG900C and in Table \ref{table:DevUtil} you can find the device utilization:\\
 
 
 \begin{center}
@@ -112,6 +117,7 @@ Keep in mind this table shows all the utilization of the ADC/DAC interface, BRAM
 \section{Conclusion}
 
 This thesis has presented the theoretical analysis and simulation and  FPGA implementation details of a baseband OFDM system with channel estimation and timing synchronization. A radio board also is explained for the practical usage and proof of the feasibility. The OFDM system is prototyped based on IEEE 802.11a standard and transmits/receives signals on a 20 MHz bandwidth. The conceptual design is done in System Generator and ported on a FPGA. With QPSK modulation scheme, the system achieves a throughput of 24 Mbps.\\
+Another critical part of the project is to reach an acceptable communication bit-rate in the processor side to the peripherals, more specifically Ethernet, for conveying data between two PC which is done perfectly.\\
 
 \subsection{Future Work}
 No doubt, System Generator is a very powerful tool for conceptual proof but is not still an industrial support. There are still difference in the Simulation in Matlab and what we have in the hardware. To overcome this issue we needed to make some changes to have a logical margin of the hardware difficulties. The resource consumption is not very optimized which expected to have better performance using VHDL programming. There are many low-level techniques to manage the power, speed and area which is not applicable in the system.\\

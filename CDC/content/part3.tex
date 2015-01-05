@@ -45,39 +45,7 @@ Figure \ref{rx_block} demonstrates the receiver block with its main blocks. The 
 \label{rx_block}
 \end{center}
 
-The synchronization tasks is challenging in an OFDM-based communication system. Prior to performing channel estimation equalization and demodulation, OFDM symbol timing must be detected. The receiver has no information when a packet starts, and so the first synchronization task is packet detection. Once a packet has been detected the remaining synchronization functions include coarse and fine timing recovery and carrier recovery.\\
-Figure \ref{ieee_preamble} shows the structure of the IEEE 802.1la standard preamble. The 10 short preambles ($A_{1}$-$A_{10}$) are identical 16- sample duration sequences. The cyclic prefix (CP) is a 32- sample sequence and the long preambles ($C_{1}$ and $C_{2}$) are identical 64-sample sequences. As indicated in the figure, the various fields are used for packet detection, automatic gain control (AGC), diversity selection, coarse and fine frequency offset estimation, fine symbol timing estimation and channel estimation.\\
 
-\begin{center}
-\includegraphics[width=10cm]{content/fig/ieee_preamble.JPG}
-\captionof{figure}{IEEE 802.11a preamble.}
-\label{ieee_preamble}
-\end{center}
-
-The packet detector is based on the Schimdl and Cox delay and correlate algorithm employed for acquiring symbol timing commonly. The algorithm, as illustrated in Figure \ref{schimdl_cox}, is basically a sliding window correlator combined with an energy detector used to normalize the decision statistic and hence guard against fluctuations of the input signal power level.\\
-
-The sliding window P computes a auto-correlation between the input signal and a D-sample delayed version on short preamble interval. We chose D=16. The second sliding window R is used to compute the received signal energy in the cross-correlation interval.
-
-\begin{equation} \label{P_n}
-P(n) = \sum\limits_{m=0}^{L-1} r_{n+m} r^{*}_{n+m+D}
-\end{equation}
-
-\begin{equation} \label{R_n}
- R(n) = \sum\limits_{m=0}^{L-1} r_{n+m+D} r^{*}_{n+m+D}
-\end{equation}
-
-The cross-correlation P(n) and auto-correlation R(n) are calculated according to Equation \ref{P_n} and Equation \ref{R_n} respectively. The decision statistic is computed as\\
-
-\begin{equation} \label{M_n}
-M(n)= \dfrac{|P(n)|^{2}}{R(n)^{2}}
-\end{equation}
-
-
-\begin{center}
-\includegraphics[width=10cm]{content/fig/schimdl_cox.JPG}
-\captionof{figure}{Schimdl and Cox Delay and Correlate Algorithm.}
-\label{schimdl_cox}
-\end{center}
 
 In the \textit{Packet Detection} block an auto-correlation approach is done on the signal to detect the energy of the preamble in the beginning of STS shows in Figure \ref{autocorrblock}. This is implemented based on the magnitude square of the both I/Q signals and comparing with a threshold after a sliding window. In other branch a multiplication of of the imaginary and real part with their 16 clock delayed version is calculated and the square magnitude in a sliding windows is detected. In \textit{Detection Decision} we use some other threshold to be ensure if the two cross correlation peaks are detected in the right time to signal the packet detection.
 
@@ -93,14 +61,7 @@ In the \textit{Packet Detection} block an auto-correlation approach is done on t
 \label{fine_packetDetect}
 \end{center}
 
-The main part of the receiver is estimation of the channel which can be acquire by the LTS and training signal at the preamble. It is one of the most complex issue of the whole but the main part is shown in Figure \ref{cmpx_div} and \ref{division}. Imagine the estimated channel is $\hat{H}$ (or $B$ in the block diagram) and the input information is $A$. So, we can expect to compensate the signal as below:\\
-
-\begin{equation} \label{channel_Comp}
-\begin{split}
-A_{compensate} & = \dfrac{A}{\hat{H}}\\
-&= \dfrac{A.{\hat{H}}^*}{|\hat{H}|}
-\end{split}
-\end{equation}
+As described in Section \ref{section:channel_est}, the main part of the receiver is estimation of the channel which can be acquire by the LTS and training signal at the preamble. It is one of the most complex issue of the whole but the main part is shown in Figure \ref{cmpx_div} and \ref{division}.\\
 
 \begin{center}
 \includegraphics[width=\textwidth]{content/fig/cmpx_div.JPG}
@@ -188,7 +149,7 @@ As you can see in Figure \ref{zynq_inside} the foundation of Zynq-7000 is divide
 
 
 \begin{center}
-\includegraphics[width=\textwidth]{content/fig/zynq_inside.JPG}
+\includegraphics[width=12cm]{content/fig/zynq_inside.JPG}
 \captionof{figure}{Zynq-7000 Diagram}
 \label{zynq_inside}
 \end{center}
@@ -196,7 +157,7 @@ As you can see in Figure \ref{zynq_inside} the foundation of Zynq-7000 is divide
 The block diagram of the design is illustrated in Figure \ref{design_block_diagram}. We activate one of the ARM processors. In the TX chain, a PC sends a packet data via the Ethernet port to Zynq-7000. The EMAC block receives the packet and DMA it into the RX Block RAM which is divided into $32$ bank with size of $2K \times 64-bit$ which realize a Circular Buffer to relief the burst data stream enters from the asynchronous Ethernet port. As the OFDM block works in $40 MHz$ and each $2K$ block reading takes maximum $50\mu s$ for the EMAC and OFDM-PHY pessimistically, the tolerance of the Ethernet stream will be $\dfrac{32 \times \ 64b}{50\mu s} = 40Mbps$ which proves good number of banks. The offset pointer of reading and writing by DMA MAC which is govern under a scatter-gather scheme and the OFDM-PHY is controlled by the ARM.\\
 
 \begin{center}
-\includegraphics[width=\textwidth]{content/fig/fpga_internal.JPG}
+\includegraphics[width=12cm]{content/fig/fpga_internal.JPG}
 \captionof{figure}{Design Block Diagram}
 \label{design_block_diagram}
 \end{center}
