@@ -1,0 +1,12 @@
+\def\filename{framedbox.sty}
+\def\fileversion{1.0}
+\def\filedate{2009/01/27}
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{framedbox}[\filedate\space\fileversion\space LaTeX2e package]
+\typeout{Package: `\filename' (framed boxes) \fileversion\space
+ <\filedate> }
+
+\newsavebox{\fmbox}
+\newenvironment{fmpage}[1]
+{\begin{lrbox}{\fmbox}\begin{minipage}{#1}} 
+{\end{minipage}\end{lrbox}\fbox{\usebox{\fmbox}}}	

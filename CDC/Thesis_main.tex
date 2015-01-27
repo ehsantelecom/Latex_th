@@ -1,0 +1,188 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1.o Esempio con la classe toptesi
+\documentclass[12pt,twoside,cucitura]{toptesi}
+%\documentclass[twoside,cucitura,pdfa]{toptesi}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2.o Esempio con la classe toptesi
+% \documentclass[11pt,twoside,oldstyle,autoretitolo,classica,greek]{toptesi}
+% \usepackage[or]{teubner}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Commentare la riga seguente se si � specificata l'opzione "pdfa"
+\usepackage{hyperref}
+\hypersetup{%
+    pdfpagemode={UseOutlines},
+    bookmarksopen,
+    pdfstartview={FitH},
+    colorlinks,
+    linkcolor={blue},
+    citecolor={red},
+    urlcolor={blue}
+  }
+
+\usepackage{toptesi}
+
+%\usepackage{times}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+%\usepackage{algorithmicx}
+
+\usepackage{acronym}
+\usepackage{xspace}
+
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{multirow}
+\usepackage{amssymb, amsmath}
+%\usepackage{enumerate}
+\usepackage{url}
+%\usepackage{natbib}
+%\usepackage{ecrc}
+\usepackage{subfigure}
+\usepackage{dblfloatfix}
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage{fancyvrb}
+\DefineVerbatimEnvironment{code}{Verbatim}{fontsize=\tiny}
+
+%\usepackage{algpseudocode}
+
+\usepackage{paralist}
+\usepackage{ctable}
+\usepackage{rotating}
+\usepackage{cite}
+\usepackage{appendix}
+\usepackage[latin1]{inputenc}
+\usepackage[english]{babel}
+\input{kvmacros}
+
+
+\usepackage{framedbox}
+\usepackage{subfigure}
+\usepackage{slashbox}
+\usepackage{pifont}
+\usepackage[multiple]{footmisc}
+
+\usepackage[T1]{fontenc}
+\usepackage{times}%
+\usepackage{topcapt}
+\usepackage{natbib}% for bibliography sorting/compressing
+%\usepackage{pdfpages}
+%\usepackage{amsmath}
+%\usepackage{endnotes}
+\usepackage{graphics}
+
+
+%\usepackage{times}
+\newcounter{eqn}
+\renewcommand*{\theeqn}{\alph{eqn})}
+\newcommand{\num}{\refstepcounter{eqn}\text{\theeqn}\;}
+
+\makeatletter
+%\newcommand{\putindeepbox}[2][0.7\baselineskip]{{%
+\newcommand{\putindeepbox}[2][scale=0.4]{{%
+    \setbox0=\hbox{#2}%
+    \setbox0=\vbox{\noindent\hsize=\wd0\unhbox0}
+    \@tempdima=\dp0
+    \advance\@tempdima by \ht0
+    \advance\@tempdima by -#1\relax
+    \dp0=\@tempdima
+    \ht0=#1\relax
+    \box0
+}}
+\makeatother
+
+
+
+
+\usepackage{multirow}
+\usepackage{amssymb, amsmath}
+%\usepackage{enumerate}
+%\usepackage{url}
+%\usepackage{color} 
+\usepackage{listings}
+
+\usepackage{lmodern}
+
+
+
+	\ateneo{POLITECNICO DI TORINO}
+	\facolta{Elettronica e Telecomunicazioni}
+ 	\titolo{Design and Implementation of OFDM System on FPGA}
+ 	\sottotitolo {}
+ 	\corsodilaurea{Electronic and Telecommunication Engineering}
+ 	
+ 	\candidato{Seyed-Ehsan Koohestani}
+ 	\coordinatore{Prof. M. Mondin, Prof. R. Garello, Prof. A. K. Khandani}
+ 	\tutore{Prof. Marina Mondin - Prof. Roberto Garello - Prof. Amir Keyvan Khandani}
+ 	 	
+ 	\esamedidottorato{March 2015}
+ 	%\ciclodidottorato{XXVI Ciclo}
+ 	
+ 	\logosede{logopolito.eps}
+ 	
+\newtheorem{osservazione}{Osservazione}% Standard LaTeX
+ 	
+
+
+\input{newcommands}
+\newcommand{\fmfi}[2][\empty]{\ifthenelse{\equal{#1}{\empty}}{\fixme[inline]{[FI] #2}}{\fixme[#1]{[FI] #2}}}
+\newcommand{\fmlc}[2][\empty]{\ifthenelse{\equal{#1}{\empty}}{\fixme[inline]{[LC] #2}}{\fixme[#1]{[LC] #2}}}
+\newcommand{\fmeb}[2][\empty]{\ifthenelse{\equal{#1}{\empty}}{\fixme[inline]{[EB] #2}}{\fixme[#1]{[EB] #2}}}
+\newcommand{\todo}[1]{\par\noindent\fxwarning{#1}\par\noindent}
+\newcommand{\error}[1]{\par\noindent\fxerror{#1}\par\noindent}
+\newcommand{\fatal}[1]{\par\noindent\fixme{#1}\par\noindent}
+\newcommand{\Remark}[1]{\par\noindent\fxnote{#1}\par\noindent}
+
+\begin{document}
+\english
+\errorcontextlines=9
+\setcleardoublepage{empty}
+
+\expandafter\ifx\csname StileTrieste\endcsname\relax
+    \frontespizio
+\else
+    \paginavuota
+    \begin{dedica}
+       To my family.
+
+        \textdagger\ To my family.
+    \end{dedica}
+    \tomo
+\fi
+
+
+\sommario
+\textit{The orthogonal frequency division multiplexing} (OFDM) technology provides a high transmission data rate in wireless and mobile communications where multipath fading is a severe issue in degradation of the quality. Managing feasible coherent bandwidth to overcome Inter-Symbol Interference, OFDM enhances communication performance at a relatively small bandwidth cost. The improvement can be reached by interactive proper channel estimation and compensation which needs synchronization of transmitter and receiver. A \textit{Discrete Fourier Transform} (DFT) algorithm- based configuration simplified the digital implementation of OFDM system on field programmable gate array (FPGA) as a highly flexible solution, which provide prominent performance.\\
+In this thesis, steps to design a base-band OFDM system with channel estimation and timing synchronization upto implemented on FPGA are studied. It is a prototype based on the \textit{IEEE 802.11a} standard and the signals is transmitted and received using a bandwidth of 20 MHz. Focusing on the quadrature phase shift keying (QPSK) modulation, the system can achieve a throughput of $24 Mbps$. For the coarse estimation of timing, a modified maximum-normalized correlation (MNC) scheme is investigated and implemented. Starting from theoretical study, this thesis in detail describes the system design and verification on the basis of both MATLAB simulation and hardware implementation. Bit error rate (BER) verses bit energy to noise spectral density ($E_{b}/N_{0}$) is presented in the case of different channels. In the meanwhile, comparison is made between the simulation and implementation results, which verifies system performance from the system level to the register transfer level (RTL).\\
+First of all, the entire system is modeled in MATLAB and a floating-point model is established. Then, the fixed-point model is created with the help of Xilinx$'$s System Generator for DSP (XSG) and Simulink. Subsequently, the system is synthesized and implemented within Xilinx$'$s Integrated Software Environment (ISE) tools and targeted to Xilinx Zynq board. What is more, a hardware co-simulation is devised to reduce the processing time while calculating the BER for the fixed-point model.\\
+Some time-based standards on IEEE 802.11a are discussed and optimum implementation of on FPGA, for instance Cross-Correlation and algebraic machine, will be introduced. Besides, we will demonstrate an engineering steps for choosing the radio board and the processor software implementations.\\
+
+
+\ringraziamenti
+I am using this opportunity to express my gratitude to everyone who supported me throughout the course of this Master thesis. I am thankful for their aspiring guidance, invaluably constructive criticism and friendly advice during the project work. I am sincerely grateful to them for sharing their truthful and illuminating views on a number of issues related to the project.
+I express my warm thanks to Prof. Amir Keyvan Khandani and CST Lab members for their support, trust and guidance at the University of Waterloo.
+I would also like to thank guide of Prof. Roberto Garello and Prof. Marina Modin at Politecnico di Torino and their aspiration in Communication Systems.
+Especially, I appreciate my family for their constant devotion and love during years of separation.\\
+
+Thank you,
+
+Author
+
+\tablespagetrue\figurespagetrue % normalmente questa riga non serve ed e' commentata
+
+\indici
+
+\mainmatter
+
+
+
+\include{introduction}
+\include{content/part1}
+\include{content/part2}
+\include{content/part3}
+\include{content/part4}
+
+\cleardoublepage
+
+\bibliographystyle{unsrt}
+\bibliography{Thesis_Bibliography}	
+
+\end{document}

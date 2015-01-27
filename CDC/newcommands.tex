@@ -1,0 +1,179 @@
+\newcommand{\figref}[1] {Fig.~\ref{#1}}
+\newcommand{\secref}[1] {Section~\ref{#1}}
+\newcommand{\tabref}[1] {Table~\ref{#1}}
+\newcommand{\eqtnref}[1] {Eq.~\ref{#1}}
+\newcommand{\algref}[1] {Alg.~\ref{#1}}
+
+\newcommand{\refnet}{base network\xspace}
+\newcommand{\germany}{Germany17\xspace}
+\newcommand{\abilene}{Abilene\xspace}
+\newcommand{\geant}{G\'{e}ant\xspace}
+
+\newcommand{\myparagraph}[1]{\par{\textbf{#1}}}
+
+\newcommand{\nobel} {{\sc Nobel}\xspace}
+\newcommand{\zimpl} {{\sc Zimpl}\xspace}
+\newcommand{\cplex} {{\sc Cplex}\xspace}
+%% ----------------------------------------------------------------------
+%%    general math
+%% ----------------------------------------------------------------------
+\renewcommand{\implies}{\ensuremath{\Rightarrow}}
+\newcommand{\R}            {\ensuremath{\mathbb{R}}\xspace}
+\newcommand{\Rplus}        {\ensuremath{\R_+}\xspace}
+\newcommand{\Z}            {\ensuremath{\mathbb{Z}}\xspace}
+\newcommand{\Zplus}        {\ensuremath{\Z_+}\xspace}
+\newcommand{\card}[1]      {\ensuremath{\left|{#1}\right|}\xspace}
+\newcommand{\abs}[1]       {\ensuremath{\card{#1}}\xspace}
+% \newcommand{\norm}[1]      {\ensuremath{\left\|{#1}\right\|}\xspace}
+\newcommand{\NP}{NP\xspace}
+\newcommand{\NPhard}{\NP -hard\xspace}
+
+\renewcommand {\atop} [2] {\genfrac{}{}{0pt}{}{#1}{#2}}
+
+% sets
+\newcommand{\set}[1] {\left\{ {#1} \right\}}
+%\newcommand{\settype}      [1] {\ensuremath{\mathcal{#1}}\xspace}
+\newcommand{\settype}      [1] {\ensuremath{#1}\xspace}
+\newcommand{\elementtype}  [1] {\ensuremath{#1}\xspace}
+
+% nodes and edges
+\newcommand{\node}             {\elementtype{i}}
+\newcommand{\othernode}        {\elementtype{j}}
+\newcommand{\physgraph}        {\settype{G}}
+\newcommand{\virtgraph}        {\settype{H}}
+\newcommand{\nodes}            {\settype{V}}
+\newcommand{\allnodepairs}     {\settype{\nodes\times\nodes}}
+\newcommand{\physlink}         {\elementtype{e}}
+\newcommand{\allphyslinks}     {\settype{E}}
+\newcommand{\virtlink}         {\elementtype{l}}
+%\newcommand{\allvirtlinks}     {\settype{L}}
+\newcommand{\link}          {\elementtype{p}}
+\newcommand{\alllinks}          {\elementtype{P}}
+\newcommand{\alllinksnodepair}          {\elementtype{\alllinks_{\nodepair}}}
+\newcommand{\alllinksending}[1]          {\alllinks_#1}
+\newcommand{\allphyslinksending}[1]          {\delta_{\allphyslinks}(#1)}
+\newcommand{\alllinksusing}[1]          {\link\in\alllinks:\,#1\in\link}
+\newcommand{\alllinkstraversing}[1]          {\alllinks_#1}
+\newcommand{\nodepair}          {\elementtype{(\node,\othernode)}}
+\newcommand{\linkfwd}          {\elementtype{ij}}
+\newcommand{\linkbwd}          {\elementtype{ji}}
+
+\newcommand{\linkweight}          {\elementtype{w_{\virtlink}}}
+\newcommand{\demandsrcnode}             {\elementtype{a}}
+\newcommand{\demandtrgtnode}             {\elementtype{b}}
+\newcommand{\demandsrctrgtnodepair}          {\elementtype{(\demandsrcnode,\demandtrgtnode)}}
+\newcommand{\physlinklength}          {\elementtype{L_{\physlink}}}
+\newcommand{\physlinkamplifiers}          {\elementtype{N_{a}^{\physlink}}}
+
+% time periods
+\newcommand{\period}       {\ensuremath{t}\xspace}
+\newcommand{\allPeriods}   {\ensuremath{T}\xspace}
+\newcommand{\tinT}         {\ensuremath{\period \in \allPeriods}\xspace}
+
+% demands and commodities
+\newcommand{\com}                   {\elementtype{k}}
+\newcommand{\allcoms}               {\settype{K}}
+
+% demand values
+\newcommand{\demandvalueof} [1]{\ensuremath{d_{#1}}\xspace}
+\newcommand{\demandvalueofat} [2]{\ensuremath{d_{#1}}\xspace}
+\newcommand{\dij}            {\ensuremath{d_{\node\othernode}}\xspace}
+\newcommand{\dki}         {\ensuremath{d_{\com\node}}\xspace}
+\newcommand{\demandvalue}    {\settype{\demandvalueof{\demand}}}
+\newcommand{\comdemandvalue}   {\ensuremath{\demandvalueof{}^{\com}}\xspace}
+\newcommand{\nodedemandvalue}  {\ensuremath{\demandvalueof{\node}^{\com}}\xspace}
+\newcommand{\nodeemanatingdemandvalue}  {\ensuremath{\demandvalueof{\node}}\xspace}
+
+\newcommand{\dji}            {\ensuremath{d_{\othernode\node}}\xspace}
+\newcommand{\dab}            {\ensuremath{d_{\demandsrcnode\demandtrgtnode}}\xspace}
+\newcommand{\dba}            {\ensuremath{d_{\demandtrgtnode\demandsrcnode}}\xspace}
+
+% iterators
+\newcommand{\iinV}         {\ensuremath{\node     \in \nodes}\xspace}
+\newcommand{\ijinVV}         {\ensuremath{\nodepair \in \allnodepairs}\xspace}
+\newcommand{\abinVV}         {\ensuremath{\demandsrctrgtnodepair \in \allnodepairs}\xspace}
+\newcommand{\einE}         {\ensuremath{\physlink \in \allphyslinks}\xspace}
+\newcommand{\pinP}         {\ensuremath{\link  \in \alllinks}\xspace}
+\newcommand{\pinPe}         {\ensuremath{\link\in\alllinkstraversing{\physlink}}\xspace}
+\newcommand{\pinPij}         {\ensuremath{\link \in \alllinksnodepair}\xspace}
+%\newcommand{\linL}         {\ensuremath{\virtlink \in \allvirtlinks}\xspace}
+
+\newcommand{\kinK}         {\ensuremath{\com      \in \allcoms}\xspace}
+\newcommand{\kinKp}        {\ensuremath{\com      \in \allprotectedcoms}\xspace}
+\newcommand{\ninN}        {\ensuremath{\router \in \allrouters}\xspace}
+\newcommand{\oinO}        {\ensuremath{\oxc \in \alloxcs}\xspace}
+
+% capacity modules
+\newcommand{\router}       {\elementtype{n}}
+\newcommand{\allrouters}   {\ensuremath{\settype{N}}\xspace}
+% \newcommand{\linkmodule}    {\elementtype{m}}
+% \newcommand{\allmodulesoflink}{\ensuremath{\settype{M}_{\link}}\xspace}
+% \newcommand{\alllinkmodules}       {\ensuremath{\settype{M}}\xspace}
+
+% capacities
+\newcommand{\capacity}{\ensuremath{C}\xspace}
+\newcommand{\caprouter}         {\ensuremath{R^{\router}}\xspace}
+\newcommand{\capfiber}     {\ensuremath{B}\xspace}
+
+% maximum admissible utilization (of a lightpath, logical
+% link and bandwidth installed on a physical path)
+\newcommand{\maxutil}     {\ensuremath{\delta}\xspace}
+
+% cost
+% \newcommand{\cost}          [2]  {\ensuremath{\kappa_{#1}^{#2}}\xspace}
+% \newcommand{\costoxc}     {\ensuremath{\delta}\xspace}
+\newcommand{\costrouter}      {\ensuremath{\alpha^{\router}}\xspace}
+\newcommand{\costfiber} {\ensuremath{\beta^{\physlink}}\xspace}
+% \newcommand{\costlinkmodule}  {\ensuremath{\cost{\link}{\linkmodule}}\xspace}
+\newcommand{\costlinkmodule} {\ensuremath{\gamma}\xspace}
+\newcommand{\costamplifier}      {\ensuremath{\beta^{a}}\xspace}
+\newcommand{\costterminal}      {\ensuremath{\beta^{t}}\xspace}
+
+% primal variables
+\newcommand{\vartotalflownodepair}  {\ensuremath{f_{(\nodepair)}}\xspace}
+\newcommand{\varflownodepairfwddemand}    {\ensuremath{f_{\node\othernode}^{\demandsrcnode\demandtrgtnode}}\xspace}
+\newcommand{\varflownodepairbwddemand}    {\ensuremath{f_{\othernode\node}^{\demandsrcnode\demandtrgtnode}}\xspace}
+\newcommand{\varflownodepairfwdcom}       {\ensuremath{f_{\node\othernode}^{\com}}\xspace}
+\newcommand{\varflownodepairbwdcom}       {\ensuremath{f_{\othernode\node}^{\com}}\xspace}
+\newcommand{\varflowlinkcom}        {\ensuremath{f_{\link}^{\com}}\xspace}
+\newcommand{\varflowlink}           {\ensuremath{f_{\link}^{\nodepair}}\xspace}
+\newcommand{\vartotalflowlink}      {\ensuremath{f_{\link}}\xspace}
+\newcommand{\varcaplink}            {\ensuremath{y_{\link}}\xspace}
+% \newcommand{\varcaplinkmodule}    {\ensuremath{y_{\link}^{\linkmodule}}\xspace}
+\newcommand{\varcaprouter}         {\ensuremath{x_{\node}^{\router}}\xspace}
+% \newcommand{\varcapoxc}       {\ensuremath{x_{\node}^{\oxc}}\xspace}
+\newcommand{\varcapfiber}                    {\ensuremath{z_{\physlink}}\xspace}
+
+
+\newcommand{\varflowvirtlink}           {\ensuremath{f_{\virtlink}^{\nodepair}}\xspace}
+\newcommand{\varflownodepairaj}    {\ensuremath{f_{\demandsrcnode\othernode}^{\demandsrcnode\demandtrgtnode}}\xspace}
+\newcommand{\varflownodepairbi}    {\ensuremath{f_{\node\demandtrgtnode}^{\demandsrcnode\demandtrgtnode}}\xspace}
+
+%% ----------------------------------------------------------------------
+%%    mathematical notation
+%% ----------------------------------------------------------------------
+
+%% for readability
+\newcommand{\union}           {\cup}
+\newcommand{\disjointunion}   {\uplus}
+\newcommand{\intersection}    {\cap}
+\newcommand{\bigunion}        {\bigcup}
+\newcommand{\bigdisjointunion}{\biguplus}
+\newcommand{\bigintersection} {\bigcap}
+%\newcommand{\eps}             {\epsilon}
+
+
+%% ----------------------------------------------------------------------
+%%    GAGD notation
+%% ----------------------------------------------------------------------
+
+\newcommand{\maxnoimprovements}  {\ensuremath{\Delta}\xspace}
+\newcommand{\populationsize}  {\ensuremath{\Theta}\xspace}
+\newcommand{\offspringsize}  {\ensuremath{\Gamma}\xspace}
+\newcommand{\population}  {\ensuremath{\Phi}\xspace}
+\newcommand{\offspring}  {\ensuremath{\Psi}\xspace}
+
+%---------------------------------------------------------------------
+% End of file
+%---------------------------------------------------------------------
+

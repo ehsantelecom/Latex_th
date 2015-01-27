@@ -1,0 +1,23 @@
+\BOOKMARK [0][]{chapter*.1}{Summary}{}% 1
+\BOOKMARK [0][]{chapter*.2}{Acknowledgements}{}% 2
+\BOOKMARK [-1][]{part.1}{I Introduction}{}% 3
+\BOOKMARK [0][]{section.0.1}{Background}{part.1}% 4
+\BOOKMARK [1][]{section.0.2}{Motivation}{section.0.1}% 5
+\BOOKMARK [1][]{section.0.3}{Methodology}{section.0.1}% 6
+\BOOKMARK [1][]{section.0.4}{Contribution}{section.0.1}% 7
+\BOOKMARK [-1][]{part.2}{II Theory, Design and Simulation}{}% 8
+\BOOKMARK [0][]{section.0.5}{OFDM System Architecture}{part.2}% 9
+\BOOKMARK [1][]{section.0.6}{OFDM Specifications in IEEE 802.11a Standard}{section.0.5}% 10
+\BOOKMARK [-1][]{part.3}{III FPGA Implementation}{}% 11
+\BOOKMARK [0][]{section.0.7}{System Design in System Generator}{part.3}% 12
+\BOOKMARK [1][]{section.0.8}{Hardware Introduction}{section.0.7}% 13
+\BOOKMARK [1][]{section.0.9}{Expectations for CFO on FMCOMM1}{section.0.7}% 14
+\BOOKMARK [1][]{section.0.10}{Time Domain CFO Correction}{section.0.7}% 15
+\BOOKMARK [1][]{section.0.11}{Carrier Frequency Offsets}{section.0.7}% 16
+\BOOKMARK [1][]{section.0.12}{FPGA Architecture}{section.0.7}% 17
+\BOOKMARK [1][]{section.0.13}{Test Methodology}{section.0.7}% 18
+\BOOKMARK [-1][]{part.4}{IV Sample Analysis and Conclusion}{}% 19
+\BOOKMARK [0][]{section.0.14}{Hardware Samples and Analysis}{part.4}% 20
+\BOOKMARK [1][]{section.0.15}{Bit-Error Rate Calculation}{section.0.14}% 21
+\BOOKMARK [1][]{section.0.16}{FPGA Resource Consumption}{section.0.14}% 22
+\BOOKMARK [1][]{section.0.17}{Conclusion}{section.0.14}% 23

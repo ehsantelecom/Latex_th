@@ -1,8 +1,8 @@
-\begin{abstract}
+\chapter{Theory, Design and Simulation}
+\label{sec:chapter_2}
+
 The fundamental concepts of an OFDM design is described. A detailed block diagram is shown. A theoretical basic based band OFDM system is compared with IEEE 802.11 standard scheme. Influential parameters to are explained with guided us to have other parameters in Table \ref{table:sys_param}. Arrangement of the IEEE 802.11a carriers demonstrated.\\
 A short discussion of Carrier Frequency Offset is initiated and its origin and the impacts on the whole system on receiver side and a possible solution to reduce the issue is discussed.\\
-
-\end{abstract}
 
 \section{OFDM System Architecture}
 Generally, an OFDM signal is defines as a summation of many OFDM standard symbols, which can considered continuous in the time domain.It can be defined as following:\\
@@ -76,11 +76,12 @@ The receiver side is just the opposite of the transmitter. In the cyclic prefix 
 Finally, the zero channels are removed and the matrix structure is reconverted to a series of symbols. The following analysis is done on the received symbols and consequently they are not demodulated into a bit-stream.\\
 According to the above analysis, the basic architecture for a baseband OFDM system that contains the essential parts is shown in Figure~\ref{fig:basic_ofdm}.\\
 
-\begin{center}
+\begin{figure}[h!]
+\centering
 \includegraphics[width=12cm]{content/fig/basic_ofdm_design.JPG}
+\caption{Basic baseband OFDM system}
 \label{fig:basic_ofdm}
-\captionof{figure}{Basic baseband OFDM system}
-\end{center}
+\end{figure}
 
 In practice, to prevent sharp transactions at the sample time boundaries, a windowing block is used for filter shaping. In conclusion, spectrum utilization is enhanced dramatically. Therefore, the baseband OFDM symbol can be written as below:\\
 \begin{equation} \label{ofdm_window}
@@ -118,20 +119,25 @@ The 802.11 radio WLANs operate in the $2.4 GHz$ ($2.4$ to $2.483 GHz$) unlicense
 
 The physical layer in 802.11 is split into Physical Layer Convergence Protocol (PLCP) and the Physical Medium Dependent (PMD) sub layers. The PLCP prepares/parses data units transmitted/received using various 802.11 media access techniques. The PMD performs the data transmission/reception and modulation/demodulation directly accessing air under the guidance of the PLCP. The 802.11 MAC layer to the great extend is affected by the nature of the media. For example, it implements a relatively complex for the second layer fragmentation of PDUs.\\
 
-\begin{center}
+
+\begin{figure}[h!]
+\centering
 \includegraphics[width=10cm]{content/fig/osi.JPG}
-\captionof{figure}{OSI Reference Model.}
-\end{center}
+\caption{OSI Reference Model}
+\label{fig:osi_model}
+\end{figure}
 
 \subsection{System Design}
 
 In reality, having an anti-aliasing configuration, oversampling is performed before passing the digital signal to digital-to-analog converter. There are many other blocks in standards like channel coding, symbol interleaving and channel estimation.\\
 In comparison to the fundamental architecture shown in Figure 000, some other building blocks are added in a practical IEEE 802.11 design shown in Fig 00, marked with blue and dashed on line. At the transmitter, several "null" subcarriers or tones are reserved besides of the data subcarriers in order to perform oversampling of the transmitted signal. In this context, "null" means the symbol carried on this subcarrier has a value of zero. Besides, some other subcarriers used as pilot for channel estimation are also inserted. The subcarriers are allocated at the input of the IFFT block to generate a phase shift. The windowing for pulse shaping is achieved after CP extension.\\
 
-\begin{center}
+\begin{figure}[h!]
+\centering
 \includegraphics[width=12cm]{content/fig/ieee_system_design.JPG}
-\captionof{figure}{Architecture of an OFDM system}
-\end{center}
+\caption{Architecture of an OFDM system}
+\label{fig:arch_ofdm_sys}
+\end{figure}
 
 At the receiver side, the frame synchronization and detection for both timing and frequency is performed in the first stage. Channel estimation is performed after the FFT block outputs the preambles in the frequency domain. The result is fed back to the FFT block for the equalization, which eliminates the effects of fading channel, while the fine synchronization for both timing and frequency is also added to further improve the system performance.\\
 At least these basic parameters should be specified for a system design:
@@ -163,11 +169,12 @@ To accomplish Oversampling, some zeros before and after the data vector are appe
 
 In the IEEE 802.11a transmitter, a 64 point IFFT multiplexes the orthogonal sub-carriers and the sub-carriers are renumbered as in Figure \ref{freq_alloc} before performing the Fourier transformation. Only 48 of them are used for data transmission and they are modulated by using BPSK, QPSK, 16-QAM or 64-QAM according to the Rate parameter. The sub-carriers $P_{-21}$, $P_{-7}$, $P_{7}$ and $P_{21}$ are dedicated to comb-type pilot signals which are used to track the phase variations due to the time varying channel or a frequency o set error. The pilot sub-carriers are modulated by using BPSK and to prevent the generation of spectral lines, they transmit a pseudo random binary sequence generated by the same polynomial used in the scrambler.\\
 
-\begin{center}
+\begin{figure}[h!]
+\centering
 \includegraphics[width=10cm]{content/fig/freq_alloc.JPG}
-\captionof{figure}{The frequency allocation of IEEE 802.11a sub-carriers}
-\label{freq_alloc}
-\end{center}
+\caption{The frequency allocation of IEEE 802.11a sub-carriers}
+\label{fig:freq_alloc}
+\end{figure}
 
 The nonzero data values are mapped onto the subcarriers around 0 Hz, and the zeros are mapped onto frequencies around sampling rate.
 Basically, in the BPSK modulation is applied on each subcarrier, each symbol for an individual subcarrier has one bits. The bit rate achieves without channel coding:\\
@@ -178,9 +185,8 @@ Basically, in the BPSK modulation is applied on each subcarrier, each symbol for
 
 The same calculation can be perform for QPSK to reach 24Mbps. But, channel coding will reduce this values. Variation of coding rates and modulation methods, In the 802.11a standard, the data rate ranges from 6 Mbps to 54 Mbps.\\
 
-\begin{center}
-\captionof{table}{System parameters defined for the proposed OFDM system}
-\label{table:sys_param}
+\begin{table}
+\centering
 \vspace{0.5cm}
 \begin{tabular}{c|c|c}
 Parameter&Description&Value\\ \hline
@@ -199,13 +205,14 @@ $B_{u}$&Signal occupied bandwidth&$16.6MHz$\\
 &Modulation type&$BPSK, QPSK$\\
 $R_{b}$&Data rate without coding&$12Mbps, 24Mbps$\\
 \end{tabular}
-\end{center}
+\caption{System parameters defined for the proposed OFDM system}
+\label{table:sys_param}
+\end{table}
 
 Table \ref{table:code_vs_rate} shows the length parameter indicates the number of information bytes with different code rates:
 
-\begin{center}
-\captionof{table}{Rate dependant parameters in IEEE 802.11a Standard}
-\label{table:code_vs_rate}
+\begin{table}
+\centering
 \vspace{0.5cm}
 \begin{tabular}{c|c|c|c|c}
 Data rate&Modulation&Code Rate&Coded bits per symbol&Data bits per symbol\\ \hline
@@ -216,7 +223,9 @@ Data rate&Modulation&Code Rate&Coded bits per symbol&Data bits per symbol\\ \hli
 24 Mbps&16QAM&1/2&192&96\\
 36 Mbps&16QAM&3/4&192&144\\
 \end{tabular}
-\end{center}
+\caption{Rate dependant parameters in IEEE 802.11a Standard}
+\label{table:code_vs_rate}
+\end{table}
 
 The theoretical equation of the Bit-Error Rate for a QPSK channel is:\\
 
@@ -254,11 +263,13 @@ The application of STS and LTS for training are different. STS used for AGC, fra
 The data being transmitted should pass several stages and be prepared by PLCP (Physical Layer Convergence Procedure) before transmission. The preamble and the PLCP header are transmitted at 1Mbps regardless of the current data transmission speed. After the preamble the payload prepared by the MAC layer is sent to the receiver at the rate specified in the services field.\\
 The picture below shows the OFDM packet data layout. It starts with training sequence (PLCP preamble), followed by the SIGNAL field and data. The data is followed by 6 tail bits and padding (not shown on the picture). Both the training sequence and the 24 bit SIGNAL field are transmitted at $6 Mbps$ rate. The SIGNAL field tells the receiver at what rate the following data will be transmitted and indirectly defines the subcarriers' modulation technique employed. The BPSK, QPSK, 16-QAM and 64-QAM are the available choices. The SIGNAL field also delivers the length (12 bit) of the following data and includes a zero bit sequence for the data scrambler synchronization. The total training sequence and SIGNAL field transmission times add up to about $20 \mu s$, which is an overhead equivalent to approximately 140 bytes transmission at the maximum transmission rate of 54Mbps defined by the standard.\\
 
-\begin{center}
-\includegraphics[width=12cm]{content/fig/ofdm_frame.JPG}
-\captionof{figure}{Preamble of IEEE 802.11}
-\label{preamble_ieee}
-\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=10cm]{content/fig/ofdm_frame.JPG}
+\caption{Preamble of IEEE 802.11}
+\label{fig:preamble_ieee}
+\end{figure}
+
 
 As we already analyzed, 52 subcarriers are used for an OFDM data symbol and pilot. Oversampling is achieved by adding 12 null subcarriers in order to eliminate aliasing which might occur during digital to analog conversion. Because FFT shift is performed, the null subcarriers with a value of zero are located in the middle of the input vector for the IFFT block. Note that dc carrier is not used to transmit data. The short and long training sequences can also be applied to this mapping rule, since they both have a length of 52 samples with frequency index from -26 to +26.\\
 
@@ -266,11 +277,12 @@ As we already analyzed, 52 subcarriers are used for an OFDM data symbol and pilo
 \subsection{Origin of CFO}
 A simple model of a radio transmitter and receiver can depict the basis of the CFO source.
 
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/cfo_radio_model.JPG}
-\captionof{figure}{General models of a direct conversion RF}
-\label{cfo_radio_model}
-\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=10cm]{content/fig/cfo_radio_model.JPG}
+\caption{General models of a direct conversion RF}
+\label{fig:cfo_radio_model}
+\end{figure}
 
 In Figure \ref{cfo_radio_model}, $\omega$ is The carrier frequency and $X_{BB}$ is the complex baseband signal, $X_{RF}$ is
 a real-valued RF signal. These models simplified many other operations in a real RF transceivers although none of these affect the up/down-conversion processes as they relate to CFO.\\
@@ -306,22 +318,24 @@ There are two destructive impacts on an OFDM system. Firstly, the phase offset a
 The second effect of CFO is the degradation of orthogonality between subcarriers in receiver's FFT which causes inter-carrier interference (ICI). ICI acts an effective SNR reduction as a result of CFO increasing. [...]\\
 The impact is displayed in Figure \ref{cfo_impact_on_ici} which is shown simulated OFDM system uses 10 MHz bandwidth and 64 subcarriers, 48 of on a random 16-QAM data symbols. CFO and AWGN are applied between the transmitter and receiver. The receiver model uses perfect knowledge of the CFO to correct the phase offset in each OFDM symbol, but does not implement any correction for ICI.\\
 
-\begin{center}
+\begin{figure}[h!]
+\centering
 \includegraphics[width=10cm]{content/fig/cfo_on_ici.JPG}
-\captionof{figure}{OFDM performance loss due to CFO-induced ICI.}
-\label{cfo_impact_on_ici}
-\end{center}
+\caption{OFDM performance loss due to CFO-induced ICI.}
+\label{fig:cfo_impact_on_ici}
+\end{figure}
 
 The results shows that for large CFOs errors caused by ICI dominate performance, even at high SNR. It is also
 clear that for small CFOs performance is dominated by SNR. Specifically, for frequency offsets smaller than 1 kHz, the
 performance degradation due to ICI is negligible.\\
 Let's focus on LTS part in a OFDM symbol, Figure \ref{sym_ofdm}, for a while. In time domain, we have 160 samples in this section which creates to complete LTS symbols and a half. Each LTS symbol has 64 samples shown in Figure \ref{lts_time_domain}.\\
 
-\begin{center}
+\begin{figure}[h!]
+\centering
 \includegraphics[width=10cm]{content/fig/LTS_time_domain.JPG}
-\captionof{figure}{LTS in Time Domain.}
-\label{lts_time_domain}
-\end{center}
+\caption{LTS in Time Domain.}
+\label{fig:lts_time_domain}
+\end{figure}
 
 We can say:
 \begin{equation} \label{cfo_cal}
@@ -332,11 +346,12 @@ CFO_{EST} = \frac{f_{s}}{2\pi . 64^{2}} \sum\limits_{n=64}^{127} \phi_{n}- \phi_
 \end{equation}
 
 
-\begin{center}
-\includegraphics[width=\textwidth]{content/fig/cfo_est.JPG}
-\captionof{figure}{Time Domain CFO Estimation.}
-\label{cfo_est}
-\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=10cm]{content/fig/cfo_est.JPG}
+\caption{Time Domain CFO Estimation.}
+\label{fig:cfo_est}
+\end{figure}
 
 Which $CFO_{EST}$ is the estimated CFO. To have such the structure in the Simulink we can arrange as Figure \ref{cfo_est}.
 
@@ -346,11 +361,12 @@ Which $CFO_{EST}$ is the estimated CFO. To have such the structure in the Simuli
 The synchronization tasks is challenging in an OFDM-based communication system. Prior to performing channel estimation equalization and demodulation, OFDM symbol timing must be detected. The receiver has no information when a packet starts, and so the first synchronization task is packet detection. Once a packet has been detected the remaining synchronization functions include coarse and fine timing recovery and carrier recovery.\\
 Figure \ref{ieee_preamble} shows the structure of the IEEE 802.1la standard preamble. The 10 short preambles ($A_{1}$-$A_{10}$) are identical 16- sample duration sequences. The cyclic prefix ($CP$) is a 32- sample sequence and the long preambles ($C_{1}$ and $C_{2}$) are identical 64-sample sequences. As indicated in the figure, the various fields are used for packet detection, automatic gain control (AGC), diversity selection, coarse and fine frequency offset estimation, fine symbol timing estimation and channel estimation.\\
 
-\begin{center}
+\begin{figure}[h!]
+\centering
 \includegraphics[width=10cm]{content/fig/ieee_preamble.JPG}
-\captionof{figure}{IEEE 802.11a preamble.}
-\label{ieee_preamble}
-\end{center}
+\caption{IEEE 802.11a preamble.}
+\label{fig:ieee_preamble}
+\end{figure}
 
 The packet detector is based on the Schimdl and Cox delay and correlate algorithm employed for acquiring symbol timing commonly. The algorithm, as illustrated in Figure \ref{schimdl_cox}, is basically a sliding window correlator combined with an energy detector used to normalize the decision statistic and hence guard against fluctuations of the input signal power level.\\
 
@@ -370,12 +386,12 @@ The cross-correlation P(n) and auto-correlation R(n) are calculated according to
 M(n)= \dfrac{|P(n)|^{2}}{R(n)^{2}}
 \end{equation}
 
-
-\begin{center}
+\begin{figure}[h!]
+\centering
 \includegraphics[width=10cm]{content/fig/schimdl_cox.JPG}
-\captionof{figure}{Schimdl and Cox Delay and Correlate Algorithm.}
-\label{schimdl_cox}
-\end{center}
+\caption{Schimdl and Cox Delay and Correlate Algorithm.}
+\label{fig:schimdl_cox}
+\end{figure}
 
 \subsection{Channel Estimation and Distortion Reject}
 \label{section:channel_est}
