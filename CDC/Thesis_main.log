@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.6)  27 JAN 2015 16:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.6)  15 FEB 2015 13:45
 entering extended mode
 **Thesis_main.tex
 (C:\Users\mbaratva\Desktop\thesis\CDC\Thesis_main.tex
@@ -787,36 +787,36 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 LaTeX Warning: Label `sec:chapter_2' multiply defined.
 
 ))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 134.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 134.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 201.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 201.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cbfonts-fd\lgrcmr.fd"
 File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 134.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 201.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 201.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 134.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 201.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -837,7 +837,7 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Messaggio Toptesi: Ricalcolo i margini
 \AtBeginShipoutBox=\box42
-Package hyperref Info: Link coloring ON on input line 134.
+Package hyperref Info: Link coloring ON on input line 201.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -846,9 +846,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count171
 )
-LaTeX Info: Redefining \ref on input line 134.
-LaTeX Info: Redefining \pageref on input line 134.
-LaTeX Info: Redefining \nameref on input line 134.
+LaTeX Info: Redefining \ref on input line 201.
+LaTeX Info: Redefining \pageref on input line 201.
+LaTeX Info: Redefining \nameref on input line 201.
 
 (C:\Users\mbaratva\Desktop\thesis\CDC\Thesis_main.out)
 (C:\Users\mbaratva\Desktop\thesis\CDC\Thesis_main.out)
@@ -864,51 +864,51 @@ Package epstopdf Info: Source file: <logopolito.eps>
 (epstopdf)                    size: 73600 bytes
 (epstopdf)             Command: <epstopdf --outfile=logopolito-eps-converted-to
 .pdf logopolito.eps>
-(epstopdf)             \includegraphics on input line 140.
+(epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
 <logopolito-eps-converted-to.pdf, id=135, 433.62pt x 426.59375pt>
 File: logopolito-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logopolito-eps-converted-to.pdf>
-Package pdftex.def Info: logopolito-eps-converted-to.pdf used on input line 140
+Package pdftex.def Info: logopolito-eps-converted-to.pdf used on input line 207
 .
 (pdftex.def)             Requested size: 85.35826pt x 83.9698pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 140.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 207.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 140.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 207.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 140
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 207
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 140
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 207
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 140.
+(Font)              <12> on input line 207.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 140.
+(Font)              <8> on input line 207.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 140.
-LaTeX Font Info:    Try loading font information for U+msa on input line 140.
+(Font)              <6> on input line 207.
+LaTeX Font Info:    Try loading font information for U+msa on input line 207.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 140.
+LaTeX Font Info:    Try loading font information for U+msb on input line 207.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -921,7 +921,7 @@ Overfull \vbox (2.16994pt too high) has occurred while \output is active []
 
 
  <C:/Users/mbaratva/Desktop/thesis/CDC/logopolito-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 153--157
+Underfull \hbox (badness 10000) in paragraph at lines 220--224
 
  []
 
@@ -933,7 +933,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 160--164
+Underfull \hbox (badness 10000) in paragraph at lines 227--231
 
  []
 
@@ -944,24 +944,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--164
 ])
 \tf@toc=\write6
  [6]
-(C:\Users\mbaratva\Desktop\thesis\CDC\Thesis_main.lot)
-\tf@lot=\write7
- [7
-
-
-]
-(C:\Users\mbaratva\Desktop\thesis\CDC\Thesis_main.lof [8
+(C:\Users\mbaratva\Desktop\thesis\CDC\Thesis_main.lof [7
 
 
 ])
-\tf@lof=\write8
- [9] [10
-
-
-]
+\tf@lof=\write7
+ [8]
 No file introduction.tex.
 (C:\Users\mbaratva\Desktop\thesis\CDC\content/part1.tex
 Chapter 1.
+
+Package natbib Warning: Citation `FDSS_13' on page 1 undefined on input line 4.
+
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
@@ -978,6 +973,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
  []
 
 [1
+
+
 
 
 
@@ -1063,14 +1060,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-<content/fig/ofdmmodel1.JPG, id=353, 763.35187pt x 444.15938pt>
+<content/fig/ofdmmodel1.JPG, id=339, 763.35187pt x 444.15938pt>
 File: content/fig/ofdmmodel1.JPG Graphic file (type jpg)
 
 <use content/fig/ofdmmodel1.JPG>
 Package pdftex.def Info: content/fig/ofdmmodel1.JPG used on input line 67.
 (pdftex.def)             Requested size: 426.79134pt x 248.32768pt.
 
-<content/fig/ofdmmodel2.JPG, id=354, 724.20563pt x 429.10312pt>
+<content/fig/ofdmmodel2.JPG, id=340, 724.20563pt x 429.10312pt>
 File: content/fig/ofdmmodel2.JPG Graphic file (type jpg)
 
 <use content/fig/ofdmmodel2.JPG>
@@ -1102,7 +1099,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--78
 l.78 
       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdmmodel1.JPG> <C:/Use
 rs/mbaratva/Desktop/thesis/CDC/content/fig/ofdmmodel2.JPG>]
-<content/fig/basic_ofdm_design.JPG, id=366, 506.6428pt x 284.56313pt>
+<content/fig/basic_ofdm_design.JPG, id=352, 506.6428pt x 284.56313pt>
 File: content/fig/basic_ofdm_design.JPG Graphic file (type jpg)
 
 <use content/fig/basic_ofdm_design.JPG>
@@ -1135,7 +1132,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-<content/fig/osi.JPG, id=373, 368.37625pt x 173.64874pt>
+<content/fig/osi.JPG, id=358, 368.37625pt x 173.64874pt>
 File: content/fig/osi.JPG Graphic file (type jpg)
 
 <use content/fig/osi.JPG>
@@ -1162,7 +1159,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--134
                                                   \@startcolumn \@whilesw \i...
 l.134 
        <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/osi.JPG>]
-<content/fig/ieee_system_design.JPG, id=378, 516.42938pt x 292.09125pt>
+<content/fig/ieee_system_design.JPG, id=363, 516.42938pt x 292.09125pt>
 File: content/fig/ieee_system_design.JPG Graphic file (type jpg)
 
 <use content/fig/ieee_system_design.JPG>
@@ -1212,7 +1209,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
-[12] <content/fig/freq_alloc.JPG, id=393, 525.46312pt x 158.09062pt>
+[12] <content/fig/freq_alloc.JPG, id=379, 525.46312pt x 158.09062pt>
 File: content/fig/freq_alloc.JPG Graphic file (type jpg)
 
 <use content/fig/freq_alloc.JPG>
@@ -1334,7 +1331,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--265
 
  []
 
-<content/fig/ofdm_frame.JPG, id=408, 508.90125pt x 110.66344pt>
+<content/fig/ofdm_frame.JPG, id=395, 508.90125pt x 110.66344pt>
 File: content/fig/ofdm_frame.JPG Graphic file (type jpg)
 
 <use content/fig/ofdm_frame.JPG>
@@ -1345,7 +1342,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-<content/fig/cfo_radio_model.JPG, id=416, 468.24937pt x 158.09062pt>
+<content/fig/cfo_radio_model.JPG, id=402, 468.24937pt x 158.09062pt>
 File: content/fig/cfo_radio_model.JPG Graphic file (type jpg)
 
 <use content/fig/cfo_radio_model.JPG>
@@ -1423,7 +1420,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 317--320
 
  []
 
-<content/fig/cfo_on_ici.JPG, id=422, 313.17pt x 213.79875pt>
+<content/fig/cfo_on_ici.JPG, id=408, 313.17pt x 213.79875pt>
 File: content/fig/cfo_on_ici.JPG Graphic file (type jpg)
 
 <use content/fig/cfo_on_ici.JPG>
@@ -1442,7 +1439,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 328--332
 
  []
 
-[17] <content/fig/LTS_time_domain.JPG, id=430, 355.3275pt x 109.1578pt>
+[17] <content/fig/LTS_time_domain.JPG, id=417, 355.3275pt x 109.1578pt>
 File: content/fig/LTS_time_domain.JPG Graphic file (type jpg)
 
 <use content/fig/LTS_time_domain.JPG>
@@ -1450,7 +1447,7 @@ Package pdftex.def Info: content/fig/LTS_time_domain.JPG used on input line 335
 .
 (pdftex.def)             Requested size: 284.52756pt x 87.40964pt.
 
-<content/fig/cfo_est.JPG, id=431, 670.75594pt x 118.19156pt>
+<content/fig/cfo_est.JPG, id=418, 670.75594pt x 118.19156pt>
 File: content/fig/cfo_est.JPG Graphic file (type jpg)
 
 <use content/fig/cfo_est.JPG>
@@ -1504,7 +1501,7 @@ l.363
 l.363 
        <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_on_ici.JPG> <C:/Us
 ers/mbaratva/Desktop/thesis/CDC/content/fig/LTS_time_domain.JPG>]
-<content/fig/ieee_preamble.JPG, id=437, 322.20375pt x 132.495pt>
+<content/fig/ieee_preamble.JPG, id=424, 322.20375pt x 132.495pt>
 File: content/fig/ieee_preamble.JPG Graphic file (type jpg)
 
 <use content/fig/ieee_preamble.JPG>
@@ -1575,7 +1572,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
-<content/fig/schimdl_cox.JPG, id=444, 255.95625pt x 82.80937pt>
+<content/fig/schimdl_cox.JPG, id=431, 255.95625pt x 82.80937pt>
 File: content/fig/schimdl_cox.JPG Graphic file (type jpg)
 
 <use content/fig/schimdl_cox.JPG>
@@ -1587,7 +1584,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 399--400
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 408--179
+Underfull \hbox (badness 10000) in paragraph at lines 408--260
 
  []
 
@@ -1616,7 +1613,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 408--179
 
 \include ...ot be nested}\@eha \else \@include #1 
                                                   \fi 
-l.179 \include{content/part2}
+l.260 \include{content/part2}
                               <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig
 /schimdl_cox.JPG>] (C:\Users\mbaratva\Desktop\thesis\CDC\content/part3.tex
 Chapter 3.
@@ -1625,7 +1622,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-<content/fig/systemGen.JPG, id=453, 468.75125pt x 350.30875pt>
+<content/fig/systemGen.JPG, id=440, 468.75125pt x 350.30875pt>
 File: content/fig/systemGen.JPG Graphic file (type jpg)
 
 <use content/fig/systemGen.JPG>
@@ -1647,7 +1644,7 @@ LaTeX Warning: Reference `ofdm_system' on page 21 undefined on input line 23.
 
 
 
-] <content/fig/system.JPG, id=459, 792.71156pt x 417.05812pt>
+] <content/fig/system.JPG, id=445, 792.71156pt x 417.05812pt>
 File: content/fig/system.JPG Graphic file (type jpg)
 
 <use content/fig/system.JPG>
@@ -1694,7 +1691,7 @@ l.36
 l.36 
       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/systemGen.JPG> <C:/User
 s/mbaratva/Desktop/thesis/CDC/content/fig/system.JPG>]
-<content/fig/txblock.JPG, id=464, 1024.57782pt x 560.0925pt>
+<content/fig/txblock.JPG, id=450, 1024.57782pt x 560.0925pt>
 File: content/fig/txblock.JPG Graphic file (type jpg)
 
 <use content/fig/txblock.JPG>
@@ -1709,7 +1706,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-<content/fig/rxblock.JPG, id=465, 959.08313pt x 625.58719pt>
+<content/fig/rxblock.JPG, id=451, 959.08313pt x 625.58719pt>
 File: content/fig/rxblock.JPG Graphic file (type jpg)
 
 <use content/fig/rxblock.JPG>
@@ -1736,14 +1733,14 @@ LaTeX Warning: Reference `autocorrblock' on page 23 undefined on input line 55.
                                                   \@startcolumn \@whilesw \i...
 l.56 
       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/txblock.JPG>]
-<content/fig/autocorrblock.JPG, id=470, 1011.78pt x 415.5525pt>
+<content/fig/autocorrblock.JPG, id=457, 1011.78pt x 415.5525pt>
 File: content/fig/autocorrblock.JPG Graphic file (type jpg)
 
 <use content/fig/autocorrblock.JPG>
 Package pdftex.def Info: content/fig/autocorrblock.JPG used on input line 59.
 (pdftex.def)             Requested size: 426.79134pt x 175.29175pt.
 
-<content/fig/fine_packetDetect.JPG, id=471, 922.19531pt x 269.50688pt>
+<content/fig/fine_packetDetect.JPG, id=458, 922.19531pt x 269.50688pt>
 File: content/fig/fine_packetDetect.JPG Graphic file (type jpg)
 
 <use content/fig/fine_packetDetect.JPG>
@@ -1762,14 +1759,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-<content/fig/cmpx_div.JPG, id=473, 862.72313pt x 197.23688pt>
+<content/fig/cmpx_div.JPG, id=460, 862.72313pt x 197.23688pt>
 File: content/fig/cmpx_div.JPG Graphic file (type jpg)
 
 <use content/fig/cmpx_div.JPG>
 Package pdftex.def Info: content/fig/cmpx_div.JPG used on input line 75.
 (pdftex.def)             Requested size: 426.79134pt x 97.57085pt.
 
-<content/fig/division.JPG, id=474, 839.38594pt x 388.45125pt>
+<content/fig/division.JPG, id=461, 839.38594pt x 388.45125pt>
 File: content/fig/division.JPG Graphic file (type jpg)
 
 <use content/fig/division.JPG>
@@ -1847,14 +1844,14 @@ l.93
       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/autocorrblock.JPG> <C:/
 Users/mbaratva/Desktop/thesis/CDC/content/fig/fine_packetDetect.JPG> <C:/Users/
 mbaratva/Desktop/thesis/CDC/content/fig/cmpx_div.JPG>]
-<content/fig/ZC706.JPG, id=484, 288.3272pt x 164.11313pt>
+<content/fig/ZC706.JPG, id=471, 288.3272pt x 164.11313pt>
 File: content/fig/ZC706.JPG Graphic file (type jpg)
 
 <use content/fig/ZC706.JPG>
 Package pdftex.def Info: content/fig/ZC706.JPG used on input line 96.
 (pdftex.def)             Requested size: 341.43306pt x 194.34795pt.
 
-<content/fig/zc706_block_diagram.JPG, id=485, 539.01375pt x 439.6425pt>
+<content/fig/zc706_block_diagram.JPG, id=472, 539.01375pt x 439.6425pt>
 File: content/fig/zc706_block_diagram.JPG Graphic file (type jpg)
 
 <use content/fig/zc706_block_diagram.JPG>
@@ -1866,7 +1863,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
-<content/fig/fmcomms1.jpg, id=486, 326.72063pt x 225.84375pt>
+<content/fig/fmcomms1.jpg, id=473, 326.72063pt x 225.84375pt>
 File: content/fig/fmcomms1.jpg Graphic file (type jpg)
 
 <use content/fig/fmcomms1.jpg>
@@ -1894,7 +1891,7 @@ Package pdftex.def Info: content/fig/fmcomms1.jpg used on input line 114.
                                  \@checkend {#1}\expandafter \endgroup \if@e...
 l.116 \end{figure}
                    <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/division.J
-PG>] <content/fig/fmcomms1Blockdiagram.jpg, id=491, 903.375pt x 433.62pt>
+PG>] <content/fig/fmcomms1Blockdiagram.jpg, id=478, 903.375pt x 433.62pt>
 File: content/fig/fmcomms1Blockdiagram.jpg Graphic file (type jpg)
 
 <use content/fig/fmcomms1Blockdiagram.jpg>
@@ -1973,7 +1970,7 @@ l.128
 l.128 
        <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fmcomms1.jpg> <C:/User
 s/mbaratva/Desktop/thesis/CDC/content/fig/fmcomms1Blockdiagram.jpg>]
-<content/fig/ad9548BlockDiagram.JPG, id=501, 698.61pt x 423.83344pt>
+<content/fig/ad9548BlockDiagram.JPG, id=487, 698.61pt x 423.83344pt>
 File: content/fig/ad9548BlockDiagram.JPG Graphic file (type jpg)
 
 <use content/fig/ad9548BlockDiagram.JPG>
@@ -2001,7 +1998,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--141
                                                   \@startcolumn \@whilesw \i...
 l.141 
        <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ad9548BlockDiagram.JPG
->] <content/fig/cvhd.JPG, id=506, 423.08063pt x 386.19281pt>
+>] <content/fig/cvhd.JPG, id=493, 423.08063pt x 386.19281pt>
 File: content/fig/cvhd.JPG Graphic file (type jpg)
 
 <use content/fig/cvhd.JPG>
@@ -2040,7 +2037,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--168
 
  []
 
-[31] <content/fig/zynq_inside.JPG, id=515, 521.95pt x 576.1525pt>
+[31] <content/fig/zynq_inside.JPG, id=502, 521.95pt x 576.1525pt>
 File: content/fig/zynq_inside.JPG Graphic file (type jpg)
 
 <use content/fig/zynq_inside.JPG>
@@ -2072,7 +2069,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--177
                                                   \@startcolumn \@whilesw \i...
 l.177 
        <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/zynq_inside.JPG>]
-<content/fig/fpga_internal.JPG, id=520, 540.51938pt x 238.64156pt>
+<content/fig/fpga_internal.JPG, id=507, 540.51938pt x 238.64156pt>
 File: content/fig/fpga_internal.JPG Graphic file (type jpg)
 
 <use content/fig/fpga_internal.JPG>
@@ -2098,7 +2095,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
-<content/fig/hardware_setup.JPG, id=521, 2055.68pt x 1541.76pt>
+<content/fig/hardware_setup.JPG, id=508, 2055.68pt x 1541.76pt>
 File: content/fig/hardware_setup.JPG Graphic file (type jpg)
 
 <use content/fig/hardware_setup.JPG>
@@ -2167,7 +2164,7 @@ ne 9.
 
 LaTeX Warning: Reference `sts_chipscope' on page 37 undefined on input line 9.
 
-<content/fig/ofdmframe_chipscope.JPG, id=540, 810.02625pt x 539.01375pt>
+<content/fig/ofdmframe_chipscope.JPG, id=527, 810.02625pt x 539.01375pt>
 File: content/fig/ofdmframe_chipscope.JPG Graphic file (type jpg)
 
 <use content/fig/ofdmframe_chipscope.JPG>
@@ -2175,7 +2172,7 @@ Package pdftex.def Info: content/fig/ofdmframe_chipscope.JPG used on input line
  11.
 (pdftex.def)             Requested size: 426.79134pt x 284.0063pt.
 
-<content/fig/sts_chipscope.JPG, id=541, 726.46407pt x 441.90094pt>
+<content/fig/sts_chipscope.JPG, id=528, 726.46407pt x 441.90094pt>
 File: content/fig/sts_chipscope.JPG Graphic file (type jpg)
 
 <use content/fig/sts_chipscope.JPG>
@@ -2190,7 +2187,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-<content/fig/autocorr.JPG, id=542, 752.8125pt x 347.04657pt>
+<content/fig/autocorr.JPG, id=529, 752.8125pt x 347.04657pt>
 File: content/fig/autocorr.JPG Graphic file (type jpg)
 
 <use content/fig/autocorr.JPG>
@@ -2205,7 +2202,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-<content/fig/crosscorr.JPG, id=543, 855.94781pt x 481.04718pt>
+<content/fig/crosscorr.JPG, id=530, 855.94781pt x 481.04718pt>
 File: content/fig/crosscorr.JPG Graphic file (type jpg)
 
 <use content/fig/crosscorr.JPG>
@@ -2220,7 +2217,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-[37] <content/fig/baseIFAdcDac.JPG, id=548, 1604.99625pt x 1088.065pt>
+[37] <content/fig/baseIFAdcDac.JPG, id=535, 1604.99625pt x 1088.065pt>
 File: content/fig/baseIFAdcDac.JPG Graphic file (type jpg)
 
 <use content/fig/baseIFAdcDac.JPG>
@@ -2235,7 +2232,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-<content/fig/RfIF.JPG, id=549, 1604.99625pt x 1088.065pt>
+<content/fig/RfIF.JPG, id=536, 1604.99625pt x 1088.065pt>
 File: content/fig/RfIF.JPG Graphic file (type jpg)
 
 <use content/fig/RfIF.JPG>
@@ -2250,7 +2247,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-<content/fig/Rfbase.JPG, id=550, 1604.99625pt x 1088.065pt>
+<content/fig/Rfbase.JPG, id=537, 1604.99625pt x 1088.065pt>
 File: content/fig/Rfbase.JPG Graphic file (type jpg)
 
 <use content/fig/Rfbase.JPG>
@@ -2283,7 +2280,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 l.69 
       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdmframe_chipscope.JPG
 >]
-<content/fig/h_mag_chipscope_noChannel.JPG, id=555, 646.66594pt x 446.41782pt>
+<content/fig/h_mag_chipscope_noChannel.JPG, id=542, 646.66594pt x 446.41782pt>
 File: content/fig/h_mag_chipscope_noChannel.JPG Graphic file (type jpg)
 
 <use content/fig/h_mag_chipscope_noChannel.JPG>
@@ -2300,7 +2297,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-<content/fig/h_mag_chipscope_rf_detect.JPG, id=556, 643.6547pt x 441.90094pt>
+<content/fig/h_mag_chipscope_rf_detect.JPG, id=543, 643.6547pt x 441.90094pt>
 File: content/fig/h_mag_chipscope_rf_detect.JPG Graphic file (type jpg)
 
 <use content/fig/h_mag_chipscope_rf_detect.JPG>
@@ -2351,7 +2348,7 @@ ame{figure.4.3}) has been already used, duplicate ignored
 l.84 \end{figure}
                   <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/sts_chipsco
 pe.JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/autocorr.JPG>]
-<content/fig/OfdmSym_16qam_1_2_code_64byte.JPG, id=562, 746.79pt x 335.00156pt>
+<content/fig/OfdmSym_16qam_1_2_code_64byte.JPG, id=548, 746.79pt x 335.00156pt>
 File: content/fig/OfdmSym_16qam_1_2_code_64byte.JPG Graphic file (type jpg)
 <use content/fig/OfdmSym_16qam_1_2_code_64byte.JPG>
 Package pdftex.def Info: content/fig/OfdmSym_16qam_1_2_code_64byte.JPG used on 
@@ -2403,7 +2400,7 @@ l.94
 l.94 
       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/crosscorr.JPG> <C:/User
 s/mbaratva/Desktop/thesis/CDC/content/fig/baseIFAdcDac.JPG>]
-<content/fig/OfdmSym_16qam_no_code_64byte.JPG, id=567, 746.79pt x 336.50719pt>
+<content/fig/OfdmSym_16qam_no_code_64byte.JPG, id=553, 746.79pt x 336.50719pt>
 File: content/fig/OfdmSym_16qam_no_code_64byte.JPG Graphic file (type jpg)
 
 <use content/fig/OfdmSym_16qam_no_code_64byte.JPG>
@@ -2543,7 +2540,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--132
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 134--181
+Underfull \hbox (badness 10000) in paragraph at lines 134--262
 
  []
 
@@ -2572,22 +2569,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--181
 
 \include ...ot be nested}\@eha \else \@include #1 
                                                   \fi 
-l.181 \include{content/part4}
+l.262 \include{content/part4}
                              ] [45] [46
 
 
 ]
 No file Thesis_main.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
 (C:\Users\mbaratva\Desktop\thesis\CDC\Thesis_main.aux
 (C:\Users\mbaratva\Desktop\thesis\CDC\introduction.aux)
 (C:\Users\mbaratva\Desktop\thesis\CDC\content/part1.aux)
 (C:\Users\mbaratva\Desktop\thesis\CDC\content/part2.aux)
 (C:\Users\mbaratva\Desktop\thesis\CDC\content/part3.aux)
 (C:\Users\mbaratva\Desktop\thesis\CDC\content/part4.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
 Package rerunfilecheck Info: File `Thesis_main.out' has not changed.
 (rerunfilecheck)             Checksum: 0BC6CEE1188B6ECCE0DA2CA21795F439;2248.
 
@@ -2597,13 +2597,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
  ) 
 Here is how much of TeX's memory you used:
- 12662 strings out of 493921
- 186431 string characters out of 3144867
+ 12657 strings out of 493921
+ 186309 string characters out of 3144867
  280230 words of memory out of 3000000
- 15420 multiletter control sequences out of 15000+200000
+ 15421 multiletter control sequences out of 15000+200000
  61461 words of font info for 51 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  39i,23n,53p,1033b,526s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2625,9 +2625,9 @@ ram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files (x
 /public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
 lmro10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Thesis_main.pdf (56 pages, 4680424 bytes).
+Output written on Thesis_main.pdf (54 pages, 4678164 bytes).
 PDF statistics:
- 686 PDF objects out of 1000 (max. 8388607)
- 161 named destinations out of 1000 (max. 500000)
+ 673 PDF objects out of 1000 (max. 8388607)
+ 158 named destinations out of 1000 (max. 500000)
  475 words of extra memory for PDF output out of 10000 (max. 10000000)
 
