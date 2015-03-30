@@ -1,0 +1,105 @@
+\begin{thebibliography}{10}
+
+\bibitem{murphy_thesis}
+Patrick Murphy.
+\newblock Design, Implementation and Characterization of a Cooperative Communications System.
+\newblock {\em Thesis for Doctor of Philosophy at the Rice University} December 2010.
+
+\bibitem{cvhd}
+CVHD-950 Ultra-Low Phase Noise Oscillators.
+\newblock {\em Crystek Crystals}.
+\newblock \url{http://www.crystek.com/crystal/spec-sheets/vcxo/CVHD-950.pdf}.
+
+\bibitem{ad9548}
+AD9548 Quad/Octal Input Network Clock Generator/Synchronizer.
+\newblock {\em Analog Device}.
+\newblock \url{http://www.analog.com/en/products/clock-and-timing/clock-generation-distribution/ad9548.html}
+
+\bibitem{ad9523}
+AD9523 14-Output, Low Jitter Clock generator.
+\newblock {\em Analog Device}.
+\newblock \url{http://www.analog.com/en/products/clock-and-timing/clock-generation-distribution/ad9523.html}
+
+\bibitem{fmcomms1}
+AD-FMCOMMS1-EBZ User Guide.
+\newblock {\em Analog Device}.
+\newblock \url{http://wiki.analog.com/resources/eval/user-guides/ad-fmcomms1-ebz}
+
+\bibitem{zynq}
+Zynq-7000 All Programmable SoC ZC706 Evaluation Kit.
+\newblock {\em Xilinx}.
+\newblock \url{http://www.xilinx.com/products/boards-and-kits/ek-z7-zc706-g.html}
+
+
+\bibitem{beamforming_23}
+K.M Van~Veen, B.D.;~Buckley.
+\newblock Beamforming: a versatile approach to spatial filtering.
+\newblock {\em ASSP Magazine}, 5(2), April 1988.
+
+\bibitem{FDSS_1_Kaleh}
+Ehsan Koohestani.
+\newblock Frequency-diversity spread-spectrum communication system to counter
+  bandlimited gaussian interference.
+\newblock {\em Communications, IEEE Transactions on}, 44(7):886--893, Jul 1996.
+
+\bibitem{FDSS_FHSS_4}
+G.K. Kaleh.
+\newblock Performance comparison of frequency-diversity and frequency-hopping
+  spread-spectrum systems.
+\newblock Technical Report~8, Aug 1997.
+
+\bibitem{FDSS_2_Perez}
+Miguel-Angel Lagunas, A.I. Perez-Neira, M.G. Amin, and J.~Vidal.
+\newblock Spatial processing for frequency diversity schemes.
+\newblock {\em Signal Processing, IEEE Transactions on}, 48(2):353--362, Feb
+  2000.
+
+\bibitem{Background_18}
+Stephen M.~Kogon Dimitris G.~Manolakis, Vinay K.~Ingle.
+\newblock {\em Statistical and Adaptive Signal Processing: Spectral Estimation,
+  Signal Modeling, Adaptive Filtering and Array Processing}.
+\newblock Artech House Print on Demand, April 2005.
+
+\bibitem{FDSS_3}
+Fischer Verlag, Daniel Perez-Palomar, Montse Najar, and Miguel~Angel Lagunas.
+\newblock Self-reference spatial diversity processing for spread spectrum
+  communications.
+\newblock 2000.
+
+\bibitem{FDSS_9_Receiver}
+S.~P.~Koh Balasem.~S.S, S.K.Tiong.
+\newblock Beamforming algorithms technique by using mvdr and lcmv, world
+  applied programming.
+\newblock {\em WAP Journal}, 2(1):315--324, May 2012.
+
+\bibitem{Theory_CH2_22}
+Masoud~Salehi John~Proakis.
+\newblock {\em Digital Communications}.
+
+\bibitem{FDSS_6_SS}
+K.~Fazel Marconi Communications GmbH; S. Kaiser;~S. Kaiser.
+\newblock {\em Multi-Carrier and Spread Spectrum Systems}.
+\newblock OSA Opical Society of America.
+
+\bibitem{FDSS_8_Wireless}
+Andrea Goldsmith.
+\newblock {\em Wireless Communications}.
+
+\bibitem{FDSS_12}
+Migel Angel~Lagunas Daniel~perez Palomar.
+\newblock Optimum self-reference diversity processing for fdss and fh
+  communication system.
+\newblock 2000.
+
+\bibitem{Channel_14}
+Berkeley David Tse University~of California and Pramod Viswanath~University
+  of~Illinois.
+\newblock {\em Fundamentals of Wireless Communication}.
+\newblock 2001.
+
+\bibitem{Channel_Capacity_16}
+C.E. Shannon.
+\newblock {\em A mathematical theory of communication}, volume~27.
+\newblock 1948.
+
+\end{thebibliography}

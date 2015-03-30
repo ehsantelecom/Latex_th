@@ -1,11 +1,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1.o Esempio con la classe toptesi
-\documentclass[12pt,twoside,cucitura]{toptesi}
+\documentclass[12pt,oneside,cucitura]{toptesi}
 %\documentclass[twoside,cucitura,pdfa]{toptesi}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2.o Esempio con la classe toptesi
 % \documentclass[11pt,twoside,oldstyle,autoretitolo,classica,greek]{toptesi}
 % \usepackage[or]{teubner}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Commentare la riga seguente se si � specificata l'opzione "pdfa"
+% Commentare la riga seguente se si   specificata l'opzione "pdfa"
 \usepackage{hyperref}
 \hypersetup{%
     pdfpagemode={UseOutlines},
@@ -31,6 +31,7 @@
 \usepackage{epstopdf}
 \usepackage{multirow}
 \usepackage{amssymb, amsmath}
+\usepackage{pdfpages}
 %\usepackage{enumerate}
 \usepackage{url}
 %\usepackage{natbib}
@@ -40,6 +41,7 @@
 \usepackage{epsfig}
 \usepackage{color}
 \usepackage{fancyvrb}
+
 \DefineVerbatimEnvironment{code}{Verbatim}{fontsize=\tiny}
 
 %\usepackage{algpseudocode}
@@ -64,14 +66,14 @@
 \usepackage{times}%
 \usepackage{topcapt}
 \usepackage{natbib}% for bibliography sorting/compressing
-%\usepackage{pdfpages}
+\usepackage{pdfpages}
 %\usepackage{amsmath}
 %\usepackage{endnotes}
 \usepackage{graphics}
 
 
 %\usepackage{times}
-\newcounter{eqn}
+\newpage\newpage\newcounter{eqn}
 \renewcommand*{\theeqn}{\alph{eqn})}
 \newcommand{\num}{\refstepcounter{eqn}\text{\theeqn}\;}
 
@@ -101,28 +103,6 @@
 %\usepackage{paralist}
 %\usepackage{ctable}
 
-
-
-% Scritto in italiano con la classe inglese
-%\inglese
-%\setcaptions
-  
-%
-% Esempio di composizione di tesi di laurea con PDFLATEX <---------------- !
-%
-% Questo esempio e' stato preparato inizialmente 13-marzo-1989
-% e poi e' stato modificato via via che TOPtesi andava
-% arricchendosi di altre possibilita'.
-%
-% Per comporre con XeLaTeX, invece che con pdfLaTeX, vedere il file toptesi-example-xetex.tex
-% A parte i font, bisogna specificare alcune cose dopo la fine del preambolo.
-%
-% Nel seguito laurea "quinquennale" sta anche per "specialistica" o "magistrale".
-%
-% Cambiare encoding a piacere; oppure non caricare nessun encoding se si usano
-% solo caratteri a 7 bit (ASCII) nei file d'entrata.
-%
-%\usepackage[ansinew]{inputenc}% per macchine Windows
 \usepackage{lmodern}
 
 
@@ -134,7 +114,9 @@
  	\corsodilaurea{Electronic and Telecommunication Engineering}
  	
  	\candidato{Seyed-Ehsan Koohestani}
- 	\coordinatore{Prof. M. Mondin, Prof. R. Garello, Prof. A. K. Khandani}
+ 	\coordinatore{Prof. Marina Mondin (PoliTo)}
+ 	\secondorelatore{Prof. Roberto Garello (PoliTo)}
+ 	\terzorelatore{Prof. Amir Keyvan Khandani (uWaterloo)}
  	\tutore{Prof. Marina Mondin - Prof. Roberto Garello - Prof. Amir Keyvan Khandani}
  	 	
  	\esamedidottorato{March 2015}
@@ -142,35 +124,6 @@
  	
  	\logosede{logopolito.eps}
  	
-%
-%%\ateneo{Universit{\`a} degli Studi di Trieste}
-%\facolta[III]{Matematica, Fisica\\e Scienze Naturali}
-%%\Materia{Remote sensing}
-%%\monografia{La pressione barometrica di Giove}% per la laurea triennale
-%\titolo{La pressione barometrica di Giove}% per la laurea quinquennale e il dottorato
-%\sottotitolo{Metodo dei satelliti medicei}% per la laurea quinquennale e il dottorato
-%\corsodilaurea{Astronomia Applicata}% per la laurea
-%%\corsodidottorato{Meccanica}% per il dottorato
-%\candidato{Galileo \textsc{Galilei}}% per tutti i percorsi
-%\secondocandidato{Evangelista \textsc{Torricelli}}% per la laurea magistrale solamente
-%%\direttore{prof. Albert Einstein}% per il dottorato
-%%\coordinatore{prof. Albert Einstein}% per il dottorato
-%\relatore{prof.\ Albert Einstein}% per la laurea e/o il dottorato
-%\secondorelatore{dipl.~ing.~Werner von Braun}% per la laurea magistrale
-%%\terzorelatore{{\tabular{@{}l}dott.\ Neil Armstrong\\prof. Maria Rossi\endtabular}}% per la laurea magistrale
-%%\tutore{ing.~Karl Von Braun}% per il dottorato
-%\tutoreaziendale{dott.\ ing.\ Giovanni Giacosa}
-%\NomeTutoreAziendale{Supervisore aziendale\\Centro Ricerche FIAT}
-%%\sedutadilaurea{Agosto 1615}% per la laurea quinquennale
-%%\esamedidottorato{Novembre 1610}% per il dottorato
-%\sedutadilaurea{\textsc{Anno~accademico} 1615-1616}% per la laurea magistrale
-%%\annoaccademico{1615-1616}% solo con l'opzione classica
-%%\annoaccademico{2006-2007}% idem
-%\ciclodidottorato{XV}% per il dottorato
-%\logosede{logopolito}% questo e' ovviamente facoltativo, ma e' richiesto per il dottorato al PoliTO
-%%
-%%\chapterbib %solo per vedere che cosa succede; e' preferibile comporre una sola bibliografia
-%%\AdvisorName{Supervisors}
 \newtheorem{osservazione}{Osservazione}% Standard LaTeX
  	
 
@@ -184,20 +137,6 @@
 \newcommand{\fatal}[1]{\par\noindent\fixme{#1}\par\noindent}
 \newcommand{\Remark}[1]{\par\noindent\fxnote{#1}\par\noindent}
 
-
-
-%\usepackage[a-1b]{pdfx}
-%\hypersetup{%
-%    pdfpagemode={UseOutlines},
-%    bookmarksopen,
-%    pdfstartview={FitH},
-%    colorlinks,
-%    linkcolor={blue},
-%    citecolor={green},
-%    urlcolor={blue}
-%  }
-
-%\setbindingcorrection{3mm}
 \begin{document}
 \english
 \errorcontextlines=9
@@ -215,6 +154,8 @@
     \tomo
 \fi
 
+%\includepdf[pages={1}]{Cover.pdf}
+\cleardoublepage
 
 \sommario
 \textit{The orthogonal frequency division multiplexing} (OFDM) technology provides a high transmission data rate in wireless and mobile communications where multipath fading is a severe issue in degradation of the quality. Managing feasible coherent bandwidth to overcome Inter-Symbol Interference, OFDM enhances communication performance at a relatively small bandwidth cost. The improvement can be reached by interactive proper channel estimation and compensation which needs synchronization of transmitter and receiver. A \textit{Discrete Fourier Transform} (DFT) algorithm- based configuration simplified the digital implementation of OFDM system on field programmable gate array (FPGA) as a highly flexible solution, which provide prominent performance.\\
@@ -233,27 +174,13 @@ Thank you,
 
 Author
 
-%\tablespagetrue
-\figurespagetrue % normalmente questa riga non serve ed e' commentata
+\tablespagetrue\figurespagetrue % normalmente questa riga non serve ed e' commentata
 
 \indici
-%
-%\expandafter\ifx\csname StileTrieste\endcsname\relax
-%\else
-%    \begin{citazioni}
-%        \textit{testo testo testo\\testo testo testo}
-%
-%        [\textsc{G.\ Leopardi}, Operette Morali]
-%
-%        \textgreek{>all'a p'anta <o k'eraunos d'' >oiak'izei}
-%
-%        [Eraclito, fr.\ D-K 134]
-%    \end{citazioni}
-%
-%\fi
+
 \mainmatter
 
-%\part{Fixed-grid WDM network design}\label{part:fixed}
+
 
 \include{introduction}
 \include{content/part1}

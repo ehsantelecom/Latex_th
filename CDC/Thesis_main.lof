@@ -34,14 +34,14 @@
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Design Block Diagram}}{33}{figure.3.16}
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Hardware set-up}}{34}{figure.3.17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces OFDM Frame (I/Q) detected in Chipscope.}}{38}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces STS (I/Q) detected in Chipscope.}}{39}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Auto-Correlation detected in Chipscope.}}{39}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross-Correlation detected in Chipscope.}}{40}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces LTS Spectrum in Baseband chain (IF filter on 5MHz is enable)}}{40}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces LTS Spectrum- passed RF chain (IF filter on 5MHz is enable)}}{41}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces LTS Spectrum- passed RF chain (IF filter is disable)}}{41}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Frequency Response of a perfect channel detected in Chipscope}}{42}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Frequency Response of on air channel detected in Chipscope}}{42}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces OFDM Symbols of a 16QAM 64-byte message Coded 1/2 rate}}{43}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces OFDM Symbols of a 16QAM 64-byte message no-Coded}}{43}{figure.4.11}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces OFDM Frame (I/Q) detected in Chipscope.}}{37}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces STS (I/Q) detected in Chipscope.}}{38}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Auto-Correlation detected in Chipscope.}}{38}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross-Correlation detected in Chipscope.}}{39}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces LTS Spectrum in Baseband chain (IF filter on 5MHz is enable)}}{39}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces LTS Spectrum- passed RF chain (IF filter on 5MHz is enable)}}{40}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces LTS Spectrum- passed RF chain (IF filter is disable)}}{40}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Frequency Response of a perfect channel detected in Chipscope}}{41}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Frequency Response of on air channel detected in Chipscope}}{41}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces OFDM Symbols of a 16QAM 64-byte message Coded 1/2 rate}}{42}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces OFDM Symbols of a 16QAM 64-byte message no-Coded}}{42}{figure.4.11}

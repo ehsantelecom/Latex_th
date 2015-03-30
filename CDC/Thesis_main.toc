@@ -28,9 +28,9 @@
 \contentsline {section}{\numberline {3.5}Carrier Frequency Offsets}{31}{section.3.5}
 \contentsline {section}{\numberline {3.6}FPGA Architecture}{31}{section.3.6}
 \contentsline {section}{\numberline {3.7}Test Methodology}{33}{section.3.7}
-\contentsline {chapter}{\numberline {4}Sample Analysis and Conclusion}{37}{chapter.4}
-\contentsline {section}{\numberline {4.1}Hardware Samples and Analysis}{37}{section.4.1}
-\contentsline {section}{\numberline {4.2}Bit-Error Rate Calculation}{42}{section.4.2}
-\contentsline {section}{\numberline {4.3}FPGA Resource Consumption}{43}{section.4.3}
-\contentsline {section}{\numberline {4.4}Conclusion}{44}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Future Work}{44}{subsection.4.4.1}
+\contentsline {chapter}{\numberline {4}Sample Analysis and Conclusion}{36}{chapter.4}
+\contentsline {section}{\numberline {4.1}Hardware Samples and Analysis}{36}{section.4.1}
+\contentsline {section}{\numberline {4.2}Bit-Error Rate Calculation}{41}{section.4.2}
+\contentsline {section}{\numberline {4.3}FPGA Resource Consumption}{42}{section.4.3}
+\contentsline {section}{\numberline {4.4}Conclusion}{43}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Future Work}{43}{subsection.4.4.1}

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.6)  15 FEB 2015 13:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.5)  29 MAR 2015 21:34
 entering extended mode
 **Thesis_main.tex
-(C:\Users\mbaratva\Desktop\thesis\CDC\Thesis_main.tex
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\Thesis_main.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,12 +13,12 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\mbaratva\Desktop\thesis\CDC\toptesi.cls
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\toptesi.cls"
 Document Class: toptesi 2011/10/18 v.5.59c Class for typesetting university the
 ses
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -34,22 +34,22 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
 Language: english 2005/03/30 v3.3o English support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
@@ -58,39 +58,39 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\italian.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\italian.ldf"
 Language: italian 2008/03/14 v1.2t Italian support from the babel system
 Package babel Info: Making " an active character on input line 94.
 )))
-(C:\Users\mbaratva\Desktop\thesis\CDC\toptesi.sty
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\toptesi.sty"
 Package: toptesi 2011/10/18 v.5.59c Extension for toptesi.cls
 \T@Pbinding=\skip43
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
@@ -101,11 +101,11 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \@intesta=\box26
 \captionwidth=\dimen106
 
-(C:\Users\mbaratva\Desktop\thesis\CDC\topfront.sty)
-(C:\Users\mbaratva\Desktop\thesis\CDC\topcoman.sty
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\topfront.sty")
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\topcoman.sty"
 Package: topcoman 2011/10/18 v.5.59c Additional TOPtesi commands
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -120,7 +120,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -190,14 +190,14 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
 \c@tomo=\count90
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -238,22 +238,22 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen108
 \Hy@linkcounter=\count91
 \Hy@pagecounter=\count92
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count93
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -265,7 +265,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count94
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -290,12 +290,12 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count99
 \c@bookmark@seq@number=\count100
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -305,11 +305,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 18.
 Package hyperref Info: Option `colorlinks' set `true' on input line 18.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count101
 \float@exts=\toks15
@@ -317,13 +317,13 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks16
 \@floatcapt=\box28
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks17
 \c@algorithm=\count102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count103
 \c@ALC@line=\count104
@@ -332,14 +332,14 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \ALC@tlm=\skip45
 \algorithmicindent=\skip46
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\acronym\acronym.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\acronym\acronym.sty"
 Package: acronym 2014/09/29 v1.40 Support for acronyms (Tobias Oetiker)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty"
 Package: suffix 2006/07/15 1.5a Variant command support
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
 \@xs@message=\write3
 \integerpart=\count107
 \decimalpart=\count108
@@ -348,16 +348,16 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 \AC@clearlist=\toks18
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
@@ -365,13 +365,13 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen112
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks19
 \symAMSa=\mathgroup4
@@ -379,24 +379,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks20
 \ex@=\dimen113
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen114
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count109
@@ -437,84 +437,32 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip50
-\subfigcapskip=\skip51
-\subfigcaptopadj=\dimen122
-\subfigbottomskip=\skip52
-\subfigcapmargin=\dimen123
-\subfiglabelskip=\skip53
-\c@subfigure=\count121
-\c@lofdepth=\count122
-\c@subtable=\count123
-\c@lotdepth=\count124
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
 
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
-\subfig@top=\skip54
-\subfig@bottom=\skip55
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count121
+\calc@Bcount=\count122
+\calc@Adimen=\dimen122
+\calc@Bdimen=\dimen123
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count123
+\calc@Cskip=\skip52
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\dblfloatfix\dblfloatfix.sty"
-Package: dblfloatfix 2012/12/31 v1.0a (JAW)
+("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
-Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
-LaTeX Info: Redefining \em on input line 420.
-LaTeX Info: Redefining \textsubscript on input line 424.
-LaTeX Info: The control sequence `\[' is already robust on input line 471.
-LaTeX Info: The control sequence `\]' is already robust on input line 472.
-)
-\@dblbotnum=\count125
-\c@dblbotnumber=\count126
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
-Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-\epsfxsize=\dimen124
-\epsfysize=\dimen125
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 130.
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyvrb\fancyvrb.sty"
-Package: fancyvrb 2008/02/07
-
-Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
-<2008/02/07> (tvz)
-\FV@CodeLineNo=\count127
-\FV@InFile=\read1
-\FV@TabBox=\box31
-\c@FancyVerbLine=\count128
-\FV@StepNumber=\count129
-\FV@OutFile=\write4
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\paralist\paralist.sty"
-Package: paralist 2013/06/09 v2.4 Extended list environments
-\pltopsep=\skip56
-\plpartopsep=\skip57
-\plitemsep=\skip58
-\plparsep=\skip59
-\pl@lab=\toks25
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ctable\ctable.sty"
-Package: ctable 2014/04/25 v1.29 ctable package for \ flexible typesetting of t
-able and figure floats using key/value directives
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-LaTeX Info: Redefining \color on input line 702.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -524,156 +472,226 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+\AM@pagebox=\box31
+\AM@toc@title=\toks25
+\c@AM@survey=\count124
+\AM@templatesizebox=\box32
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip53
+\subfigcapskip=\skip54
+\subfigcaptopadj=\dimen124
+\subfigbottomskip=\skip55
+\subfigcapmargin=\dimen125
+\subfiglabelskip=\skip56
+\c@subfigure=\count125
+\c@lofdepth=\count126
+\c@subtable=\count127
+\c@lotdepth=\count128
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip57
+\subfig@bottom=\skip58
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\dblfloatfix\dblfloatfix.sty"
+Package: dblfloatfix 2012/12/31 v1.0a (JAW)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: Redefining \textsubscript on input line 424.
+LaTeX Info: The control sequence `\[' is already robust on input line 471.
+LaTeX Info: The control sequence `\]' is already robust on input line 472.
+)
+\@dblbotnum=\count129
+\c@dblbotnumber=\count130
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen126
+\epsfysize=\dimen127
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyvrb\fancyvrb.sty"
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count131
+\FV@InFile=\read1
+\FV@TabBox=\box33
+\c@FancyVerbLine=\count132
+\FV@StepNumber=\count133
+\FV@OutFile=\write4
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\paralist\paralist.sty"
+Package: paralist 2013/06/09 v2.4 Extended list environments
+\pltopsep=\skip59
+\plpartopsep=\skip60
+\plitemsep=\skip61
+\plparsep=\skip62
+\pl@lab=\toks26
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ctable\ctable.sty"
+Package: ctable 2014/04/25 v1.29 ctable package for \ flexible typesetting of t
+able and figure floats using key/value directives
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-\XKV@toks=\toks26
-\XKV@tempa@toks=\toks27
-\XKV@depth=\count130
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
+\XKV@depth=\count134
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen126
-\extrarowheight=\dimen127
-\NC@list=\toks28
-\extratabsurround=\skip60
-\backup@length=\skip61
+\col@sep=\dimen128
+\extrarowheight=\dimen129
+\NC@list=\toks29
+\extratabsurround=\skip63
+\backup@length=\skip64
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-\TX@col@width=\dimen128
-\TX@old@table=\dimen129
-\TX@old@col=\dimen130
-\TX@target=\dimen131
-\TX@delta=\dimen132
-\TX@cols=\count131
-\TX@ftn=\toks29
+\TX@col@width=\dimen130
+\TX@old@table=\dimen131
+\TX@old@col=\dimen132
+\TX@target=\dimen133
+\TX@delta=\dimen134
+\TX@cols=\count135
+\TX@ftn=\toks30
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen133
-\lightrulewidth=\dimen134
-\cmidrulewidth=\dimen135
-\belowrulesep=\dimen136
-\belowbottomsep=\dimen137
-\aboverulesep=\dimen138
-\abovetopsep=\dimen139
-\cmidrulesep=\dimen140
-\cmidrulekern=\dimen141
-\defaultaddspace=\dimen142
-\@cmidla=\count132
-\@cmidlb=\count133
-\@aboverulesep=\dimen143
-\@belowrulesep=\dimen144
-\@thisruleclass=\count134
-\@lastruleclass=\count135
-\@thisrulewidth=\dimen145
+\heavyrulewidth=\dimen135
+\lightrulewidth=\dimen136
+\cmidrulewidth=\dimen137
+\belowrulesep=\dimen138
+\belowbottomsep=\dimen139
+\aboverulesep=\dimen140
+\abovetopsep=\dimen141
+\cmidrulesep=\dimen142
+\cmidrulekern=\dimen143
+\defaultaddspace=\dimen144
+\@cmidla=\count136
+\@cmidlb=\count137
+\@aboverulesep=\dimen145
+\@belowrulesep=\dimen146
+\@thisruleclass=\count138
+\@lastruleclass=\count139
+\@thisrulewidth=\dimen147
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count136
-\rotFPtop=\skip62
-\rotFPbot=\skip63
-\rot@float@box=\box32
-\rot@mess@toks=\toks30
+\c@r@tfl@t=\count140
+\rotFPtop=\skip65
+\rotFPbot=\skip66
+\rot@float@box=\box34
+\rot@mess@toks=\toks31
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\transparent.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\transparent.sty"
 Package: transparent 2007/01/08 v1.0 Transparency via pdfTeX's color stack (HO)
 
 )
-\@ctblframesep=\dimen146
-\@defaultctblframesep=\dimen147
-\@ctblframerule=\dimen148
-\@defaultctblframerule=\dimen149
-\@ctblwidth=\dimen150
-\@defaultctblwidth=\dimen151
-\@ctblcaptionskip=\dimen152
-\@defaultctblcaptionskip=\dimen153
-\@ctblmaxwidth=\dimen154
-\@defaultctblmaxwidth=\dimen155
-\@ctblmincapwidth=\dimen156
-\@defaultctblmincapwidth=\dimen157
-\@ctblfooterwidth=\dimen158
-\@defaultctblfooterwidth=\dimen159
-\@ctblw=\dimen160
-\@ctblfloatwidth=\dimen161
-\@ctbloldsep=\dimen162
-\@ctbloldrule=\dimen163
-\ctbl@t=\box33
-\@ctblcurftwidth=\dimen164
+\@ctblframesep=\dimen148
+\@defaultctblframesep=\dimen149
+\@ctblframerule=\dimen150
+\@defaultctblframerule=\dimen151
+\@ctblwidth=\dimen152
+\@defaultctblwidth=\dimen153
+\@ctblcaptionskip=\dimen154
+\@defaultctblcaptionskip=\dimen155
+\@ctblmaxwidth=\dimen156
+\@defaultctblmaxwidth=\dimen157
+\@ctblmincapwidth=\dimen158
+\@defaultctblmincapwidth=\dimen159
+\@ctblfooterwidth=\dimen160
+\@defaultctblfooterwidth=\dimen161
+\@ctblw=\dimen162
+\@ctblfloatwidth=\dimen163
+\@ctbloldsep=\dimen164
+\@ctbloldrule=\dimen165
+\ctbl@t=\box35
+\@ctblcurftwidth=\dimen166
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 373.
 Package: cite 2010/09/10  v 5.3
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count137
-\c@@ppsavesec=\count138
-\c@@ppsaveapp=\count139
+\c@@pps=\count141
+\c@@ppsavesec=\count142
+\c@@ppsaveapp=\count143
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks31
-\inpenc@posthook=\toks32
+\inpenc@prehook=\toks32
+\inpenc@posthook=\toks33
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\karnaugh\kvmacros.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\karnaugh\kvmacros.tex"
 
 Macros for typesetting Karnaugh maps and Veitch charts
 Version of January 7th, 2002
 by Andreas W. Wieland, awwieland@gmx.de
 
-\kvunitlength=\dimen165
-\kvrecursiondepth=\count140
-\kvindexcounter=\count141
-\kvxsize=\count142
-\kvysize=\count143
-\kvvarno=\count144
-\kvxvarno=\count145
-\kvyvarno=\count146
-\kvmarkstart=\count147
-\kvmarklength=\count148
-\kvmarknum=\count149
-\kvmarkmove=\count150
-\kvsavebox=\box34
-) (C:\Users\mbaratva\Desktop\thesis\CDC\framedbox.sty
+\kvunitlength=\dimen167
+\kvrecursiondepth=\count144
+\kvindexcounter=\count145
+\kvxsize=\count146
+\kvysize=\count147
+\kvvarno=\count148
+\kvxvarno=\count149
+\kvyvarno=\count150
+\kvmarkstart=\count151
+\kvmarklength=\count152
+\kvmarknum=\count153
+\kvmarkmove=\count154
+\kvsavebox=\box36
+) ("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\framedbox.sty"
 Package: framedbox 2009/01/27 1.0 LaTeX2e package
 
 Package: `framedbox.sty' (framed boxes) 1.0 <2009/01/27> 
-\fmbox=\box35
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\slashbox\slashbox.sty"
+\fmbox=\box37
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\slashbox\slashbox.sty"
 slashbox style by K.Yasuoka, May 1993.
-\@slashboxa=\box36
-\@slashboxb=\box37
-\@slashboxc=\box38
-\@slashboxwd=\count151
-\@slashboxht=\count152
-\@slashsepl=\dimen166
-\@slashsepr=\dimen167
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
+\@slashboxa=\box38
+\@slashboxb=\box39
+\@slashboxc=\box40
+\@slashboxwd=\count155
+\@slashboxht=\count156
+\@slashsepl=\dimen168
+\@slashsepr=\dimen169
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty"
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks33
-\footnotemargin=\dimen168
-\c@pp@next@reset=\count153
+\FN@temptoken=\toks34
+\footnotemargin=\dimen170
+\c@pp@next@reset=\count157
 
 
 LaTeX Warning: Command \@footnotemark  has changed.
@@ -687,59 +705,59 @@ Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
 Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\topcapt.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\topcapt.sty"
 Package: topcapt 2004/12/11 v1.2 Caption at top of float
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 
 
 Package natbib Warning: The `cite' package should not be used
 (natbib)                with natbib. Use option `sort' instead.
 
-\bibhang=\skip64
-\bibsep=\skip65
+\bibhang=\skip67
+\bibsep=\skip68
 LaTeX Info: Redefining \cite on input line 694.
 LaTeX Info: Redefining \citenum on input line 708.
-\c@NAT@ctr=\count154
+\c@NAT@ctr=\count158
 )
-\c@eqn=\count155
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count156
-\lst@gtempboxa=\box39
-\lst@token=\toks34
-\lst@length=\count157
-\lst@currlwidth=\dimen169
-\lst@column=\count158
-\lst@pos=\count159
-\lst@lostspace=\dimen170
-\lst@width=\dimen171
-\lst@newlines=\count160
-\lst@lineno=\count161
-\lst@maxwidth=\dimen172
+\c@eqn=\count159
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count160
+\lst@gtempboxa=\box41
+\lst@token=\toks35
+\lst@length=\count161
+\lst@currlwidth=\dimen171
+\lst@column=\count162
+\lst@pos=\count163
+\lst@lostspace=\dimen172
+\lst@width=\dimen173
+\lst@newlines=\count164
+\lst@lineno=\count165
+\lst@maxwidth=\dimen174
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count162
-\lst@skipnumbers=\count163
-\lst@framebox=\box40
+\c@lstnumber=\count166
+\lst@skipnumbers=\count167
+\lst@framebox=\box42
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -774,143 +792,143 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-\c@osservazione=\count164
+\c@osservazione=\count168
 
-(C:\Users\mbaratva\Desktop\thesis\CDC\newcommands.tex)
-(C:\Users\mbaratva\Desktop\thesis\CDC\Thesis_main.aux
-(C:\Users\mbaratva\Desktop\thesis\CDC\introduction.aux)
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part1.aux)
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part2.aux)
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part3.aux)
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part4.aux
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\newcommands.tex")
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\Thesis_main.aux"
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\introduction.aux")
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\content/part1.aux")
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\content/part2.aux")
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\content/part3.aux")
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\content/part4.aux"
 
 LaTeX Warning: Label `sec:chapter_2' multiply defined.
 
 ))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 201.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 201.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 140.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 140.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cbfonts-fd\lgrcmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\cbfonts-fd\lgrcmr.fd"
 File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 201.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 201.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 140.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 140.
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 201.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 140.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count165
-\scratchdimen=\dimen173
-\scratchbox=\box41
-\nofMPsegments=\count166
-\nofMParguments=\count167
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count168
-\MPscratchDim=\dimen174
-\MPnumerator=\count169
-\makeMPintoPDFobject=\count170
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count169
+\scratchdimen=\dimen175
+\scratchbox=\box43
+\nofMPsegments=\count170
+\nofMParguments=\count171
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count172
+\MPscratchDim=\dimen176
+\MPnumerator=\count173
+\makeMPintoPDFobject=\count174
+\everyMPtoPDFconversion=\toks37
 )
 Messaggio Toptesi: Ricalcolo i margini
-\AtBeginShipoutBox=\box42
-Package hyperref Info: Link coloring ON on input line 201.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+\AtBeginShipoutBox=\box44
+Package hyperref Info: Link coloring ON on input line 140.
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count171
+\c@section@level=\count175
 )
-LaTeX Info: Redefining \ref on input line 201.
-LaTeX Info: Redefining \pageref on input line 201.
-LaTeX Info: Redefining \nameref on input line 201.
+LaTeX Info: Redefining \ref on input line 140.
+LaTeX Info: Redefining \pageref on input line 140.
+LaTeX Info: Redefining \nameref on input line 140.
 
-(C:\Users\mbaratva\Desktop\thesis\CDC\Thesis_main.out)
-(C:\Users\mbaratva\Desktop\thesis\CDC\Thesis_main.out)
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\Thesis_main.out")
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\Thesis_main.out")
 \@outlinefile=\write5
 
 Redefining \end@dblfloat\ for use with subfigure
-\c@lstlisting=\count172
+\c@lstlisting=\count176
 Package epstopdf Info: Source file: <logopolito.eps>
-(epstopdf)                    date: 2012-10-29 16:56:42
-(epstopdf)                    size: 622727 bytes
+(epstopdf)                    date: 2015-03-29 21:13:12
+(epstopdf)                    size: 631603 bytes
 (epstopdf)             Output file: <logopolito-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-10-07 17:20:02
+(epstopdf)                    date: 2015-03-29 21:13:12
 (epstopdf)                    size: 73600 bytes
 (epstopdf)             Command: <epstopdf --outfile=logopolito-eps-converted-to
 .pdf logopolito.eps>
-(epstopdf)             \includegraphics on input line 207.
+(epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
 <logopolito-eps-converted-to.pdf, id=135, 433.62pt x 426.59375pt>
 File: logopolito-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logopolito-eps-converted-to.pdf>
-Package pdftex.def Info: logopolito-eps-converted-to.pdf used on input line 207
+Package pdftex.def Info: logopolito-eps-converted-to.pdf used on input line 146
 .
 (pdftex.def)             Requested size: 85.35826pt x 83.9698pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 207.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 146.
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 207.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 146.
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 207
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 146
 .
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 207
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 146
 .
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 207.
+(Font)              <12> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 207.
+(Font)              <8> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 207.
-LaTeX Font Info:    Try loading font information for U+msa on input line 207.
+(Font)              <6> on input line 146.
+LaTeX Font Info:    Try loading font information for U+msa on input line 146.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 207.
+LaTeX Font Info:    Try loading font information for U+msb on input line 146.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Overfull \vbox (2.16994pt too high) has occurred while \output is active []
@@ -920,8 +938,8 @@ Overfull \vbox (2.16994pt too high) has occurred while \output is active []
 
 
 
- <C:/Users/mbaratva/Desktop/thesis/CDC/logopolito-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 220--224
+ <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/logopolito-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 161--165
 
  []
 
@@ -931,32 +949,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [2
 
 
+
 ]
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 227--231
+Underfull \hbox (badness 10000) in paragraph at lines 168--172
 
  []
 
 [4
 
-] (C:\Users\mbaratva\Desktop\thesis\CDC\Thesis_main.toc [5
+] ("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\Thesis_main.toc" [5
 
 ])
 \tf@toc=\write6
  [6]
-(C:\Users\mbaratva\Desktop\thesis\CDC\Thesis_main.lof [7
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\Thesis_main.lot")
+\tf@lot=\write7
+ [7
+
+
+]
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\Thesis_main.lof" [8
 
 
 ])
-\tf@lof=\write7
- [8]
+\tf@lof=\write8
+ [9]
 No file introduction.tex.
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part1.tex
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\content/part1.tex"
 Chapter 1.
-
-Package natbib Warning: Citation `FDSS_13' on page 1 undefined on input line 4.
-
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
@@ -1026,10 +1047,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
  []
 
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 37.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [3]) [4]
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part2.tex
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\content/part2.tex"
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
@@ -1060,14 +1081,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-<content/fig/ofdmmodel1.JPG, id=339, 763.35187pt x 444.15938pt>
+<content/fig/ofdmmodel1.JPG, id=349, 763.35187pt x 444.15938pt>
 File: content/fig/ofdmmodel1.JPG Graphic file (type jpg)
 
 <use content/fig/ofdmmodel1.JPG>
 Package pdftex.def Info: content/fig/ofdmmodel1.JPG used on input line 67.
 (pdftex.def)             Requested size: 426.79134pt x 248.32768pt.
 
-<content/fig/ofdmmodel2.JPG, id=340, 724.20563pt x 429.10312pt>
+<content/fig/ofdmmodel2.JPG, id=350, 724.20563pt x 429.10312pt>
 File: content/fig/ofdmmodel2.JPG Graphic file (type jpg)
 
 <use content/fig/ofdmmodel2.JPG>
@@ -1097,9 +1118,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--78
 <output> ...@fcolmade \fi {\@opcol \@startcolumn }
                                                   \fi \ifnum \outputpenalty ...
 l.78 
-      <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdmmodel1.JPG> <C:/Use
-rs/mbaratva/Desktop/thesis/CDC/content/fig/ofdmmodel2.JPG>]
-<content/fig/basic_ofdm_design.JPG, id=352, 506.6428pt x 284.56313pt>
+      <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/ofdmmodel1.JPG> <C
+:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/ofdmmodel2.JPG>]
+<content/fig/basic_ofdm_design.JPG, id=362, 506.6428pt x 284.56313pt>
 File: content/fig/basic_ofdm_design.JPG Graphic file (type jpg)
 
 <use content/fig/basic_ofdm_design.JPG>
@@ -1126,13 +1147,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--103
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.110 
-       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/basic_ofdm_design.JPG>
-]
+       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/basic_ofdm_design
+.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-<content/fig/osi.JPG, id=358, 368.37625pt x 173.64874pt>
+<content/fig/osi.JPG, id=368, 368.37625pt x 173.64874pt>
 File: content/fig/osi.JPG Graphic file (type jpg)
 
 <use content/fig/osi.JPG>
@@ -1158,8 +1179,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--134
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.134 
-       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/osi.JPG>]
-<content/fig/ieee_system_design.JPG, id=363, 516.42938pt x 292.09125pt>
+       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/osi.JPG>]
+<content/fig/ieee_system_design.JPG, id=375, 516.42938pt x 292.09125pt>
 File: content/fig/ieee_system_design.JPG Graphic file (type jpg)
 
 <use content/fig/ieee_system_design.JPG>
@@ -1190,8 +1211,8 @@ Package pdftex.def Info: content/fig/ieee_system_design.JPG used on input line
 <to be read again> 
                    D
 l.149   \item D
-               ata rate <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ieee_
-system_design.JPG>]
+               ata rate <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/
+ieee_system_design.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 152--156
 
  []
@@ -1202,14 +1223,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--162
  []
 
 
-LaTeX Warning: Reference `freq_alloc' on page 12 undefined on input line 170.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
-[12] <content/fig/freq_alloc.JPG, id=379, 525.46312pt x 158.09062pt>
+[12] <content/fig/freq_alloc.JPG, id=391, 525.46312pt x 158.09062pt>
 File: content/fig/freq_alloc.JPG Graphic file (type jpg)
 
 <use content/fig/freq_alloc.JPG>
@@ -1270,9 +1288,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--243
 \end #1->\csname end#1\endcsname 
                                  \@checkend {#1}\expandafter \endgroup \if@e...
 l.246 \end{equation}
-                     <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/freq_all
-oc.JPG>] [14pdfTeX warning (ext4): destination with the same identifier (name{t
-able.2.1}) has been already used, duplicate ignored
+                     <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/fre
+q_alloc.JPG>] [14pdfTeX warning (ext4): destination with the same identifier (n
+ame{table.2.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1322,16 +1340,11 @@ l.253 \end{equation}
                                  \@checkend {#1}\expandafter \endgroup \if@e...
 l.253 \end{equation}
                     ]
-
-LaTeX Warning: Reference `preamble_ieee' on page 15 undefined on input line 260
-.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 260--265
 
  []
 
-<content/fig/ofdm_frame.JPG, id=395, 508.90125pt x 110.66344pt>
+<content/fig/ofdm_frame.JPG, id=407, 508.90125pt x 110.66344pt>
 File: content/fig/ofdm_frame.JPG Graphic file (type jpg)
 
 <use content/fig/ofdm_frame.JPG>
@@ -1342,20 +1355,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-<content/fig/cfo_radio_model.JPG, id=402, 468.24937pt x 158.09062pt>
+<content/fig/cfo_radio_model.JPG, id=414, 468.24937pt x 158.09062pt>
 File: content/fig/cfo_radio_model.JPG Graphic file (type jpg)
 
 <use content/fig/cfo_radio_model.JPG>
 Package pdftex.def Info: content/fig/cfo_radio_model.JPG used on input line 282
 .
 (pdftex.def)             Requested size: 284.52756pt x 96.06606pt.
-
-
-LaTeX Warning: Reference `cfo_radio_model' on page 16 undefined on input line 2
-87.
-
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6
-}) has been already used, duplicate ignored
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1404,23 +1412,19 @@ l.300 \end{equation}
 \end #1->\csname end#1\endcsname 
                                  \@checkend {#1}\expandafter \endgroup \if@e...
 l.300 \end{equation}
-                     <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdm_fra
-me.JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_radio_model.JPG>]
-
+                     <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/ofd
+m_frame.JPG> <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/cfo_radio_m
+odel.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
-
-
-LaTeX Warning: Reference `cfo_impact_on_ici' on page 17 undefined on input line
- 319.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 317--320
 
  []
 
-<content/fig/cfo_on_ici.JPG, id=408, 313.17pt x 213.79875pt>
+<content/fig/cfo_on_ici.JPG, id=423, 313.17pt x 213.79875pt>
 File: content/fig/cfo_on_ici.JPG Graphic file (type jpg)
 
 <use content/fig/cfo_on_ici.JPG>
@@ -1439,7 +1443,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 328--332
 
  []
 
-[17] <content/fig/LTS_time_domain.JPG, id=417, 355.3275pt x 109.1578pt>
+[17] <content/fig/LTS_time_domain.JPG, id=431, 355.3275pt x 109.1578pt>
 File: content/fig/LTS_time_domain.JPG Graphic file (type jpg)
 
 <use content/fig/LTS_time_domain.JPG>
@@ -1447,7 +1451,7 @@ Package pdftex.def Info: content/fig/LTS_time_domain.JPG used on input line 335
 .
 (pdftex.def)             Requested size: 284.52756pt x 87.40964pt.
 
-<content/fig/cfo_est.JPG, id=418, 670.75594pt x 118.19156pt>
+<content/fig/cfo_est.JPG, id=432, 670.75594pt x 118.19156pt>
 File: content/fig/cfo_est.JPG Graphic file (type jpg)
 
 <use content/fig/cfo_est.JPG>
@@ -1456,13 +1460,6 @@ Package pdftex.def Info: content/fig/cfo_est.JPG used on input line 351.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `cfo_est' on page 18 undefined on input line 356.
-
-
-LaTeX Warning: Reference `ieee_preamble' on page 18 undefined on input line 362
-.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 361--363
@@ -1499,9 +1496,9 @@ l.363
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.363 
-       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_on_ici.JPG> <C:/Us
-ers/mbaratva/Desktop/thesis/CDC/content/fig/LTS_time_domain.JPG>]
-<content/fig/ieee_preamble.JPG, id=424, 322.20375pt x 132.495pt>
+       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/cfo_on_ici.JPG> <
+C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/LTS_time_domain.JPG>]
+<content/fig/ieee_preamble.JPG, id=440, 322.20375pt x 132.495pt>
 File: content/fig/ieee_preamble.JPG Graphic file (type jpg)
 
 <use content/fig/ieee_preamble.JPG>
@@ -1566,13 +1563,14 @@ l.377 \end{equation}
 \end #1->\csname end#1\endcsname 
                                  \@checkend {#1}\expandafter \endgroup \if@e...
 l.377 \end{equation}
-                     <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_est.
-JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ieee_preamble.JPG>]
+                     <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/cfo
+_est.JPG> <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/ieee_preamble.
+JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
-<content/fig/schimdl_cox.JPG, id=431, 255.95625pt x 82.80937pt>
+<content/fig/schimdl_cox.JPG, id=447, 255.95625pt x 82.80937pt>
 File: content/fig/schimdl_cox.JPG Graphic file (type jpg)
 
 <use content/fig/schimdl_cox.JPG>
@@ -1584,7 +1582,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 399--400
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 408--260
+Underfull \hbox (badness 10000) in paragraph at lines 408--187
 
  []
 
@@ -1613,16 +1611,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 408--260
 
 \include ...ot be nested}\@eha \else \@include #1 
                                                   \fi 
-l.260 \include{content/part2}
-                              <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig
-/schimdl_cox.JPG>] (C:\Users\mbaratva\Desktop\thesis\CDC\content/part3.tex
+l.187 \include{content/part2}
+                              <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/conten
+t/fig/schimdl_cox.JPG>]
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\content/part3.tex"
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-<content/fig/systemGen.JPG, id=440, 468.75125pt x 350.30875pt>
+<content/fig/systemGen.JPG, id=456, 468.75125pt x 350.30875pt>
 File: content/fig/systemGen.JPG Graphic file (type jpg)
 
 <use content/fig/systemGen.JPG>
@@ -1637,23 +1636,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
  []
 
-
-LaTeX Warning: Reference `ofdm_system' on page 21 undefined on input line 23.
-
 [21
 
 
 
-] <content/fig/system.JPG, id=445, 792.71156pt x 417.05812pt>
+] <content/fig/system.JPG, id=462, 792.71156pt x 417.05812pt>
 File: content/fig/system.JPG Graphic file (type jpg)
 
 <use content/fig/system.JPG>
 Package pdftex.def Info: content/fig/system.JPG used on input line 28.
 (pdftex.def)             Requested size: 284.52756pt x 149.69534pt.
-
-
-LaTeX Warning: Reference `tx_block' on page 22 undefined on input line 34.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
@@ -1689,36 +1681,27 @@ l.36
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.36 
-      <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/systemGen.JPG> <C:/User
-s/mbaratva/Desktop/thesis/CDC/content/fig/system.JPG>]
-<content/fig/txblock.JPG, id=450, 1024.57782pt x 560.0925pt>
+      <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/systemGen.JPG> <C:
+/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/system.JPG>]
+<content/fig/txblock.JPG, id=469, 1024.57782pt x 560.0925pt>
 File: content/fig/txblock.JPG Graphic file (type jpg)
 
 <use content/fig/txblock.JPG>
 Package pdftex.def Info: content/fig/txblock.JPG used on input line 39.
 (pdftex.def)             Requested size: 426.79134pt x 233.30577pt.
 
-
-LaTeX Warning: Reference `rx_block' on page 23 undefined on input line 44.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-<content/fig/rxblock.JPG, id=451, 959.08313pt x 625.58719pt>
+<content/fig/rxblock.JPG, id=471, 959.08313pt x 625.58719pt>
 File: content/fig/rxblock.JPG Graphic file (type jpg)
 
 <use content/fig/rxblock.JPG>
 Package pdftex.def Info: content/fig/rxblock.JPG used on input line 48.
 (pdftex.def)             Requested size: 426.79134pt x 278.3902pt.
-
-
-LaTeX Warning: Reference `autocorrblock' on page 23 undefined on input line 55.
-
-
-[23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
-}) has been already used, duplicate ignored
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1732,24 +1715,21 @@ LaTeX Warning: Reference `autocorrblock' on page 23 undefined on input line 55.
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.56 
-      <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/txblock.JPG>]
-<content/fig/autocorrblock.JPG, id=457, 1011.78pt x 415.5525pt>
+      <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/txblock.JPG>]
+<content/fig/autocorrblock.JPG, id=477, 1011.78pt x 415.5525pt>
 File: content/fig/autocorrblock.JPG Graphic file (type jpg)
 
 <use content/fig/autocorrblock.JPG>
 Package pdftex.def Info: content/fig/autocorrblock.JPG used on input line 59.
 (pdftex.def)             Requested size: 426.79134pt x 175.29175pt.
 
-<content/fig/fine_packetDetect.JPG, id=458, 922.19531pt x 269.50688pt>
+<content/fig/fine_packetDetect.JPG, id=478, 922.19531pt x 269.50688pt>
 File: content/fig/fine_packetDetect.JPG Graphic file (type jpg)
 
 <use content/fig/fine_packetDetect.JPG>
 Package pdftex.def Info: content/fig/fine_packetDetect.JPG used on input line 6
 6.
 (pdftex.def)             Requested size: 426.79134pt x 124.72722pt.
-
-
-LaTeX Warning: Reference `cmpx_div' on page 24 undefined on input line 71.
 
 
 LaTeX Warning: Reference `division' on page 24 undefined on input line 71.
@@ -1759,14 +1739,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-<content/fig/cmpx_div.JPG, id=460, 862.72313pt x 197.23688pt>
+<content/fig/cmpx_div.JPG, id=481, 862.72313pt x 197.23688pt>
 File: content/fig/cmpx_div.JPG Graphic file (type jpg)
 
 <use content/fig/cmpx_div.JPG>
 Package pdftex.def Info: content/fig/cmpx_div.JPG used on input line 75.
 (pdftex.def)             Requested size: 426.79134pt x 97.57085pt.
 
-<content/fig/division.JPG, id=461, 839.38594pt x 388.45125pt>
+<content/fig/division.JPG, id=482, 839.38594pt x 388.45125pt>
 File: content/fig/division.JPG Graphic file (type jpg)
 
 <use content/fig/division.JPG>
@@ -1792,7 +1772,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--93
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.93 
-      <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/rxblock.JPG>]
+      <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/rxblock.JPG>]
 
 LaTeX Warning: Text page 25 contains only floats.
 
@@ -1841,17 +1821,17 @@ l.93
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.93 
-      <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/autocorrblock.JPG> <C:/
-Users/mbaratva/Desktop/thesis/CDC/content/fig/fine_packetDetect.JPG> <C:/Users/
-mbaratva/Desktop/thesis/CDC/content/fig/cmpx_div.JPG>]
-<content/fig/ZC706.JPG, id=471, 288.3272pt x 164.11313pt>
+      <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/autocorrblock.JPG>
+ <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/fine_packetDetect.JPG> 
+<C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/cmpx_div.JPG>]
+<content/fig/ZC706.JPG, id=492, 288.3272pt x 164.11313pt>
 File: content/fig/ZC706.JPG Graphic file (type jpg)
 
 <use content/fig/ZC706.JPG>
 Package pdftex.def Info: content/fig/ZC706.JPG used on input line 96.
 (pdftex.def)             Requested size: 341.43306pt x 194.34795pt.
 
-<content/fig/zc706_block_diagram.JPG, id=472, 539.01375pt x 439.6425pt>
+<content/fig/zc706_block_diagram.JPG, id=493, 539.01375pt x 439.6425pt>
 File: content/fig/zc706_block_diagram.JPG Graphic file (type jpg)
 
 <use content/fig/zc706_block_diagram.JPG>
@@ -1863,7 +1843,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
-<content/fig/fmcomms1.jpg, id=473, 326.72063pt x 225.84375pt>
+<content/fig/fmcomms1.jpg, id=495, 326.72063pt x 225.84375pt>
 File: content/fig/fmcomms1.jpg Graphic file (type jpg)
 
 <use content/fig/fmcomms1.jpg>
@@ -1890,8 +1870,8 @@ Package pdftex.def Info: content/fig/fmcomms1.jpg used on input line 114.
 \end #1->\csname end#1\endcsname 
                                  \@checkend {#1}\expandafter \endgroup \if@e...
 l.116 \end{figure}
-                   <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/division.J
-PG>] <content/fig/fmcomms1Blockdiagram.jpg, id=478, 903.375pt x 433.62pt>
+                   <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/divis
+ion.JPG>] <content/fig/fmcomms1Blockdiagram.jpg, id=501, 903.375pt x 433.62pt>
 File: content/fig/fmcomms1Blockdiagram.jpg Graphic file (type jpg)
 
 <use content/fig/fmcomms1Blockdiagram.jpg>
@@ -1936,10 +1916,10 @@ l.128
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.128 
-       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ZC706.JPG> <C:/Users/m
-baratva/Desktop/thesis/CDC/content/fig/zc706_block_diagram.JPG>] [28pdfTeX warn
-ing (ext4): destination with the same identifier (name{figure.3.11}) has been a
-lready used, duplicate ignored
+       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/ZC706.JPG> <C:/Us
+ers/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/zc706_block_diagram.JPG>]
+[28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1968,9 +1948,9 @@ l.128
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.128 
-       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fmcomms1.jpg> <C:/User
-s/mbaratva/Desktop/thesis/CDC/content/fig/fmcomms1Blockdiagram.jpg>]
-<content/fig/ad9548BlockDiagram.JPG, id=487, 698.61pt x 423.83344pt>
+       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/fmcomms1.jpg> <C:
+/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/fmcomms1Blockdiagram.jpg>]
+<content/fig/ad9548BlockDiagram.JPG, id=512, 698.61pt x 423.83344pt>
 File: content/fig/ad9548BlockDiagram.JPG Graphic file (type jpg)
 
 <use content/fig/ad9548BlockDiagram.JPG>
@@ -1997,8 +1977,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--141
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.141 
-       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ad9548BlockDiagram.JPG
->] <content/fig/cvhd.JPG, id=493, 423.08063pt x 386.19281pt>
+       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/ad9548BlockDiagra
+m.JPG>] <content/fig/cvhd.JPG, id=522, 423.08063pt x 386.19281pt>
 File: content/fig/cvhd.JPG Graphic file (type jpg)
 
 <use content/fig/cvhd.JPG>
@@ -2019,7 +1999,7 @@ Package pdftex.def Info: content/fig/cvhd.JPG used on input line 144.
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.154 
-       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cvhd.JPG>]
+       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/cvhd.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
@@ -2030,24 +2010,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--163
  []
 
 
-LaTeX Warning: Reference `zynq_inside' on page 31 undefined on input line 167.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 166--168
 
  []
 
-[31] <content/fig/zynq_inside.JPG, id=502, 521.95pt x 576.1525pt>
+[31] <content/fig/zynq_inside.JPG, id=535, 521.95pt x 576.1525pt>
 File: content/fig/zynq_inside.JPG Graphic file (type jpg)
 
 <use content/fig/zynq_inside.JPG>
 Package pdftex.def Info: content/fig/zynq_inside.JPG used on input line 171.
 (pdftex.def)             Requested size: 341.43306pt x 376.89471pt.
-
-
-LaTeX Warning: Reference `design_block_diagram' on page 32 undefined on input l
-ine 176.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
@@ -2068,8 +2040,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--177
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.177 
-       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/zynq_inside.JPG>]
-<content/fig/fpga_internal.JPG, id=507, 540.51938pt x 238.64156pt>
+       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/zynq_inside.JPG>]
+<content/fig/fpga_internal.JPG, id=541, 540.51938pt x 238.64156pt>
 File: content/fig/fpga_internal.JPG Graphic file (type jpg)
 
 <use content/fig/fpga_internal.JPG>
@@ -2079,10 +2051,6 @@ Package pdftex.def Info: content/fig/fpga_internal.JPG used on input line 180.
 Underfull \hbox (badness 10000) in paragraph at lines 185--187
 
  []
-
-
-LaTeX Warning: Reference `hardware_setup' on page 33 undefined on input line 18
-9.
 
 
 Overfull \hbox (1.84131pt too wide) in paragraph at lines 189--190
@@ -2095,20 +2063,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
-<content/fig/hardware_setup.JPG, id=508, 2055.68pt x 1541.76pt>
+<content/fig/hardware_setup.JPG, id=543, 2055.68pt x 1541.76pt>
 File: content/fig/hardware_setup.JPG Graphic file (type jpg)
 
 <use content/fig/hardware_setup.JPG>
 Package pdftex.def Info: content/fig/hardware_setup.JPG used on input line 193.
 
 (pdftex.def)             Requested size: 426.79134pt x 320.08568pt.
-
-
-LaTeX Warning: Reference `design_block_diagram' on page 33 undefined on input l
-ine 198.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--202
+)
+Underfull \hbox (badness 10000) in paragraph at lines 198--188
 
  []
 
@@ -2126,8 +2089,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--202
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.202 
-       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fpga_internal.JPG>]
+
+\newpage ...k \@nobreakfalse \everypar {}\fi \par 
+                                                  \vfil \penalty -\@M 
+\clearpage ...opskip \hbox {}\fi \fi \fi \newpage 
+                                                  \write \m@ne {}\vbox {}\pe...
+
+\@include ...hook \fi \@input@ {#1.tex}\clearpage 
+                                                  \@writeckpt {#1}\if@filesw...
+
+\include ...ot be nested}\@eha \else \@include #1 
+                                                  \fi 
+l.188 \include{content/part3}
+                              <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/conten
+t/fig/fpga_internal.JPG>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
@@ -2144,27 +2119,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.202 
-       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/hardware_setup.JPG>])
-[35] (C:\Users\mbaratva\Desktop\thesis\CDC\content/part4.tex [36
 
+\newpage ...k \@nobreakfalse \everypar {}\fi \par 
+                                                  \vfil \penalty -\@M 
+\clearpage ...opskip \hbox {}\fi \fi \fi \newpage 
+                                                  \write \m@ne {}\vbox {}\pe...
 
+\@include ...hook \fi \@input@ {#1.tex}\clearpage 
+                                                  \@writeckpt {#1}\if@filesw...
 
-]
+\include ...ot be nested}\@eha \else \@include #1 
+                                                  \fi 
+l.188 \include{content/part3}
+                              <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/conten
+t/fig/hardware_setup.JPG>] [35]
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\content/part4.tex"
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-
-LaTeX Warning: Reference `ofdmframe_chipscope' on page 37 undefined on input li
-ne 9.
-
-
-LaTeX Warning: Reference `sts_chipscope' on page 37 undefined on input line 9.
-
-<content/fig/ofdmframe_chipscope.JPG, id=527, 810.02625pt x 539.01375pt>
+<content/fig/ofdmframe_chipscope.JPG, id=561, 810.02625pt x 539.01375pt>
 File: content/fig/ofdmframe_chipscope.JPG Graphic file (type jpg)
 
 <use content/fig/ofdmframe_chipscope.JPG>
@@ -2172,98 +2148,77 @@ Package pdftex.def Info: content/fig/ofdmframe_chipscope.JPG used on input line
  11.
 (pdftex.def)             Requested size: 426.79134pt x 284.0063pt.
 
-<content/fig/sts_chipscope.JPG, id=528, 726.46407pt x 441.90094pt>
+<content/fig/sts_chipscope.JPG, id=562, 726.46407pt x 441.90094pt>
 File: content/fig/sts_chipscope.JPG Graphic file (type jpg)
 
 <use content/fig/sts_chipscope.JPG>
 Package pdftex.def Info: content/fig/sts_chipscope.JPG used on input line 18.
 (pdftex.def)             Requested size: 341.43306pt x 207.69347pt.
 
-
-LaTeX Warning: Reference `autocorr' on page 37 undefined on input line 23.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-<content/fig/autocorr.JPG, id=529, 752.8125pt x 347.04657pt>
+<content/fig/autocorr.JPG, id=564, 752.8125pt x 347.04657pt>
 File: content/fig/autocorr.JPG Graphic file (type jpg)
 
 <use content/fig/autocorr.JPG>
 Package pdftex.def Info: content/fig/autocorr.JPG used on input line 27.
 (pdftex.def)             Requested size: 426.79134pt x 196.7542pt.
 
-
-LaTeX Warning: Reference `crosscorr' on page 37 undefined on input line 32.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-<content/fig/crosscorr.JPG, id=530, 855.94781pt x 481.04718pt>
+<content/fig/crosscorr.JPG, id=566, 855.94781pt x 481.04718pt>
 File: content/fig/crosscorr.JPG Graphic file (type jpg)
 
 <use content/fig/crosscorr.JPG>
 Package pdftex.def Info: content/fig/crosscorr.JPG used on input line 36.
 (pdftex.def)             Requested size: 426.79134pt x 239.85504pt.
 
-
-LaTeX Warning: Reference `baseIFAdcDac' on page 37 undefined on input line 41.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-[37] <content/fig/baseIFAdcDac.JPG, id=535, 1604.99625pt x 1088.065pt>
+[36
+
+
+
+] <content/fig/baseIFAdcDac.JPG, id=572, 1604.99625pt x 1088.065pt>
 File: content/fig/baseIFAdcDac.JPG Graphic file (type jpg)
 
 <use content/fig/baseIFAdcDac.JPG>
 Package pdftex.def Info: content/fig/baseIFAdcDac.JPG used on input line 45.
 (pdftex.def)             Requested size: 284.52756pt x 192.888pt.
 
-
-LaTeX Warning: Reference `RfIF' on page 38 undefined on input line 50.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-<content/fig/RfIF.JPG, id=536, 1604.99625pt x 1088.065pt>
+<content/fig/RfIF.JPG, id=574, 1604.99625pt x 1088.065pt>
 File: content/fig/RfIF.JPG Graphic file (type jpg)
 
 <use content/fig/RfIF.JPG>
 Package pdftex.def Info: content/fig/RfIF.JPG used on input line 54.
 (pdftex.def)             Requested size: 284.52756pt x 192.888pt.
 
-
-LaTeX Warning: Reference `Rfbase' on page 38 undefined on input line 59.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-<content/fig/Rfbase.JPG, id=537, 1604.99625pt x 1088.065pt>
+<content/fig/Rfbase.JPG, id=576, 1604.99625pt x 1088.065pt>
 File: content/fig/Rfbase.JPG Graphic file (type jpg)
 
 <use content/fig/Rfbase.JPG>
 Package pdftex.def Info: content/fig/Rfbase.JPG used on input line 63.
 (pdftex.def)             Requested size: 284.52756pt x 192.888pt.
 
-
-LaTeX Warning: Reference `h_mag_chipscope_noChannel' on page 38 undefined on in
-put line 68.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-[38pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[37pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2278,9 +2233,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.69 
-      <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdmframe_chipscope.JPG
->]
-<content/fig/h_mag_chipscope_noChannel.JPG, id=542, 646.66594pt x 446.41782pt>
+      <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/ofdmframe_chipscop
+e.JPG>]
+<content/fig/h_mag_chipscope_noChannel.JPG, id=582, 646.66594pt x 446.41782pt>
 File: content/fig/h_mag_chipscope_noChannel.JPG Graphic file (type jpg)
 
 <use content/fig/h_mag_chipscope_noChannel.JPG>
@@ -2288,23 +2243,18 @@ Package pdftex.def Info: content/fig/h_mag_chipscope_noChannel.JPG used on inpu
 t line 72.
 (pdftex.def)             Requested size: 284.52756pt x 196.41763pt.
 
-
-LaTeX Warning: Reference `h_mag_chipscope_rf_detect' on page 39 undefined on in
-put line 77.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-<content/fig/h_mag_chipscope_rf_detect.JPG, id=543, 643.6547pt x 441.90094pt>
+<content/fig/h_mag_chipscope_rf_detect.JPG, id=584, 643.6547pt x 441.90094pt>
 File: content/fig/h_mag_chipscope_rf_detect.JPG Graphic file (type jpg)
 
 <use content/fig/h_mag_chipscope_rf_detect.JPG>
 Package pdftex.def Info: content/fig/h_mag_chipscope_rf_detect.JPG used on inpu
 t line 81.
 (pdftex.def)             Requested size: 284.52756pt x 195.34729pt.
- [39pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [38pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2346,29 +2296,21 @@ ame{figure.4.3}) has been already used, duplicate ignored
 \end #1->\csname end#1\endcsname 
                                  \@checkend {#1}\expandafter \endgroup \if@e...
 l.84 \end{figure}
-                  <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/sts_chipsco
-pe.JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/autocorr.JPG>]
-<content/fig/OfdmSym_16qam_1_2_code_64byte.JPG, id=548, 746.79pt x 335.00156pt>
+                  <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/sts_ch
+ipscope.JPG> <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/autocorr.JP
+G>]
+<content/fig/OfdmSym_16qam_1_2_code_64byte.JPG, id=589, 746.79pt x 335.00156pt>
 File: content/fig/OfdmSym_16qam_1_2_code_64byte.JPG Graphic file (type jpg)
 <use content/fig/OfdmSym_16qam_1_2_code_64byte.JPG>
 Package pdftex.def Info: content/fig/OfdmSym_16qam_1_2_code_64byte.JPG used on 
 input line 88.
 (pdftex.def)             Requested size: 426.79134pt x 191.45381pt.
 
-
-LaTeX Warning: Reference `OfdmSym_16qam_1_2_code_64byte' on page 40 undefined o
-n input line 93.
-
-
-LaTeX Warning: Reference `OfdmSym_16qam_no_code_64byte' on page 40 undefined on
- input line 93.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-[40pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
+[39pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2398,9 +2340,9 @@ l.94
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.94 
-      <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/crosscorr.JPG> <C:/User
-s/mbaratva/Desktop/thesis/CDC/content/fig/baseIFAdcDac.JPG>]
-<content/fig/OfdmSym_16qam_no_code_64byte.JPG, id=553, 746.79pt x 336.50719pt>
+      <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/crosscorr.JPG> <C:
+/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/baseIFAdcDac.JPG>]
+<content/fig/OfdmSym_16qam_no_code_64byte.JPG, id=596, 746.79pt x 336.50719pt>
 File: content/fig/OfdmSym_16qam_no_code_64byte.JPG Graphic file (type jpg)
 
 <use content/fig/OfdmSym_16qam_no_code_64byte.JPG>
@@ -2410,7 +2352,7 @@ nput line 97.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2455,9 +2397,9 @@ ed
 \@startsection ...}\else \addpenalty \@secpenalty 
                                                   \addvspace \@tempskipa \fi...
 l.106 \section
-              {FPGA Resource Consumption} <C:/Users/mbaratva/Desktop/thesis/CDC
-/content/fig/RfIF.JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/Rfbase
-.JPG>]
+              {FPGA Resource Consumption} <C:/Users/Aftab Ahmed/Desktop/Latex_t
+h/CDC/content/fig/RfIF.JPG> <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/
+fig/Rfbase.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
@@ -2465,7 +2407,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [41pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2495,14 +2437,14 @@ l.108
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.108 
-       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/h_mag_chipscope_noChan
-nel.JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/h_mag_chipscope_rf_d
-etect.JPG>]
+       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/h_mag_chipscope_n
+oChannel.JPG> <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/h_mag_chip
+scope_rf_detect.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
-[43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2532,19 +2474,19 @@ l.127
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
 l.127 
-       <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/OfdmSym_16qam_1_2_code
-_64byte.JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/OfdmSym_16qam_no
-_code_64byte.JPG>]
+       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/OfdmSym_16qam_1_2
+_code_64byte.JPG> <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/OfdmSy
+m_16qam_no_code_64byte.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 130--132
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 134--262
+Underfull \hbox (badness 10000) in paragraph at lines 134--189
 
  []
 
-[44pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
+[43pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2569,25 +2511,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--262
 
 \include ...ot be nested}\@eha \else \@include #1 
                                                   \fi 
-l.262 \include{content/part4}
-                             ] [45] [46
+l.189 \include{content/part4}
+                             ] [44]
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\Thesis_main.bbl"
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 11.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 4303) in paragraph at lines 14--17
+\T1/lmr/m/it/12 log De-vice\T1/lmr/m/n/12 .  [][]$\T1/lmtt/m/n/12 http : / / ww
+w . analog . com / en / products / clock-[]and-[]timing /$
+ []
 
 
-]
-No file Thesis_main.bbl.
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
+[]\T1/lmr/m/n/12 AD9523 14-Output, Low Jit-ter Clock gen-er-a-tor.  \T1/lmr/m/i
+t/12 Ana-log De-
+ []
 
-Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
-(C:\Users\mbaratva\Desktop\thesis\CDC\Thesis_main.aux
-(C:\Users\mbaratva\Desktop\thesis\CDC\introduction.aux)
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part1.aux)
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part2.aux)
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part3.aux)
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part4.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
+\T1/lmr/m/it/12 vice\T1/lmr/m/n/12 .  [][]$\T1/lmtt/m/n/12 http : / / www . ana
+log . com / en / products / clock-[]and-[]timing /$
+ []
+
+[45
+
+
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
+ [46]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
+ ("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\Thesis_main.aux"
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\introduction.aux")
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\content/part1.aux")
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\content/part2.aux")
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\content/part3.aux")
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\content/part4.aux"))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
 Package rerunfilecheck Info: File `Thesis_main.out' has not changed.
 (rerunfilecheck)             Checksum: 0BC6CEE1188B6ECCE0DA2CA21795F439;2248.
 
@@ -2597,37 +2561,37 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 205.
  ) 
 Here is how much of TeX's memory you used:
- 12657 strings out of 493921
- 186309 string characters out of 3144867
- 280230 words of memory out of 3000000
- 15421 multiletter control sequences out of 15000+200000
- 61461 words of font info for 51 fonts, out of 3000000 for 9000
+ 13382 strings out of 493921
+ 196808 string characters out of 3147265
+ 293362 words of memory out of 3000000
+ 16104 multiletter control sequences out of 15000+200000
+ 61779 words of font info for 52 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  39i,23n,53p,1033b,526s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/font
-s/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips
-/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.
-enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
-lmro10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Thesis_main.pdf (54 pages, 4678164 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
+.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program 
+Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
+m/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
+/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.p
+fb>
+Output written on Thesis_main.pdf (55 pages, 4720479 bytes).
 PDF statistics:
- 673 PDF objects out of 1000 (max. 8388607)
- 158 named destinations out of 1000 (max. 500000)
+ 752 PDF objects out of 1000 (max. 8388607)
+ 180 named destinations out of 1000 (max. 500000)
  475 words of extra memory for PDF output out of 10000 (max. 10000000)
 

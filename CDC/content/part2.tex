@@ -60,7 +60,7 @@ s(n)= s_{k}(\frac{nT}{N})= \sum\limits_{i=0}^{N-1} d_{i} \exp(j2\pi\frac{in}{N})
 
 This represents an inverse DFT (IDFT) for PSK or QAM symbols.\\
 
-Figure~\ref{fig:ofdmsystemmodel} presents the OFDM system block diagram. The first block represents the data source. They are the bits which an application may send. In the simulation it is realized by a random and fixed bit generator. The following QPSK modulation block converts this bits into symbols, which are complex numbers. Each symbol carries several bits. The third block is the first one actually relevant for OFDM. The serial symbol stream is converted into a channel and OFDM symbol structure. In the simulation it is represented in a matrix shape where the rows are different channels and each column is an OFDM symbol. This means that each OFDM symbol, formed by $c$ (\#channels) serial symbols (complex numbers), is distributed over the $c$ channels.\\
+Figure \ref{fig:ofdmsystemmodel} presents the OFDM system block diagram. The first block represents the data source. They are the bits which an application may send. In the simulation it is realized by a random and fixed bit generator. The following QPSK modulation block converts this bits into symbols, which are complex numbers. Each symbol carries several bits. The third block is the first one actually relevant for OFDM. The serial symbol stream is converted into a channel and OFDM symbol structure. In the simulation it is represented in a matrix shape where the rows are different channels and each column is an OFDM symbol. This means that each OFDM symbol, formed by $c$ (\#channels) serial symbols (complex numbers), is distributed over the $c$ channels.\\
 
 \begin{figure}[tbp]
 \centering
@@ -74,7 +74,7 @@ In the next step zero channels are added in order to separate well subsequent OF
 The following block is the NLA which depends on the optimization parameter $\beta$ (back-off). At this point the transmitter side ends. In order to simulate the multipath a convolution is made on each OFDM symbol with the delay filter. Since the simulation is made on each OFDM symbol separated, this operation works with a memory in order simulate a serial transmission.\\
 The receiver side is just the opposite of the transmitter. In the cyclic prefix remover the copied values are deleted and the simulation matrix size decreases. The next block performs the FFT on each OFDM symbol which reconstructs the as frequencies interpreted complex numbers.\\ The following equalization block tries to remove the effect of the multipath. For the simulation a multiplication with the inverted transfer function of the multipath is operated. By this, only the phase of the complex symbols changes.\\ 
 Finally, the zero channels are removed and the matrix structure is reconverted to a series of symbols. The following analysis is done on the received symbols and consequently they are not demodulated into a bit-stream.\\
-According to the above analysis, the basic architecture for a baseband OFDM system that contains the essential parts is shown in Figure~\ref{fig:basic_ofdm}.\\
+According to the above analysis, the basic architecture for a baseband OFDM system that contains the essential parts is shown in Figure \ref{fig:basic_ofdm}.\\
 
 \begin{figure}[h!]
 \centering
@@ -130,7 +130,7 @@ The physical layer in 802.11 is split into Physical Layer Convergence Protocol (
 \subsection{System Design}
 
 In reality, having an anti-aliasing configuration, oversampling is performed before passing the digital signal to digital-to-analog converter. There are many other blocks in standards like channel coding, symbol interleaving and channel estimation.\\
-In comparison to the fundamental architecture shown in Figure 000, some other building blocks are added in a practical IEEE 802.11 design shown in Fig 00, marked with blue and dashed on line. At the transmitter, several "null" subcarriers or tones are reserved besides of the data subcarriers in order to perform oversampling of the transmitted signal. In this context, "null" means the symbol carried on this subcarrier has a value of zero. Besides, some other subcarriers used as pilot for channel estimation are also inserted. The subcarriers are allocated at the input of the IFFT block to generate a phase shift. The windowing for pulse shaping is achieved after CP extension.\\
+In comparison to the fundamental architecture shown in Figure \ref{fig:osi_model}, some other building blocks are added in a practical IEEE 802.11 design shown in Fig 00, marked with blue and dashed on line. At the transmitter, several "null" subcarriers or tones are reserved besides of the data subcarriers in order to perform oversampling of the transmitted signal. In this context, "null" means the symbol carried on this subcarrier has a value of zero. Besides, some other subcarriers used as pilot for channel estimation are also inserted. The subcarriers are allocated at the input of the IFFT block to generate a phase shift. The windowing for pulse shaping is achieved after CP extension.\\
 
 \begin{figure}[h!]
 \centering
@@ -167,7 +167,7 @@ To accomplish Oversampling, some zeros before and after the data vector are appe
 \overbrace{0, 0, ... , 0}^{1/2\;appended\;zeros}
 \end{equation}
 
-In the IEEE 802.11a transmitter, a 64 point IFFT multiplexes the orthogonal sub-carriers and the sub-carriers are renumbered as in Figure \ref{freq_alloc} before performing the Fourier transformation. Only 48 of them are used for data transmission and they are modulated by using BPSK, QPSK, 16-QAM or 64-QAM according to the Rate parameter. The sub-carriers $P_{-21}$, $P_{-7}$, $P_{7}$ and $P_{21}$ are dedicated to comb-type pilot signals which are used to track the phase variations due to the time varying channel or a frequency o set error. The pilot sub-carriers are modulated by using BPSK and to prevent the generation of spectral lines, they transmit a pseudo random binary sequence generated by the same polynomial used in the scrambler.\\
+In the IEEE 802.11a transmitter, a 64 point IFFT multiplexes the orthogonal sub-carriers and the sub-carriers are renumbered as in Figure \ref{fig:freq_alloc} before performing the Fourier transformation. Only 48 of them are used for data transmission and they are modulated by using BPSK, QPSK, 16-QAM or 64-QAM according to the Rate parameter. The sub-carriers $P_{-21}$, $P_{-7}$, $P_{7}$ and $P_{21}$ are dedicated to comb-type pilot signals which are used to track the phase variations due to the time varying channel or a frequency o set error. The pilot sub-carriers are modulated by using BPSK and to prevent the generation of spectral lines, they transmit a pseudo random binary sequence generated by the same polynomial used in the scrambler.\\
 
 \begin{figure}[h!]
 \centering
@@ -247,7 +247,7 @@ P_{b}(e)= \dfrac{1}{2}erfc(\sqrt{\dfrac{E_{b}}{N_{0}}0.65})
 
 \subsection{IEEE 802.11a Standard in Time and Frequency}
 \label{section:ieee_standard}
-A packet of OFDM will be described here. In an OFDM frame, a preamble which carries no data is transmitted first, followed by the signal field which give some information about data and transmitted data. As indicated in Figure 00, an OFDM frame has the general form as below:
+A packet of OFDM will be described here. In an OFDM frame, a preamble which carries no data is transmitted first, followed by the signal field which give some information about data and transmitted data. An OFDM frame has the general form as below:
 \begin{equation} \label{sym_ofdm}
 s_{OFDM}(t)= s_{preamble}(t)+ s_{signal}(t- T_{preamble})+ s_{data}(t- T_{preamble}- T_{signal})
 \end{equation}
@@ -257,7 +257,7 @@ where\\
 s_{preamble}(t)= s_{short}(t)+ s_{long}(t- T_{short})
 \end{equation}
 
-As shown in Figure \ref{preamble_ieee}, the preamble starts with 10 short training symbols (STSs) from $T_{1}$ to $T_{10}$, followed by a guard interval ($GI_{2}$) and two long training symbols (LTSs) $L_{1}$ and $L_{2}$. Both the short and long training sequences have an $8 \mu s$ duration and the entire preamble lasts for $16 \mu s$. Then, a $3.2 \mu s$ signal symbol, as well as 800 ns guard interval is transmitted. This field bears some information necessary for the data symbols, such as the coding rate and length. Finally the various data symbols that carry user information are transmitted. Each data symbol has a duration of $4.0 \mu s$, within which there is a 800 ns CP, as already described.\\
+As shown in Figure \ref{fig:preamble_ieee}, the preamble starts with 10 short training symbols (STSs) from $T_{1}$ to $T_{10}$, followed by a guard interval ($GI_{2}$) and two long training symbols (LTSs) $L_{1}$ and $L_{2}$. Both the short and long training sequences have an $8 \mu s$ duration and the entire preamble lasts for $16 \mu s$. Then, a $3.2 \mu s$ signal symbol, as well as 800 ns guard interval is transmitted. This field bears some information necessary for the data symbols, such as the coding rate and length. Finally the various data symbols that carry user information are transmitted. Each data symbol has a duration of $4.0 \mu s$, within which there is a 800 ns CP, as already described.\\
 The application of STS and LTS for training are different. STS used for AGC, frame detection, coarse timing and frequency synchronization. Each symbol in this sequence has a duration of 800 ns and contains 16 samples, and is identical to one another.
  It will be shown in a professional system, auto-correlation will apply to this portion to perform such the operations. After the short training sequence is transmitted, a $1.6 \mu s$ guard interval that contains 32 samples is introduced. The LTS is cyclically extended within this interval. Then two identical LTSs with the same duration of $4.0 \mu s$ are followed. The LTS is used for fine frequency offset and channel estimation. It will be described that a cross-correlation with a stored array is done for extraction of the offset.\\
 The data being transmitted should pass several stages and be prepared by PLCP (Physical Layer Convergence Procedure) before transmission. The preamble and the PLCP header are transmitted at 1Mbps regardless of the current data transmission speed. After the preamble the payload prepared by the MAC layer is sent to the receiver at the rate specified in the services field.\\
@@ -284,7 +284,7 @@ A simple model of a radio transmitter and receiver can depict the basis of the C
 \label{fig:cfo_radio_model}
 \end{figure}
 
-In Figure \ref{cfo_radio_model}, $\omega$ is The carrier frequency and $X_{BB}$ is the complex baseband signal, $X_{RF}$ is
+In Figure \ref{fig:cfo_radio_model}, $\omega$ is The carrier frequency and $X_{BB}$ is the complex baseband signal, $X_{RF}$ is
 a real-valued RF signal. These models simplified many other operations in a real RF transceivers although none of these affect the up/down-conversion processes as they relate to CFO.\\
 These equations about transmit and receive processes can be written in equation (\ref{eq_tx_rx_process}):
 
@@ -316,7 +316,7 @@ signal is the baseband manifestation of carrier frequency offset.
 \label{Impact_of_CFO}
 There are two destructive impacts on an OFDM system. Firstly, the phase offset across subcarriers in an symbol which can be  estimated and corrected in frequency domain to prevent errors in a constant rotated constellation. Some subcarriers are allocated as pilot tones which receiver can estimate phase errors.\\
 The second effect of CFO is the degradation of orthogonality between subcarriers in receiver's FFT which causes inter-carrier interference (ICI). ICI acts an effective SNR reduction as a result of CFO increasing. [...]\\
-The impact is displayed in Figure \ref{cfo_impact_on_ici} which is shown simulated OFDM system uses 10 MHz bandwidth and 64 subcarriers, 48 of on a random 16-QAM data symbols. CFO and AWGN are applied between the transmitter and receiver. The receiver model uses perfect knowledge of the CFO to correct the phase offset in each OFDM symbol, but does not implement any correction for ICI.\\
+The impact is displayed in Figure \ref{fig:cfo_impact_on_ici} which is shown simulated OFDM system uses 10 MHz bandwidth and 64 subcarriers, 48 of on a random 16-QAM data symbols. CFO and AWGN are applied between the transmitter and receiver. The receiver model uses perfect knowledge of the CFO to correct the phase offset in each OFDM symbol, but does not implement any correction for ICI.\\
 
 \begin{figure}[h!]
 \centering
@@ -328,7 +328,7 @@ The impact is displayed in Figure \ref{cfo_impact_on_ici} which is shown simulat
 The results shows that for large CFOs errors caused by ICI dominate performance, even at high SNR. It is also
 clear that for small CFOs performance is dominated by SNR. Specifically, for frequency offsets smaller than 1 kHz, the
 performance degradation due to ICI is negligible.\\
-Let's focus on LTS part in a OFDM symbol, Figure \ref{sym_ofdm}, for a while. In time domain, we have 160 samples in this section which creates to complete LTS symbols and a half. Each LTS symbol has 64 samples shown in Figure \ref{lts_time_domain}.\\
+Let's focus on LTS part in a OFDM symbol, Figure \ref{fig:lts_time_domain}, for a while. In time domain, we have 160 samples in this section which creates to complete LTS symbols and a half. Each LTS symbol has 64 samples shown in Figure \ref{lts_time_domain}.\\
 
 \begin{figure}[h!]
 \centering
@@ -353,13 +353,13 @@ CFO_{EST} = \frac{f_{s}}{2\pi . 64^{2}} \sum\limits_{n=64}^{127} \phi_{n}- \phi_
 \label{fig:cfo_est}
 \end{figure}
 
-Which $CFO_{EST}$ is the estimated CFO. To have such the structure in the Simulink we can arrange as Figure \ref{cfo_est}.
+Which $CFO_{EST}$ is the estimated CFO. To have such the structure in the Simulink we can arrange as Figure \ref{fig:cfo_est}.
 
 \subsection{Synchronization}
 \label{section:sync}
 
 The synchronization tasks is challenging in an OFDM-based communication system. Prior to performing channel estimation equalization and demodulation, OFDM symbol timing must be detected. The receiver has no information when a packet starts, and so the first synchronization task is packet detection. Once a packet has been detected the remaining synchronization functions include coarse and fine timing recovery and carrier recovery.\\
-Figure \ref{ieee_preamble} shows the structure of the IEEE 802.1la standard preamble. The 10 short preambles ($A_{1}$-$A_{10}$) are identical 16- sample duration sequences. The cyclic prefix ($CP$) is a 32- sample sequence and the long preambles ($C_{1}$ and $C_{2}$) are identical 64-sample sequences. As indicated in the figure, the various fields are used for packet detection, automatic gain control (AGC), diversity selection, coarse and fine frequency offset estimation, fine symbol timing estimation and channel estimation.\\
+Figure \ref{fig:ieee_preamble} shows the structure of the IEEE 802.1la standard preamble. The 10 short preambles ($A_{1}$-$A_{10}$) are identical 16- sample duration sequences. The cyclic prefix ($CP$) is a 32- sample sequence and the long preambles ($C_{1}$ and $C_{2}$) are identical 64-sample sequences. As indicated in the figure, the various fields are used for packet detection, automatic gain control (AGC), diversity selection, coarse and fine frequency offset estimation, fine symbol timing estimation and channel estimation.\\
 
 \begin{figure}[h!]
 \centering

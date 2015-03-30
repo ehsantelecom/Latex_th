@@ -6,7 +6,7 @@ After explanation of the system architecture and hardware design, the test metho
 \section{Hardware Samples and Analysis}
 \label{hw_samples}
 
-A complete OFDM frame is illustrated in Figure \ref{ofdmframe_chipscope}. The position of preamble signal is completely distinguished in the figure which is comparable of the standard shown in previously except the \textit{Training}. This section is special for our design for conveying some further information about the node. The detail of each preamble word is zoom in the next figures as defined in Section \ref{section:ieee_standard}. Specifically, the STS section is shown in Figure \ref{sts_chipscope}.\\
+A complete OFDM frame is illustrated in Figure \ref{fig:ofdmframe_chipscope}. The position of preamble signal is completely distinguished in the figure which is comparable of the standard shown in previously except the \textit{Training}. This section is special for our design for conveying some further information about the node. The detail of each preamble word is zoom in the next figures as defined in Section \ref{section:ieee_standard}. Specifically, the STS section is shown in Figure \ref{fig:sts_chipscope}.\\
 \begin{figure}
 \includegraphics[width=\textwidth]{content/fig/ofdmframe_chipscope.JPG}
 \caption{OFDM Frame (I/Q) detected in Chipscope.}
@@ -20,7 +20,7 @@ A complete OFDM frame is illustrated in Figure \ref{ofdmframe_chipscope}. The po
 \label{fig:sts_chipscope}
 \end{figure}
 
-The auto-correlation is perform to catch the begining of the preamble with is STS. The output of the block is shown in Figure \ref{autocorr} to detect the signal arrival.\\
+The auto-correlation is perform to catch the begining of the preamble with is STS. The output of the block is shown in Figure \ref{fig:autocorr} to detect the signal arrival.\\
 
 \begin{figure}
 \centering
@@ -29,7 +29,7 @@ The auto-correlation is perform to catch the begining of the preamble with is ST
 \label{fig:autocorr}
 \end{figure}
 
-The cross-correlation on the LTS with a pre-defined expected LTS is shown in Figure \ref{crosscorr}. As already described we have 2.5 LTS symbol in each frame. So, two peak are detected in the system.\\
+The cross-correlation on the LTS with a pre-defined expected LTS is shown in Figure \ref{fig:crosscorr}. As already described we have 2.5 LTS symbol in each frame. So, two peak are detected in the system.\\
 
 \begin{figure}
 \centering
@@ -38,7 +38,7 @@ The cross-correlation on the LTS with a pre-defined expected LTS is shown in Fig
 \label{fig:crosscorr}
 \end{figure}
 
-The LTS section is supposed to carry a flat shape in frequency that is used for the channel response estimation. In the Figure \ref{baseIFAdcDac} shows the frequency response of the LTS in the in the input of the receiver side. Beginning of the system test, we make a loop after the DAC of the transmitter to the ADC of the receiver and the is no RF conversion. Practically, this shape represents the frequency response of the ADC/ DAC and some non-linear elements like induction and trances. Because, there are some trances in the path who rejects the DC frequencies we needed to use an IF filter to modulate the signal around $5 MHz$.\\
+The LTS section is supposed to carry a flat shape in frequency that is used for the channel response estimation. In the Figure \ref{fig:baseIFAdcDac} shows the frequency response of the LTS in the in the input of the receiver side. Beginning of the system test, we make a loop after the DAC of the transmitter to the ADC of the receiver and the is no RF conversion. Practically, this shape represents the frequency response of the ADC/ DAC and some non-linear elements like induction and trances. Because, there are some trances in the path who rejects the DC frequencies we needed to use an IF filter to modulate the signal around $5 MHz$.\\
 
 \begin{figure}
 \centering
@@ -47,7 +47,7 @@ The LTS section is supposed to carry a flat shape in frequency that is used for 
 \label{fig:baseIFAdcDac}
 \end{figure}
 
-Passing the signal through the RF side which modulate around $2.4 GHz$ and demodulate it again we have a shape as shown in Figure \ref{RfIF}. As you can see we still have the IF filter. The peak on 0 frequency is a result of the electronic elements which injects DC.\\
+Passing the signal through the RF side which modulate around $2.4 GHz$ and demodulate it again we have a shape as shown in Figure \ref{fig:RfIF}. As you can see we still have the IF filter. The peak on 0 frequency is a result of the electronic elements which injects DC.\\
 
 \begin{figure}
 \centering
@@ -56,7 +56,7 @@ Passing the signal through the RF side which modulate around $2.4 GHz$ and demod
 \label{fig:RfIF}
 \end{figure}
 
-We have a shape of LTS frequency response like Figure \ref{Rfbase} if the IF filter is not activated. As you can see we have the DC peak which can be rejected easily.\\
+We have a shape of LTS frequency response like Figure \ref{fig:Rfbase} if the IF filter is not activated. As you can see we have the DC peak which can be rejected easily.\\
 
 \begin{figure}
 \centering
@@ -65,7 +65,7 @@ We have a shape of LTS frequency response like Figure \ref{Rfbase} if the IF fil
 \label{fig:Rfbase}
 \end{figure}
 
-Figure \ref{h_mag_chipscope_noChannel} is the frequency response of the channel after an internal loop between the transmitter and the receiver on one FPGA board. As it is a perfect channel without any distortion we just have a perfect flat estimation of the channel. This response is used to compensate all the signal tones.\\
+Figure \ref{fig:h_mag_chipscope_noChannel} is the frequency response of the channel after an internal loop between the transmitter and the receiver on one FPGA board. As it is a perfect channel without any distortion we just have a perfect flat estimation of the channel. This response is used to compensate all the signal tones.\\
 
 \begin{figure}
 \centering
@@ -74,7 +74,7 @@ Figure \ref{h_mag_chipscope_noChannel} is the frequency response of the channel 
 \label{fig:h_mag_chipscope_noChannel}
 \end{figure}
 
-Figure \ref{h_mag_chipscope_rf_detect} in a real channel after all the conversions of the transmitter and the receiver. The RF chain is activated in the scenario. Interestingly, we have a perfect detection of the symbols even after such the distortion.\\
+Figure \ref{fig:h_mag_chipscope_rf_detect} in a real channel after all the conversions of the transmitter and the receiver. The RF chain is activated in the scenario. Interestingly, we have a perfect detection of the symbols even after such the distortion.\\
 
 \begin{figure}
 \centering
@@ -90,7 +90,7 @@ Figure \ref{h_mag_chipscope_rf_detect} in a real channel after all the conversio
 \label{fig:OfdmSym_16qam_1_2_code_64byte}
 \end{figure}
 
-Figures \ref{OfdmSym_16qam_1_2_code_64byte} and \ref{OfdmSym_16qam_no_code_64byte} compares two OFDM frames after the FFT block on the receiver side. The coding algorithm is a convolutional code which borrowed from another model and seen as a black-box for our system. Just do not consider the first 8 symbols because they are the training block which are not defined in the standard and are the customization on our specific application. The next 8 frames in the coded and 4 in the non-coded are the base rate frames to report to the receiver about the modulation, size of message, sequence number and some other detection information. the rest are the message and the valuable information for the higher levels of the system.\\
+Figures \ref{fig:OfdmSym_16qam_1_2_code_64byte} and \ref{fig:OfdmSym_16qam_no_code_64byte} compares two OFDM frames after the FFT block on the receiver side. The coding algorithm is a convolutional code which borrowed from another model and seen as a black-box for our system. Just do not consider the first 8 symbols because they are the training block which are not defined in the standard and are the customization on our specific application. The next 8 frames in the coded and 4 in the non-coded are the base rate frames to report to the receiver about the modulation, size of message, sequence number and some other detection information. the rest are the message and the valuable information for the higher levels of the system.\\
 
 \begin{figure}
 \centering
