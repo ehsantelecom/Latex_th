@@ -1,11 +1,10 @@
 \chapter{Introduction}
 \label{sec:chapter_1}
 
-High quality of services (QoS) and reaching to high data rate communication to overcome the necessities in multimedia services, telecommunications industry is working currently toward the forth generation (4G) wireless communication systems. The orthogonal frequency division multiplexing (OFDM), is the most promising technology to meet the requirement as a mechanism in rapid development of digital signal processing techniques.\\
+High quality of services (QoS) and reaching to high data rate communication to overcome the necessities in multimedia services, telecommunications industry is working currently toward the fifth generation (5G) wireless communication systems. The orthogonal frequency division multiplexing (OFDM), is the most promising technology to meet the requirement as a mechanism in rapid development of digital signal processing techniques. \cite{hanzo}\\
 
-The first introduction of OFDM dated back 1960s as a parallel data transmitting scheme. There are many realization proposals although the foundations are fixed generally. The basic idea is to divide a single high rate data stream into a number of lower-rate data 
-streams. Each of these data streams is modulated on a specific carrier, which is called 
-subcarrier, and transmitted simultaneously. Robustness will be preserve against multipath fading effect. Moreover, spectrum efficiency is enhanced in comparison to conventional multi-carrier transmission. OFDM considered as a frequency division multiplexing (FDM) where the data stream carried by each sub-carrier separated.\\
+The first introduction of OFDM dated back 1960s as a parallel data transmitting scheme. There are many realization proposals although the foundations are fixed generally. The basic idea is to divide a single high rate data stream into a number of lower-rate data streams. Each of these data streams is modulated on a specific carrier, which is called 
+subcarrier, and transmitted simultaneously. Robustness will be preserve against multipath fading effect. Moreover, spectrum efficiency is enhanced in comparison to conventional multi-carrier transmission. OFDM considered as a frequency division multiplexing (FDM) where the data stream carried by each sub-carrier separated. \cite{xiong}\\
 
 Traditional methods used in single-carrier modulation require a number of sinusoidal subcarrier oscillators in the modulator side and multipliers and correlators in the demodulator. Introduction of Discrete Fourier Transform (DFT) until 1971 made a revolution in the complexity development. The DFT block simplified the two side processes and helped to implement the baseband in the digital manner.\\
 Since 1990s, OFDM has been employed in wideband data transmission. Applications of OFDM technology include asymmetric digital subscriber line (ADSL), high-bit-rate digital subscriber line (HDSL), and very-high-speed digital subscriber line (VDSL) in wired systems, and digital audio broadcasting (DAB), digital video broadcasting (DVB) in wireless systems. Furthermore, it has also been recognized as the basis of the wireless local area network (WLAN) standards, among which the IEEE 802.11a standard is one of the most important ones.\\
@@ -29,7 +28,7 @@ There is also some trends like IP core programs which help the big short-cuts in
 \section{Motivation}
 
 Practically, the signal is attenuated and distorted by multipath effect in real channel transmission. Fading estimation and equalization of the channel in wireless technology is inevitable to have a reliable communication. Implementation an OFDM system on FPGA with capability of channel estimation and synchronization is the final goal of this thesis.\\
-There are many techniques and mechanism to implement OFDM wireless communication on FPGA. In ... the authors helped OFDM transceiver on certain topics in the receiver design, such as the synchronization, packet detection, channel estimation and equalization. Moreover, OFDM transceivers are designed for the AWGN channel have been presented in ..... However, there are not a comprehensive work presenting a complete development of OFDM system with channel estimation and synchronization using the FPGA technology.\\
+There are many techniques and mechanism to implement OFDM wireless communication on FPGA. In Chapter 2 the authors helped OFDM transceiver on certain topics in the receiver design, such as the synchronization, packet detection, channel estimation and equalization. Moreover, OFDM transceivers implementations on FPGA and the hardware details are describe in Chapter 3. However, there are not a comprehensive work presenting a complete development of OFDM system with channel estimation and synchronization using the FPGA technology.\\
 
 A top-down approach and demonstrative system performance in baseband OFDM is done in this thesis. System synchronization will also be discussed in this thesis. In addition, we focus on the design and implementation of channel estimation and equalization, while a verification at system level is performed. The detailed objectives include:\\
 
@@ -42,7 +41,4 @@ A top-down approach and demonstrative system performance in baseband OFDM is don
 
 \section{Methodology}
 It is tried to explain the theoretical concepts firstly and then to show some facts in the simulation based on extracted models. Finally, the issues is examined on hardware.\\
-The hardware chosen is consisted a Zynq board which is an FPGA with two embedded ARM processors and the radio board which is FMCOMMS1.
-
-\section{Contribution}
-
+The hardware chosen is consisted a Zynq board which is an FPGA with two embedded ARM processors and the radio board which is FMCOMMS1. Details of the electronic design and hardware considerations will be described.

@@ -112,7 +112,7 @@
   Gennaio\or Febbraio\or Marzo\or Aprile\or Maggio\or Giugno\or
   Luglio\or Agosto\or Settembre\or Ottobre\or Novembre\or Dicembre\fi
   \space \the\year}
-\def\logosede#1{\edef\@logosede{\noexpand\gr@phicswrn\noexpand\includegraphics[width=3cm]{#1}}}
+\def\logosede#1{\edef\@logosede{\noexpand\gr@phicswrn\noexpand\includegraphics[width=10cm]{#1}}}
 \let\@logosede\relax
 \def\gr@phicswrn{\ifx\includegraphics\undefined
     \PackageWarning{toptesi}{%
@@ -121,7 +121,7 @@
     }%
     \let\includegraphics\d@mmyincludegr
 \fi}
-\def\TesidiLaurea{Tesi di Laurea}
+\def\TesidiLaurea{Master Thesis}%Tesi di Laurea}
 \def\d@mmyincludegr[#1]#2{}
 %
 % -------------------------------------------------------------------
@@ -179,7 +179,7 @@
             \ifdottorato
                   {Dottorato in \@corso\ifx\@ciclo\empty\else\\\@ciclo\fi}%
             \else
-                  {Corso di Laurea in \@corso}%
+                  {Tesi di Laurea Magistrale \@corso}%
             \fi
             \par}
       \fi
@@ -252,7 +252,7 @@
                   \expandafter
                   \ifx\csname StileTrieste\endcsname\relax
                         \ifx\@secondadviser\empty \else
-                              \def\@nomerelatore{Relatori:}
+                              \def\@nomerelatore{Supervisors:}%Relatori:}
                         \fi
                   \fi
             \fi
@@ -264,7 +264,7 @@
             \iffemminile
                   \def\@nomecandidato{\Candidata:}%
             \else
-                  \def\@nomecandidato{\Candidato:}%
+                  \def\@nomecandidato{Candidate:}%
             \fi
             \ifx\@secondauthor\empty \else
                   \iffemminile

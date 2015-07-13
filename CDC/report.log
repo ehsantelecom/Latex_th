@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.6)  27 JAN 2015 10:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.22)  5 APR 2015 21:24
 entering extended mode
 **report.tex
-(C:\Users\mbaratva\Desktop\thesis\CDC\report.tex
+
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\report.te
+x"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,43 +15,132 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\mbaratva\Desktop\thesis\CDC\toptesi.cls
-Document Class: toptesi 2011/10/18 v.5.59c Class for typesetting university the
-ses
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls"
+Document Class: scrartcl 2013/12/19 v3.12 KOMA-Script document class (article)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
+Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
 )
-\c@part=\count79
-\c@chapter=\count80
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
+Package: tocbasic 2013/12/19 v3.12 KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 115.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 116.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 117.
+Package scrartcl Info: You've used standard option `12pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=12pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=12pt' there
+(scrartcl)             instead of `12pt', too.
+Class scrartcl Info: You've used standard option `oneside'.
+(scrartcl)           This is correct!
+(scrartcl)           Internally I'm using `twoside=false'.
+(scrartcl)           If you'd like to set the option with \KOMAoptions,
+(scrartcl)           you'd have to use `twoside=false' there
+(scrartcl)           instead of `oneside', too.
+Package scrbase Info: Unknown processing state.
+(scrbase)             Processing option `twoside=false'
+(scrbase)             of member `.scrartcl.cls'
+(scrbase)             of family `KOMA'
+(scrbase)             doesn't set a valid state.
+(scrbase)             This will be interpreted
+(scrbase)             as \FamilyKeyStateProcessed on input line 1150.
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 1531.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrsize12pt.clo"
+File: scrsize12pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (12pt
+)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
+Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
+
+Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+\footheight=\skip45
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1330.
+)
+\c@part=\count80
 \c@section=\count81
 \c@subsection=\count82
 \c@subsubsection=\count83
 \c@paragraph=\count84
 \c@subparagraph=\count85
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\c@pti@nb@sid@b@x=\box26
 \c@figure=\count86
 \c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
 Language: english 2005/03/30 v3.3o English support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
@@ -57,40 +148,31 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\bookman.sty"
+Package: bookman 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\italian.ldf"
-Language: italian 2008/03/14 v1.2t Italian support from the babel system
-Package babel Info: Making " an active character on input line 94.
-)))
-(C:\Users\mbaratva\Desktop\thesis\CDC\toptesi.sty
-Package: toptesi 2011/10/18 v.5.59c Extension for toptesi.cls
-\T@Pbinding=\skip43
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
@@ -98,951 +180,175 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-\@intesta=\box26
-\captionwidth=\dimen106
-
-(C:\Users\mbaratva\Desktop\thesis\CDC\topfront.sty)
-(C:\Users\mbaratva\Desktop\thesis\CDC\topcoman.sty
-Package: topcoman 2011/10/18 v.5.59c Additional TOPtesi commands
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-)
-LaTeX Info: Redefining \oldstylenums on input line 266.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
-)
-\tabwidth=\dimen107
-)
-\c@tomo=\count90
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
-
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
-)
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-)
-\@linkdim=\dimen108
-\Hy@linkcounter=\count91
-\Hy@pagecounter=\count92
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
-)
-\Hy@SavedSpaceFactor=\count93
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count94
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
-\Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen109
-\Fld@menulength=\count95
-\Field@Width=\dimen110
-\Fld@charsize=\dimen111
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count96
-\c@Item=\count97
-\c@Hfootnote=\count98
-)
-
-Package hyperref Message: Driver (autodetected): hpdftex.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count99
-\c@bookmark@seq@number=\count100
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
-)
-\Hy@SectionHShift=\skip44
-)
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 18.
-Package hyperref Info: Option `colorlinks' set `true' on input line 18.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count101
-\float@exts=\toks15
-\float@box=\box27
-\@float@everytoks=\toks16
-\@floatcapt=\box28
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\@float@every@algorithm=\toks17
-\c@algorithm=\count102
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
-Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count103
-\c@ALC@line=\count104
-\c@ALC@rem=\count105
-\c@ALC@depth=\count106
-\ALC@tlm=\skip45
-\algorithmicindent=\skip46
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\acronym\acronym.sty"
-Package: acronym 2014/09/29 v1.40 Support for acronyms (Tobias Oetiker)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty"
-Package: suffix 2006/07/15 1.5a Variant command support
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
-\@xs@message=\write3
-\integerpart=\count107
-\decimalpart=\count108
-)
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
-)
-\AC@clearlist=\toks18
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
-Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
-Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-\bigstrutjot=\dimen112
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks19
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip47
+\@mathmargin=\skip48
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks20
-\ex@=\dimen113
+\@emptytoks=\toks15
+\ex@=\dimen106
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen114
+\pmbraise@=\dimen107
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count109
+\inf@bad=\count90
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count110
-\leftroot@=\count111
+\uproot@=\count91
+\leftroot@=\count92
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count112
-\DOTSCASE@=\count113
+\classnum@=\count93
+\DOTSCASE@=\count94
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box29
-\strutbox@=\box30
-\big@size=\dimen115
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen108
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count114
-\c@MaxMatrixCols=\count115
-\dotsspace@=\muskip11
-\c@parentequation=\count116
-\dspbrk@lvl=\count117
-\tag@help=\toks21
-\row@=\count118
-\column@=\count119
-\maxfields@=\count120
-\andhelp@=\toks22
-\eqnshift@=\dimen116
-\alignsep@=\dimen117
-\tagshift@=\dimen118
-\tagwidth@=\dimen119
-\totwidth@=\dimen120
-\lineht@=\dimen121
-\@envbody=\toks23
-\multlinegap=\skip48
-\multlinetaggap=\skip49
-\mathdisplay@stack=\toks24
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks16
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks17
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks18
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip50
-\subfigcapskip=\skip51
-\subfigcaptopadj=\dimen122
-\subfigbottomskip=\skip52
-\subfigcapmargin=\dimen123
-\subfiglabelskip=\skip53
-\c@subfigure=\count121
-\c@lofdepth=\count122
-\c@subtable=\count123
-\c@lotdepth=\count124
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\report.au
+x"
 
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
-\subfig@top=\skip54
-\subfig@bottom=\skip55
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\dblfloatfix\dblfloatfix.sty"
-Package: dblfloatfix 2012/12/31 v1.0a (JAW)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
-Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
-LaTeX Info: Redefining \em on input line 420.
-LaTeX Info: Redefining \textsubscript on input line 424.
-LaTeX Info: The control sequence `\[' is already robust on input line 471.
-LaTeX Info: The control sequence `\]' is already robust on input line 472.
-)
-\@dblbotnum=\count125
-\c@dblbotnumber=\count126
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
-Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-\epsfxsize=\dimen124
-\epsfysize=\dimen125
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 130.
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyvrb\fancyvrb.sty"
-Package: fancyvrb 2008/02/07
-
-Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
-<2008/02/07> (tvz)
-\FV@CodeLineNo=\count127
-\FV@InFile=\read1
-\FV@TabBox=\box31
-\c@FancyVerbLine=\count128
-\FV@StepNumber=\count129
-\FV@OutFile=\write4
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\paralist\paralist.sty"
-Package: paralist 2013/06/09 v2.4 Extended list environments
-\pltopsep=\skip56
-\plpartopsep=\skip57
-\plitemsep=\skip58
-\plparsep=\skip59
-\pl@lab=\toks25
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ctable\ctable.sty"
-Package: ctable 2014/04/25 v1.29 ctable package for \ flexible typesetting of t
-able and figure floats using key/value directives
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-LaTeX Info: Redefining \color on input line 702.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
-Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-\XKV@toks=\toks26
-\XKV@tempa@toks=\toks27
-\XKV@depth=\count130
-File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen126
-\extrarowheight=\dimen127
-\NC@list=\toks28
-\extratabsurround=\skip60
-\backup@length=\skip61
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
-Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-\TX@col@width=\dimen128
-\TX@old@table=\dimen129
-\TX@old@col=\dimen130
-\TX@target=\dimen131
-\TX@delta=\dimen132
-\TX@cols=\count131
-\TX@ftn=\toks29
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen133
-\lightrulewidth=\dimen134
-\cmidrulewidth=\dimen135
-\belowrulesep=\dimen136
-\belowbottomsep=\dimen137
-\aboverulesep=\dimen138
-\abovetopsep=\dimen139
-\cmidrulesep=\dimen140
-\cmidrulekern=\dimen141
-\defaultaddspace=\dimen142
-\@cmidla=\count132
-\@cmidlb=\count133
-\@aboverulesep=\dimen143
-\@belowrulesep=\dimen144
-\@thisruleclass=\count134
-\@lastruleclass=\count135
-\@thisrulewidth=\dimen145
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
-Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count136
-\rotFPtop=\skip62
-\rotFPbot=\skip63
-\rot@float@box=\box32
-\rot@mess@toks=\toks30
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\transparent.sty"
-Package: transparent 2007/01/08 v1.0 Transparency via pdfTeX's color stack (HO)
+LaTeX Warning: Label `sec:chapter_2' multiply defined.
 
 )
-\@ctblframesep=\dimen146
-\@defaultctblframesep=\dimen147
-\@ctblframerule=\dimen148
-\@defaultctblframerule=\dimen149
-\@ctblwidth=\dimen150
-\@defaultctblwidth=\dimen151
-\@ctblcaptionskip=\dimen152
-\@defaultctblcaptionskip=\dimen153
-\@ctblmaxwidth=\dimen154
-\@defaultctblmaxwidth=\dimen155
-\@ctblmincapwidth=\dimen156
-\@defaultctblmincapwidth=\dimen157
-\@ctblfooterwidth=\dimen158
-\@defaultctblfooterwidth=\dimen159
-\@ctblw=\dimen160
-\@ctblfloatwidth=\dimen161
-\@ctbloldsep=\dimen162
-\@ctbloldrule=\dimen163
-\ctbl@t=\box33
-\@ctblcurftwidth=\dimen164
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for OT1+pbk on input line 13.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pbk.fd"
+File: ot1pbk.fd 2001/06/04 font definitions for OT1/pbk.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
+LaTeX Font Info:    Font shape `OT1/pbk/m/n' in size <12> not available
+(Font)              Font shape `OT1/pbk/l/n' tried instead on input line 13.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen115
+\scratchbox=\box29
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen116
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks21
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
-Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count137
-\c@@ppsavesec=\count138
-\c@@ppsaveapp=\count139
+LaTeX Font Info:    Font shape `OT1/pbk/bx/n' in size <12> not available
+(Font)              Font shape `OT1/pbk/b/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/pbk/b/n' in size <12> not available
+(Font)              Font shape `OT1/pbk/db/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/pbk/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/pbk/b/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/pbk/b/n' in size <17.28> not available
+(Font)              Font shape `OT1/pbk/db/n' tried instead on input line 21.
+LaTeX Font Info:    Try loading font information for OT1+pag on input line 21.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pag.fd"
+File: ot1pag.fd 2001/06/04 font definitions for OT1/pag.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks31
-\inpenc@posthook=\toks32
+LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <12> not available
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <12> not available
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <24.88> not available
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/pbk/m/n' in size <17.28> not available
+(Font)              Font shape `OT1/pbk/l/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/pbk/m/it' in size <12> not available
+(Font)              Font shape `OT1/pbk/l/it' tried instead on input line 25.
+Missing character: There is no â in font pbkl7t!
+Missing character: There is no € in font pbkl7t!
+Missing character: There is no ™ in font pbkl7t!
+Missing character: There is no â in font pbkl7t!
+Missing character: There is no € in font pbkl7t!
+Missing character: There is no ™ in font pbkl7t!
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
-File: latin1.def 2008/03/30 v1.1d Input encoding file
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\karnaugh\kvmacros.tex"
+Overfull \hbox (7.61119pt too wide) in paragraph at lines 25--29
+\OT1/pbk/l/n/12 op-ti-mum im-ple-men-ta-tion of on FPGA, for in-stance Cross-Co
+rrelation
+ []
 
-Macros for typesetting Karnaugh maps and Veitch charts
-Version of January 7th, 2002
-by Andreas W. Wieland, awwieland@gmx.de
 
-\kvunitlength=\dimen165
-\kvrecursiondepth=\count140
-\kvindexcounter=\count141
-\kvxsize=\count142
-\kvysize=\count143
-\kvvarno=\count144
-\kvxvarno=\count145
-\kvyvarno=\count146
-\kvmarkstart=\count147
-\kvmarklength=\count148
-\kvmarknum=\count149
-\kvmarkmove=\count150
-\kvsavebox=\box34
-) (C:\Users\mbaratva\Desktop\thesis\CDC\framedbox.sty
-Package: framedbox 2009/01/27 1.0 LaTeX2e package
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
 
-Package: `framedbox.sty' (framed boxes) 1.0 <2009/01/27> 
-\fmbox=\box35
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\slashbox\slashbox.sty"
-slashbox style by K.Yasuoka, May 1993.
-\@slashboxa=\box36
-\@slashboxb=\box37
-\@slashboxc=\box38
-\@slashboxwd=\count151
-\@slashboxht=\count152
-\@slashsepl=\dimen166
-\@slashsepr=\dimen167
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
-Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
-LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+ []
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
-File: upzd.fd 2001/06/04 font definitions for U/pzd.
+[1
+
+
+
+
+{C:/Documents and Settings/All Users/Application Data/MiKTeX/2.9/pdftex/config/
+pdftex.map}] [2]
+LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 33.
+LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <17.28> not available
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 33.
+
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\report.to
+c"
+LaTeX Font Info:    Font shape `OT1/pag/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/pag/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <14.4> not available
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 2.
 )
-LaTeX Font Info:    Try loading font information for U+psy on input line 64.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
-File: upsy.fd 2001/06/04 font definitions for U/psy.
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty"
-Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks33
-\footnotemargin=\dimen168
-\c@pp@next@reset=\count153
-
-
-LaTeX Warning: Command \@footnotemark  has changed.
-               Check if current package is valid.
-
-Package footmisc Info: Declaring symbol style bringhurst on input line 855.
-Package footmisc Info: Declaring symbol style chicago on input line 863.
-Package footmisc Info: Declaring symbol style wiley on input line 872.
-Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
-
-Package footmisc Info: Declaring symbol style lamport* on input line 903.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
-.
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
-Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\topcapt.sty"
-Package: topcapt 2004/12/11 v1.2 Caption at top of float
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-
-
-Package natbib Warning: The `cite' package should not be used
-(natbib)                with natbib. Use option `sort' instead.
-
-\bibhang=\skip64
-\bibsep=\skip65
-LaTeX Info: Redefining \cite on input line 694.
-LaTeX Info: Redefining \citenum on input line 708.
-\c@NAT@ctr=\count154
-)
-\c@eqn=\count155
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count156
-\lst@gtempboxa=\box39
-\lst@token=\toks34
-\lst@length=\count157
-\lst@currlwidth=\dimen169
-\lst@column=\count158
-\lst@pos=\count159
-\lst@lostspace=\dimen170
-\lst@width=\dimen171
-\lst@newlines=\count160
-\lst@lineno=\count161
-\lst@maxwidth=\dimen172
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count162
-\lst@skipnumbers=\count163
-\lst@framebox=\box40
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2014/09/06 1.5e listings configuration
-))
-Package: listings 2014/09/06 1.5e (Carsten Heinz)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-)
-\c@osservazione=\count164
-
-(C:\Users\mbaratva\Desktop\thesis\CDC\newcommands.tex)
-(C:\Users\mbaratva\Desktop\thesis\CDC\report.aux
+\tf@toc=\write3
+ [3]
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\content/p
+art1.tex"
 ! Undefined control sequence.
-l.145 \global\@altsecnumformattrue
-                                  
+l.1 \chapter
+            {Introduction}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-)
-! You can't use a prefix with `\endgroup'.
-<to be read again> 
-                   \endgroup 
-l.205 \begin{document}
-                      
-I'll pretend you didn't say \long or \outer or \global or \protected.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 205.
-LaTeX Font Info:    ... okay on input line 205.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 205.
-LaTeX Font Info:    ... okay on input line 205.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 205.
-LaTeX Font Info:    ... okay on input line 205.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 205.
-LaTeX Font Info:    ... okay on input line 205.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 205.
-LaTeX Font Info:    ... okay on input line 205.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 205.
-LaTeX Font Info:    ... okay on input line 205.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 205.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 205.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cbfonts-fd\lgrcmr.fd"
-File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
-)
-LaTeX Font Info:    ... okay on input line 205.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 205.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 205.
-
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
-File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 205.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 205.
-LaTeX Font Info:    ... okay on input line 205.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 205.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count165
-\scratchdimen=\dimen173
-\scratchbox=\box41
-\nofMPsegments=\count166
-\nofMParguments=\count167
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count168
-\MPscratchDim=\dimen174
-\MPnumerator=\count169
-\makeMPintoPDFobject=\count170
-\everyMPtoPDFconversion=\toks36
-)
-Messaggio Toptesi: Ricalcolo i margini
-\AtBeginShipoutBox=\box42
-Package hyperref Info: Link coloring ON on input line 205.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
-)
-\c@section@level=\count171
-)
-LaTeX Info: Redefining \ref on input line 205.
-LaTeX Info: Redefining \pageref on input line 205.
-LaTeX Info: Redefining \nameref on input line 205.
-\@outlinefile=\write5
-
-Redefining \end@dblfloat\ for use with subfigure
-\c@lstlisting=\count172
-Package epstopdf Info: Source file: <logopolito.eps>
-(epstopdf)                    date: 2012-10-29 16:56:42
-(epstopdf)                    size: 622727 bytes
-(epstopdf)             Output file: <logopolito-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-10-07 17:20:02
-(epstopdf)                    size: 73600 bytes
-(epstopdf)             Command: <epstopdf --outfile=logopolito-eps-converted-to
-.pdf logopolito.eps>
-(epstopdf)             \includegraphics on input line 211.
-Package epstopdf Info: Output file is already uptodate.
-<logopolito-eps-converted-to.pdf, id=3, 433.62pt x 426.59375pt>
-File: logopolito-eps-converted-to.pdf Graphic file (type pdf)
-
-<use logopolito-eps-converted-to.pdf>
-Package pdftex.def Info: logopolito-eps-converted-to.pdf used on input line 211
-.
-(pdftex.def)             Requested size: 85.35826pt x 83.9698pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 211.
-
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 211.
-
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 211
-.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 211
-.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 211.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 211.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 211.
-LaTeX Font Info:    Try loading font information for U+msa on input line 211.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 211.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \vbox (2.16994pt too high) has occurred while \output is active []
-
-
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-
- <C:/Users/mbaratva/Desktop/thesis/CDC/logopolito-eps-converted-to.pdf>] [2
-
-
-]
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\GenericError  ...                                
-                                                  \endgroup 
-l.230 ...odel is created with the help of Xilinxâ€
-                                                  ™s System Generator for DS...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\GenericError  ...                                
-                                                  \endgroup 
-l.230 ...del is created with the help of Xilinxâ€™
-                                                  s System Generator for DSP...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\GenericError  ...                                
-                                                  \endgroup 
-l.230 ...nthesized and implemented within Xilinxâ€
-                                                  ™s Integrated Software Env...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\GenericError  ...                                
-                                                  \endgroup 
-l.230 ...thesized and implemented within Xilinxâ€™
-                                                  s Integrated Software Envi...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--232
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3
-
-]
-[4]
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
-\tf@toc=\write6
-[5
-
-]
-\tf@lot=\write7
- [6
-
-
-]
-\tf@lof=\write8
- [7
-
-
-] [8
-
-
-]
-No file introduction.tex.
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
-\tf@toc=\write9
-[1
-
-
-
-] [2
-
-
-] [3] [4
-
-] (C:\Users\mbaratva\Desktop\thesis\CDC\content/part1.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
@@ -1069,7 +375,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[5]
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
@@ -1089,15 +395,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[6]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
- []
-
-
-Overfull \hbox (1.67972pt too wide) in paragraph at lines 34--35
-[]\T1/lmr/m/n/12 A top-down ap-proach and demon-stra-tive sys-tem per-for-mance
- in base-band OFDM
  []
 
 
@@ -1105,2366 +405,774 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 37.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [7]) [8] [9
+LaTeX Font Info:    Try loading font information for OMS+pbk on input line 37.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspbk.fd"
+File: omspbk.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pbk/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+ [6]) [7]
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\content/p
+art2.tex"
+! Undefined control sequence.
+l.1 \chapter
+            {Theory, Design and Simulation}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-]
-[10
 
-] (C:\Users\mbaratva\Desktop\thesis\CDC\content/part2.tex
-Runaway argument?
-{\@firstoffive }\fi . Arrangement of the IEEE 802.11a carriers demons\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.4 
-    
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.5 \end{abstract}
-                   [1]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 7.
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-Runaway argument?
-{\@firstoffive }\fi  are the in-phase ($I$) and quadrature ($Q$) of t\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.52 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
 
-Runaway argument?
-{\@firstoffive }\fi  shows all the subcarriers over the integral regi\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.60 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+[8]
+Overfull \hbox (31.25987pt too wide) in paragraph at lines 51--51
+[] 
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-Runaway argument?
-{\@firstoffive }\fi  presents the OFDM system block diagram. The firs\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.64 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
 
-<content/fig/ofdmmodel1.JPG, id=109, 763.35187pt x 444.15938pt>
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+[9] <content/fig/ofdmmodel1.JPG, id=43, 763.35187pt x 444.15938pt>
 File: content/fig/ofdmmodel1.JPG Graphic file (type jpg)
 
 <use content/fig/ofdmmodel1.JPG>
 Package pdftex.def Info: content/fig/ofdmmodel1.JPG used on input line 67.
-(pdftex.def)             Requested size: 426.79134pt x 248.32768pt.
+(pdftex.def)             Requested size: 448.13095pt x 260.74373pt.
 
-<content/fig/ofdmmodel2.JPG, id=110, 724.20563pt x 429.10312pt>
+<content/fig/ofdmmodel2.JPG, id=44, 724.20563pt x 429.10312pt>
 File: content/fig/ofdmmodel2.JPG Graphic file (type jpg)
 
 <use content/fig/ofdmmodel2.JPG>
 Package pdftex.def Info: content/fig/ofdmmodel2.JPG used on input line 68.
-(pdftex.def)             Requested size: 426.79134pt x 252.88054pt.
+(pdftex.def)             Requested size: 448.13095pt x 265.53047pt.
 
-Runaway argument?
-{\@firstoffive }\fi .\\ 
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.78 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+Underfull \hbox (badness 10000) in paragraph at lines 73--78
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
+ []
 
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.78 
-      [2]pdfTeX warning (ext4): destination with the same identifier (name{page
-.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.78 
-      [3pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.0.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-
-\@opcol ...lumn \@outputdblcol \else \@outputpage 
-                                                  \fi \global \@mparbottom \...
-<argument> \@opcol 
-                   \@startcolumn 
-\@whilesw #1\fi #2->#1#2
-                        \@iwhilesw {#1#2}\fi \fi 
-<output> ...@fcolmade \fi {\@opcol \@startcolumn }
-                                                  \fi \ifnum \outputpenalty ...
-l.78 
-      <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdmmodel1.JPG> <C:/Use
-rs/mbaratva/Desktop/thesis/CDC/content/fig/ofdmmodel2.JPG>]
-<content/fig/basic_ofdm_design.JPG, id=128, 506.6428pt x 284.56313pt>
+<content/fig/basic_ofdm_design.JPG, id=45, 506.6428pt x 284.56313pt>
 File: content/fig/basic_ofdm_design.JPG Graphic file (type jpg)
 
 <use content/fig/basic_ofdm_design.JPG>
 Package pdftex.def Info: content/fig/basic_ofdm_design.JPG used on input line 8
-0.
+1.
 (pdftex.def)             Requested size: 341.43306pt x 191.77655pt.
 
-! Undefined control sequence.
-l.82 \captionof
-               {figure}{Basic baseband OFDM system}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
 
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.96 \end{equation}
-                    [4 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/basic_
-ofdm_design.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 98--102
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+[10] [11 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/c
+ontent/fig/ofdmmodel1.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-mas
+ter/Latex_th/CDC/content/fig/ofdmmodel2.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
+[12 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/basic_ofdm_design.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
+ []
 
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.120 
-       [5] <content/fig/osi.JPG, id=138, 368.37625pt x 173.64874pt>
+<content/fig/osi.JPG, id=55, 368.37625pt x 173.64874pt>
 File: content/fig/osi.JPG Graphic file (type jpg)
 
 <use content/fig/osi.JPG>
-Package pdftex.def Info: content/fig/osi.JPG used on input line 122.
+Package pdftex.def Info: content/fig/osi.JPG used on input line 125.
 (pdftex.def)             Requested size: 284.52756pt x 134.12329pt.
 
-! Undefined control sequence.
-l.123 \captionof
-                {figure}{OSI Reference Model.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--130
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
-<content/fig/ieee_system_design.JPG, id=139, 516.42938pt x 292.09125pt>
+<content/fig/ieee_system_design.JPG, id=56, 516.42938pt x 292.09125pt>
 File: content/fig/ieee_system_design.JPG Graphic file (type jpg)
 
 <use content/fig/ieee_system_design.JPG>
 Package pdftex.def Info: content/fig/ieee_system_design.JPG used on input line 
-132.
+137.
 (pdftex.def)             Requested size: 341.43306pt x 193.11954pt.
 
-! Undefined control sequence.
-l.133 \captionof
-                {figure}{Architecture of an OFDM system}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.134 \end{center}
-                   [6 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/osi.JPG
->]
-Underfull \hbox (badness 10000) in paragraph at lines 146--150
+[13 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/osi.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 152--156
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.150 
-       [7 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ieee_system_design.
-JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+[14 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/ieee_system_design.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
-Runaway argument?
-{\@firstoffive }\fi  before performing the Fourier transformation. On\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.165 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
 
-<content/fig/freq_alloc.JPG, id=152, 525.46312pt x 158.09062pt>
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+<content/fig/freq_alloc.JPG, id=64, 525.46312pt x 158.09062pt>
 File: content/fig/freq_alloc.JPG Graphic file (type jpg)
 
 <use content/fig/freq_alloc.JPG>
-Package pdftex.def Info: content/fig/freq_alloc.JPG used on input line 167.
+Package pdftex.def Info: content/fig/freq_alloc.JPG used on input line 174.
 (pdftex.def)             Requested size: 284.52756pt x 85.60646pt.
 
-! Undefined control sequence.
-l.168 \captionof
-                {figure}{The frequency allocation of IEEE 802.11a sub-carriers}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
 
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--174
+[15 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/freq_alloc.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
-
- []
-
-! Undefined control sequence.
-l.182 \captionof
-                {table}{System parameters defined for the proposed OFDM system}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.202 \end{center}
-                   [8 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/freq_al
-loc.JPG>]
-Runaway argument?
-{\@firstoffive }\fi  shows the length parameter indicates the number \ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.205 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Undefined control sequence.
-l.207 \captionof
-                {table}{Rate dependant parameters in IEEE 802.11a Standard}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (23.95294pt too wide) in paragraph at lines 207--219
- [] 
+Overfull \hbox (46.02449pt too wide) in paragraph at lines 217--226
+ [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
-Runaway argument?
-{\@firstoffive }\fi  in the equation we have:\\ 
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.234 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
+ []
 
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
 
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
+Underfull \hbox (badness 10000) in paragraph at lines 260--265
 
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.237 \end{equation}
-                     [9]
-Runaway argument?
-{\@firstoffive }\fi , the preamble starts with 10 short training symb\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.256 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+ []
 
-<content/fig/ofdm_frame.JPG, id=164, 508.90125pt x 110.66344pt>
+[17] <content/fig/ofdm_frame.JPG, id=74, 508.90125pt x 110.66344pt>
 File: content/fig/ofdm_frame.JPG Graphic file (type jpg)
 
 <use content/fig/ofdm_frame.JPG>
-Package pdftex.def Info: content/fig/ofdm_frame.JPG used on input line 258.
-(pdftex.def)             Requested size: 341.43306pt x 74.2488pt.
+Package pdftex.def Info: content/fig/ofdm_frame.JPG used on input line 268.
+(pdftex.def)             Requested size: 284.52756pt x 61.87483pt.
 
-! Undefined control sequence.
-l.259 \captionof
-                {figure}{Preamble of IEEE 802.11}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-<content/fig/cfo_radio_model.JPG, id=165, 468.24937pt x 158.09062pt>
+<content/fig/cfo_radio_model.JPG, id=75, 468.24937pt x 158.09062pt>
 File: content/fig/cfo_radio_model.JPG Graphic file (type jpg)
 
 <use content/fig/cfo_radio_model.JPG>
-Package pdftex.def Info: content/fig/cfo_radio_model.JPG used on input line 270
+Package pdftex.def Info: content/fig/cfo_radio_model.JPG used on input line 282
 .
-(pdftex.def)             Requested size: 426.79134pt x 144.10149pt.
-
-! Undefined control sequence.
-l.271 \captionof
-                {figure}{General models of a direct conversion RF}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.273 \end{center}
-                   [10 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ofdm_f
-rame.JPG>]
-Runaway argument?
-{\@firstoffive }\fi , $\omega $ is The carrier frequency and $X_{BB}$\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.278 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+(pdftex.def)             Requested size: 284.52756pt x 96.06606pt.
+ [18 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
+nt/fig/ofdm_frame.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
-Runaway argument?
-{\@firstoffive }\fi  which is shown simulated OFDM system uses 10 MHz\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.308 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+[19 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/cfo_radio_model.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 317--320
 
-[11 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_radio_model.JPG>]
-<content/fig/cfo_on_ici.JPG, id=181, 313.17pt x 213.79875pt>
+ []
+
+<content/fig/cfo_on_ici.JPG, id=83, 313.17pt x 213.79875pt>
 File: content/fig/cfo_on_ici.JPG Graphic file (type jpg)
 
 <use content/fig/cfo_on_ici.JPG>
-Package pdftex.def Info: content/fig/cfo_on_ici.JPG used on input line 310.
+Package pdftex.def Info: content/fig/cfo_on_ici.JPG used on input line 323.
 (pdftex.def)             Requested size: 284.52756pt x 194.2505pt.
 
-! Undefined control sequence.
-l.311 \captionof
-                {figure}{OFDM performance loss due to CFO-induced ICI.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-Runaway argument?
-{\@firstoffive }\fi , for a while. In time domain, we have 160 sample\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.319 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+LaTeX Warning: Reference `lts_time_domain' on page 20 undefined on input line 3
+31.
 
-<content/fig/LTS_time_domain.JPG, id=182, 355.3275pt x 109.1578pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--332
+
+ []
+
+<content/fig/LTS_time_domain.JPG, id=84, 355.3275pt x 109.1578pt>
 File: content/fig/LTS_time_domain.JPG Graphic file (type jpg)
 
 <use content/fig/LTS_time_domain.JPG>
-Package pdftex.def Info: content/fig/LTS_time_domain.JPG used on input line 321
+Package pdftex.def Info: content/fig/LTS_time_domain.JPG used on input line 335
 .
 (pdftex.def)             Requested size: 284.52756pt x 87.40964pt.
 
-! Undefined control sequence.
-l.322 \captionof
-                {figure}{LTS in Time Domain.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-<content/fig/cfo_est.JPG, id=183, 670.75594pt x 118.19156pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/cfo_on_ici.JPG>]
+<content/fig/cfo_est.JPG, id=88, 670.75594pt x 118.19156pt>
 File: content/fig/cfo_est.JPG Graphic file (type jpg)
 
 <use content/fig/cfo_est.JPG>
-Package pdftex.def Info: content/fig/cfo_est.JPG used on input line 336.
-(pdftex.def)             Requested size: 426.79134pt x 75.20229pt.
+Package pdftex.def Info: content/fig/cfo_est.JPG used on input line 351.
+(pdftex.def)             Requested size: 284.52756pt x 50.13426pt.
 
-! Undefined control sequence.
-l.337 \captionof
-                {figure}{Time Domain CFO Estimation.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 361--363
 
-[12 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_on_ici.JPG> <C:/Users
-/mbaratva/Desktop/thesis/CDC/content/fig/LTS_time_domain.JPG>]
-Runaway argument?
-{\@firstoffive }\fi . 
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.342 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+ []
 
-Runaway argument?
-{\@firstoffive }\fi  shows the structure of the IEEE 802.1la standard\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.348 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<content/fig/ieee_preamble.JPG, id=189, 322.20375pt x 132.495pt>
+<content/fig/ieee_preamble.JPG, id=89, 322.20375pt x 132.495pt>
 File: content/fig/ieee_preamble.JPG Graphic file (type jpg)
 
 <use content/fig/ieee_preamble.JPG>
-Package pdftex.def Info: content/fig/ieee_preamble.JPG used on input line 350.
+Package pdftex.def Info: content/fig/ieee_preamble.JPG used on input line 366.
 (pdftex.def)             Requested size: 284.52756pt x 117.00635pt.
 
-! Undefined control sequence.
-l.351 \captionof
-                {figure}{IEEE 802.11a preamble.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-Runaway argument?
-{\@firstoffive }\fi , is basically a sliding window correlator combin\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.356 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-[13 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cfo_est.JPG> <C:/Users/mb
-aratva/Desktop/thesis/CDC/content/fig/ieee_preamble.JPG>]
-Runaway argument?
-{\@firstoffive }\fi  and Equation \ref {R_n} respectively. The decisi\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.368 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<content/fig/schimdl_cox.JPG, id=197, 255.95625pt x 82.80937pt>
-File: content/fig/schimdl_cox.JPG Graphic file (type jpg)
-
-<use content/fig/schimdl_cox.JPG>
-Package pdftex.def Info: content/fig/schimdl_cox.JPG used on input line 375.
-(pdftex.def)             Requested size: 284.52756pt x 92.05847pt.
-
-! Undefined control sequence.
-l.376 \captionof
-                {figure}{Schimdl and Cox Delay and Correlate Algorithm.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Reference `schimdl_cox' on page 21 undefined on input line 371.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+
+ []
+
+[21 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/LTS_time_domain.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-mas
+ter/Latex_th/CDC/content/fig/cfo_est.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 392--266
+<content/fig/schimdl_cox.JPG, id=93, 255.95625pt x 82.80937pt>
+File: content/fig/schimdl_cox.JPG Graphic file (type jpg)
+
+<use content/fig/schimdl_cox.JPG>
+Package pdftex.def Info: content/fig/schimdl_cox.JPG used on input line 391.
+(pdftex.def)             Requested size: 284.52756pt x 92.05847pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
  []
 
-[14 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/schimdl_cox.JPG>]
-[15
+[22 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/ieee_preamble.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-maste
+r/Latex_th/CDC/content/fig/schimdl_cox.JPG>])
+Underfull \hbox (badness 10000) in paragraph at lines 408--40
 
-] [16
+ []
 
-] (C:\Users\mbaratva\Desktop\thesis\CDC\content/part3.texpdfTeX warning (ext4):
- destination with the same identifier (name{page.1}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
+[23]
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\content/p
+art3.tex"
+! Undefined control sequence.
+l.1 \chapter
+            {FPGA Implementations}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
+Missing character: There is no Â in font pbkl7t!
+Missing character: There is no ® in font pbkl7t!
+Missing character: There is no Â in font pbkl7t!
+Missing character: There is no ® in font pbkl7t!
+Missing character: There is no Â in font pbkl7t!
+Missing character: There is no ® in font pbkl7t!
+Missing character: There is no Â in font pbkl7t!
+Missing character: There is no ® in font pbkl7t!
 
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.5 \end{abstract}
-                   [1]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 7.
+Overfull \hbox (2.02176pt too wide) in paragraph at lines 10--11
+\OT1/pbk/l/n/12 Simulink from The Math-Works is a pow-er-ful graph-i-cal mod-el
+-ing sys-tem which
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-<content/fig/systemGen.JPG, id=218, 468.75125pt x 350.30875pt>
+<content/fig/systemGen.JPG, id=100, 468.75125pt x 350.30875pt>
 File: content/fig/systemGen.JPG Graphic file (type jpg)
 
 <use content/fig/systemGen.JPG>
-Package pdftex.def Info: content/fig/systemGen.JPG used on input line 13.
+Package pdftex.def Info: content/fig/systemGen.JPG used on input line 14.
 (pdftex.def)             Requested size: 284.52756pt x 212.62965pt.
-
-! Undefined control sequence.
-l.14 \captionof
-               {figure}{System Generator Cycle.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
  []
 
-Runaway argument?
-{\@firstoffive }\fi  shows the main scheme of an OFDM system in trans\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.25 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<content/fig/system.JPG, id=219, 792.71156pt x 417.05812pt>
+[24 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/systemGen.JPG>]
+<content/fig/system.JPG, id=104, 792.71156pt x 417.05812pt>
 File: content/fig/system.JPG Graphic file (type jpg)
 
 <use content/fig/system.JPG>
-Package pdftex.def Info: content/fig/system.JPG used on input line 27.
-(pdftex.def)             Requested size: 426.79134pt x 224.54619pt.
+Package pdftex.def Info: content/fig/system.JPG used on input line 28.
+(pdftex.def)             Requested size: 284.52756pt x 149.69534pt.
 
-! Undefined control sequence.
-l.28 \captionof
-               {figure}{OFDM System.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.30 \end{center}
-                  [2 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/systemGe
-n.JPG>]
-Runaway argument?
-{\@firstoffive }\fi  illustrates the transmitter which consists of ma\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.34 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<content/fig/txblock.JPG, id=224, 1024.57782pt x 560.0925pt>
+<content/fig/txblock.JPG, id=105, 1024.57782pt x 560.0925pt>
 File: content/fig/txblock.JPG Graphic file (type jpg)
 
 <use content/fig/txblock.JPG>
-Package pdftex.def Info: content/fig/txblock.JPG used on input line 36.
-(pdftex.def)             Requested size: 426.79134pt x 233.30577pt.
+Package pdftex.def Info: content/fig/txblock.JPG used on input line 39.
+(pdftex.def)             Requested size: 448.13095pt x 244.9715pt.
 
-! Undefined control sequence.
-l.37 \captionof
-               {figure}{OFDM Transmitter Block.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-Runaway argument?
-{\@firstoffive }\fi  demonstrates the receiver block with its main bl\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.47 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Runaway argument?
-{\@firstoffive }\fi . This is implemented based on the magnitude squa\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.51 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
 
-<content/fig/autocorrblock.JPG, id=225, 1011.78pt x 415.5525pt>
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+[25 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/system.JPG>]
+<content/fig/rxblock.JPG, id=110, 959.08313pt x 625.58719pt>
+File: content/fig/rxblock.JPG Graphic file (type jpg)
+
+<use content/fig/rxblock.JPG>
+Package pdftex.def Info: content/fig/rxblock.JPG used on input line 48.
+(pdftex.def)             Requested size: 448.13095pt x 292.3078pt.
+
+<content/fig/autocorrblock.JPG, id=111, 1011.78pt x 415.5525pt>
 File: content/fig/autocorrblock.JPG Graphic file (type jpg)
 
 <use content/fig/autocorrblock.JPG>
-Package pdftex.def Info: content/fig/autocorrblock.JPG used on input line 53.
-(pdftex.def)             Requested size: 426.79134pt x 175.29175pt.
+Package pdftex.def Info: content/fig/autocorrblock.JPG used on input line 59.
+(pdftex.def)             Requested size: 448.13095pt x 184.05475pt.
 
-! Undefined control sequence.
-l.54 \captionof
-               {figure}{Auto-Correlation Block.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.56 \end{center}
-                  [3 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/system.J
-PG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/txblock.JPG>]
-<content/fig/fine_packetDetect.JPG, id=230, 922.19531pt x 269.50688pt>
+<content/fig/fine_packetDetect.JPG, id=112, 922.19531pt x 269.50688pt>
 File: content/fig/fine_packetDetect.JPG Graphic file (type jpg)
 
 <use content/fig/fine_packetDetect.JPG>
-Package pdftex.def Info: content/fig/fine_packetDetect.JPG used on input line 5
-9.
-(pdftex.def)             Requested size: 426.79134pt x 124.72722pt.
+Package pdftex.def Info: content/fig/fine_packetDetect.JPG used on input line 6
+6.
+(pdftex.def)             Requested size: 448.13095pt x 130.96152pt.
 
-! Undefined control sequence.
-l.60 \captionof
-               {figure}{Fine Packet Detection Block.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-Runaway argument?
-{\@firstoffive }\fi , the main part of the receiver is estimation of \ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.65 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+LaTeX Warning: Reference `division' on page 26 undefined on input line 71.
 
-<content/fig/cmpx_div.JPG, id=231, 862.72313pt x 197.23688pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+<content/fig/cmpx_div.JPG, id=113, 862.72313pt x 197.23688pt>
 File: content/fig/cmpx_div.JPG Graphic file (type jpg)
 
 <use content/fig/cmpx_div.JPG>
-Package pdftex.def Info: content/fig/cmpx_div.JPG used on input line 67.
-(pdftex.def)             Requested size: 426.79134pt x 97.57085pt.
+Package pdftex.def Info: content/fig/cmpx_div.JPG used on input line 75.
+(pdftex.def)             Requested size: 448.13095pt x 102.4524pt.
 
-! Undefined control sequence.
-l.68 \captionof
-               {figure}{Complex Division Block.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<content/fig/division.JPG, id=232, 839.38594pt x 388.45125pt>
+<content/fig/division.JPG, id=114, 839.38594pt x 388.45125pt>
 File: content/fig/division.JPG Graphic file (type jpg)
 
 <use content/fig/division.JPG>
-Package pdftex.def Info: content/fig/division.JPG used on input line 73.
-(pdftex.def)             Requested size: 426.79134pt x 197.50885pt.
+Package pdftex.def Info: content/fig/division.JPG used on input line 82.
+(pdftex.def)             Requested size: 448.13095pt x 207.3837pt.
 
-! Undefined control sequence.
-l.74 \captionof
-               {figure}{Division Block.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
+ []
 
-Underfull \vbox (badness 7558) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.76 \end{center}
-                  [4 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/autocorr
-block.JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fine_packetDetect.
-JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cmpx_div.JPG>]
-Runaway argument?
-{\@firstoffive }\fi .\\ 
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.84 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<content/fig/ZC706.JPG, id=236, 288.3272pt x 164.11313pt>
+[26 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/txblock.JPG>] [27 <C:/Documents and Settings/User/Desktop/Latex_th-master
+/Latex_th/CDC/content/fig/rxblock.JPG> <C:/Documents and Settings/User/Desktop/
+Latex_th-master/Latex_th/CDC/content/fig/autocorrblock.JPG>] [28 <C:/Documents 
+and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/content/fig/fine_packetD
+etect.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC
+/content/fig/cmpx_div.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-mas
+ter/Latex_th/CDC/content/fig/division.JPG>]
+<content/fig/ZC706.JPG, id=124, 288.3272pt x 164.11313pt>
 File: content/fig/ZC706.JPG Graphic file (type jpg)
 
 <use content/fig/ZC706.JPG>
-Package pdftex.def Info: content/fig/ZC706.JPG used on input line 86.
+Package pdftex.def Info: content/fig/ZC706.JPG used on input line 96.
 (pdftex.def)             Requested size: 341.43306pt x 194.34795pt.
 
-! Undefined control sequence.
-l.87 \captionof
-               {figure}{ZC706 Evaluation Borad Block Diagram.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.88 \end{center}
-                  [5 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/division
-.JPG>] <content/fig/zc706_block_diagram.JPG, id=242, 539.01375pt x 439.6425pt>
+<content/fig/zc706_block_diagram.JPG, id=125, 539.01375pt x 439.6425pt>
 File: content/fig/zc706_block_diagram.JPG Graphic file (type jpg)
 
 <use content/fig/zc706_block_diagram.JPG>
 Package pdftex.def Info: content/fig/zc706_block_diagram.JPG used on input line
- 91.
+ 102.
 (pdftex.def)             Requested size: 341.43306pt x 278.49232pt.
 
-! Undefined control sequence.
-l.92 \captionof
-               {figure}{Xilinx Zynq-7000 SoC ZC706 Evaluation Kit}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Citation `fmcomms1' on page 29 undefined on input line 109.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--99
+Overfull \hbox (31.22528pt too wide) in paragraph at lines 109--111
+\OT1/pbk/l/n/12 case one of the lat-est gen-er-a-tion high-speed data con-vert-
+ers. The AD-FMCOMMS1-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.99 
-      [6 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ZC706.JPG> <C:/Users
-/mbaratva/Desktop/thesis/CDC/content/fig/zc706_block_diagram.JPG>]
-<content/fig/fmcomms1.jpg, id=247, 326.72063pt x 225.84375pt>
+[29 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/ZC706.JPG>]
+<content/fig/fmcomms1.jpg, id=129, 326.72063pt x 225.84375pt>
 File: content/fig/fmcomms1.jpg Graphic file (type jpg)
 
 <use content/fig/fmcomms1.jpg>
-Package pdftex.def Info: content/fig/fmcomms1.jpg used on input line 101.
+Package pdftex.def Info: content/fig/fmcomms1.jpg used on input line 114.
 (pdftex.def)             Requested size: 284.52756pt x 196.67545pt.
 
-! Undefined control sequence.
-l.102 \captionof
-                {figure}{AD-FMCOMMS1-EBZ (Radio Board)}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<content/fig/fmcomms1Blockdiagram.jpg, id=248, 903.375pt x 433.62pt>
+<content/fig/fmcomms1Blockdiagram.jpg, id=130, 903.375pt x 433.62pt>
 File: content/fig/fmcomms1Blockdiagram.jpg Graphic file (type jpg)
 
 <use content/fig/fmcomms1Blockdiagram.jpg>
 Package pdftex.def Info: content/fig/fmcomms1Blockdiagram.jpg used on input lin
-e 106.
+e 120.
 (pdftex.def)             Requested size: 426.79134pt x 204.86006pt.
 
-! Undefined control sequence.
-l.107 \captionof
-                {figure}{AD-FMCOMMS1-EBZ Block Diagram}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Citation `ad9548' on page 30 undefined on input line 126.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.108 \end{center}
-                   [7 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fmcomms
-1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
-<content/fig/ad9548BlockDiagram.JPG, id=252, 698.61pt x 423.83344pt>
+[30 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/zc706_block_diagram.JPG>] [31 <C:/Documents and Settings/User/Desktop/Lat
+ex_th-master/Latex_th/CDC/content/fig/fmcomms1.jpg> <C:/Documents and Settings/
+User/Desktop/Latex_th-master/Latex_th/CDC/content/fig/fmcomms1Blockdiagram.jpg>
+] <content/fig/ad9548BlockDiagram.JPG, id=138, 698.61pt x 423.83344pt>
 File: content/fig/ad9548BlockDiagram.JPG Graphic file (type jpg)
 
 <use content/fig/ad9548BlockDiagram.JPG>
 Package pdftex.def Info: content/fig/ad9548BlockDiagram.JPG used on input line 
-115.
+131.
 (pdftex.def)             Requested size: 426.79134pt x 258.92604pt.
 
-! Undefined control sequence.
-l.116 \captionof
-                {figure}{AD9548 Block Diagram}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Citation `ad9523' on page 32 undefined on input line 136.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation `cvhd' on page 32 undefined on input line 140.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
 
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.117 \end{center}
-                   [8 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fmcomms
-1Blockdiagram.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 119--124
+Underfull \hbox (badness 10000) in paragraph at lines 136--141
 
  []
 
-<content/fig/cvhd.JPG, id=257, 423.08063pt x 386.19281pt>
+[32 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/ad9548BlockDiagram.JPG>]
+<content/fig/cvhd.JPG, id=142, 423.08063pt x 386.19281pt>
 File: content/fig/cvhd.JPG Graphic file (type jpg)
 
 <use content/fig/cvhd.JPG>
-Package pdftex.def Info: content/fig/cvhd.JPG used on input line 126.
+Package pdftex.def Info: content/fig/cvhd.JPG used on input line 144.
 (pdftex.def)             Requested size: 284.52756pt x 259.72603pt.
 
-! Undefined control sequence.
-l.127 \captionof
-                {figure}{CVHD-950 Ultra Low Phase Noise Oscillator}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
+ []
 
-Underfull \vbox (badness 7907) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.128 \end{center}
-                   [9 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/ad9548B
-lockDiagram.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+[33 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/cvhd.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation `zynq' on page 34 undefined on input line 166.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
 
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.139 
-       [10 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/cvhd.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
 
  []
 
-Runaway argument?
-{\@firstoffive }\fi  the foundation of Zynq-7000 is divided into two \ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.149 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<content/fig/zynq_inside.JPG, id=266, 521.95pt x 576.1525pt>
+<content/fig/zynq_inside.JPG, id=146, 521.95pt x 576.1525pt>
 File: content/fig/zynq_inside.JPG Graphic file (type jpg)
 
 <use content/fig/zynq_inside.JPG>
-Package pdftex.def Info: content/fig/zynq_inside.JPG used on input line 152.
+Package pdftex.def Info: content/fig/zynq_inside.JPG used on input line 171.
 (pdftex.def)             Requested size: 341.43306pt x 376.89471pt.
 
-! Undefined control sequence.
-l.153 \captionof
-                {figure}{Zynq-7000 Diagram}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.155 \end{center}
-                   [11]
-Runaway argument?
-{\@firstoffive }\fi . We activate one of the ARM processors. In the T\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.158 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<content/fig/fpga_internal.JPG, id=273, 540.51938pt x 238.64156pt>
+[34] [35 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/c
+ontent/fig/zynq_inside.JPG>]
+<content/fig/fpga_internal.JPG, id=153, 540.51938pt x 238.64156pt>
 File: content/fig/fpga_internal.JPG Graphic file (type jpg)
 
 <use content/fig/fpga_internal.JPG>
-Package pdftex.def Info: content/fig/fpga_internal.JPG used on input line 160.
+Package pdftex.def Info: content/fig/fpga_internal.JPG used on input line 180.
 (pdftex.def)             Requested size: 341.43306pt x 150.74551pt.
 
-! Undefined control sequence.
-l.161 \captionof
-                {figure}{Design Block Diagram}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
 
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.167 
-       [12 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/zynq_inside.JPG> <
-C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/fpga_internal.JPG>]
-Runaway argument?
-{\@firstoffive }\fi .\\ 
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.170 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-Overfull \hbox (1.84131pt too wide) in paragraph at lines 169--170
-\T1/lmr/m/n/12 The con-fig-u-ra-tion set-up is con-sisted of two Zynq board eac
-h car-ry-ing a FM-COMMS1
  []
 
-<content/fig/hardware_setup.JPG, id=277, 2055.68pt x 1541.76pt>
+<content/fig/hardware_setup.JPG, id=154, 2055.68pt x 1541.76pt>
 File: content/fig/hardware_setup.JPG Graphic file (type jpg)
 
 <use content/fig/hardware_setup.JPG>
-Package pdftex.def Info: content/fig/hardware_setup.JPG used on input line 172.
+Package pdftex.def Info: content/fig/hardware_setup.JPG used on input line 193.
 
-(pdftex.def)             Requested size: 426.79134pt x 320.08568pt.
+(pdftex.def)             Requested size: 448.13095pt x 336.0829pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 198--43
 
+ []
+
+[36 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/fpga_internal.JPG>] [37 <C:/Documents and Settings/User/Desktop/Latex_th-
+master/Latex_th/CDC/content/fig/hardware_setup.JPG>] [38]
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\content/p
+art4.tex"
 ! Undefined control sequence.
-l.173 \captionof
-                {figure}{Hardware set-up}
+l.1 \chapter
+            {Sample Analysis and Conclusion}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Runaway argument?
-{\@firstoffive }\fi .\\ The maximum bit rate we could reach to exchan\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.181 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
 
-)pdfTeX warning (ext4): destination with the same identifier (name{page.13}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.269 \newpage
-               [13 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/hardware_s
-etup.JPG>]pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.14}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.269 \newpage
-               [14]pdfTeX warning (ext4): destination with the same identifier 
-(name{page.15}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.270 ...nclusion]{Sample Analysis and Conclusion}
-                                                   [15
-
-]pdfTeX warning (ext4): destination with the same identifier (name{page.16}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.270 ...nclusion]{Sample Analysis and Conclusion}
-                                                   [16
-
-]
-(C:\Users\mbaratva\Desktop\thesis\CDC\content/part4.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
+<content/fig/ofdmframe_chipscope.JPG, id=165, 810.02625pt x 539.01375pt>
+File: content/fig/ofdmframe_chipscope.JPG Graphic file (type jpg)
 
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
+<use content/fig/ofdmframe_chipscope.JPG>
+Package pdftex.def Info: content/fig/ofdmframe_chipscope.JPG used on input line
+ 11.
+(pdftex.def)             Requested size: 448.13095pt x 298.2021pt.
 
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.5 \end{abstract}
-                   [1]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 7.
-
-Runaway argument?
-{\@firstoffive }\fi . The position of preamble signal is completely d\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.16 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<content/fig/sts_chipscope.JPG, id=296, 726.46407pt x 441.90094pt>
+<content/fig/sts_chipscope.JPG, id=166, 726.46407pt x 441.90094pt>
 File: content/fig/sts_chipscope.JPG Graphic file (type jpg)
 
 <use content/fig/sts_chipscope.JPG>
 Package pdftex.def Info: content/fig/sts_chipscope.JPG used on input line 18.
 (pdftex.def)             Requested size: 341.43306pt x 207.69347pt.
 
-! Undefined control sequence.
-l.19 \captionof
-               {figure}{STS (I/Q) detected in Chipscope.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
-Runaway argument?
-{\@firstoffive }\fi  to detect the signal arrival.\\ 
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.24 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+ []
 
-<content/fig/autocorr.JPG, id=297, 752.8125pt x 347.04657pt>
+<content/fig/autocorr.JPG, id=167, 752.8125pt x 347.04657pt>
 File: content/fig/autocorr.JPG Graphic file (type jpg)
 
 <use content/fig/autocorr.JPG>
-Package pdftex.def Info: content/fig/autocorr.JPG used on input line 26.
-(pdftex.def)             Requested size: 426.79134pt x 196.7542pt.
+Package pdftex.def Info: content/fig/autocorr.JPG used on input line 27.
+(pdftex.def)             Requested size: 448.13095pt x 206.59323pt.
 
-! Undefined control sequence.
-l.27 \captionof
-               {figure}{Auto-Correlation detected in Chipscope.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
-Runaway argument?
-{\@firstoffive }\fi . As already described we have 2.5 LTS symbol in \ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.32 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+ []
 
-<content/fig/crosscorr.JPG, id=298, 855.94781pt x 481.04718pt>
+<content/fig/crosscorr.JPG, id=168, 855.94781pt x 481.04718pt>
 File: content/fig/crosscorr.JPG Graphic file (type jpg)
 
 <use content/fig/crosscorr.JPG>
-Package pdftex.def Info: content/fig/crosscorr.JPG used on input line 34.
-(pdftex.def)             Requested size: 426.79134pt x 239.85504pt.
+Package pdftex.def Info: content/fig/crosscorr.JPG used on input line 36.
+(pdftex.def)             Requested size: 448.13095pt x 251.84889pt.
 
-! Undefined control sequence.
-l.35 \captionof
-               {figure}{Cross-Correlation detected in Chipscope.}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
+ []
 
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.37 \end{center}
-                  [2 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/sts_chip
-scope.JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/autocorr.JPG>]
-Runaway argument?
-{\@firstoffive }\fi  shows the frequency response of the LTS in the i\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.40 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<content/fig/baseIFAdcDac.JPG, id=303, 1604.99625pt x 1088.065pt>
+<content/fig/baseIFAdcDac.JPG, id=169, 1604.99625pt x 1088.065pt>
 File: content/fig/baseIFAdcDac.JPG Graphic file (type jpg)
 
 <use content/fig/baseIFAdcDac.JPG>
-Package pdftex.def Info: content/fig/baseIFAdcDac.JPG used on input line 42.
+Package pdftex.def Info: content/fig/baseIFAdcDac.JPG used on input line 45.
 (pdftex.def)             Requested size: 284.52756pt x 192.888pt.
 
-! Undefined control sequence.
-l.43 \captionof
-               {figure}{LTS Spectrum in Baseband chain (IF filter on 5MHz is...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
-Runaway argument?
-{\@firstoffive }\fi . As you can see we still have the IF filter. The\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.48 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+ []
 
-<content/fig/RfIF.JPG, id=304, 1604.99625pt x 1088.065pt>
+[39] [40 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/c
+ontent/fig/ofdmframe_chipscope.JPG> <C:/Documents and Settings/User/Desktop/Lat
+ex_th-master/Latex_th/CDC/content/fig/sts_chipscope.JPG>] [41 <C:/Documents and
+ Settings/User/Desktop/Latex_th-master/Latex_th/CDC/content/fig/autocorr.JPG> <
+C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/content/fig
+/crosscorr.JPG>] <content/fig/RfIF.JPG, id=179, 1604.99625pt x 1088.065pt>
 File: content/fig/RfIF.JPG Graphic file (type jpg)
 
 <use content/fig/RfIF.JPG>
-Package pdftex.def Info: content/fig/RfIF.JPG used on input line 50.
+Package pdftex.def Info: content/fig/RfIF.JPG used on input line 54.
 (pdftex.def)             Requested size: 284.52756pt x 192.888pt.
 
-! Undefined control sequence.
-l.51 \captionof
-               {figure}{LTS Spectrum- passed RF chain (IF filter  on 5MHz is...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
+ []
 
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.53 \end{center}
-                  [3 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/crosscor
-r.JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/baseIFAdcDac.JPG>]
-Runaway argument?
-{\@firstoffive }\fi  if the IF filter is not activated. As you can se\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.56 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<content/fig/Rfbase.JPG, id=308, 1604.99625pt x 1088.065pt>
+<content/fig/Rfbase.JPG, id=180, 1604.99625pt x 1088.065pt>
 File: content/fig/Rfbase.JPG Graphic file (type jpg)
 
 <use content/fig/Rfbase.JPG>
-Package pdftex.def Info: content/fig/Rfbase.JPG used on input line 58.
+Package pdftex.def Info: content/fig/Rfbase.JPG used on input line 63.
 (pdftex.def)             Requested size: 284.52756pt x 192.888pt.
 
-! Undefined control sequence.
-l.59 \captionof
-               {figure}{LTS Spectrum- passed RF chain (IF filter is disable)}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
-Runaway argument?
-{\@firstoffive }\fi  is the frequency response of the channel after a\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.64 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+ []
 
 
-<content/fig/h_mag_chipscope_noChannel.JPG, id=309, 646.66594pt x 446.41782pt>
+<content/fig/h_mag_chipscope_noChannel.JPG, id=181, 646.66594pt x 446.41782pt>
 File: content/fig/h_mag_chipscope_noChannel.JPG Graphic file (type jpg)
 
 <use content/fig/h_mag_chipscope_noChannel.JPG>
 Package pdftex.def Info: content/fig/h_mag_chipscope_noChannel.JPG used on inpu
-t line 66.
+t line 72.
 (pdftex.def)             Requested size: 284.52756pt x 196.41763pt.
 
-! Undefined control sequence.
-l.67 \captionof
-               {figure}{Frequency Response of a perfect channel detected in ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.69 \end{center}
-                  [4 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/RfIF.JPG
-> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/Rfbase.JPG>]
-Runaway argument?
-{\@firstoffive }\fi  in a real channel after all the conversions of t\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.72 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<content/fig/h_mag_chipscope_rf_detect.JPG, id=313, 643.6547pt x 441.90094pt>
+<content/fig/h_mag_chipscope_rf_detect.JPG, id=182, 643.6547pt x 441.90094pt>
 File: content/fig/h_mag_chipscope_rf_detect.JPG Graphic file (type jpg)
 
 <use content/fig/h_mag_chipscope_rf_detect.JPG>
 Package pdftex.def Info: content/fig/h_mag_chipscope_rf_detect.JPG used on inpu
-t line 74.
+t line 81.
 (pdftex.def)             Requested size: 284.52756pt x 195.34729pt.
 
-! Undefined control sequence.
-l.75 \captionof
-               {figure}{Frequency Response of on air channel detected in Chi...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-<content/fig/OfdmSym_16qam_1_2_code_64byte.JPG, id=314, 746.79pt x 335.00156pt>
+<content/fig/OfdmSym_16qam_1_2_code_64byte.JPG, id=183, 746.79pt x 335.00156pt>
 File: content/fig/OfdmSym_16qam_1_2_code_64byte.JPG Graphic file (type jpg)
 <use content/fig/OfdmSym_16qam_1_2_code_64byte.JPG>
 Package pdftex.def Info: content/fig/OfdmSym_16qam_1_2_code_64byte.JPG used on 
-input line 80.
-(pdftex.def)             Requested size: 426.79134pt x 191.45381pt.
+input line 88.
+(pdftex.def)             Requested size: 448.13095pt x 201.02803pt.
 
-! Undefined control sequence.
-l.81 \captionof
-               {figure}{OFDM Symbols of a 16QAM 64-byte message Coded 1/2 rate}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.83 \end{center}
-                  [5 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/h_mag_ch
-ipscope_noChannel.JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/h_mag_
-chipscope_rf_detect.JPG>]
-Runaway argument?
-{\@firstoffive }\fi  and \ref {OfdmSym_16qam_no_code_64byte} compares\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.86 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-<content/fig/OfdmSym_16qam_no_code_64byte.JPG, id=319, 746.79pt x 336.50719pt>
+<content/fig/OfdmSym_16qam_no_code_64byte.JPG, id=184, 746.79pt x 336.50719pt>
 File: content/fig/OfdmSym_16qam_no_code_64byte.JPG Graphic file (type jpg)
 
 <use content/fig/OfdmSym_16qam_no_code_64byte.JPG>
 Package pdftex.def Info: content/fig/OfdmSym_16qam_no_code_64byte.JPG used on i
-nput line 88.
-(pdftex.def)             Requested size: 426.79134pt x 192.31427pt.
-
-! Undefined control sequence.
-l.89 \captionof
-               {figure}{OFDM Symbols of a 16QAM 64-byte message no-Coded}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Runaway argument?
-{\@firstoffive }\fi  you can find the device utilization:\\ 
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.99 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Undefined control sequence.
-l.102 \captionof
-                {table}{Device Utilization Summary (actual values)}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.113 \end{center}
-                   [6 <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/OfdmSym
-_16qam_1_2_code_64byte.JPG> <C:/Users/mbaratva/Desktop/thesis/CDC/content/fig/O
-fdmSym_16qam_no_code_64byte.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+nput line 97.
+(pdftex.def)             Requested size: 448.13095pt x 201.93153pt.
+ [42 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conte
+nt/fig/baseIFAdcDac.JPG>]
+[43 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/RfIF.JPG> <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_t
+h/CDC/content/fig/Rfbase.JPG>] [44 <C:/Documents and Settings/User/Desktop/Late
+x_th-master/Latex_th/CDC/content/fig/h_mag_chipscope_noChannel.JPG> <C:/Documen
+ts and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/content/fig/h_mag_chi
+pscope_rf_detect.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+[45 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/OfdmSym_16qam_1_2_code_64byte.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 123--272
+Underfull \hbox (badness 10000) in paragraph at lines 134--46
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
+[46 <C:/Documents and Settings/User/Desktop/Latex_th-master/Latex_th/CDC/conten
+t/fig/OfdmSym_16qam_no_code_64byte.JPG>] [47]
+("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\report.au
+x")
 
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.272 
-       [7]pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.8}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchor #1->\new@pdflink {#1}
-                                   \anchor@spot \pdf@endanchor 
-\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
-                                                  \fi \expandafter \put@me@b...
-
-\Hy@EveryPageAnchor ... \Hy@TempPageAnchor \relax 
-                                                  \hss }\vss }\fi 
-<argument> ...finterlineskip \Hy@EveryPageBoxHook 
-                                                  \box \AtBeginShipoutBox }\fi 
-
-\AtBegShi@Item #1->\ifAtBegShi@Discarded \else #1
-                                                 \ifAtBegShi@Discarded \else...
-
-\AtBegShi@Output ...Discardedfalse \AtBegShi@Hook 
-                                                  \expandafter \gdef \expand...
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-...
-l.275 
-       [8] (C:\Users\mbaratva\Desktop\thesis\CDC\report.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 287.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 287.
-
-(C:\Users\mbaratva\Desktop\thesis\CDC\report.aux
-(C:\Users\mbaratva\Desktop\thesis\CDC\introduction.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 287.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 287.
+LaTeX Warning: There were undefined references.
 
 
-Package rerunfilecheck Warning: File `report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  0997F97A3A1383CED00DA6DB1DEF9948;1520.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 287.
- )
-(\end occurred when \ifx on line 98 was incomplete)
-(\end occurred when \ifx on line 85 was incomplete)
-(\end occurred when \ifx on line 71 was incomplete)
-(\end occurred when \ifx on line 63 was incomplete)
-(\end occurred when \ifx on line 55 was incomplete)
-(\end occurred when \ifx on line 47 was incomplete)
-(\end occurred when \ifx on line 39 was incomplete)
-(\end occurred when \ifx on line 31 was incomplete)
-(\end occurred when \ifx on line 23 was incomplete)
-(\end occurred when \ifx on line 10 was incomplete)
-(\end occurred when \ifx on line 177 was incomplete)
-(\end occurred when \ifx on line 169 was incomplete)
-(\end occurred when \ifx on line 157 was incomplete)
-(\end occurred when \ifx on line 148 was incomplete)
-(\end occurred when \ifx on line 83 was incomplete)
-(\end occurred when \ifx on line 64 was incomplete)
-(\end occurred when \ifx on line 50 was incomplete)
-(\end occurred when \ifx on line 41 was incomplete)
-(\end occurred when \ifx on line 32 was incomplete)
-(\end occurred when \ifx on line 23 was incomplete)
-(\end occurred when \ifx on line 367 was incomplete)
-(\end occurred when \ifx on line 355 was incomplete)
-(\end occurred when \ifx on line 347 was incomplete)
-(\end occurred when \ifx on line 341 was incomplete)
-(\end occurred when \ifx on line 318 was incomplete)
-(\end occurred when \ifx on line 307 was incomplete)
-(\end occurred when \ifx on line 275 was incomplete)
-(\end occurred when \ifx on line 251 was incomplete)
-(\end occurred when \ifx on line 233 was incomplete)
-(\end occurred when \ifx on line 204 was incomplete)
-(\end occurred when \ifx on line 164 was incomplete)
-(\end occurred when \ifx on line 77 was incomplete)
-(\end occurred when \ifx on line 63 was incomplete)
-(\end occurred when \ifx on line 53 was incomplete)
-(\end occurred when \ifx on line 44 was incomplete)
-(\end occurred when \ifx on line 2 was incomplete) 
+ ) 
 Here is how much of TeX's memory you used:
- 12462 strings out of 493921
- 182465 string characters out of 3144867
- 271951 words of memory out of 3000000
- 15323 multiletter control sequences out of 15000+200000
- 61461 words of font info for 51 fonts, out of 3000000 for 9000
+ 3724 strings out of 493921
+ 57521 string characters out of 3147231
+ 154772 words of memory out of 3000000
+ 6928 multiletter control sequences out of 15000+200000
+ 21395 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 39i,23n,53p,1028b,447s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTe
-X 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc
-/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/l
-m-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C
-:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
-mi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/lm/lmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on report.pdf (58 pages, 4233331 bytes).
+ 41i,23n,55p,1029b,232s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/urw/bookman/ubkd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/b
+ookman/ubkl8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkli8a.
+pfb>
+Output written on report.pdf (47 pages, 4408874 bytes).
 PDF statistics:
- 410 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 248 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

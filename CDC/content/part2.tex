@@ -78,7 +78,7 @@ According to the above analysis, the basic architecture for a baseband OFDM syst
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=12cm]{content/fig/basic_ofdm_design.JPG}
+\includegraphics[width=12cm]{content/fig/basic_bb_ofdm.pdf}
 \caption{Basic baseband OFDM system}
 \label{fig:basic_ofdm}
 \end{figure}
@@ -99,7 +99,7 @@ s_{k}(t)=
 where $T_{g}$ is the guard interval duration, $T_{sym}= T+ T_{g}$ is the OFDM symbol period,
 symbol starting time $t_{s}= kT_{sym}$, and $w(t-t_{s})$ is the pulse shaping window, which is
 usually a raised cosine filter, and $\beta$ is the roll-off factor.\\
-The OFDM mechanism is used in 802.11 and Wimax standards. It has good tolerance against multipath and the receiver is easier to implement. We will see the details of implementations in practical systems.\\
+The OFDM mechanism is used in 802.11 and Wimax standards. \cite{802_11} It has good tolerance against multipath and the receiver is easier to implement. We will see the details of implementations in practical systems.\\
 
 
 \section{OFDM Specifications in IEEE 802.11a Standard}
@@ -122,7 +122,7 @@ The physical layer in 802.11 is split into Physical Layer Convergence Protocol (
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=10cm]{content/fig/osi.JPG}
+\includegraphics[width=10cm]{content/fig/osi_ref_mdl.pdf}
 \caption{OSI Reference Model}
 \label{fig:osi_model}
 \end{figure}
@@ -134,7 +134,7 @@ In comparison to the fundamental architecture shown in Figure \ref{fig:osi_model
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=12cm]{content/fig/ieee_system_design.JPG}
+\includegraphics[width=12cm]{content/fig/practical_bb_ofdm.pdf}
 \caption{Architecture of an OFDM system}
 \label{fig:arch_ofdm_sys}
 \end{figure}
@@ -171,7 +171,7 @@ In the IEEE 802.11a transmitter, a 64 point IFFT multiplexes the orthogonal sub-
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=10cm]{content/fig/freq_alloc.JPG}
+\includegraphics[width=10cm]{content/fig/freq_alloc.pdf}
 \caption{The frequency allocation of IEEE 802.11a sub-carriers}
 \label{fig:freq_alloc}
 \end{figure}
@@ -275,11 +275,11 @@ As we already analyzed, 52 subcarriers are used for an OFDM data symbol and pilo
 
 
 \subsection{Origin of CFO}
-A simple model of a radio transmitter and receiver can depict the basis of the CFO source.
+A simple model of a radio transmitter and receiver can depict the basis of the CFO source. \cite{tse} \cite{salehi}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=10cm]{content/fig/cfo_radio_model.JPG}
+\includegraphics[width=10cm]{content/fig/drct_rf_mdl.pdf}
 \caption{General models of a direct conversion RF}
 \label{fig:cfo_radio_model}
 \end{figure}
@@ -315,8 +315,8 @@ signal is the baseband manifestation of carrier frequency offset.
 \subsection{Impact of CFO}
 \label{Impact_of_CFO}
 There are two destructive impacts on an OFDM system. Firstly, the phase offset across subcarriers in an symbol which can be  estimated and corrected in frequency domain to prevent errors in a constant rotated constellation. Some subcarriers are allocated as pilot tones which receiver can estimate phase errors.\\
-The second effect of CFO is the degradation of orthogonality between subcarriers in receiver's FFT which causes inter-carrier interference (ICI). ICI acts an effective SNR reduction as a result of CFO increasing. [...]\\
-The impact is displayed in Figure \ref{fig:cfo_impact_on_ici} which is shown simulated OFDM system uses 10 MHz bandwidth and 64 subcarriers, 48 of on a random 16-QAM data symbols. CFO and AWGN are applied between the transmitter and receiver. The receiver model uses perfect knowledge of the CFO to correct the phase offset in each OFDM symbol, but does not implement any correction for ICI.\\
+The second effect of CFO is the degradation of orthogonality between subcarriers in receiver's FFT which causes inter-carrier interference (ICI). ICI acts an effective SNR reduction as a result of CFO increasing.\\
+The impact is displayed in Figure \ref{fig:cfo_impact_on_ici} which is shown simulated OFDM system uses 10 MHz bandwidth and 64 subcarriers, 48 of on a random 16-QAM data symbols. CFO and AWGN are applied between the transmitter and receiver. The receiver model uses perfect knowledge of the CFO to correct the phase offset in each OFDM symbol, but does not implement any correction for ICI. \cite{murphy_thesis}\\
 
 \begin{figure}[h!]
 \centering
@@ -328,14 +328,15 @@ The impact is displayed in Figure \ref{fig:cfo_impact_on_ici} which is shown sim
 The results shows that for large CFOs errors caused by ICI dominate performance, even at high SNR. It is also
 clear that for small CFOs performance is dominated by SNR. Specifically, for frequency offsets smaller than 1 kHz, the
 performance degradation due to ICI is negligible.\\
-Let's focus on LTS part in a OFDM symbol, Figure \ref{fig:lts_time_domain}, for a while. In time domain, we have 160 samples in this section which creates to complete LTS symbols and a half. Each LTS symbol has 64 samples shown in Figure \ref{lts_time_domain}.\\
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=10cm]{content/fig/LTS_time_domain.JPG}
+\includegraphics{content/fig/lts_time_domain.pdf}
 \caption{LTS in Time Domain.}
 \label{fig:lts_time_domain}
 \end{figure}
+
+Let's focus on LTS part in a OFDM symbol, Figure \ref{fig:lts_time_domain}, for a while. In time domain, we have 160 samples in this section which creates to complete LTS symbols and a half and each LTS symbol has 64 samples.\\
 
 We can say:
 \begin{equation} \label{cfo_cal}
@@ -348,7 +349,7 @@ CFO_{EST} = \frac{f_{s}}{2\pi . 64^{2}} \sum\limits_{n=64}^{127} \phi_{n}- \phi_
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=10cm]{content/fig/cfo_est.JPG}
+\includegraphics{content/fig/time_dom_cfo_est.pdf}
 \caption{Time Domain CFO Estimation.}
 \label{fig:cfo_est}
 \end{figure}
@@ -368,7 +369,7 @@ Figure \ref{fig:ieee_preamble} shows the structure of the IEEE 802.1la standard 
 \label{fig:ieee_preamble}
 \end{figure}
 
-The packet detector is based on the Schimdl and Cox delay and correlate algorithm employed for acquiring symbol timing commonly. The algorithm, as illustrated in Figure \ref{schimdl_cox}, is basically a sliding window correlator combined with an energy detector used to normalize the decision statistic and hence guard against fluctuations of the input signal power level.\\
+The packet detector is based on the Schimdl and Cox delay and correlate algorithm employed for acquiring symbol timing commonly. \cite{sch_cox} The algorithm, as illustrated in Figure \ref{fig:schimdl_cox}, is basically a sliding window correlator combined with an energy detector used to normalize the decision statistic and hence guard against fluctuations of the input signal power level. \cite{dick}\\
 
 The sliding window P computes a auto-correlation between the input signal and a D-sample delayed version on short preamble interval. We chose D=16. The second sliding window R is used to compute the received signal energy in the cross-correlation interval.
 
@@ -388,7 +389,7 @@ M(n)= \dfrac{|P(n)|^{2}}{R(n)^{2}}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=10cm]{content/fig/schimdl_cox.JPG}
+\includegraphics[width=10cm]{content/fig/schl_cox_mdl.pdf}
 \caption{Schimdl and Cox Delay and Correlate Algorithm.}
 \label{fig:schimdl_cox}
 \end{figure}
