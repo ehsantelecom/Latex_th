@@ -3,45 +3,46 @@
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces OFDM System Model}}{8}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Basic baseband OFDM system}}{9}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces OSI Reference Model}}{11}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Architecture of an OFDM system}}{11}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces The frequency allocation of IEEE 802.11a sub-carriers}}{13}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Preamble of IEEE 802.11}}{16}{figure.2.6}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces General models of a direct conversion RF}}{16}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces OFDM performance loss due to CFO-induced ICI.}}{18}{figure.2.8}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces LTS in Time Domain.}}{18}{figure.2.9}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Time Domain CFO Estimation.}}{19}{figure.2.10}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces IEEE 802.11a preamble.}}{19}{figure.2.11}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Schimdl and Cox Delay and Correlate Algorithm.}}{20}{figure.2.12}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Input and Output of IDFT \cite {802_11}}}{7}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces OFDM System Model}}{8}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Basic baseband OFDM system}}{9}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces OSI Reference Model}}{11}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Architecture of an OFDM system}}{12}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Transmitter and receiver block diagram of OFDM PHY}}{12}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The frequency allocation of IEEE 802.11a sub-carriers}}{14}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Preamble of IEEE 802.11 \cite {802_11}}}{17}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces General models of a direct conversion RF}}{18}{figure.2.9}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces OFDM performance loss due to CFO-induced ICI.\cite {murphy_thesis}}}{19}{figure.2.10}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces LTS in Time Domain.}}{20}{figure.2.11}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Time Domain CFO Estimation.}}{20}{figure.2.12}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Schimdl and Cox Delay and Correlate Algorithm.}}{22}{figure.2.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces System Generator Cycle.}}{23}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces OFDM System..}}{23}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces OFDM Transmitter Block.}}{24}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces OFDM Receiver Block.}}{25}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Auto-Correlation Block.}}{26}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Fine Packet Detection Block.}}{26}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Complex Division Block.}}{26}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Division Block.}}{27}{figure.3.8}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces ZC706 Evaluation Borad Block Diagram.}}{28}{figure.3.9}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Xilinx Zynq-7000 SoC ZC706 Evaluation Kit}}{28}{figure.3.10}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces AD-FMCOMMS1-EBZ (Radio Board)}}{29}{figure.3.11}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces AD-FMCOMMS1-EBZ Block Diagram}}{29}{figure.3.12}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces AD9548 Block Diagram}}{30}{figure.3.13}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces CVHD-950 Ultra Low Phase Noise Oscillator}}{31}{figure.3.14}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Zynq-7000 Diagram}}{33}{figure.3.15}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Design Block Diagram}}{34}{figure.3.16}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Hardware set-up}}{35}{figure.3.17}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces System Generator Cycle.}}{24}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces OFDM System..}}{24}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces OFDM Transmitter Block.}}{25}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces OFDM Receiver Block.}}{26}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Auto-Correlation Block.}}{27}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Fine Packet Detection Block.}}{27}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Complex Division Block.}}{27}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Division Block.}}{28}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces ZC706 Evaluation Borad Block Diagram.}}{29}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Xilinx Zynq-7000 SoC ZC706 Evaluation Kit}}{29}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces AD-FMCOMMS1-EBZ (Radio Board)}}{30}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces AD-FMCOMMS1-EBZ Block Diagram}}{30}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces AD9548 Block Diagram}}{31}{figure.3.13}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces CVHD-950 Ultra Low Phase Noise Oscillator}}{32}{figure.3.14}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Zynq-7000 Diagram}}{34}{figure.3.15}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Design Block Diagram}}{35}{figure.3.16}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Hardware set-up}}{36}{figure.3.17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces OFDM Frame (I/Q) detected in Chipscope.}}{38}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces STS (I/Q) detected in Chipscope.}}{39}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Auto-Correlation detected in Chipscope.}}{39}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross-Correlation detected in Chipscope.}}{40}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces LTS Spectrum in Baseband chain (IF filter on 5MHz is enable)}}{40}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces LTS Spectrum- passed RF chain (IF filter on 5MHz is enable)}}{41}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces LTS Spectrum- passed RF chain (IF filter is disable)}}{41}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Frequency Response of a perfect channel detected in Chipscope}}{42}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Frequency Response of on air channel detected in Chipscope}}{42}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces OFDM Symbols of a 16QAM 64-byte message Coded 1/2 rate}}{43}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces OFDM Symbols of a 16QAM 64-byte message no-Coded}}{43}{figure.4.11}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces OFDM Frame (I/Q) detected in Chipscope.}}{39}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces STS (I/Q) detected in Chipscope.}}{40}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Auto-Correlation detected in Chipscope.}}{40}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross-Correlation detected in Chipscope.}}{41}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces LTS Spectrum in Baseband chain (IF filter on 5MHz is enable)}}{41}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces LTS Spectrum- passed RF chain (IF filter on 5MHz is enable)}}{42}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces LTS Spectrum- passed RF chain (IF filter is disable)}}{42}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Frequency Response of a perfect channel detected in Chipscope}}{43}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Frequency Response of on air channel detected in Chipscope}}{43}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces OFDM Symbols of a 16QAM 64-byte message Coded 1/2 rate}}{44}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces OFDM Symbols of a 16QAM 64-byte message no-Coded}}{44}{figure.4.11}

@@ -58,7 +58,14 @@ s(n)= s_{k}(\frac{nT}{N})= \sum\limits_{i=0}^{N-1} d_{i} \exp(j2\pi\frac{in}{N})
 \end{split}
 \end{equation}
 
-This represents an inverse DFT (IDFT) for PSK or QAM symbols.\\
+This represents an inverse DFT (IDFT) for PSK or QAM symbols.  See Figure \ref{fig:io_idft}.\\
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=10cm]{content/fig/io_idft.JPG}
+\caption{Input and Output of IDFT \cite{802_11}}
+\label{fig:io_idft}
+\end{figure}
 
 Figure \ref{fig:ofdmsystemmodel} presents the OFDM system block diagram. The first block represents the data source. They are the bits which an application may send. In the simulation it is realized by a random and fixed bit generator. The following QPSK modulation block converts this bits into symbols, which are complex numbers. Each symbol carries several bits. The third block is the first one actually relevant for OFDM. The serial symbol stream is converted into a channel and OFDM symbol structure. In the simulation it is represented in a matrix shape where the rows are different channels and each column is an OFDM symbol. This means that each OFDM symbol, formed by $c$ (\#channels) serial symbols (complex numbers), is distributed over the $c$ channels.\\
 
@@ -71,6 +78,7 @@ Figure \ref{fig:ofdmsystemmodel} presents the OFDM system block diagram. The fir
 \end{figure}
 
 In the next step zero channels are added in order to separate well subsequent OFDM symbols. For the simulation structure zero rows are added in the middle of the matrix. The following block interprets each symbol (complex number) of an OFDM symbol as a orthogonal frequency and converts each OFDM symbol per IFFT into a vector of time discrete values of the same length. As sixth step the cyclic prefix insertion is done. In order to maintain orthogonality of the frequencies but prevent ISI, an amount of \textit{guard values} are copied from the end of each OFDM symbol to its beginning. The number of rows in the simulation matrix grows by that by the number of \textit{guard values}.\\
+
 The following block is the NLA which depends on the optimization parameter $\beta$ (back-off). At this point the transmitter side ends. In order to simulate the multipath a convolution is made on each OFDM symbol with the delay filter. Since the simulation is made on each OFDM symbol separated, this operation works with a memory in order simulate a serial transmission.\\
 The receiver side is just the opposite of the transmitter. In the cyclic prefix remover the copied values are deleted and the simulation matrix size decreases. The next block performs the FFT on each OFDM symbol which reconstructs the as frequencies interpreted complex numbers.\\ The following equalization block tries to remove the effect of the multipath. For the simulation a multiplication with the inverted transfer function of the multipath is operated. By this, only the phase of the complex symbols changes.\\ 
 Finally, the zero channels are removed and the matrix structure is reconverted to a series of symbols. The following analysis is done on the received symbols and consequently they are not demodulated into a bit-stream.\\
@@ -78,7 +86,7 @@ According to the above analysis, the basic architecture for a baseband OFDM syst
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=12cm]{content/fig/basic_bb_ofdm.pdf}
+\includegraphics[width=\textwidth]{content/fig/basic_bb_ofdm.pdf}
 \caption{Basic baseband OFDM system}
 \label{fig:basic_ofdm}
 \end{figure}
@@ -122,7 +130,7 @@ The physical layer in 802.11 is split into Physical Layer Convergence Protocol (
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=10cm]{content/fig/osi_ref_mdl.pdf}
+\includegraphics[width=\textwidth]{content/fig/osi_ref_mdl.pdf}
 \caption{OSI Reference Model}
 \label{fig:osi_model}
 \end{figure}
@@ -134,10 +142,21 @@ In comparison to the fundamental architecture shown in Figure \ref{fig:osi_model
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=12cm]{content/fig/practical_bb_ofdm.pdf}
+\includegraphics[width=\textwidth]{content/fig/practical_bb_ofdm.pdf}
 \caption{Architecture of an OFDM system}
 \label{fig:arch_ofdm_sys}
 \end{figure}
+
+Considering the radio frequency parts, Figure \ref{fig:tx_rx_ofdm_phy} is concluded \cite{802_11}.\\
+ 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=12cm]{content/fig/tx_rx_ofdm_phy.jpg}
+\caption{Transmitter and receiver block diagram of OFDM PHY}
+\label{fig:tx_rx_ofdm_phy}
+\end{figure}
+
+
 
 At the receiver side, the frame synchronization and detection for both timing and frequency is performed in the first stage. Channel estimation is performed after the FFT block outputs the preambles in the frequency domain. The result is fed back to the FFT block for the equalization, which eliminates the effects of fading channel, while the fine synchronization for both timing and frequency is also added to further improve the system performance.\\
 At least these basic parameters should be specified for a system design:
@@ -171,7 +190,7 @@ In the IEEE 802.11a transmitter, a 64 point IFFT multiplexes the orthogonal sub-
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=10cm]{content/fig/freq_alloc.pdf}
+\includegraphics[width=\textwidth]{content/fig/freq_alloc.pdf}
 \caption{The frequency allocation of IEEE 802.11a sub-carriers}
 \label{fig:freq_alloc}
 \end{figure}
@@ -223,7 +242,7 @@ Data rate&Modulation&Code Rate&Coded bits per symbol&Data bits per symbol\\ \hli
 24 Mbps&16QAM&1/2&192&96\\
 36 Mbps&16QAM&3/4&192&144\\
 \end{tabular}
-\caption{Rate dependant parameters in IEEE 802.11a Standard}
+\caption{Rate dependant parameters in IEEE 802.11a Standard \cite{802_11}}
 \label{table:code_vs_rate}
 \end{table}
 
@@ -265,8 +284,8 @@ The picture below shows the OFDM packet data layout. It starts with training seq
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=10cm]{content/fig/ofdm_frame.JPG}
-\caption{Preamble of IEEE 802.11}
+\includegraphics[width=\textwidth]{content/fig/ofdm_frame.JPG}
+\caption{Preamble of IEEE 802.11 \cite{802_11}}
 \label{fig:preamble_ieee}
 \end{figure}
 
@@ -279,7 +298,7 @@ A simple model of a radio transmitter and receiver can depict the basis of the C
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=10cm]{content/fig/drct_rf_mdl.pdf}
+\includegraphics[width=\textwidth]{content/fig/drct_rf_mdl.pdf}
 \caption{General models of a direct conversion RF}
 \label{fig:cfo_radio_model}
 \end{figure}
@@ -321,7 +340,7 @@ The impact is displayed in Figure \ref{fig:cfo_impact_on_ici} which is shown sim
 \begin{figure}[h!]
 \centering
 \includegraphics[width=10cm]{content/fig/cfo_on_ici.JPG}
-\caption{OFDM performance loss due to CFO-induced ICI.}
+\caption{OFDM performance loss due to CFO-induced ICI.\cite{murphy_thesis}}
 \label{fig:cfo_impact_on_ici}
 \end{figure}
 
@@ -360,14 +379,7 @@ Which $CFO_{EST}$ is the estimated CFO. To have such the structure in the Simuli
 \label{section:sync}
 
 The synchronization tasks is challenging in an OFDM-based communication system. Prior to performing channel estimation equalization and demodulation, OFDM symbol timing must be detected. The receiver has no information when a packet starts, and so the first synchronization task is packet detection. Once a packet has been detected the remaining synchronization functions include coarse and fine timing recovery and carrier recovery.\\
-Figure \ref{fig:ieee_preamble} shows the structure of the IEEE 802.1la standard preamble. The 10 short preambles ($A_{1}$-$A_{10}$) are identical 16- sample duration sequences. The cyclic prefix ($CP$) is a 32- sample sequence and the long preambles ($C_{1}$ and $C_{2}$) are identical 64-sample sequences. As indicated in the figure, the various fields are used for packet detection, automatic gain control (AGC), diversity selection, coarse and fine frequency offset estimation, fine symbol timing estimation and channel estimation.\\
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=10cm]{content/fig/ieee_preamble.JPG}
-\caption{IEEE 802.11a preamble.}
-\label{fig:ieee_preamble}
-\end{figure}
+Figure \ref{fig:preamble_ieee} shows the structure of the IEEE 802.1la standard preamble. The 10 short preambles ($t_{1}$-$t_{10}$) are identical 16- sample duration sequences. The cyclic prefix ($GI2$) is a 32- sample sequence and the long preambles ($T_{1}$ and $T_{2}$) are identical 64-sample sequences. As indicated in the figure, the various fields are used for packet detection, automatic gain control (AGC), diversity selection, coarse and fine frequency offset estimation, fine symbol timing estimation and channel estimation.\\
 
 The packet detector is based on the Schimdl and Cox delay and correlate algorithm employed for acquiring symbol timing commonly. \cite{sch_cox} The algorithm, as illustrated in Figure \ref{fig:schimdl_cox}, is basically a sliding window correlator combined with an energy detector used to normalize the decision statistic and hence guard against fluctuations of the input signal power level. \cite{dick}\\
 
@@ -389,7 +401,7 @@ M(n)= \dfrac{|P(n)|^{2}}{R(n)^{2}}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=10cm]{content/fig/schl_cox_mdl.pdf}
+\includegraphics[width=\textwidth]{content/fig/schl_cox_mdl.pdf}
 \caption{Schimdl and Cox Delay and Correlate Algorithm.}
 \label{fig:schimdl_cox}
 \end{figure}

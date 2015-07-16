@@ -89,7 +89,7 @@
 \def\corsodidottorato#1{\global\dottoratotrue\global\laureatriennalefalse\gdef\@corso{#1}}
 \def\ateneo#1{\gdef\@ateneo{\expandafter\uppercase{\expandafter #1}}}
 \def\nomeateneo#1{\gdef\@nomeat{\expandafter\uppercase{\expandafter #1}}}
-\newcommand\facolta[2][]{\gdef\@facolta{\def\@tempA{#1}\ifx\@tempA\empty\else#1 \fi Facolt\`{a} di #2}}
+\newcommand\facolta[2][]{\gdef\@facolta{\def\@tempA{#1}\ifx\@tempA\empty\else#1 \fi Department of #2}}
 \def\@title{}
 \def\@author{}
 \def\@principaladviser{}
@@ -179,7 +179,7 @@
             \ifdottorato
                   {Dottorato in \@corso\ifx\@ciclo\empty\else\\\@ciclo\fi}%
             \else
-                  {Tesi di Laurea Magistrale \@corso}%
+                  {\@corso} %{Tesi di Laurea Magistrale \@corso}%
             \fi
             \par}
       \fi

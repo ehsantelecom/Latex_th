@@ -1,9 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.22)  12 JUL 2015 23:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.5)  16 JUL 2015 00:03
 entering extended mode
 **part2.tex
-
-("C:\Documents and Settings\User\Desktop\Latex_th-master\Latex_th\CDC\content\p
-art2.tex"
+("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\content\part2.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -5832,6 +5830,23 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{802_11}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.102 ...802.11 and Wimax standards. \cite{802_11}
+                                                   It has good tolerance aga...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `802_11' on page  undefined on input line 102.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -6003,6 +6018,11 @@ $\OML/cmm/m/it/10 t[]\OT1/cmr/m/n/10 )$
 
 Overfull \hbox (6.18402pt too wide) in paragraph at lines 99--103
 $\OML/cmm/m/it/10 $
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 99--103
+[]
  []
 
 ! Undefined control sequence.
@@ -11637,8 +11657,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 \newlabel{sec:chapter_2}{{}{}}
-{C:/Documents and Settings/All Users/Application Data/MiKTeX/2.9/pdftex/config/
-pdftex.map}
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 ! Undefined control sequence.
 <write> \newlabel{general_form}{{1}{\thepage 
                                              }}
@@ -12108,7 +12127,8 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.226 \caption
-              {Rate dependant parameters in IEEE 802.11a Standard}
+              {Rate dependant parameters in IEEE 802.11a Standard \cite{802_...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -12156,6 +12176,23 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{802_11}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.226 ...rs in IEEE 802.11a Standard \cite{802_11}
+                                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `802_11' on page  undefined on input line 226.
+
+Missing character: There is no ] in font nullfont!
 
 ! LaTeX Error: \begin{document} ended by \end{table}.
 
@@ -12168,6 +12205,11 @@ l.228 \end{table}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 217--229
+[]
+ []
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -15221,9 +15263,24 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.269 \caption
-              {Preamble of IEEE 802.11}
+              {Preamble of IEEE 802.11 \cite{802_11}}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+\citation{802_11}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.269 ...ion{Preamble of IEEE 802.11 \cite{802_11}
+                                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `802_11' on page  undefined on input line 269.
 
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
@@ -15266,7 +15323,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 266--272
  []
 
 
-Overfull \hbox (164.75401pt too wide) in paragraph at lines 266--272
+Overfull \hbox (175.74011pt too wide) in paragraph at lines 266--272
 $[]\OML/cmm/m/it/10 rame:JPG[][]$ 
  []
 
@@ -15844,9 +15901,53 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{tse}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.278 ...t the basis of the CFO source. \cite{tse}
+                                                   \cite{salehi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `tse' on page  undefined on input line 278.
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{salehi}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.278 ... the CFO source. \cite{tse} \cite{salehi}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `salehi' on page  undefined on input line 278.
+
+Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 277--279
 []
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 277--279
+[]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 277--279
+[] 
  []
 
 
@@ -15868,25 +15969,13 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.282 \includegraphics
-                      [width=10cm]{content/fig/drct_rf_mdl.pdf}
+                      {content/fig/drct_rf_mdl.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no [ in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no ] in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -15906,13 +15995,13 @@ Missing character: There is no t in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.282 ...udegraphics[width=10cm]{content/fig/drct_
-                                                  rf_mdl.pdf}
+l.282 \includegraphics{content/fig/drct_
+                                        rf_mdl.pdf}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.282 ...[width=10cm]{content/fig/drct_rf_mdl.pdf}
+l.282 ...ludegraphics{content/fig/drct_rf_mdl.pdf}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -21199,10 +21288,10 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 47 strings out of 493921
- 798 string characters out of 3147231
+ 50 strings out of 493921
+ 741 string characters out of 3147265
  66031 words of memory out of 3000000
- 3436 multiletter control sequences out of 15000+200000
+ 3439 multiletter control sequences out of 15000+200000
  4294 words of font info for 16 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  19i,9n,21p,919b,112s stack positions out of 5000i,500n,10000p,200000b,50000s
