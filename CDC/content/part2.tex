@@ -78,8 +78,6 @@ Figure \ref{fig:ofdmsystemmodel} presents the OFDM system block diagram. The fir
 \end{figure}
 
 In the next step zero channels are added in order to separate well subsequent OFDM symbols. For the simulation structure zero rows are added in the middle of the matrix. The following block interprets each symbol (complex number) of an OFDM symbol as a orthogonal frequency and converts each OFDM symbol per IFFT into a vector of time discrete values of the same length. As sixth step the cyclic prefix insertion is done. In order to maintain orthogonality of the frequencies but prevent ISI, an amount of \textit{guard values} are copied from the end of each OFDM symbol to its beginning. The number of rows in the simulation matrix grows by that by the number of \textit{guard values}.\\
-
-The following block is the NLA which depends on the optimization parameter $\beta$ (back-off). At this point the transmitter side ends. In order to simulate the multipath a convolution is made on each OFDM symbol with the delay filter. Since the simulation is made on each OFDM symbol separated, this operation works with a memory in order simulate a serial transmission.\\
 The receiver side is just the opposite of the transmitter. In the cyclic prefix remover the copied values are deleted and the simulation matrix size decreases. The next block performs the FFT on each OFDM symbol which reconstructs the as frequencies interpreted complex numbers.\\ The following equalization block tries to remove the effect of the multipath. For the simulation a multiplication with the inverted transfer function of the multipath is operated. By this, only the phase of the complex symbols changes.\\ 
 Finally, the zero channels are removed and the matrix structure is reconverted to a series of symbols. The following analysis is done on the received symbols and consequently they are not demodulated into a bit-stream.\\
 According to the above analysis, the basic architecture for a baseband OFDM system that contains the essential parts is shown in Figure \ref{fig:basic_ofdm}.\\
@@ -292,8 +290,12 @@ The picture below shows the OFDM packet data layout. It starts with training seq
 
 As we already analyzed, 52 subcarriers are used for an OFDM data symbol and pilot. Oversampling is achieved by adding 12 null subcarriers in order to eliminate aliasing which might occur during digital to analog conversion. Because FFT shift is performed, the null subcarriers with a value of zero are located in the middle of the input vector for the IFFT block. Note that dc carrier is not used to transmit data. The short and long training sequences can also be applied to this mapping rule, since they both have a length of 52 samples with frequency index from -26 to +26.\\
 
+\section{Carrier Frequency Offsets}
+\label{sec_simstruct}
+As a result of the frequency variation between local oscillators of the transmitter and the receiver nodes that generate the carrier signals, carrier frequency offsets (CFO) is happened. It causes when the baseband signal is going to be translated to RF. The issue is understood well but the impact to overcome CFO and suppression this phenomena is always depend on the specific parameters of the given transceiver and the hardware.\\
+The origin of the CFO effect is studied in this section. We explore in a specific scenario of OFDM and the impact on the hardware design. Both simulation and experiments will be demonstrated and the CFO estimation and compensation is described.\\
 
-\subsection{Origin of CFO}
+\subsection{Origin of Carrier Frequency Offsets}
 A simple model of a radio transmitter and receiver can depict the basis of the CFO source. \cite{tse} \cite{salehi}
 
 \begin{figure}[h!]
@@ -331,7 +333,7 @@ D_{BB} & = LPF(\frac{(S_{BB} e^{jt\omega_{S}} + S^{*}_{BB} e^{-jt\omega_{S}})e^{
 The received baseband signal is equal to the original baseband signal modulated by a complex sinusoid. In the frequency domain, this gives a received spectrum equal to the transmitted one, only shifted away from DC by the difference in the carrier frequencies of the transmitter and receiver (i.e. $\omega_{S}- \omega_{D}$). This shift of the received
 signal is the baseband manifestation of carrier frequency offset.
 
-\subsection{Impact of CFO}
+\subsection{Impact of Carrier Frequency Offsets}
 \label{Impact_of_CFO}
 There are two destructive impacts on an OFDM system. Firstly, the phase offset across subcarriers in an symbol which can be  estimated and corrected in frequency domain to prevent errors in a constant rotated constellation. Some subcarriers are allocated as pilot tones which receiver can estimate phase errors.\\
 The second effect of CFO is the degradation of orthogonality between subcarriers in receiver's FFT which causes inter-carrier interference (ICI). ICI acts an effective SNR reduction as a result of CFO increasing.\\
@@ -375,7 +377,7 @@ CFO_{EST} = \frac{f_{s}}{2\pi . 64^{2}} \sum\limits_{n=64}^{127} \phi_{n}- \phi_
 
 Which $CFO_{EST}$ is the estimated CFO. To have such the structure in the Simulink we can arrange as Figure \ref{fig:cfo_est}.
 
-\subsection{Synchronization}
+\section{Synchronization}
 \label{section:sync}
 
 The synchronization tasks is challenging in an OFDM-based communication system. Prior to performing channel estimation equalization and demodulation, OFDM symbol timing must be detected. The receiver has no information when a packet starts, and so the first synchronization task is packet detection. Once a packet has been detected the remaining synchronization functions include coarse and fine timing recovery and carrier recovery.\\
@@ -406,7 +408,7 @@ M(n)= \dfrac{|P(n)|^{2}}{R(n)^{2}}
 \label{fig:schimdl_cox}
 \end{figure}
 
-\subsection{Channel Estimation and Distortion Reject}
+\section{Channel Estimation and Distortion Reject}
 \label{section:channel_est}
 
 Imagine the estimated channel is $\hat{H}$ and the input information is $A$. So, we can expect to compensate the signal as below:\\

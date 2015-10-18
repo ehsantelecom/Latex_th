@@ -12,9 +12,9 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces The frequency allocation of IEEE 802.11a sub-carriers}}{14}{figure.2.7}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Preamble of IEEE 802.11 \cite {802_11}}}{17}{figure.2.8}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces General models of a direct conversion RF}}{18}{figure.2.9}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces OFDM performance loss due to CFO-induced ICI.\cite {murphy_thesis}}}{19}{figure.2.10}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces OFDM performance loss due to CFO-induced ICI.\cite {murphy_thesis}}}{20}{figure.2.10}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces LTS in Time Domain.}}{20}{figure.2.11}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Time Domain CFO Estimation.}}{20}{figure.2.12}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Time Domain CFO Estimation.}}{21}{figure.2.12}
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Schimdl and Cox Delay and Correlate Algorithm.}}{22}{figure.2.13}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces System Generator Cycle.}}{24}{figure.3.1}
@@ -35,14 +35,14 @@
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Design Block Diagram}}{35}{figure.3.16}
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Hardware set-up}}{36}{figure.3.17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces OFDM Frame (I/Q) detected in Chipscope.}}{39}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces STS (I/Q) detected in Chipscope.}}{40}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Auto-Correlation detected in Chipscope.}}{40}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross-Correlation detected in Chipscope.}}{41}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces LTS Spectrum in Baseband chain (IF filter on 5MHz is enable)}}{41}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces LTS Spectrum- passed RF chain (IF filter on 5MHz is enable)}}{42}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces LTS Spectrum- passed RF chain (IF filter is disable)}}{42}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Frequency Response of a perfect channel detected in Chipscope}}{43}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Frequency Response of on air channel detected in Chipscope}}{43}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces OFDM Symbols of a 16QAM 64-byte message Coded 1/2 rate}}{44}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces OFDM Symbols of a 16QAM 64-byte message no-Coded}}{44}{figure.4.11}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces OFDM Frame (I/Q) detected in Chipscope.}}{38}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces STS (I/Q) detected in Chipscope.}}{39}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Auto-Correlation detected in Chipscope.}}{39}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross-Correlation detected in Chipscope.}}{40}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces LTS Spectrum in Baseband chain (IF filter on 5MHz is enable)}}{40}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces LTS Spectrum- passed RF chain (IF filter on 5MHz is enable)}}{41}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces LTS Spectrum- passed RF chain (IF filter is disable)}}{41}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Frequency Response of a perfect channel detected in Chipscope}}{42}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Frequency Response of on air channel detected in Chipscope}}{42}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces OFDM Symbols of a 16QAM 64-byte message Coded 1/2 rate}}{43}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces OFDM Symbols of a 16QAM 64-byte message no-Coded}}{43}{figure.4.11}

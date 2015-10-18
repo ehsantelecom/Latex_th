@@ -1,0 +1,86 @@
+First of all I should express my special appreciation for this opportunity
+And the time of the committee to accept the remote defence
+
+
+My thesis totally is done in the University of Waterloo under the supervision
+of Prof. Khandani in Communication System and Transmission LAB for a 1 year 
+duration starts in March 2014
+However, I tried to keep my contacts with my supervisors in Politecnico and
+there are write time-to-time to ask their opinions and have their confirmations.
+
+Ok, I will sort-out all the discussions in 3 phases, in the first one I will
+describe the goals and challenges and a short introduction to OFDM
+Then the theory, design and architecture is introduced.
+Finally, the samples acqusated from the hardware will be discussed
+
+
+Orthogonal Frequency Division Multiplexing has been adopted in the Wi-Fi arena
+ where the standards like 802.11a, 802.11n, 802.11ac and DVB. It has also been
+ chosen for the cellular telecommunications standard LTE / LTE-A, and in addition
+to this it has been adopted by other standards such as WiMAX and many more. 
+
+in comparison to the conventional single carrier communications, An OFDM signal
+consists of a number of closely spaced modulated carriers. 
+When modulation of any form - voice, data, etc.
+
+Although the sidebands from each carrier overlap, they can still be received
+ without the interference that might be expected because they are orthogonal
+ to each another. This is achieved by having the carrier spacing equal to the
+ reciprocal of the symbol period. It is more mathematical theory that I will
+ not go through. 
+ 
+ Any non-linearity will cause interference between the carriers as a result
+ of inter-modulation distortion. This will introduce unwanted signals that
+ would cause interference and impair the orthogonality of the transmission.
+ 
+ 
+ 
+Immunity to selective fading:   One of the main advantages of OFDM is that is 
+more resistant to frequency selective fading than single carrier systems 
+because it divides the overall channel into multiple narrowband signals that
+ are affected individually as flat fading sub-channels.
+
+Resilience to interference:   Interference appearing on a channel may be bandwidth
+ limited and in this way will not affect all the sub-channels. This means that not
+ all the data is lost.
+
+Spectrum efficiency:   Using close-spaced overlapping sub-carriers, a significant OFDM
+ advantage is that it makes efficient use of the available spectrum.
+
+Resilient to ISI:   Another advantage of OFDM is that it is very resilient to inter-symbol
+ and inter-frame interference. This results from the low data rate on each of the sub-channels.
+
+Simpler channel equalisation:   One of the issues with CDMA systems was the complexity of the
+ channel equalisation which had to be applied across the whole channel. An advantage of OFDM
+ is that using multiple sub-channels, the channel equalization becomes much simpler.
+ 
+High peak to average power ratio:   An OFDM signal has a noise like amplitude variation and has
+ a relatively high large dynamic range, or peak to average power ratio. This impacts the RF
+ amplifier efficiency as the amplifiers need to be linear and accommodate the large amplitude
+ variations and these factors mean the amplifier cannot operate with a high efficiency level.
+Sensitive to carrier offset and drift:   Another disadvantage of OFDM is that is sensitive to
+ carrier frequency offset and drift. Single carrier systems are less sensitive.
+ 
+ Now, this is the list of main goal for the thesis, 
+ A fundamental OFDM system on FPGA based on the standard 802.11a which is a basic one is needed.
+ It is used at present for other team members to develop their innovative architecture for
+ full-duplex communications and also new coding mechanism. 
+ The main part of the OFDM system is going to implement logic but communicating to the outside
+ we enjoyed using a processor... in our work we have chosen from Zynq family of Xilinx company
+ that has an ARM A9 processor. It has a lot of useful ports and peripherals like UART, I2C and 
+ specially EMAC or ethernet communication.
+ A bridge is essential between two sections (logic and processor sections). we used Block RAMs
+ which communicate via AXI bus in the design. In many cases we used Direct Memory Access between
+ elements. For instance, between logic and processor, and processor and ethernet port.
+ The other important task is to choose a suitable radio board which can meet the requirements of 
+accuracy and stabilities... the clock stability and ADC/ DAC precision
+At the end of the day, a correct methodology for the testing each elements individually and together.
+
+
+This is a very basic OFDM system block diagram, as you can see,  the IFFT/ FFT blocks is facilitated
+the implementation of the modulation and it can be proven by mathematical theory
+the tones are extracted by IFFT and the cyclic prefix is added and the serialized
+before the channel blocks there are RF elements like power amplifier and modulators
+and clock chain ICs. The the inverse operation is done in the reciver.
+
+ 

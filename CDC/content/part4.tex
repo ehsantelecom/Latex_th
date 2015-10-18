@@ -125,12 +125,10 @@ Number of DSP48E1s&149&900&16\% \\
 
 Keep in mind this table shows all the utilization of the ADC/DAC interface, BRAM, clock generator and OFDM PHY module. For OFDM PHY module we could reach Net Skew 0.51 ns and maximum  Delay $1.91 ns$. About the ARM processor, we used one of the ARM cores although we have a dual core architecture. It works with $666.6 MHz$ clock. It is almost 20\% of the processor.\\
 
-\section{Conclusion}
+\section{Conclusion and Future Work}
 
 This thesis has presented the theoretical analysis and simulation and  FPGA implementation details of a baseband OFDM system with channel estimation and timing synchronization. A radio board also is explained for the practical usage and proof of the feasibility. The OFDM system is prototyped based on IEEE 802.11a standard and transmits/receives signals on a 20 MHz bandwidth. The conceptual design is done in System Generator and ported on a FPGA. With QPSK modulation scheme, the system achieves a throughput of 24 Mbps.\\
 Another critical part of the project is to reach an acceptable communication bit-rate in the processor side to the peripherals, more specifically Ethernet, for conveying data between two PC which is done perfectly.\\
-
-\subsection{Future Work}
 No doubt, System Generator is a very powerful tool for conceptual proof but is not still an industrial support. There are still difference in the Simulation in Matlab and what we have in the hardware. To overcome this issue we needed to make some changes to have a logical margin of the hardware difficulties. The resource consumption is not very optimized which expected to have better performance using VHDL programming. There are many low-level techniques to manage the power, speed and area which is not applicable in the system.\\
 Some other problems like model-based system maintenance, extend for the future and the bug detection difficulties make us to hesitate to industrialized a System Generator model at the moment. However, the accuracy of the theory is done perfectly in the current mechanism.\\
 There are some projects in the department to extend the model for MIMO system design which is a good starting point. Besides, they try to upgrade the FFT point to higher levels for better bandwidth usage. A customized radio board is in the future program activities.\\

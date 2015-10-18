@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.5)  16 JUL 2015 02:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.5)  3 OCT 2015 19:55
 entering extended mode
 **Thesis_main.tex
 ("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\Thesis_main.tex"
@@ -884,7 +884,7 @@ Package epstopdf Info: Source file: <Polito_UW.eps>
 pdf Polito_UW.eps>
 (epstopdf)             \includegraphics on input line 147.
 Package epstopdf Info: Output file is already uptodate.
-<Polito_UW-eps-converted-to.pdf, id=131, 529.98pt x 160.6pt>
+<Polito_UW-eps-converted-to.pdf, id=127, 529.98pt x 160.6pt>
 File: Polito_UW-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Polito_UW-eps-converted-to.pdf>
@@ -1076,7 +1076,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-<content/fig/io_idft.JPG, id=356, 435.87843pt x 284.56313pt>
+<content/fig/io_idft.JPG, id=351, 435.87843pt x 284.56313pt>
 File: content/fig/io_idft.JPG Graphic file (type jpg)
 
 <use content/fig/io_idft.JPG>
@@ -1087,21 +1087,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-<content/fig/ofdmmodel1.JPG, id=359, 763.35187pt x 444.15938pt>
+<content/fig/ofdmmodel1.JPG, id=354, 763.35187pt x 444.15938pt>
 File: content/fig/ofdmmodel1.JPG Graphic file (type jpg)
 
 <use content/fig/ofdmmodel1.JPG>
 Package pdftex.def Info: content/fig/ofdmmodel1.JPG used on input line 74.
 (pdftex.def)             Requested size: 426.79134pt x 248.32768pt.
 
-<content/fig/ofdmmodel2.JPG, id=360, 724.20563pt x 429.10312pt>
+<content/fig/ofdmmodel2.JPG, id=355, 724.20563pt x 429.10312pt>
 File: content/fig/ofdmmodel2.JPG Graphic file (type jpg)
 
 <use content/fig/ofdmmodel2.JPG>
 Package pdftex.def Info: content/fig/ofdmmodel2.JPG used on input line 75.
 (pdftex.def)             Requested size: 426.79134pt x 252.88054pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
 
  []
 
@@ -1119,7 +1119,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.81 
+l.84 
       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/io_idft.JPG>]
 [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}
 ) has been already used, duplicate ignored
@@ -1139,18 +1139,14 @@ l.81
                         \@iwhilesw {#1#2}\fi \fi 
 <output> ...@fcolmade \fi {\@opcol \@startcolumn }
                                                   \fi \ifnum \outputpenalty ...
-l.81 
+l.84 
       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/ofdmmodel1.JPG> <C
 :/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/ofdmmodel2.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
-
- []
-
-<content/fig/basic_bb_ofdm.pdf, id=372, 453.19313pt x 194.22563pt>
+<content/fig/basic_bb_ofdm.pdf, id=367, 453.19313pt x 194.22563pt>
 File: content/fig/basic_bb_ofdm.pdf Graphic file (type pdf)
 
 <use content/fig/basic_bb_ofdm.pdf>
-Package pdftex.def Info: content/fig/basic_bb_ofdm.pdf used on input line 89.
+Package pdftex.def Info: content/fig/basic_bb_ofdm.pdf used on input line 87.
 (pdftex.def)             Requested size: 426.79134pt x 182.90996pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1169,32 +1165,65 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-<everydisplay> 
-               \check@mathfonts \the \everydisplay 
-\mathdisplay #1->\ifmmode \@badmath \else $$
-                                            \def \@currenvir {#1}\let \dspbr...
-l.95 \begin{equation}
-                      \label{ofdm_window} <C:/Users/Aftab Ahmed/Desktop/Latex_t
-h/CDC/content/fig/basic_bb_ofdm.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 107--111
+<to be read again> 
+                   \global 
+\endmathdisplay ...fi \endmathdisplay@a $$\global 
+                                                  \let \df@label \@empty \gl...
+
+\endequation ->\endmathdisplay {equation}
+                                         \mathdisplay@pop \ignorespacesafter...
+
+\end #1->\csname end#1\endcsname 
+                                 \@checkend {#1}\expandafter \endgroup \if@e...
+l.103 \end{equation}
+                     <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/bas
+ic_bb_ofdm.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 105--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
-[10] <content/fig/osi_ref_mdl.pdf, id=390, 337.26pt x 180.675pt>
+<content/fig/osi_ref_mdl.pdf, id=379, 337.26pt x 180.675pt>
 File: content/fig/osi_ref_mdl.pdf Graphic file (type pdf)
 
 <use content/fig/osi_ref_mdl.pdf>
-Package pdftex.def Info: content/fig/osi_ref_mdl.pdf used on input line 133.
+Package pdftex.def Info: content/fig/osi_ref_mdl.pdf used on input line 131.
 (pdftex.def)             Requested size: 426.79134pt x 228.64417pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
+
+<content/fig/practical_bb_ofdm.pdf, id=387, 593.96906pt x 293.59688pt>
+File: content/fig/practical_bb_ofdm.pdf Graphic file (type pdf)
+
+<use content/fig/practical_bb_ofdm.pdf>
+Package pdftex.def Info: content/fig/practical_bb_ofdm.pdf used on input line 1
+43.
+(pdftex.def)             Requested size: 426.79134pt x 210.96846pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+<content/fig/tx_rx_ofdm_phy.jpg, id=390, 646.66594pt x 291.33844pt>
+File: content/fig/tx_rx_ofdm_phy.jpg Graphic file (type jpg)
+
+<use content/fig/tx_rx_ofdm_phy.jpg>
+Package pdftex.def Info: content/fig/tx_rx_ofdm_phy.jpg used on input line 152.
+
+(pdftex.def)             Requested size: 341.43306pt x 153.82182pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4
 }) has been already used, duplicate ignored
@@ -1210,29 +1239,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--142
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.142 
+l.161 
        <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/osi_ref_mdl.pdf>]
-<content/fig/practical_bb_ofdm.pdf, id=402, 593.96906pt x 293.59688pt>
-File: content/fig/practical_bb_ofdm.pdf Graphic file (type pdf)
-
-<use content/fig/practical_bb_ofdm.pdf>
-Package pdftex.def Info: content/fig/practical_bb_ofdm.pdf used on input line 1
-45.
-(pdftex.def)             Requested size: 426.79134pt x 210.96846pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
-<content/fig/tx_rx_ofdm_phy.jpg, id=405, 646.66594pt x 291.33844pt>
-File: content/fig/tx_rx_ofdm_phy.jpg Graphic file (type jpg)
-
-<use content/fig/tx_rx_ofdm_phy.jpg>
-Package pdftex.def Info: content/fig/tx_rx_ofdm_phy.jpg used on input line 154.
-
-(pdftex.def)             Requested size: 341.43306pt x 153.82182pt.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-5}) has been already used, duplicate ignored
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1245,9 +1255,18 @@ Package pdftex.def Info: content/fig/tx_rx_ofdm_phy.jpg used on input line 154.
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.163 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-2.6}) has been already used, duplicate ignored
+<argument> \@itempenalty 
+                         
+\addpenalty ...e \ifdim \lastskip =\z@ \penalty #1
+                                                  \relax \else \@tempskipb \...
+
+\@item ...ip }\fi \else \addpenalty \@itempenalty 
+                                                  \addvspace \itemsep \fi \g...
+<to be read again> 
+                   A
+l.165   \item A
+               vailable bandwidthpdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1260,47 +1279,61 @@ l.163
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.163 
-       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/practical_bb_ofdm
-.pdf> <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/tx_rx_ofdm_phy.jpg
->]
-Underfull \hbox (badness 10000) in paragraph at lines 171--175
+<argument> \@itempenalty 
+                         
+\addpenalty ...e \ifdim \lastskip =\z@ \penalty #1
+                                                  \relax \else \@tempskipb \...
+
+\@item ...ip }\fi \else \addpenalty \@itempenalty 
+                                                  \addvspace \itemsep \fi \g...
+<to be read again> 
+                   A
+l.165   \item A
+               vailable bandwidth <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/co
+ntent/fig/practical_bb_ofdm.pdf> <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/con
+tent/fig/tx_rx_ofdm_phy.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 169--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
-[13] <content/fig/freq_alloc.pdf, id=427, 522.45187pt x 159.59625pt>
+[13] <content/fig/freq_alloc.pdf, id=422, 522.45187pt x 159.59625pt>
 File: content/fig/freq_alloc.pdf Graphic file (type pdf)
 
 <use content/fig/freq_alloc.pdf>
-Package pdftex.def Info: content/fig/freq_alloc.pdf used on input line 193.
+Package pdftex.def Info: content/fig/freq_alloc.pdf used on input line 191.
 (pdftex.def)             Requested size: 426.79134pt x 130.3754pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 
-Overfull \hbox (23.95294pt too wide) in paragraph at lines 236--245
+Overfull \hbox (23.95294pt too wide) in paragraph at lines 234--243
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
@@ -1328,15 +1361,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
 \end #1->\csname end#1\endcsname 
                                  \@checkend {#1}\expandafter \endgroup \if@e...
-l.253 \end{equation}
+l.257 \end{equation}
                      <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/fre
 q_alloc.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
 
@@ -1354,9 +1382,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--262
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.262 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.2
-.2}) has been already used, duplicate ignored
+<everydisplay> 
+               \check@mathfonts \the \everydisplay 
+\mathdisplay #1->\ifmmode \@badmath \else $$
+                                            \def \@currenvir {#1}\let \dspbr...
+l.268 \begin{equation}
+                       \label{sym_ofdm}pdfTeX warning (ext4): destination with 
+the same identifier (name{table.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1369,32 +1401,31 @@ l.262
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.262 
-      ]
-Underfull \hbox (badness 10000) in paragraph at lines 279--284
+<everydisplay> 
+               \check@mathfonts \the \everydisplay 
+\mathdisplay #1->\ifmmode \@badmath \else $$
+                                            \def \@currenvir {#1}\let \dspbr...
+l.268 \begin{equation}
+                       \label{sym_ofdm}]
+Underfull \hbox (badness 10000) in paragraph at lines 277--282
 
  []
 
-[16] <content/fig/ofdm_frame.JPG, id=459, 678.28406pt x 170.13562pt>
+[16] <content/fig/ofdm_frame.JPG, id=454, 678.28406pt x 170.13562pt>
 File: content/fig/ofdm_frame.JPG Graphic file (type jpg)
 
 <use content/fig/ofdm_frame.JPG>
-Package pdftex.def Info: content/fig/ofdm_frame.JPG used on input line 287.
+Package pdftex.def Info: content/fig/ofdm_frame.JPG used on input line 285.
 (pdftex.def)             Requested size: 426.79134pt x 107.051pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
-<content/fig/drct_rf_mdl.pdf, id=463, 490.08093pt x 182.18062pt>
-File: content/fig/drct_rf_mdl.pdf Graphic file (type pdf)
 
-<use content/fig/drct_rf_mdl.pdf>
-Package pdftex.def Info: content/fig/drct_rf_mdl.pdf used on input line 301.
-(pdftex.def)             Requested size: 426.79134pt x 158.65707pt.
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+ []
 
 [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8
 }) has been already used, duplicate ignored
@@ -1410,9 +1441,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.309 
+l.297 
        <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/ofdm_frame.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+<content/fig/drct_rf_mdl.pdf, id=462, 490.08093pt x 182.18062pt>
+File: content/fig/drct_rf_mdl.pdf Graphic file (type pdf)
+
+<use content/fig/drct_rf_mdl.pdf>
+Package pdftex.def Info: content/fig/drct_rf_mdl.pdf used on input line 303.
+(pdftex.def)             Requested size: 426.79134pt x 158.65707pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
@@ -1430,36 +1468,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--323
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-<argument> \@secpenalty 
-                        
-\addpenalty ...e \ifdim \lastskip =\z@ \penalty #1
-                                                  \relax \else \@tempskipb \...
+l.325 
+       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/drct_rf_mdl.pdf>]
 
-\@startsection ...}\else \addpenalty \@secpenalty 
-                                                  \addvspace \@tempskipa \fi...
-l.334 \subsection
-                 {Impact of CFO} <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/con
-tent/fig/drct_rf_mdl.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 336--339
+Underfull \hbox (badness 10000) in paragraph at lines 338--341
 
  []
 
-<content/fig/cfo_on_ici.JPG, id=493, 313.17pt x 213.79875pt>
+<content/fig/cfo_on_ici.JPG, id=487, 313.17pt x 213.79875pt>
 File: content/fig/cfo_on_ici.JPG Graphic file (type jpg)
 
 <use content/fig/cfo_on_ici.JPG>
-Package pdftex.def Info: content/fig/cfo_on_ici.JPG used on input line 342.
+Package pdftex.def Info: content/fig/cfo_on_ici.JPG used on input line 344.
 (pdftex.def)             Requested size: 284.52756pt x 194.2505pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--350
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--352
 
  []
 
-<content/fig/lts_time_domain.pdf, id=495, 179.16937pt x 76.78688pt>
+<content/fig/lts_time_domain.pdf, id=489, 179.16937pt x 76.78688pt>
 File: content/fig/lts_time_domain.pdf Graphic file (type pdf)
 
 <use content/fig/lts_time_domain.pdf>
-Package pdftex.def Info: content/fig/lts_time_domain.pdf used on input line 353
+Package pdftex.def Info: content/fig/lts_time_domain.pdf used on input line 355
 .
 (pdftex.def)             Requested size: 179.16893pt x 76.78668pt.
 
@@ -1467,11 +1502,35 @@ Package pdftex.def Info: content/fig/lts_time_domain.pdf used on input line 353
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 
  []
 
-[19pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+
+Underfull \vbox (badness 2310) has occurred while \output is active []
+
+ [19]
+<content/fig/time_dom_cfo_est.pdf, id=496, 475.7775pt x 123.46124pt>
+File: content/fig/time_dom_cfo_est.pdf Graphic file (type pdf)
+
+<use content/fig/time_dom_cfo_est.pdf>
+Package pdftex.def Info: content/fig/time_dom_cfo_est.pdf used on input line 37
+3.
+(pdftex.def)             Requested size: 475.77632pt x 123.46092pt.
+
+Overfull \hbox (48.98499pt too wide) in paragraph at lines 373--374
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--385
+
+ []
+
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
 0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1485,42 +1544,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 358--359
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.359 
-       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/cfo_on_ici.JPG>]
-<content/fig/time_dom_cfo_est.pdf, id=501, 475.7775pt x 123.46124pt>
-File: content/fig/time_dom_cfo_est.pdf Graphic file (type pdf)
-
-<use content/fig/time_dom_cfo_est.pdf>
-Package pdftex.def Info: content/fig/time_dom_cfo_est.pdf used on input line 37
-1.
-(pdftex.def)             Requested size: 475.77632pt x 123.46092pt.
-
-Overfull \hbox (48.98499pt too wide) in paragraph at lines 371--372
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--383
-
- []
-
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
-1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-
-\@opcol ...lumn \@outputdblcol \else \@outputpage 
-                                                  \fi \global \@mparbottom \...
-<output> ...specialoutput \else \@makecol \@opcol 
-                                                  \@startcolumn \@whilesw \i...
-l.383 
+l.385 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-2.12}) has been already used, duplicate ignored
+2.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1533,41 +1559,58 @@ l.383
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.383 
-       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/lts_time_domain.p
-df> <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/time_dom_cfo_est.pdf
-
-
-pdfTeX warning: pdflatex (file C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/conten
-t/fig/time_dom_cfo_est.pdf): PDF inclusion: multiple pdfs with page group inclu
-ded in a single page
->]
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+l.385 
+       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/cfo_on_ici.JPG> <
+C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/lts_time_domain.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
 
  []
 
-<content/fig/schl_cox_mdl.pdf, id=543, 334.24875pt x 157.33781pt>
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+<to be read again> 
+                   \global 
+\endmathdisplay ...fi \endmathdisplay@a $$\global 
+                                                  \let \df@label \@empty \gl...
+
+\endequation ->\endmathdisplay {equation}
+                                         \mathdisplay@pop \ignorespacesafter...
+
+\end #1->\csname end#1\endcsname 
+                                 \@checkend {#1}\expandafter \endgroup \if@e...
+l.402 \end{equation}
+                     <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/tim
+e_dom_cfo_est.pdf>]
+<content/fig/schl_cox_mdl.pdf, id=547, 334.24875pt x 157.33781pt>
 File: content/fig/schl_cox_mdl.pdf Graphic file (type pdf)
 
 <use content/fig/schl_cox_mdl.pdf>
-Package pdftex.def Info: content/fig/schl_cox_mdl.pdf used on input line 404.
+Package pdftex.def Info: content/fig/schl_cox_mdl.pdf used on input line 406.
 (pdftex.def)             Requested size: 426.79134pt x 200.91634pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
 
-[21])
-Underfull \hbox (badness 10000) in paragraph at lines 421--188
+)
+Underfull \hbox (badness 10000) in paragraph at lines 423--188
 
  []
 
@@ -1606,7 +1649,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-<content/fig/systemGen.JPG, id=568, 468.75125pt x 350.30875pt>
+<content/fig/systemGen.JPG, id=564, 468.75125pt x 350.30875pt>
 File: content/fig/systemGen.JPG Graphic file (type jpg)
 
 <use content/fig/systemGen.JPG>
@@ -1625,7 +1668,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
 
 
-] <content/fig/system.JPG, id=574, 792.71156pt x 417.05812pt>
+] <content/fig/system.JPG, id=570, 792.71156pt x 417.05812pt>
 File: content/fig/system.JPG Graphic file (type jpg)
 
 <use content/fig/system.JPG>
@@ -1668,7 +1711,7 @@ l.36
 l.36 
       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/systemGen.JPG> <C:
 /Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/system.JPG>]
-<content/fig/txblock.JPG, id=580, 1024.57782pt x 560.0925pt>
+<content/fig/txblock.JPG, id=576, 1024.57782pt x 560.0925pt>
 File: content/fig/txblock.JPG Graphic file (type jpg)
 
 <use content/fig/txblock.JPG>
@@ -1679,7 +1722,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-<content/fig/rxblock.JPG, id=582, 959.08313pt x 625.58719pt>
+<content/fig/rxblock.JPG, id=578, 959.08313pt x 625.58719pt>
 File: content/fig/rxblock.JPG Graphic file (type jpg)
 
 <use content/fig/rxblock.JPG>
@@ -1701,14 +1744,14 @@ Package pdftex.def Info: content/fig/rxblock.JPG used on input line 48.
                                                   \@startcolumn \@whilesw \i...
 l.56 
       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/txblock.JPG>]
-<content/fig/autocorrblock.JPG, id=588, 1011.78pt x 415.5525pt>
+<content/fig/autocorrblock.JPG, id=584, 1011.78pt x 415.5525pt>
 File: content/fig/autocorrblock.JPG Graphic file (type jpg)
 
 <use content/fig/autocorrblock.JPG>
 Package pdftex.def Info: content/fig/autocorrblock.JPG used on input line 59.
 (pdftex.def)             Requested size: 426.79134pt x 175.29175pt.
 
-<content/fig/fine_packetDetect.JPG, id=589, 922.19531pt x 269.50688pt>
+<content/fig/fine_packetDetect.JPG, id=585, 922.19531pt x 269.50688pt>
 File: content/fig/fine_packetDetect.JPG Graphic file (type jpg)
 
 <use content/fig/fine_packetDetect.JPG>
@@ -1724,14 +1767,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-<content/fig/cmpx_div.JPG, id=592, 862.72313pt x 197.23688pt>
+<content/fig/cmpx_div.JPG, id=588, 862.72313pt x 197.23688pt>
 File: content/fig/cmpx_div.JPG Graphic file (type jpg)
 
 <use content/fig/cmpx_div.JPG>
 Package pdftex.def Info: content/fig/cmpx_div.JPG used on input line 75.
 (pdftex.def)             Requested size: 426.79134pt x 97.57085pt.
 
-<content/fig/division.JPG, id=593, 839.38594pt x 388.45125pt>
+<content/fig/division.JPG, id=589, 839.38594pt x 388.45125pt>
 File: content/fig/division.JPG Graphic file (type jpg)
 
 <use content/fig/division.JPG>
@@ -1809,14 +1852,14 @@ l.93
       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/autocorrblock.JPG>
  <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/fine_packetDetect.JPG> 
 <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/cmpx_div.JPG>]
-<content/fig/ZC706.JPG, id=603, 288.3272pt x 164.11313pt>
+<content/fig/ZC706.JPG, id=599, 288.3272pt x 164.11313pt>
 File: content/fig/ZC706.JPG Graphic file (type jpg)
 
 <use content/fig/ZC706.JPG>
 Package pdftex.def Info: content/fig/ZC706.JPG used on input line 96.
 (pdftex.def)             Requested size: 341.43306pt x 194.34795pt.
 
-<content/fig/zc706_block_diagram.JPG, id=604, 539.01375pt x 439.6425pt>
+<content/fig/zc706_block_diagram.JPG, id=600, 539.01375pt x 439.6425pt>
 File: content/fig/zc706_block_diagram.JPG Graphic file (type jpg)
 
 <use content/fig/zc706_block_diagram.JPG>
@@ -1828,7 +1871,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
-<content/fig/fmcomms1.jpg, id=606, 326.72063pt x 225.84375pt>
+<content/fig/fmcomms1.jpg, id=602, 326.72063pt x 225.84375pt>
 File: content/fig/fmcomms1.jpg Graphic file (type jpg)
 
 <use content/fig/fmcomms1.jpg>
@@ -1856,7 +1899,7 @@ Package pdftex.def Info: content/fig/fmcomms1.jpg used on input line 114.
                                  \@checkend {#1}\expandafter \endgroup \if@e...
 l.116 \end{figure}
                    <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/divis
-ion.JPG>] <content/fig/fmcomms1Blockdiagram.jpg, id=613, 903.375pt x 433.62pt>
+ion.JPG>] <content/fig/fmcomms1Blockdiagram.jpg, id=609, 903.375pt x 433.62pt>
 File: content/fig/fmcomms1Blockdiagram.jpg Graphic file (type jpg)
 
 <use content/fig/fmcomms1Blockdiagram.jpg>
@@ -1935,7 +1978,7 @@ l.128
 l.128 
        <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/fmcomms1.jpg> <C:
 /Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/fmcomms1Blockdiagram.jpg>]
-<content/fig/ad9548BlockDiagram.JPG, id=623, 698.61pt x 423.83344pt>
+<content/fig/ad9548BlockDiagram.JPG, id=619, 698.61pt x 423.83344pt>
 File: content/fig/ad9548BlockDiagram.JPG Graphic file (type jpg)
 
 <use content/fig/ad9548BlockDiagram.JPG>
@@ -1963,7 +2006,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--141
                                                   \@startcolumn \@whilesw \i...
 l.141 
        <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/ad9548BlockDiagra
-m.JPG>] <content/fig/cvhd.JPG, id=633, 423.08063pt x 386.19281pt>
+m.JPG>] <content/fig/cvhd.JPG, id=629, 423.08063pt x 386.19281pt>
 File: content/fig/cvhd.JPG Graphic file (type jpg)
 
 <use content/fig/cvhd.JPG>
@@ -1994,19 +2037,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--168
-
- []
-
-[33] <content/fig/zynq_inside.JPG, id=646, 521.95pt x 576.1525pt>
+<content/fig/zynq_inside.JPG, id=637, 521.95pt x 576.1525pt>
 File: content/fig/zynq_inside.JPG Graphic file (type jpg)
 
 <use content/fig/zynq_inside.JPG>
-Package pdftex.def Info: content/fig/zynq_inside.JPG used on input line 171.
+Package pdftex.def Info: content/fig/zynq_inside.JPG used on input line 166.
 (pdftex.def)             Requested size: 341.43306pt x 376.89471pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+[33] <content/fig/sys_block_diagram.pdf, id=644, 576.65437pt x 275.52937pt>
+File: content/fig/sys_block_diagram.pdf Graphic file (type pdf)
+
+<use content/fig/sys_block_diagram.pdf>
+Package pdftex.def Info: content/fig/sys_block_diagram.pdf used on input line 1
+75.
+(pdftex.def)             Requested size: 426.79134pt x 203.93057pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
 
  []
 
@@ -2024,61 +2074,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--177
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.177 
-       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/zynq_inside.JPG>]
-<content/fig/sys_block_diagram.pdf, id=653, 576.65437pt x 275.52937pt>
-File: content/fig/sys_block_diagram.pdf Graphic file (type pdf)
+<argument> \@secpenalty 
+                        
+\addpenalty ...e \ifdim \lastskip =\z@ \penalty #1
+                                                  \relax \else \@tempskipb \...
 
-<use content/fig/sys_block_diagram.pdf>
-Package pdftex.def Info: content/fig/sys_block_diagram.pdf used on input line 1
-80.
-(pdftex.def)             Requested size: 426.79134pt x 203.93057pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--187
-
- []
-
-
-Overfull \hbox (1.84131pt too wide) in paragraph at lines 189--190
+\@startsection ...}\else \addpenalty \@secpenalty 
+                                                  \addvspace \@tempskipa \fi...
+l.183 \section
+              {Test Methodology} <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/con
+tent/fig/zynq_inside.JPG>]
+Overfull \hbox (1.84131pt too wide) in paragraph at lines 184--185
 \T1/lmr/m/n/12 The con-fig-u-ra-tion set-up is con-sisted of two Zynq board eac
 h car-ry-ing a FM-COMMS1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+<content/fig/hardware_setup.JPG, id=651, 2055.68pt x 1541.76pt>
+File: content/fig/hardware_setup.JPG Graphic file (type jpg)
+
+<use content/fig/hardware_setup.JPG>
+Package pdftex.def Info: content/fig/hardware_setup.JPG used on input line 188.
+
+(pdftex.def)             Requested size: 426.79134pt x 320.08568pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 193--189
 
  []
 
 [35pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-
-\@opcol ...lumn \@outputdblcol \else \@outputpage 
-                                                  \fi \global \@mparbottom \...
-<output> ...specialoutput \else \@makecol \@opcol 
-                                                  \@startcolumn \@whilesw \i...
-l.190 
-       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/sys_block_diagram
-.pdf>] <content/fig/hardware_setup.JPG, id=665, 2055.68pt x 1541.76pt>
-File: content/fig/hardware_setup.JPG Graphic file (type jpg)
-
-<use content/fig/hardware_setup.JPG>
-Package pdftex.def Info: content/fig/hardware_setup.JPG used on input line 193.
-
-(pdftex.def)             Requested size: 426.79134pt x 320.08568pt.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 198--189
-
- []
-
-[36pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
-7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2104,7 +2133,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--189
                                                   \fi 
 l.189 \include{content/part3}
                               <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/conten
-t/fig/hardware_setup.JPG>] [37]
+t/fig/sys_block_diagram.pdf>] [36pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.3.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\newpage ...erypar {}\fi \par \vfil \penalty -\@M 
+                                                  
+\clearpage ...opskip \hbox {}\fi \fi \fi \newpage 
+                                                  \write \m@ne {}\vbox {}\pe...
+
+\@include ...hook \fi \@input@ {#1.tex}\clearpage 
+                                                  \@writeckpt {#1}\if@filesw...
+
+\include ...ot be nested}\@eha \else \@include #1 
+                                                  \fi 
+l.189 \include{content/part3}
+                              <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/conten
+t/fig/hardware_setup.JPG>]
 ("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\content/part4.tex"
 Chapter 4.
 
@@ -2112,7 +2168,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<content/fig/ofdmframe_chipscope.JPG, id=678, 810.02625pt x 539.01375pt>
+<content/fig/ofdmframe_chipscope.JPG, id=670, 810.02625pt x 539.01375pt>
 File: content/fig/ofdmframe_chipscope.JPG Graphic file (type jpg)
 
 <use content/fig/ofdmframe_chipscope.JPG>
@@ -2120,7 +2176,7 @@ Package pdftex.def Info: content/fig/ofdmframe_chipscope.JPG used on input line
  11.
 (pdftex.def)             Requested size: 426.79134pt x 284.0063pt.
 
-<content/fig/sts_chipscope.JPG, id=679, 726.46407pt x 441.90094pt>
+<content/fig/sts_chipscope.JPG, id=671, 726.46407pt x 441.90094pt>
 File: content/fig/sts_chipscope.JPG Graphic file (type jpg)
 
 <use content/fig/sts_chipscope.JPG>
@@ -2131,7 +2187,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-<content/fig/autocorr.JPG, id=681, 752.8125pt x 347.04657pt>
+<content/fig/autocorr.JPG, id=673, 752.8125pt x 347.04657pt>
 File: content/fig/autocorr.JPG Graphic file (type jpg)
 
 <use content/fig/autocorr.JPG>
@@ -2142,7 +2198,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-<content/fig/crosscorr.JPG, id=683, 855.94781pt x 481.04718pt>
+<content/fig/crosscorr.JPG, id=675, 855.94781pt x 481.04718pt>
 File: content/fig/crosscorr.JPG Graphic file (type jpg)
 
 <use content/fig/crosscorr.JPG>
@@ -2153,11 +2209,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-[38
+[37
 
 
 
-] <content/fig/baseIFAdcDac.JPG, id=689, 1604.99625pt x 1088.065pt>
+] <content/fig/baseIFAdcDac.JPG, id=681, 1604.99625pt x 1088.065pt>
 File: content/fig/baseIFAdcDac.JPG Graphic file (type jpg)
 
 <use content/fig/baseIFAdcDac.JPG>
@@ -2168,7 +2224,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-<content/fig/RfIF.JPG, id=691, 1604.99625pt x 1088.065pt>
+<content/fig/RfIF.JPG, id=683, 1604.99625pt x 1088.065pt>
 File: content/fig/RfIF.JPG Graphic file (type jpg)
 
 <use content/fig/RfIF.JPG>
@@ -2179,7 +2235,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-<content/fig/Rfbase.JPG, id=693, 1604.99625pt x 1088.065pt>
+<content/fig/Rfbase.JPG, id=685, 1604.99625pt x 1088.065pt>
 File: content/fig/Rfbase.JPG Graphic file (type jpg)
 
 <use content/fig/Rfbase.JPG>
@@ -2190,7 +2246,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-[39pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[38pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2207,7 +2263,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 l.69 
       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/ofdmframe_chipscop
 e.JPG>]
-<content/fig/h_mag_chipscope_noChannel.JPG, id=699, 646.66594pt x 446.41782pt>
+<content/fig/h_mag_chipscope_noChannel.JPG, id=691, 646.66594pt x 446.41782pt>
 File: content/fig/h_mag_chipscope_noChannel.JPG Graphic file (type jpg)
 
 <use content/fig/h_mag_chipscope_noChannel.JPG>
@@ -2219,14 +2275,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-<content/fig/h_mag_chipscope_rf_detect.JPG, id=701, 643.6547pt x 441.90094pt>
+<content/fig/h_mag_chipscope_rf_detect.JPG, id=693, 643.6547pt x 441.90094pt>
 File: content/fig/h_mag_chipscope_rf_detect.JPG Graphic file (type jpg)
 
 <use content/fig/h_mag_chipscope_rf_detect.JPG>
 Package pdftex.def Info: content/fig/h_mag_chipscope_rf_detect.JPG used on inpu
 t line 81.
 (pdftex.def)             Requested size: 284.52756pt x 195.34729pt.
- [40pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [39pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2271,7 +2327,7 @@ l.84 \end{figure}
                   <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/sts_ch
 ipscope.JPG> <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/autocorr.JP
 G>]
-<content/fig/OfdmSym_16qam_1_2_code_64byte.JPG, id=707, 746.79pt x 335.00156pt>
+<content/fig/OfdmSym_16qam_1_2_code_64byte.JPG, id=698, 746.79pt x 335.00156pt>
 File: content/fig/OfdmSym_16qam_1_2_code_64byte.JPG Graphic file (type jpg)
 <use content/fig/OfdmSym_16qam_1_2_code_64byte.JPG>
 Package pdftex.def Info: content/fig/OfdmSym_16qam_1_2_code_64byte.JPG used on 
@@ -2282,7 +2338,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-[41pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
+[40pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2314,7 +2370,7 @@ l.94
 l.94 
       <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/crosscorr.JPG> <C:
 /Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/baseIFAdcDac.JPG>]
-<content/fig/OfdmSym_16qam_no_code_64byte.JPG, id=714, 746.79pt x 336.50719pt>
+<content/fig/OfdmSym_16qam_no_code_64byte.JPG, id=706, 746.79pt x 336.50719pt>
 File: content/fig/OfdmSym_16qam_no_code_64byte.JPG Graphic file (type jpg)
 
 <use content/fig/OfdmSym_16qam_no_code_64byte.JPG>
@@ -2324,7 +2380,7 @@ nput line 97.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [41pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2379,7 +2435,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2416,7 +2472,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
-[44pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2448,17 +2504,12 @@ l.127
 l.127 
        <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/OfdmSym_16qam_1_2
 _code_64byte.JPG> <C:/Users/Aftab Ahmed/Desktop/Latex_th/CDC/content/fig/OfdmSy
-m_16qam_no_code_64byte.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 130--132
+m_16qam_no_code_64byte.JPG>])
+Underfull \hbox (badness 10000) in paragraph at lines 130--190
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 134--190
-
- []
-
-[45pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
+[44pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2484,7 +2535,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--190
 \include ...ot be nested}\@eha \else \@include #1 
                                                   \fi 
 l.190 \include{content/part4}
-                             ] [46]
+                             ] [45]
 ("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\Thesis_main.bbl"
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 31.
 
@@ -2508,13 +2559,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--42
 log . com / en / products / clock-[]and-[]timing /$
  []
 
-[47
+[46
 
 
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
- [48]
+ [47]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
  ("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\Thesis_main.aux"
 ("C:\Users\Aftab Ahmed\Desktop\Latex_th\CDC\introduction.aux")
@@ -2525,7 +2576,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
 Package rerunfilecheck Info: File `Thesis_main.out' has not changed.
-(rerunfilecheck)             Checksum: B3F0D98C81B01CF5B6342A1C94764FD9;2189.
+(rerunfilecheck)             Checksum: 183E19E36C11B5095B842FF8E5E79D95;2184.
 
 
 LaTeX Warning: There were undefined references.
@@ -2536,10 +2587,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 206.
  ) 
 Here is how much of TeX's memory you used:
- 13368 strings out of 493921
- 196429 string characters out of 3147265
- 293391 words of memory out of 3000000
- 16092 multiletter control sequences out of 15000+200000
+ 13365 strings out of 493921
+ 196388 string characters out of 3147265
+ 293468 words of memory out of 3000000
+ 16091 multiletter control sequences out of 15000+200000
  61779 words of font info for 52 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  39i,23n,53p,1018b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2561,9 +2612,9 @@ gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.p
 fb>
-Output written on Thesis_main.pdf (57 pages, 5403102 bytes).
+Output written on Thesis_main.pdf (56 pages, 5401099 bytes).
 PDF statistics:
- 856 PDF objects out of 1000 (max. 8388607)
- 177 named destinations out of 1000 (max. 500000)
- 472 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 848 PDF objects out of 1000 (max. 8388607)
+ 175 named destinations out of 1000 (max. 500000)
+ 464 words of extra memory for PDF output out of 10000 (max. 10000000)
 

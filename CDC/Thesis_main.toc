@@ -12,24 +12,23 @@
 \contentsline {subsection}{\numberline {2.2.1}Introduction of IEEE 802.11}{10}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}System Design}{11}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}IEEE 802.11a Standard in Time and Frequency}{16}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Origin of CFO}{17}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Impact of CFO}{19}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}Synchronization}{20}{subsection.2.2.6}
-\contentsline {subsection}{\numberline {2.2.7}Channel Estimation and Distortion Reject}{21}{subsection.2.2.7}
+\contentsline {section}{\numberline {2.3}Carrier Frequency Offsets}{17}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Origin of Carrier Frequency Offsets}{18}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Impact of Carrier Frequency Offsets}{19}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Synchronization}{20}{section.2.4}
+\contentsline {section}{\numberline {2.5}Channel Estimation and Distortion Reject}{22}{section.2.5}
 \contentsline {chapter}{\numberline {3}FPGA Implementations}{23}{chapter.3}
 \contentsline {section}{\numberline {3.1}System Design in System Generator}{23}{section.3.1}
 \contentsline {section}{\numberline {3.2}Hardware Introduction}{26}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}FPGA Board}{26}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Radio Board}{28}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Clock Chain on FMCOMMS1}{30}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Expectations for CFO on FMCOMM1}{32}{section.3.3}
-\contentsline {section}{\numberline {3.4}Time Domain CFO Correction}{33}{section.3.4}
-\contentsline {section}{\numberline {3.5}Carrier Frequency Offsets}{33}{section.3.5}
-\contentsline {section}{\numberline {3.6}FPGA Architecture}{33}{section.3.6}
-\contentsline {section}{\numberline {3.7}Test Methodology}{35}{section.3.7}
-\contentsline {chapter}{\numberline {4}Sample Analysis and Conclusion}{38}{chapter.4}
-\contentsline {section}{\numberline {4.1}Hardware Samples and Analysis}{38}{section.4.1}
-\contentsline {section}{\numberline {4.2}Bit-Error Rate Calculation}{43}{section.4.2}
-\contentsline {section}{\numberline {4.3}FPGA Resource Consumption}{44}{section.4.3}
-\contentsline {section}{\numberline {4.4}Conclusion}{45}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Future Work}{45}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {3.2.4}Expectations for CFO on FMCOMM1}{32}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Time Domain CFO Correction}{33}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}FPGA Architecture}{33}{section.3.3}
+\contentsline {section}{\numberline {3.4}Test Methodology}{35}{section.3.4}
+\contentsline {chapter}{\numberline {4}Sample Analysis and Conclusion}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}Hardware Samples and Analysis}{37}{section.4.1}
+\contentsline {section}{\numberline {4.2}Bit-Error Rate Calculation}{42}{section.4.2}
+\contentsline {section}{\numberline {4.3}FPGA Resource Consumption}{43}{section.4.3}
+\contentsline {section}{\numberline {4.4}Conclusion and Future Work}{44}{section.4.4}
